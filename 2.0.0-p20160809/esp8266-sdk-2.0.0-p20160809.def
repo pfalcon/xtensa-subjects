@@ -1,0 +1,22 @@
+cpu xtensa
+show bytes 4
+
+# ESP8266 map
+
+# not needed, as there will be .data, .bss, etc.
+#area .dataram 0x3ffe8000-0x3fffbfff rw # "user ram"
+area .sysram 0x3fffc000-0x3fffffff rw
+area .bootrom 0x40000000(0x10000) rx
+
+# Hardware registers
+area .dport0 0x3ff0_0000(0x100)   rw
+area .wdev   0x3ff2_0000(0x10000) rw
+area .periph 0x6000_0000(0x10000) rw
+
+load ../bootrom/bootrom.bin 0x40000000
+load esp8266-sdk-2.0.0-p20160809 elf
+
+[entrypoints]
+# First entry in the list will be set as current address on startup
+#ResetHandler = 0x40000080
+load "../bootrom/eagle.rom.addr.v6.ld"
