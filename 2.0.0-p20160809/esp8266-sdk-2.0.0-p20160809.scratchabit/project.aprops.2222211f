@@ -1,0 +1,6 @@
+header:
+ version: 1.0
+0x2222211f:
+ f: . 00
+ l: _memmap_cacheattr_wt_trapnull
+ cmnt: 'Another label: _memmap_cacheattr_wba_trapnull\nAnother label: _memmap_cacheattr_wb_trapnull\nAnother label: _memmap_cacheattr_wbna_trapnull'

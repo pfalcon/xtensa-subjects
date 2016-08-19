@@ -1,0 +1,9 @@
+header:
+ version: 1.0
+0x3ffeb5fc:
+ f: . 00
+ l: _bss_table_end
+ cmnt: 'Another label: _rodata_end'
+ x:
+ - 0x402547b8: o
+ - 0x402547eb: o

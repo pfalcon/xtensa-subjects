@@ -1,0 +1,8 @@
+header:
+ version: 1.0
+0x3ffe8918:
+ f: . 00
+ l: _data_end
+ x:
+ - 0x402547ac: o
+ - 0x402547cf: o

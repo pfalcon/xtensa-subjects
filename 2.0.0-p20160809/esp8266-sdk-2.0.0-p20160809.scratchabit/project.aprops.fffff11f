@@ -1,0 +1,6 @@
+header:
+ version: 1.0
+0xfffff11f:
+ f: . 00
+ l: _memmap_cacheattr_wb_strict
+ cmnt: 'Another label: _memmap_cacheattr_wt_strict'

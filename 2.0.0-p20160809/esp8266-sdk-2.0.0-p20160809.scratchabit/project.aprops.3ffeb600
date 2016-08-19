@@ -1,0 +1,5697 @@
+header:
+ version: 1.0
+0x3ffeb600:
+ f: . 00
+ l: .bss
+ cmnt: 'Another label: _bss_start'
+ x:
+ - 0x4024328c: o
+ - 0x402432cb: o
+ - 0x402529e0: o
+ - 0x402529e7: o
+ - 0x402547fc: o
+0x3ffeb628:
+ f: . 00
+ l:
+ x:
+ - 0x40243d44: o
+ - 0x40243d58: o
+ - 0x40243d70: o
+ - 0x40243da6: o
+ - 0x40243db8: o
+ - 0x40243dd0: o
+ - 0x40243e06: o
+ - 0x40243ed7: o
+ - 0x40243f1d: o
+ - 0x40243f4f: o
+ - 0x40243f60: o
+ - 0x40243f7c: o
+ - 0x40243fc6: o
+ - 0x40244006: o
+ - 0x4024404e: o
+ - 0x402440ab: o
+ - 0x4024413c: o
+ - 0x40244153: o
+ - 0x40244183: o
+ - 0x402441fe: o
+ - 0x4024426d: o
+ - 0x40244299: o
+ - 0x402442a8: o
+ - 0x402442dd: o
+ - 0x40244380: o
+ - 0x402443ea: o
+ - 0x40244419: o
+ - 0x40244430: o
+ - 0x40244452: o
+ - 0x40244479: o
+ - 0x40244488: o
+ - 0x40244495: o
+ - 0x402444d0: o
+ - 0x402444e8: o
+ - 0x402444fd: o
+ - 0x40244508: o
+ - 0x4024452b: o
+ - 0x40244538: o
+ - 0x40244544: o
+ - 0x4024456b: o
+ - 0x40244578: o
+ - 0x40244584: o
+ - 0x402445bd: o
+ - 0x40244614: o
+ - 0x40244630: o
+ - 0x40244688: o
+ - 0x402446a5: o
+ - 0x402446c6: o
+0x3ffeb63c:
+ f: . 00
+ l:
+ x:
+ - 0x402445ec: o
+ - 0x40244601: o
+0x3ffeb658:
+ f: D 04
+ l: gl_sp
+ cmnt: 'Array, num bytes: 4'
+ x:
+ - 0x4024479c: o
+ - 0x402447a0: o
+ - 0x402447b9: o
+ - 0x402447f2: o
+ - 0x40244812: o
+ - 0x4024482c: o
+ - 0x4024483c: o
+ - 0x40244853: o
+ - 0x4024486a: o
+ - 0x402448ad: o
+ - 0x402448c8: o
+ - 0x402448dd: o
+ - 0x402448f0: o
+ - 0x40244921: o
+ - 0x402449ed: o
+ - 0x40244a57: o
+ - 0x40244a76: o
+ - 0x40244a8b: o
+ - 0x40244ab9: o
+ - 0x40244aee: o
+ - 0x40244b4b: o
+ - 0x40244bf9: o
+ - 0x40244c11: o
+ - 0x40244c53: o
+ - 0x40244cb0: o
+ - 0x40244cbc: o
+ - 0x40244ccd: o
+ - 0x40244ce7: o
+ - 0x40244d1d: o
+ - 0x40245197: o
+ - 0x402452b5: o
+ - 0x40245378: o
+ - 0x402453b8: o
+ - 0x402453f8: o
+ - 0x40245419: o
+ - 0x4024543e: o
+ - 0x40245452: o
+ - 0x40245489: o
+ - 0x402454a8: o
+ - 0x402454bc: o
+ - 0x402454dc: o
+ - 0x402454f0: o
+0x3ffeb660:
+ f: D 04
+ l: dhcp_rx_options_given
+ cmnt: 'Array, num bytes: 10'
+ x:
+ - 0x40245588: o
+ - 0x4024558f: o
+ - 0x40245939: o
+ - 0x40246429: o
+ - 0x4024649f: o
+ - 0x402464a7: o
+ - 0x40246537: o
+ - 0x402466f8: o
+0x3ffeb670:
+ f: D 04
+ l: dhcp_rx_options_val
+ cmnt: 'Array, num bytes: 40'
+ x:
+ - 0x4024592c: o
+ - 0x402459e4: o
+ - 0x40246534: o
+0x3ffeb698:
+ f: . 00
+ l:
+ x:
+ - 0x40246a08: o
+ - 0x40246a26: o
+ - 0x40246b62: o
+ - 0x40246c61: o
+ - 0x40246ce2: o
+ - 0x40246d65: o
+ - 0x40246d91: o
+ - 0x40246e16: o
+ - 0x40246e79: o
+ - 0x40246e94: o
+ - 0x40246f93: o
+ - 0x402470b7: o
+ - 0x402470f1: o
+ - 0x4024714f: o
+ - 0x402471e5: o
+ - 0x4024728d: o
+ - 0x402472c1: o
+ - 0x402472cc: o
+ - 0x402472ec: o
+ - 0x40247353: o
+ - 0x4024747d: o
+ - 0x40247510: o
+ - 0x4024755c: o
+ - 0x4024760b: o
+0x3ffeb6ac:
+ f: . 00
+ l:
+ x:
+ - 0x40246f88: o
+ - 0x40247068: o
+ - 0x40247282: o
+0x3ffeb6b8:
+ f: . 00
+ l:
+ x:
+ - 0x40247138: o
+ - 0x4024717c: o
+ - 0x40247373: o
+ - 0x402474be: o
+ - 0x40247628: o
+ - 0x402476cf: o
+ - 0x4024771b: o
+ - 0x40247736: o
+0x3ffeb6c0:
+ f: . 00
+ l:
+ x:
+ - 0x40247798: o
+ - 0x402477a7: o
+ - 0x402477b9: o
+ - 0x402477cb: o
+ - 0x402477e7: o
+ - 0x4024781d: o
+ - 0x402478a1: o
+ - 0x402478cc: o
+ - 0x4024794e: o
+ - 0x40247961: o
+ - 0x40247a97: o
+ - 0x40247ac9: o
+ - 0x40247b5f: o
+ - 0x40247c56: o
+ - 0x40247d1e: o
+0x3ffeb6d0:
+ f: . 00
+ l:
+ x:
+ - 0x40247800: o
+ - 0x40247807: o
+ - 0x4024794b: o
+0x3ffeb6e0:
+ f: . 00
+ l:
+ x:
+ - 0x40247984: o
+ - 0x40247988: o
+ - 0x40247acc: o
+0x3ffebb40:
+ f: D 04
+ l: plink_active
+ cmnt: 'Array, num bytes: 4'
+ x:
+ - 0x40247f48: o
+ - 0x40247f4e: o
+ - 0x40247fe0: o
+ - 0x4024802f: o
+ - 0x402480f8: o
+ - 0x40248380: o
+ - 0x402483b4: o
+ - 0x402483db: o
+ - 0x4024849c: o
+ - 0x40248550: o
+ - 0x402485ad: o
+ - 0x40248dcf: o
+ - 0x4024943d: o
+ - 0x40249492: o
+ - 0x402497c9: o
+ - 0x40249e38: o
+ - 0x40249e98: o
+ - 0x4027bb45: o
+ - 0x4027c26a: o
+ - 0x4027c285: o
+ - 0x4027c7fb: o
+0x3ffebb44:
+ f: D 04
+ l: pserver_list
+ cmnt: 'Array, num bytes: 4'
+ x:
+ - 0x40249658: o
+ - 0x402496ac: o
+ - 0x4024992e: o
+ - 0x40249989: o
+ - 0x4025b870: o
+0x3ffebb50:
+ f: D 04
+ l: premot
+ cmnt: 'Array, num bytes: 180'
+ x:
+ - 0x40248478: o
+ - 0x4024848c: o
+ - 0x402484b7: o
+ - 0x402484e7: o
+ - 0x4024850e: o
+0x3ffebc10:
+ f: D 04
+ l: pktinfo
+ cmnt: 'Array, num bytes: 40'
+ x:
+ - 0x40248650: o
+ - 0x402486d4: o
+ - 0x40248d91: o
+0x3ffebc24:
+ f: D 04
+ l:
+ x:
+ - 0x4024864c: o
+ - 0x402486c4: o
+ - 0x40248c7a: o
+0x3ffebc40:
+ f: . 00
+ l:
+ x:
+ - 0x402488b8: o
+ - 0x402488d3: o
+0x3ffebc50:
+ f: D 04
+ l: espconn_TaskQueue
+ cmnt: 'Array, num bytes: 120'
+ x:
+ - 0x402499f0: o
+ - 0x402499fd: o
+0x3ffebcd0:
+ f: . 00
+ l:
+ x:
+ - 0x4024a4fc: o
+ - 0x4024a582: o
+0x3ffebcd4:
+ f: D 04
+ l: ethzero
+ cmnt: 'Array, num bytes: 6'
+ x:
+ - 0x4024a730: o
+ - 0x4024a739: o
+0x3ffebce0:
+ f: . 00
+ l:
+ x:
+ - 0x40249efc: o
+ - 0x40249f0b: o
+ - 0x40249f40: o
+ - 0x40249fa3: o
+ - 0x4024a0ee: o
+ - 0x4024a16b: o
+ - 0x4024a1ab: o
+ - 0x4024a3a5: o
+ - 0x4024a49d: o
+ - 0x4024a557: o
+0x3ffebdd0:
+ f: . 00
+ l:
+ x:
+ - 0x4024aa48: o
+ - 0x4024aa57: o
+ - 0x4024aa64: o
+ - 0x4024aa89: o
+ - 0x4024aab3: o
+ - 0x4024aaee: o
+ - 0x4024ab13: o
+ - 0x4024ab3c: o
+ - 0x4024aba6: o
+ - 0x4024abbb: o
+ - 0x4024aca8: o
+ - 0x4024ad3f: o
+ - 0x4024ad69: o
+ - 0x4024ae11: o
+ - 0x4024ae9d: o
+0x3ffebdd4:
+ f: . 00
+ l:
+ x:
+ - 0x4024af78: o
+ - 0x4024afd8: o
+0x3ffebde0:
+ f: . 00
+ l:
+ x:
+ - 0x4024b324: o
+ - 0x4024b328: o
+0x3ffebdf0:
+ f: D 04
+ l: current_iphdr_dest
+ cmnt: 'Array, num bytes: 4'
+ x:
+ - 0x4024a7d0: o
+ - 0x4024a82b: o
+ - 0x4024a8b5: o
+ - 0x4024a930: o
+ - 0x4024b590: o
+ - 0x4024b856: o
+ - 0x4024da25: o
+ - 0x4024da62: o
+ - 0x4024e5ee: o
+ - 0x4024e669: o
+ - 0x4024ea6f: o
+ - 0x4024eb02: o
+ - 0x4024ebc3: o
+ - 0x4024ecbe: o
+ - 0x40251850: o
+ - 0x402518a3: o
+ - 0x40251942: o
+ - 0x402519a9: o
+ - 0x402519cd: o
+0x3ffebdf4:
+ f: D 04
+ l: current_iphdr_src
+ cmnt: 'Array, num bytes: 4'
+ x:
+ - 0x4024a7d4: o
+ - 0x4024a8b2: o
+ - 0x4024da5c: o
+ - 0x4024e60f: o
+ - 0x4024e666: o
+ - 0x4024ea72: o
+ - 0x4024eafa: o
+ - 0x4024ebc6: o
+ - 0x4024ecc3: o
+ - 0x402518b3: o
+ - 0x402519ca: o
+ - 0x40251a17: o
+0x3ffebdf8:
+ f: D 04
+ l: current_netif
+ cmnt: 'Array, num bytes: 4'
+0x3ffebdfc:
+ f: D 04
+ l: current_header
+ cmnt: 'Array, num bytes: 4'
+0x3ffebe10:
+ f: . 00
+ l:
+ x:
+ - 0x4024b98c: o
+ - 0x4024b990: o
+ - 0x4024ba4c: o
+ - 0x4024bb06: o
+ - 0x4024bb3a: o
+ - 0x4024bb58: o
+ - 0x4024bb81: o
+ - 0x4024bbea: o
+ - 0x4024bc53: o
+ - 0x4024bd98: o
+ - 0x4024c250: o
+ - 0x4024c2de: o
+ - 0x4024c2fb: o
+ - 0x4024c38c: o
+ - 0x4024c3dc: o
+ - 0x4024c48a: o
+ - 0x4024c4ae: o
+ - 0x4024c4cc: o
+ - 0x4024c557: o
+ - 0x4024c571: o
+ - 0x4024c57c: o
+ - 0x4024c59a: o
+ - 0x4024c5a3: o
+ - 0x4024c5cd: o
+ - 0x4024c611: o
+ - 0x4024c626: o
+ - 0x4024c642: o
+ - 0x4024c6d3: o
+0x3ffebe14:
+ f: D 04
+ l: PUCK_SERVICE
+ cmnt: 'Array, num bytes: 4'
+ x:
+ - 0x4024be8c: o
+ - 0x4024bee1: o
+ - 0x4024bf3c: o
+ - 0x4024c185: o
+0x3ffebe18:
+ f: . 00
+ l:
+ x:
+ - 0x4024c6a0: o
+ - 0x4024c801: o
+0x3ffebe1c:
+ f: D 04
+ l: PUCK_PORT
+ cmnt: 'Array, num bytes: 2'
+0x3ffebe20:
+ f: . 00
+ l:
+ x:
+ - 0x4024b9ec: o
+ - 0x4024bcbb: o
+ - 0x4024bcd4: o
+ - 0x4024c293: o
+ - 0x4024c2db: o
+ - 0x4024c2f3: o
+ - 0x4024c5ea: o
+ - 0x4024c7f5: o
+0x3ffebe2c:
+ f: D 04
+ l: mdns_timer
+ cmnt: 'Array, num bytes: 20'
+ x:
+ - 0x4024c658: o
+ - 0x4024c67d: o
+ - 0x4024c898: o
+0x3ffebe40:
+ f: . 00
+ l:
+ x:
+ - 0x4024b9f8: o
+ - 0x4024bd3b: o
+ - 0x4024c4fd: o
+ - 0x4024c522: o
+ - 0x4024c530: o
+ - 0x4024c7c9: o
+0x3ffebe90:
+ f: . 00
+ l:
+ x:
+ - 0x4024bea0: o
+ - 0x4024c144: o
+ - 0x4024c1de: o
+ - 0x4024c46d: o
+0x3ffebee0:
+ f: . 00
+ l:
+ x:
+ - 0x4024c32c: o
+ - 0x4024c34e: o
+ - 0x4024c359: o
+ - 0x4024c3b2: o
+0x3ffec0e0:
+ f: . 00
+ l:
+ x:
+ - 0x4024c548: o
+ - 0x4024c568: o
+ - 0x4024c574: o
+0x3ffec12f:
+ f: . 00
+ l:
+ x:
+ - 0x4024b9e4: o
+ - 0x4024bc1a: o
+0x3ffec130:
+ f: . 00
+ l:
+ x:
+ - 0x4024b9dc: o
+ - 0x4024bbcc: o
+0x3ffec1af:
+ f: . 00
+ l:
+ x:
+ - 0x4024be90: o
+ - 0x4024bf12: o
+0x3ffec1b0:
+ f: . 00
+ l:
+ x:
+ - 0x4024be88: o
+ - 0x4024bf03: o
+ - 0x4024c0f2: o
+0x3ffec230:
+ f: . 00
+ l:
+ x:
+ - 0x4024c654: o
+ - 0x4024c661: o
+ - 0x4024c66f: o
+0x3ffec234:
+ f: D 04
+ l: netif_list
+ cmnt: 'Array, num bytes: 4'
+ x:
+ - 0x40245788: o
+ - 0x40245791: o
+ - 0x402457e1: o
+ - 0x4024ad6c: o
+ - 0x4024ae14: o
+ - 0x4024b40b: o
+ - 0x4024b485: o
+ - 0x4024b5f4: o
+ - 0x4024b61a: o
+ - 0x4024c910: o
+ - 0x4024c97e: o
+ - 0x4024c9ba: o
+ - 0x4024ca7c: o
+0x3ffec238:
+ f: D 04
+ l: netif_default
+ cmnt: 'Array, num bytes: 4'
+ x:
+ - 0x4024b400: o
+ - 0x4024b454: o
+ - 0x4024b4ba: o
+ - 0x4024b4e1: o
+ - 0x40254cf9: o
+0x3ffec23c:
+ f: . 00
+ l:
+ x:
+ - 0x4024c8c8: o
+ - 0x4024c8cc: o
+0x3ffec240:
+ f: . 00
+ l:
+ x:
+ - 0x4024d600: o
+ - 0x4024d62d: o
+ - 0x4024d6c7: o
+ - 0x4024d84a: o
+0x3ffec248:
+ f: . 00
+ l:
+ x:
+ - 0x4024d68c: o
+ - 0x4024d7f0: o
+0x3ffec24c:
+ f: . 00
+ l:
+ x:
+ - 0x4024da10: o
+ - 0x4024da2a: o
+ - 0x4024da6f: o
+ - 0x4024db7d: o
+ - 0x4024dbde: o
+0x3ffec250:
+ f: D 04
+ l: res_buf
+ cmnt: 'Array, num bytes: 36'
+ x:
+ - 0x40100570: o
+ - 0x40100578: o
+ - 0x401005d5: o
+ - 0x4010064c: o
+ - 0x4024dc18: o
+ - 0x4024dd49: o
+ - 0x4024dee0: o
+ - 0x4024df76: o
+ - 0x4024df86: o
+ - 0x4024df9c: o
+ - 0x4024e1a0: o
+ - 0x4024e2ae: o
+ - 0x4024e2bd: o
+ - 0x4024e352: o
+ - 0x4024e3e9: o
+ - 0x4024e42e: o
+ - 0x4024e457: o
+ - 0x4024e49e: o
+ - 0x4024e4a7: o
+ - 0x4024e4b3: o
+ - 0x4024e4d6: o
+ - 0x4024e4e7: o
+ - 0x4024e4f0: o
+ - 0x4024e501: o
+ - 0x4024e578: o
+0x3ffec274:
+ f: D 04
+ l: __tzyear
+ cmnt: 'Array, num bytes: 4'
+0x3ffec278:
+ f: D 04
+ l: __tznorth
+ cmnt: 'Array, num bytes: 4'
+0x3ffec280:
+ f: . 00
+ l:
+ x:
+ - 0x4024e1b4: o
+ - 0x4024e234: o
+ - 0x4024e4f8: o
+0x3ffec2b0:
+ f: D 04
+ l: sntp__tzrule
+ cmnt: 'Array, num bytes: 56'
+ x:
+ - 0x4024def4: o
+ - 0x4024dfe9: o
+0x3ffec2f0:
+ f: D 04
+ l: reult
+ cmnt: 'Array, num bytes: 100'
+ x:
+ - 0x4024e0f0: o
+ - 0x4024e0f4: o
+0x3ffec360:
+ f: . 00
+ l:
+ x:
+ - 0x401005c0: o
+ - 0x401005dd: o
+ - 0x4024e420: o
+ - 0x4024e431: o
+ - 0x4024e45a: o
+ - 0x4024e513: o
+ - 0x4024e52f: o
+ - 0x4024e543: o
+ - 0x4024e553: o
+0x3ffec378:
+ f: . 00
+ l:
+ x:
+ - 0x4024e5a0: o
+ - 0x4024e5b9: o
+ - 0x4024ea78: o
+ - 0x4024eafd: o
+ - 0x4024eb9b: o
+ - 0x4024ec25: o
+ - 0x4024f0d6: o
+ - 0x4024f1ab: o
+ - 0x4024faa8: o
+0x3ffec38c:
+ f: . 00
+ l:
+ x:
+ - 0x4024f19c: o
+ - 0x4024f810: o
+0x3ffec3a8:
+ f: D 04
+ l: tcp_input_pcb
+ cmnt: 'Array, num bytes: 4'
+ x:
+ - 0x40250d94: o
+ - 0x40250da7: o
+0x3ffec3ac:
+ f: . 00
+ l:
+ x:
+ - 0x40100654: o
+ - 0x40100689: o
+ - 0x4024fb1c: o
+ - 0x4024fb28: o
+ - 0x4024fcde: o
+ - 0x4024fd53: o
+ - 0x4024fd95: o
+ - 0x4024ff1f: o
+ - 0x4024ff7b: o
+ - 0x4025021f: o
+ - 0x4025035f: o
+ - 0x402503a3: o
+ - 0x4025048b: o
+ - 0x40250569: o
+ - 0x402505bc: o
+0x3ffec3b0:
+ f: D 04
+ l: tcp_active_pcbs
+ cmnt: 'Array, num bytes: 4'
+ x:
+ - 0x40100664: o
+ - 0x401007a6: o
+ - 0x40248934: o
+ - 0x40248975: o
+ - 0x402489a5: o
+ - 0x402489bc: o
+ - 0x40248b17: o
+ - 0x4024ca0d: o
+ - 0x4024cf2d: o
+ - 0x4024e799: o
+ - 0x4024e91c: o
+ - 0x4024e996: o
+ - 0x4024eabd: o
+ - 0x4024eb1b: o
+ - 0x4024eec4: o
+ - 0x4024eecf: o
+ - 0x4024eefc: o
+ - 0x4024ef31: o
+ - 0x4024fc1c: o
+ - 0x40251539: o
+ - 0x40251570: o
+ - 0x4027b719: o
+ - 0x402a2e38: o
+0x3ffec3b4:
+ f: D 04
+ l: tcp_tmp_pcb
+ cmnt: 'Array, num bytes: 4'
+ x:
+ - 0x4024ec18: o
+ - 0x4024efce: o
+ - 0x4024eff9: o
+ - 0x4024f032: o
+ - 0x4024f03e: o
+0x3ffec3b8:
+ f: D 04
+ l: tcp_tw_pcbs
+ cmnt: 'Array, num bytes: 4'
+ x:
+ - 0x4024892c: o
+ - 0x4024893c: o
+ - 0x40248b14: o
+ - 0x40248cfd: o
+ - 0x40248d30: o
+ - 0x4024e800: o
+ - 0x4024efe4: o
+ - 0x4024f00f: o
+ - 0x4024f04b: o
+ - 0x4024fbdd: o
+ - 0x4025153c: o
+ - 0x4025157b: o
+ - 0x4027b730: o
+ - 0x402a2e3c: o
+0x3ffec3bc:
+ f: D 04
+ l: tcp_bound_pcbs
+ cmnt: 'Array, num bytes: 4'
+ x:
+ - 0x402a2e34: o
+0x3ffec3c0:
+ f: D 04
+ l: tcp_listen_pcbs
+ cmnt: 'Array, num bytes: 4'
+ x:
+ - 0x40100660: o
+ - 0x4010078a: o
+ - 0x4024c9f0: o
+ - 0x4024ca28: o
+ - 0x4024e841: o
+ - 0x402a2e30: o
+0x3ffec3c4:
+ f: D 04
+ l: tcp_ticks
+ cmnt: 'Array, num bytes: 4'
+ x:
+ - 0x40100864: o
+ - 0x40100934: o
+ - 0x40248930: o
+ - 0x4024894a: o
+ - 0x4024ebf5: o
+ - 0x4024eca8: o
+ - 0x4024f20b: o
+0x3ffec3c8:
+ f: . 00
+ l:
+ x:
+ - 0x40251528: o
+ - 0x40251549: o
+ - 0x4025156d: o
+ - 0x40251644: o
+ - 0x40251686: o
+ - 0x402516db: o
+ - 0x4025173c: o
+ - 0x402517e8: o
+0x3ffec3d4:
+ f: D 04
+ l: udp_pcbs
+ cmnt: 'Array, num bytes: 4'
+ x:
+ - 0x402517f8: o
+ - 0x40251936: o
+ - 0x402519f8: o
+ - 0x40251bf8: o
+ - 0x40251c4c: o
+ - 0x40251ca6: o
+ - 0x40251cf9: o
+0x3ffec3d8:
+ f: . 00
+ l:
+ x:
+ - 0x40100ae0: o
+ - 0x40100afa: o
+ - 0x40100b33: o
+ - 0x40252370: o
+ - 0x40252374: o
+ - 0x402524fb: o
+0x3ffec3dc:
+ f: D 04
+ l: info
+ cmnt: 'Array, num bytes: 36'
+ x:
+ - 0x402570bc: o
+ - 0x40257123: o
+ - 0x402571a7: o
+ - 0x40260311: o
+ - 0x4026224d: o
+ - 0x402622f0: o
+ - 0x40298034: o
+ - 0x40298194: o
+0x3ffec3e8:
+ f: D 04
+ l:
+ x:
+ - 0x402570c0: o
+ - 0x40257133: o
+ - 0x40257177: o
+ - 0x40298038: o
+ - 0x402981a6: o
+0x3ffec3f4:
+ f: D 04
+ l:
+ x:
+ - 0x40252424: o
+ - 0x402524ee: o
+ - 0x402571eb: o
+ - 0x40257272: o
+ - 0x402572b8: o
+ - 0x402602fd: o
+ - 0x4026045c: o
+0x3ffec3fa:
+ f: D 04
+ l:
+ x:
+ - 0x40251ec0: o
+ - 0x40251f0b: o
+ - 0x402524e3: o
+ - 0x40257039: o
+ - 0x40257208: o
+ - 0x4025724a: o
+ - 0x402572ce: o
+ - 0x4026680e: o
+0x3ffec400:
+ f: D 04
+ l: freq_trace_enable
+ cmnt: 'Array, num bytes: 1'
+0x3ffec402:
+ f: D 04
+ l: lwip_timer_interval
+ cmnt: 'Array, num bytes: 2'
+ x:
+ - 0x4027223c: o
+ - 0x40272273: o
+ - 0x402722d7: o
+ - 0x40272329: o
+0x3ffec404:
+ f: D 04
+ l: check_timeouts_timer
+ cmnt: 'Array, num bytes: 20'
+ x:
+ - 0x40252430: o
+ - 0x40252510: o
+ - 0x40252839: o
+ - 0x402712d5: o
+ - 0x402712e0: o
+ - 0x4027131e: o
+ - 0x40271327: o
+ - 0x40271343: o
+ - 0x4027134c: o
+ - 0x40271782: o
+ - 0x4027178b: o
+ - 0x40271bfd: o
+ - 0x40271c21: o
+ - 0x40271c8d: o
+ - 0x40271c96: o
+ - 0x40272264: o
+0x3ffec418:
+ f: D 04
+ l: rf_cal_sec
+ cmnt: 'Array, num bytes: 4'
+ x:
+ - 0x40271550: o
+ - 0x40271586: o
+ - 0x4027199e: o
+ - 0x40271f5b: o
+ - 0x4027215b: o
+0x3ffec41c:
+ f: D 04
+ l: user_init_flag
+ cmnt: 'Array, num bytes: 1'
+ x:
+ - 0x40254d98: o
+ - 0x40254e0e: o
+ - 0x402567a0: o
+ - 0x40256888: o
+ - 0x40256a11: o
+ - 0x40256a3e: o
+ - 0x40256aae: o
+ - 0x40256adb: o
+ - 0x40256fda: o
+ - 0x4027af2c: o
+ - 0x4029e504: o
+ - 0x4029e53b: o
+0x3ffec420:
+ f: D 04
+ l: hostname
+ cmnt: 'Array, num bytes: 4'
+ x:
+ - 0x40253094: o
+ - 0x402530fa: o
+ - 0x40253113: o
+ - 0x40253179: o
+ - 0x4025318e: o
+ - 0x40253241: o
+ - 0x40253256: o
+ - 0x4025329e: o
+ - 0x402532b2: o
+ - 0x402532d0: o
+ - 0x402532e5: o
+ - 0x40255e2b: o
+ - 0x40255e45: o
+ - 0x40255e5b: o
+ - 0x40255e71: o
+ - 0x40255ea3: o
+ - 0x40255eeb: o
+ - 0x40255f05: o
+ - 0x40255f1e: o
+ - 0x40255f2c: o
+ - 0x40255f3f: o
+0x3ffec430:
+ f: D 04
+ l: dbg_timer_flag
+ cmnt: 'Array, num bytes: 1'
+ x:
+ - 0x401010ec: o
+ - 0x401010fe: o
+ - 0x40101126: o
+ - 0x40101178: o
+ - 0x401011f8: o
+ - 0x401012ab: o
+ - 0x40101381: o
+ - 0x4025336c: o
+ - 0x402533a4: o
+ - 0x40253456: o
+0x3ffec434:
+ f: D 04
+ l: timer_list
+ cmnt: 'Array, num bytes: 4'
+ x:
+ - 0x40271ad8: o
+ - 0x40271cd8: o
+ - 0x40272d6f: o
+0x3ffec438:
+ f: D 04
+ l: debug_timer
+ cmnt: 'Array, num bytes: 4'
+0x3ffec43c:
+ f: D 04
+ l: debug_timerfn
+ cmnt: 'Array, num bytes: 4'
+0x3ffec440:
+ f: . 00
+ l:
+ x:
+ - 0x40253448: o
+ - 0x40253485: o
+0x3ffec460:
+ f: . 00
+ l:
+ x:
+ - 0x401014b8: o
+ - 0x401014bc: o
+ - 0x401014f2: o
+ - 0x40101578: o
+ - 0x401015a4: o
+ - 0x401015e3: o
+ - 0x4010169f: o
+ - 0x401016c6: o
+ - 0x401017a5: o
+ - 0x40253514: o
+ - 0x40253518: o
+ - 0x40253538: o
+0x3ffec484:
+ f: . 00
+ l:
+ x:
+ - 0x401015c0: o
+ - 0x40101602: o
+ - 0x40101780: o
+0x3ffec520:
+ f: . 00
+ l:
+ x:
+ - 0x401017c4: o
+ - 0x401017d0: o
+ - 0x40101817: o
+0x3ffec660:
+ f: D 04
+ l: flash_read
+ cmnt: 'Array, num bytes: 4'
+ x:
+ - 0x40101fe0: o
+ - 0x40101ffc: o
+ - 0x40253598: o
+ - 0x4025359c: o
+0x3ffec664:
+ f: . 00
+ l:
+ x:
+ - 0x40253798: o
+ - 0x402537a7: o
+ - 0x4025381d: o
+0x3ffec66c:
+ f: . 00
+ l:
+ x:
+ - 0x402537c0: o
+ - 0x402537c8: o
+ - 0x402537d6: o
+ - 0x402537e4: o
+0x3ffec680:
+ f: . 00
+ l:
+ x:
+ - 0x40254180: o
+ - 0x40254187: o
+ - 0x40254198: o
+ - 0x402541fc: o
+ - 0x40254328: o
+ - 0x402544c5: o
+ - 0x40254525: o
+ - 0x40254619: o
+ - 0x40254646: o
+ - 0x4025495c: o
+ - 0x40254b52: o
+ - 0x40255708: o
+ - 0x402570b4: o
+ - 0x4025752c: o
+0x3ffec684:
+ f: . 00
+ l:
+ x:
+ - 0x402539ac: o
+ - 0x402539d3: o
+ - 0x402539de: o
+ - 0x40253a1d: o
+ - 0x40253a26: o
+ - 0x40253b22: o
+0x3ffec690:
+ f: . 00
+ l:
+ x:
+ - 0x40253a70: o
+ - 0x40253a8b: o
+0x3ffec69b:
+ f: . 00
+ l:
+ x:
+ - 0x40253a7c: o
+ - 0x40253afe: o
+ - 0x402556fc: o
+0x3ffec6d4:
+ f: . 00
+ l:
+ x:
+ - 0x40254d94: o
+ - 0x40254db7: o
+ - 0x40254e0b: o
+ - 0x40254e26: o
+0x3ffec700:
+ f: . 00
+ l:
+ x:
+ - 0x40254690: o
+ - 0x402546ac: o
+ - 0x4025477d: o
+ - 0x4025647c: o
+ - 0x40257514: o
+0x3ffec708:
+ f: . 00
+ l:
+ x:
+ - 0x40253a78: o
+ - 0x40253ac7: o
+ - 0x40256470: o
+0x3ffec710:
+ f: . 00
+ l:
+ x:
+ - 0x40255cc4: o
+ - 0x40255ce3: o
+ - 0x40255d0a: o
+0x3ffec724:
+ f: . 00
+ l:
+ x:
+ - 0x40254cd8: o
+ - 0x40254ceb: o
+ - 0x40254d23: o
+ - 0x40254d3a: o
+0x3ffec72c:
+ f: . 00
+ l:
+ x:
+ - 0x402539b8: o
+ - 0x40253a5e: o
+0x3ffec760:
+ f: . 00
+ l:
+ x:
+ - 0x40257560: o
+ - 0x40257575: o
+ - 0x40257591: o
+0x3ffec777:
+ f: D 04
+ l: deep_sleep_flag
+ cmnt: 'Array, num bytes: 1'
+0x3ffec778:
+ f: D 04
+ l: cpu_overclock
+ cmnt: 'Array, num bytes: 1'
+0x3ffec77c:
+ f: D 04
+ l: event_cb
+ cmnt: 'Array, num bytes: 4'
+ x:
+ - 0x4025f8ac: o
+ - 0x4025fd6d: o
+ - 0x40265a1c: o
+ - 0x40265ad1: o
+ - 0x402670b1: o
+ - 0x40267b1b: o
+ - 0x40268138: o
+ - 0x40268347: o
+ - 0x402683ab: o
+ - 0x402980e1: o
+0x3ffec780:
+ f: D 04
+ l: status_led_output_level
+ cmnt: 'Array, num bytes: 1'
+0x3ffec784:
+ f: D 04
+ l: done_cb
+ cmnt: 'Array, num bytes: 4'
+ x:
+ - 0x40252468: o
+ - 0x402528b1: o
+0x3ffec788:
+ f: D 04
+ l: rst_if
+ cmnt: 'Array, num bytes: 28'
+ x:
+ - 0x40252438: o
+ - 0x402525a7: o
+ - 0x40254964: o
+0x3ffec7a4:
+ f: D 04
+ l: default_interface
+ cmnt: 'Array, num bytes: 1'
+ x:
+ - 0x40249a60: o
+ - 0x40249b14: o
+ - 0x40249c78: o
+0x3ffec7a5:
+ f: D 04
+ l: OpmodChgIsOnGoing
+ cmnt: 'Array, num bytes: 1'
+0x3ffec7a8:
+ f: D 04
+ l: promiscuous_cb
+ cmnt: 'Array, num bytes: 4'
+ x:
+ - 0x40273b74: o
+ - 0x40273b83: o
+0x3ffec7b0:
+ f: . 00
+ l:
+ x:
+ - 0x40253a74: o
+ - 0x40253a99: o
+0x3ffec7c0:
+ f: D 04
+ l: event_TaskQueue
+ cmnt: 'Array, num bytes: 256'
+0x3ffec8c0:
+ f: . 00
+ l:
+ x:
+ - 0x402555a4: o
+ - 0x40255672: o
+0x3ffec8c1:
+ f: . 00
+ l:
+ x:
+ - 0x4025755c: o
+ - 0x40257568: o
+ - 0x4025758c: o
+0x3ffec8d0:
+ f: . 00
+ l:
+ x:
+ - 0x4025768c: o
+ - 0x40257695: o
+0x3ffecad0:
+ f: . 00
+ l:
+ x:
+ - 0x40257a60: o
+ - 0x40257a75: o
+ - 0x40257b17: o
+ - 0x40257b6d: o
+ - 0x40257ce7: o
+ - 0x40257fb0: o
+ - 0x40258374: o
+ - 0x40258398: o
+ - 0x40258932: o
+ - 0x402589fd: o
+ - 0x40258a4f: o
+ - 0x40258ad7: o
+ - 0x40258afd: o
+ - 0x40258cd5: o
+ - 0x40258cea: o
+ - 0x40258cfe: o
+ - 0x40258d19: o
+ - 0x40258eec: o
+ - 0x4025926c: o
+ - 0x40259365: o
+ - 0x40259381: o
+ - 0x40259ea3: o
+ - 0x40259ff2: o
+ - 0x4025a00b: o
+ - 0x4025a01e: o
+ - 0x4025a065: o
+ - 0x4025a3c9: o
+ - 0x4025a70b: o
+ - 0x4025a7ab: o
+ - 0x4025a8ba: o
+ - 0x4025a8fd: o
+ - 0x4025aafe: o
+ - 0x4025ab0e: o
+ - 0x4025adad: o
+ - 0x4025aec1: o
+ - 0x4025b0ff: o
+ - 0x4025b1a7: o
+ - 0x4025b47f: o
+ - 0x4025b4ec: o
+ - 0x4025b8bc: o
+ - 0x4025bdc5: o
+ - 0x4025be25: o
+ - 0x4025be4f: o
+ - 0x4025bea3: o
+ - 0x4025cd50: o
+ - 0x4025d1a9: o
+ - 0x4025d1cb: o
+ - 0x4025d36a: o
+ - 0x4025d595: o
+ - 0x4025d62b: o
+ - 0x4025d68c: o
+ - 0x4025d9eb: o
+ - 0x4025ddd3: o
+0x3ffecad4:
+ f: . 00
+ l:
+ x:
+ - 0x40257a64: o
+ - 0x40257ab4: o
+0x3ffecae0:
+ f: . 00
+ l:
+ x:
+ - 0x40257e48: o
+ - 0x40257fd5: o
+ - 0x40258029: o
+ - 0x402581b9: o
+ - 0x40258c46: o
+ - 0x40258f77: o
+ - 0x402590d0: o
+ - 0x402590dc: o
+ - 0x40259106: o
+ - 0x402593dc: o
+ - 0x40259458: o
+ - 0x402597e9: o
+ - 0x40259ab9: o
+ - 0x40259ad2: o
+ - 0x40259aee: o
+ - 0x40259f54: o
+ - 0x4025a00e: o
+ - 0x4025a079: o
+ - 0x4025a0e3: o
+ - 0x4025a100: o
+ - 0x4025a1b7: o
+ - 0x4025a3f9: o
+ - 0x4025a437: o
+ - 0x4025a4a1: o
+ - 0x4025a4bd: o
+ - 0x4025a4d2: o
+ - 0x4025a583: o
+ - 0x4025a5be: o
+ - 0x4025a5d5: o
+ - 0x4025a74a: o
+ - 0x4025a929: o
+ - 0x4025a967: o
+ - 0x4025aac4: o
+ - 0x4025b1af: o
+ - 0x4025b3ef: o
+ - 0x4025b580: o
+ - 0x4025b6bc: o
+ - 0x4025b717: o
+ - 0x4025ba2b: o
+ - 0x4025bca8: o
+ - 0x4025bce6: o
+ - 0x4025bd11: o
+ - 0x4025bd37: o
+ - 0x4025bd95: o
+ - 0x4025bddf: o
+ - 0x4025bde5: o
+ - 0x4025be9d: o
+ - 0x4025bfcf: o
+ - 0x4025bffc: o
+ - 0x4025c1a4: o
+ - 0x4025c21b: o
+ - 0x4025c249: o
+ - 0x4025c367: o
+ - 0x4025c9c1: o
+ - 0x4025cacd: o
+ - 0x4025caf9: o
+ - 0x4025cbdd: o
+ - 0x4025cc04: o
+ - 0x4025cc6c: o
+ - 0x4025cce9: o
+ - 0x4025cdd3: o
+ - 0x4025cdfc: o
+ - 0x4025cea7: o
+ - 0x4025d060: o
+ - 0x4025d285: o
+ - 0x4025d2ac: o
+ - 0x4025d2cc: o
+ - 0x4025d5f6: o
+ - 0x4025d7f3: o
+ - 0x4025d830: o
+ - 0x4025da33: o
+ - 0x4025dad9: o
+ - 0x4025daf1: o
+ - 0x4025db39: o
+ - 0x4025dbe3: o
+ - 0x4025dc2a: o
+ - 0x4025dc84: o
+0x3ffecae8:
+ f: . 00
+ l:
+ x:
+ - 0x4025ce80: o
+ - 0x4025cf3a: o
+0x3ffecafc:
+ f: . 00
+ l:
+ x:
+ - 0x402589f4: o
+ - 0x40258a33: o
+ - 0x40258a42: o
+ - 0x40258a56: o
+ - 0x40258b82: o
+ - 0x40258c7b: o
+ - 0x40258cb5: o
+ - 0x40258d31: o
+ - 0x4025911c: o
+ - 0x4025918c: o
+ - 0x4025aa32: o
+0x3ffecb18:
+ f: . 00
+ l:
+ x:
+ - 0x4025a93c: o
+ - 0x4025a9dd: o
+ - 0x4025bb69: o
+0x3ffecb2e:
+ f: . 00
+ l:
+ x:
+ - 0x4025a6f0: o
+ - 0x4025a8a3: o
+0x3ffecb30:
+ f: . 00
+ l:
+ x:
+ - 0x402597bc: o
+ - 0x402598d1: o
+ - 0x40259931: o
+ - 0x4025995d: o
+0x3ffecb34:
+ f: . 00
+ l:
+ x:
+ - 0x40259b40: o
+ - 0x40259b88: o
+ - 0x4025a11f: o
+ - 0x4025a134: o
+0x3ffecb38:
+ f: . 00
+ l:
+ x:
+ - 0x40259f40: o
+ - 0x40259fb3: o
+ - 0x4025a610: o
+ - 0x4025a676: o
+ - 0x4025cf11: o
+ - 0x4025cfa7: o
+0x3ffecb3c:
+ f: . 00
+ l:
+ x:
+ - 0x402599ec: o
+ - 0x402599f9: o
+ - 0x4025a9cc: o
+ - 0x4025a9ea: o
+ - 0x4025b5c4: o
+ - 0x4025b630: o
+ - 0x4025b63f: o
+ - 0x4025b66a: o
+ - 0x4025d098: o
+ - 0x4025d982: o
+0x3ffecb50:
+ f: . 00
+ l:
+ x:
+ - 0x40259f3c: o
+ - 0x40259fa4: o
+ - 0x4025a669: o
+ - 0x4025a9ed: o
+0x3ffecb58:
+ f: . 00
+ l:
+ x:
+ - 0x40258368: o
+ - 0x4025836c: o
+0x3ffecb90:
+ f: . 00
+ l:
+ x:
+ - 0x40259f50: o
+ - 0x4025a07c: o
+ - 0x4025a1c3: o
+ - 0x4025b5b0: o
+ - 0x4025ca3a: o
+ - 0x4025cdac: o
+ - 0x4025cea4: o
+ - 0x4025ceeb: o
+ - 0x4025d14d: o
+ - 0x4025d20a: o
+ - 0x4025d2f9: o
+0x3ffecb91:
+ f: . 00
+ l:
+ x:
+ - 0x4025ce84: o
+ - 0x4025cf3d: o
+0x3ffecb94:
+ f: . 00
+ l:
+ x:
+ - 0x40257b50: o
+ - 0x40257bf8: o
+ - 0x40257c60: o
+ - 0x40257c9a: o
+ - 0x40258036: o
+ - 0x40258057: o
+ - 0x4025863c: o
+ - 0x40258765: o
+ - 0x40259a25: o
+ - 0x40259aa1: o
+ - 0x4025a970: o
+ - 0x4025a9bc: o
+ - 0x4025b3f2: o
+ - 0x4025b571: o
+ - 0x4025b70b: o
+ - 0x4025b73d: o
+ - 0x4025bd29: o
+ - 0x4025bd4b: o
+ - 0x4025c42d: o
+ - 0x4025c44b: o
+ - 0x4025c485: o
+ - 0x4025c4e7: o
+ - 0x4025c736: o
+ - 0x4025c810: o
+ - 0x4025d04e: o
+ - 0x4025d07f: o
+ - 0x4025d822: o
+0x3ffecb99:
+ f: . 00
+ l:
+ x:
+ - 0x4025ba68: o
+ - 0x4025bb6e: o
+0x3ffecbdc:
+ f: . 00
+ l:
+ x:
+ - 0x40259f38: o
+ - 0x40259f9c: o
+ - 0x4025a427: o
+ - 0x4025a5b8: o
+ - 0x4025aa78: o
+0x3ffecbec:
+ f: . 00
+ l:
+ x:
+ - 0x402585c4: o
+ - 0x4025860b: o
+ - 0x40258748: o
+0x3ffecbf4:
+ f: . 00
+ l:
+ x:
+ - 0x4025b524: o
+ - 0x4025b627: o
+ - 0x4025cbd7: o
+ - 0x4025cd24: o
+ - 0x4025d27f: o
+0x3ffecc18:
+ f: . 00
+ l:
+ x:
+ - 0x4025ce7c: o
+ - 0x4025cf37: o
+0x3ffecc20:
+ f: . 00
+ l:
+ x:
+ - 0x40257d04: o
+ - 0x40257d25: o
+0x3ffecc40:
+ f: . 00
+ l:
+ x:
+ - 0x40257b4c: o
+ - 0x40257bf5: o
+ - 0x40257c68: o
+ - 0x40257c79: o
+ - 0x40258031: o
+ - 0x40258639: o
+ - 0x40258768: o
+ - 0x4025b6a6: o
+ - 0x4025b6b2: o
+ - 0x4025b6d4: o
+ - 0x4025c439: o
+ - 0x4025c495: o
+ - 0x4025c4ab: o
+ - 0x4025c557: o
+ - 0x4025c581: o
+ - 0x4025c61a: o
+ - 0x4025c730: o
+ - 0x4025c7d6: o
+ - 0x4025c80d: o
+ - 0x4025c8b8: o
+ - 0x4025d24f: o
+0x3ffecc48:
+ f: . 00
+ l:
+ x:
+ - 0x40257d58: o
+ - 0x40257d91: o
+ - 0x40257da5: o
+0x3ffecc4c:
+ f: . 00
+ l:
+ x:
+ - 0x40258eac: o
+ - 0x40258ef4: o
+ - 0x40258f85: o
+ - 0x40258f9a: o
+ - 0x40258faf: o
+ - 0x40258fc1: o
+ - 0x40258fd5: o
+ - 0x40258fed: o
+ - 0x40259001: o
+ - 0x4025ac2f: o
+ - 0x4025ac3b: o
+ - 0x4025ac73: o
+0x3ffecc54:
+ f: . 00
+ l:
+ x:
+ - 0x402583bc: o
+ - 0x402583e8: o
+0x3ffecc5c:
+ f: . 00
+ l:
+ x:
+ - 0x40257d00: o
+ - 0x40257d1c: o
+ - 0x4025ac8a: o
+ - 0x4025d48c: o
+0x3ffecc68:
+ f: . 00
+ l:
+ x:
+ - 0x40257d54: o
+ - 0x40257d84: o
+ - 0x40258fdf: o
+ - 0x4025afdb: o
+ - 0x4025afe6: o
+ - 0x4025b27a: o
+0x3ffecc70:
+ f: . 00
+ l:
+ x:
+ - 0x4025d3d0: o
+ - 0x4025d472: o
+0x3ffecc84:
+ f: . 00
+ l:
+ x:
+ - 0x40257dc0: o
+ - 0x40257dec: o
+ - 0x40257dfd: o
+ - 0x4025af05: o
+ - 0x4025af11: o
+ - 0x4025af3f: o
+ - 0x4025af5c: o
+ - 0x4025aff2: o
+0x3ffecc88:
+ f: . 00
+ l:
+ x:
+ - 0x4025b0d0: o
+ - 0x4025b113: o
+0x3ffecc9c:
+ f: . 00
+ l:
+ x:
+ - 0x4025ddc4: o
+ - 0x4025dde8: o
+ - 0x4025de3a: o
+0x3ffecca0:
+ f: . 00
+ l:
+ x:
+ - 0x402592b8: o
+ - 0x40259307: o
+ - 0x40259327: o
+0x3ffecca8:
+ f: . 00
+ l:
+ x:
+ - 0x4025d11c: o
+ - 0x4025d373: o
+0x3ffeccac:
+ f: . 00
+ l:
+ x:
+ - 0x402585c0: o
+ - 0x402585ed: o
+ - 0x40258678: o
+0x3ffeccb4:
+ f: . 00
+ l:
+ x:
+ - 0x40257dbc: o
+ - 0x40257ddf: o
+ - 0x40258623: o
+ - 0x4025873c: o
+ - 0x40258fa4: o
+ - 0x4025af75: o
+ - 0x4025af80: o
+ - 0x4025b309: o
+0x3ffeccc4:
+ f: . 00
+ l:
+ x:
+ - 0x402586dc: o
+ - 0x40258724: o
+ - 0x40258793: o
+ - 0x402587d1: o
+ - 0x4025882e: o
+0x3ffeccc8:
+ f: . 00
+ l:
+ x:
+ - 0x4025898c: o
+ - 0x40258990: o
+ - 0x4025ae3d: o
+ - 0x4025b142: o
+ - 0x4025b2b9: o
+0x3ffeccd4:
+ f: . 00
+ l:
+ x:
+ - 0x4025885c: o
+ - 0x402588ab: o
+ - 0x402588ba: o
+ - 0x402588d1: o
+ - 0x402588eb: o
+0x3ffeccd7:
+ f: . 00
+ l:
+ x:
+ - 0x4025aea8: o
+ - 0x4025af28: o
+ - 0x4025b2e0: o
+0x3ffeccdd:
+ f: . 00
+ l:
+ x:
+ - 0x4025b0e4: o
+ - 0x4025b2e9: o
+0x3ffecce0:
+ f: . 00
+ l:
+ x:
+ - 0x402589f0: o
+ - 0x40258a05: o
+0x3ffecd04:
+ f: . 00
+ l:
+ x:
+ - 0x402585c8: o
+ - 0x4025868f: o
+ - 0x40258816: o
+ - 0x4025887c: o
+ - 0x402588fc: o
+ - 0x40258905: o
+ - 0x4025ae5d: o
+0x3ffecd10:
+ f: . 00
+ l:
+ x:
+ - 0x40258e04: o
+ - 0x40258e40: o
+0x3ffecd20:
+ f: . 00
+ l:
+ x:
+ - 0x402586d8: o
+ - 0x40258703: o
+ - 0x402587b1: o
+ - 0x4025881c: o
+ - 0x4025890b: o
+ - 0x40258970: o
+ - 0x40259239: o
+ - 0x4025ae54: o
+0x3ffecd30:
+ f: . 00
+ l:
+ x:
+ - 0x40258eb8: o
+ - 0x40258f26: o
+ - 0x40258f2f: o
+ - 0x40258f38: o
+ - 0x40258f41: o
+ - 0x40258f4a: o
+ - 0x40259094: o
+ - 0x4025915b: o
+ - 0x40259168: o
+0x3ffecd34:
+ f: . 00
+ l:
+ x:
+ - 0x40258b34: o
+ - 0x40258be5: o
+ - 0x40258c72: o
+ - 0x40258d73: o
+ - 0x402590c1: o
+ - 0x40259137: o
+ - 0x40259227: o
+ - 0x4025ae99: o
+ - 0x4025b05d: o
+ - 0x4025b18b: o
+ - 0x4025b1ec: o
+ - 0x4025b38a: o
+ - 0x4025b3c9: o
+0x3ffecd4c:
+ f: . 00
+ l:
+ x:
+ - 0x402589a0: o
+ - 0x402589dc: o
+ - 0x40259230: o
+0x3ffecd60:
+ f: . 00
+ l:
+ x:
+ - 0x40259e90: o
+ - 0x40259ecb: o
+ - 0x40259ed8: o
+ - 0x40259ef5: o
+ - 0x40259eff: o
+ - 0x4025a777: o
+ - 0x4025a7f0: o
+0x3ffecd68:
+ f: . 00
+ l:
+ x:
+ - 0x40258eb0: o
+ - 0x40258f06: o
+ - 0x40259038: o
+ - 0x40259125: o
+ - 0x4025920c: o
+ - 0x4025a029: o
+ - 0x4025a5a6: o
+ - 0x4025a64d: o
+ - 0x4025b0a2: o
+ - 0x4025d56e: o
+0x3ffecd6c:
+ f: . 00
+ l:
+ x:
+ - 0x402591d4: o
+ - 0x402591f0: o
+0x3ffecd70:
+ f: . 00
+ l:
+ x:
+ - 0x4025b0dc: o
+ - 0x4025b1c3: o
+ - 0x4025b33c: o
+0x3ffecd7c:
+ f: . 00
+ l:
+ x:
+ - 0x40258b28: o
+ - 0x40258b5f: o
+ - 0x40258c01: o
+ - 0x40258c69: o
+ - 0x40258d87: o
+ - 0x402590a3: o
+ - 0x402590b8: o
+ - 0x4025912e: o
+ - 0x40259389: o
+ - 0x40259f57: o
+ - 0x40259f82: o
+ - 0x40259fb8: o
+ - 0x4025ae7b: o
+ - 0x4025b02b: o
+ - 0x4025b073: o
+ - 0x4025b097: o
+ - 0x4025b0b4: o
+0x3ffecd88:
+ f: . 00
+ l:
+ x:
+ - 0x40259784: o
+ - 0x402597a0: o
+ - 0x40259b97: o
+ - 0x40259bc5: o
+ - 0x40259bed: o
+ - 0x40259c00: o
+ - 0x40259c12: o
+0x3ffecd90:
+ f: . 00
+ l:
+ x:
+ - 0x402597d4: o
+ - 0x40259918: o
+ - 0x4025a119: o
+ - 0x4025a157: o
+ - 0x4025a192: o
+ - 0x4025a35a: o
+ - 0x4025a58c: o
+ - 0x4025a60d: o
+ - 0x4025a632: o
+ - 0x4025a63c: o
+ - 0x4025a666: o
+0x3ffecd9c:
+ f: . 00
+ l:
+ x:
+ - 0x402591d8: o
+ - 0x40259203: o
+ - 0x4025939b: o
+ - 0x4025adc4: o
+0x3ffecdb0:
+ f: . 00
+ l:
+ x:
+ - 0x402591dc: o
+ - 0x40259215: o
+ - 0x40259c57: o
+ - 0x40259c8d: o
+ - 0x40259dfc: o
+ - 0x4025a098: o
+ - 0x4025a143: o
+ - 0x4025a398: o
+ - 0x4025a68c: o
+ - 0x4025b4fb: o
+ - 0x4025b5cc: o
+ - 0x4025be74: o
+ - 0x4025ca51: o
+ - 0x4025cfd2: o
+ - 0x4025d0a0: o
+0x3ffecdc4:
+ f: . 00
+ l:
+ x:
+ - 0x402591e0: o
+ - 0x4025921e: o
+ - 0x40259392: o
+ - 0x4025990f: o
+ - 0x40259f93: o
+ - 0x4025a1a1: o
+ - 0x4025a34e: o
+ - 0x4025a388: o
+ - 0x4025a59d: o
+ - 0x4025b127: o
+0x3ffecde4:
+ f: . 00
+ l:
+ x:
+ - 0x4025ad94: o
+ - 0x4025ae75: o
+ - 0x4025b21e: o
+ - 0x4025b317: o
+ - 0x4025b384: o
+ - 0x4025b3c3: o
+0x3ffecde8:
+ f: . 00
+ l:
+ x:
+ - 0x4025d6c0: o
+ - 0x4025d8eb: o
+ - 0x4025dbef: o
+0x3ffecdfc:
+ f: . 00
+ l:
+ x:
+ - 0x40257b44: o
+ - 0x40257b8e: o
+ - 0x40257ba3: o
+ - 0x40257bd1: o
+ - 0x40257be4: o
+ - 0x40257c56: o
+ - 0x40257c8d: o
+0x3ffece00:
+ f: . 00
+ l:
+ x:
+ - 0x402585bc: o
+ - 0x402585d8: o
+0x3ffece04:
+ f: . 00
+ l:
+ x:
+ - 0x402585d0: o
+ - 0x402586bc: o
+0x3ffece18:
+ f: . 00
+ l:
+ x:
+ - 0x40258854: o
+ - 0x4025887f: o
+0x3ffece1c:
+ f: . 00
+ l:
+ x:
+ - 0x40258858: o
+ - 0x4025889e: o
+ - 0x402588d4: o
+0x3ffece2c:
+ f: . 00
+ l:
+ x:
+ - 0x40258b24: o
+ - 0x40258b59: o
+0x3ffece2d:
+ f: . 00
+ l:
+ x:
+ - 0x40258ec8: o
+ - 0x40259054: o
+ - 0x40259146: o
+ - 0x402591a7: o
+0x3ffece30:
+ f: . 00
+ l:
+ x:
+ - 0x402592a8: o
+ - 0x402592c7: o
+0x3ffece34:
+ f: . 00
+ l:
+ x:
+ - 0x40259a70: o
+ - 0x40259a9e: o
+0x3ffece38:
+ f: . 00
+ l:
+ x:
+ - 0x4025aeac: o
+ - 0x4025af66: o
+ - 0x4025af83: o
+ - 0x4025af8c: o
+ - 0x4025af9e: o
+ - 0x4025afad: o
+ - 0x4025afbe: o
+ - 0x4025afcc: o
+ - 0x4025afd5: o
+ - 0x4025aff5: o
+0x3ffece58:
+ f: . 00
+ l:
+ x:
+ - 0x4025aeb8: o
+ - 0x4025afe9: o
+0x3ffecea4:
+ f: . 00
+ l:
+ x:
+ - 0x4025b014: o
+ - 0x4025b01f: o
+ - 0x4025b040: o
+ - 0x4025b049: o
+ - 0x4025b0c0: o
+0x3ffecea5:
+ f: . 00
+ l:
+ x:
+ - 0x4025b0d8: o
+ - 0x4025b13f: o
+ - 0x4025b182: o
+ - 0x4025b1bd: o
+ - 0x4025b1e1: o
+0x3ffecea6:
+ f: . 00
+ l:
+ x:
+ - 0x4025b0e0: o
+ - 0x4025b25f: o
+ - 0x4025b3aa: o
+0x3ffecea7:
+ f: . 00
+ l:
+ x:
+ - 0x4025ddc8: o
+ - 0x4025ddeb: o
+ - 0x4025de1d: o
+ - 0x4025de37: o
+ - 0x4025de55: o
+0x3ffecea8:
+ f: . 00
+ l:
+ x:
+ - 0x4025e1d0: o
+ - 0x4025e1f4: o
+0x3ffeceac:
+ f: . 00
+ l:
+ x:
+ - 0x4025e4c8: o
+ - 0x4025e54f: o
+ - 0x4025e563: o
+0x3ffeceb0:
+ f: . 00
+ l:
+ x:
+ - 0x4025e180: o
+ - 0x4025e193: o
+ - 0x4025e1ad: o
+ - 0x4025e1c0: o
+0x3ffeceb8:
+ f: . 00
+ l:
+ x:
+ - 0x4025e4d4: o
+ - 0x4025e59c: o
+ - 0x4025e671: o
+ - 0x4025e684: o
+0x3ffecec0:
+ f: . 00
+ l:
+ x:
+ - 0x4025e954: o
+ - 0x4025e9c9: o
+0x3ffecec8:
+ f: D 04
+ l: BcnEb_update
+ cmnt: 'Array, num bytes: 1'
+ x:
+ - 0x40244d04: o
+ - 0x40244f0a: o
+ - 0x40256394: o
+ - 0x40256891: o
+ - 0x40256d9d: o
+ - 0x40256dbd: o
+ - 0x40256f43: o
+ - 0x4025eb48: o
+ - 0x4025ee47: o
+ - 0x4025f1fb: o
+ - 0x40260221: o
+ - 0x4026026d: o
+ - 0x402602a8: o
+ - 0x402604e1: o
+ - 0x40261d59: o
+ - 0x40261de5: o
+ - 0x402668fc: o
+ - 0x40267239: o
+ - 0x4026736a: o
+0x3ffeced5:
+ f: D 04
+ l: BcnWithMcastSendStart
+ cmnt: 'Array, num bytes: 1'
+0x3ffeced6:
+ f: D 04
+ l: BcnWithMcastSendCnt
+ cmnt: 'Array, num bytes: 1'
+ x:
+ - 0x40274b64: o
+ - 0x40274b98: o
+0x3ffeced8:
+ f: . 00
+ l:
+ x:
+ - 0x4025eb2c: o
+ - 0x4025edcf: o
+ - 0x4025ee68: o
+ - 0x4025ee71: o
+ - 0x4025f1b7: o
+ - 0x4026044d: o
+0x3ffecef0:
+ f: D 04
+ l: PendFreeBcnEb
+ cmnt: 'Array, num bytes: 1'
+ x:
+ - 0x40274254: o
+ - 0x40274365: o
+ - 0x40274370: o
+0x3ffecef4:
+ f: D 04
+ l: ApFreqCalTimer
+ cmnt: 'Array, num bytes: 20'
+ x:
+ - 0x4025ffdc: o
+ - 0x40260008: o
+ - 0x4026029c: o
+ - 0x402602b9: o
+ - 0x402604c1: o
+0x3ffecf08:
+ f: D 04
+ l: APRecvBcnStartTick
+ cmnt: 'Array, num bytes: 4'
+ x:
+ - 0x402745c0: o
+ - 0x4027461e: o
+0x3ffecf0c:
+ f: . 00
+ l:
+ x:
+ - 0x4025ee30: o
+ - 0x4025eead: o
+ - 0x4025eeca: o
+ - 0x4025eedb: o
+0x3ffecf10:
+ f: . 00
+ l:
+ x:
+ - 0x4025f8b8: o
+ - 0x4025fe99: o
+0x3ffecf18:
+ f: . 00
+ l:
+ x:
+ - 0x4025f8bc: o
+ - 0x4025feab: o
+ - 0x4025fee2: o
+0x3ffecf1c:
+ f: D 04
+ l: g_ic
+ cmnt: 'Array, num bytes: 1704'
+ x:
+ - 0x40243e0c: o
+ - 0x40243e54: o
+ - 0x40244774: o
+ - 0x40244b5e: o
+ - 0x4024519f: o
+ - 0x402452e0: o
+ - 0x402452f8: o
+ - 0x40251dd3: o
+ - 0x40251df4: o
+ - 0x4025289d: o
+ - 0x4025330c: o
+ - 0x40253e28: o
+ - 0x40253e68: o
+ - 0x4025410c: o
+ - 0x4025414c: o
+ - 0x402546a5: o
+ - 0x40254746: o
+ - 0x40254cc4: o
+ - 0x40254d51: o
+ - 0x40254d83: o
+ - 0x40255247: o
+ - 0x40255279: o
+ - 0x4025551f: o
+ - 0x40255896: o
+ - 0x402558e5: o
+ - 0x4025590a: o
+ - 0x40255949: o
+ - 0x40255a8d: o
+ - 0x40255b1b: o
+ - 0x40255b71: o
+ - 0x40255c3a: o
+ - 0x40255c62: o
+ - 0x40255ccd: o
+ - 0x40255cf8: o
+ - 0x40255d24: o
+ - 0x40255d2e: o
+ - 0x40255d4e: o
+ - 0x40255d5c: o
+ - 0x40255d8d: o
+ - 0x40255da2: o
+ - 0x40255def: o
+ - 0x40255fd0: o
+ - 0x40256378: o
+ - 0x40256528: o
+ - 0x40256593: o
+ - 0x402565ab: o
+ - 0x402565ef: o
+ - 0x40256616: o
+ - 0x40256642: o
+ - 0x40256679: o
+ - 0x402566cf: o
+ - 0x402567f3: o
+ - 0x40256800: o
+ - 0x40256940: o
+ - 0x40256a68: o
+ - 0x40256b1f: o
+ - 0x40256ca9: o
+ - 0x40256d92: o
+ - 0x40256f31: o
+ - 0x40257403: o
+ - 0x40257410: o
+ - 0x4025742a: o
+ - 0x4025d401: o
+ - 0x4025dd0b: o
+ - 0x4025ddfc: o
+ - 0x4025de97: o
+ - 0x4025deac: o
+ - 0x4025dec8: o
+ - 0x4025df1a: o
+ - 0x4025df3e: o
+ - 0x4025df6c: o
+ - 0x4025e117: o
+ - 0x4025e3df: o
+ - 0x4025e7fc: o
+ - 0x4025e85f: o
+ - 0x4025e8c4: o
+ - 0x4025e95d: o
+ - 0x4025eb4b: o
+ - 0x4025ef45: o
+ - 0x4025f099: o
+ - 0x4025f1b4: o
+ - 0x4025f29e: o
+ - 0x4025f2b9: o
+ - 0x4025f2c3: o
+ - 0x4025f8c4: o
+ - 0x4025f9dd: o
+ - 0x4025fa08: o
+ - 0x4025fac5: o
+ - 0x4025fcdd: o
+ - 0x4025fd5b: o
+ - 0x4025fdc1: o
+ - 0x4025fe72: o
+ - 0x4025ffb2: o
+ - 0x402601c7: o
+ - 0x40260209: o
+ - 0x40260256: o
+ - 0x402602ce: o
+ - 0x4026035e: o
+ - 0x40260393: o
+ - 0x40260404: o
+ - 0x40260692: o
+ - 0x402606a0: o
+ - 0x40260ab7: o
+ - 0x40260ed9: o
+ - 0x40261682: o
+ - 0x40261cd1: o
+ - 0x40261d3f: o
+ - 0x40261d73: o
+ - 0x40261ddd: o
+ - 0x40261e6d: o
+ - 0x40261f3f: o
+ - 0x40262060: o
+ - 0x402620ac: o
+ - 0x402620ba: o
+ - 0x40262232: o
+ - 0x402624c8: o
+ - 0x4026262b: o
+ - 0x40262655: o
+ - 0x4026274b: o
+ - 0x40262859: o
+ - 0x402628c4: o
+ - 0x40262927: o
+ - 0x40262bc8: o
+ - 0x40262e8d: o
+ - 0x402630e4: o
+ - 0x40263708: o
+ - 0x40263977: o
+ - 0x40263afd: o
+ - 0x40263ca6: o
+ - 0x40263e14: o
+ - 0x4026409b: o
+ - 0x402640d1: o
+ - 0x4026424a: o
+ - 0x402642c6: o
+ - 0x40264414: o
+ - 0x4026456a: o
+ - 0x4026459e: o
+ - 0x402645ac: o
+ - 0x4026481d: o
+ - 0x40264833: o
+ - 0x4026484b: o
+ - 0x40264858: o
+ - 0x4026497c: o
+ - 0x40264b28: o
+ - 0x40264bef: o
+ - 0x40264cb0: o
+ - 0x40264cfa: o
+ - 0x40264d41: o
+ - 0x40264e64: o
+ - 0x40264ef9: o
+ - 0x40264f8e: o
+ - 0x40265010: o
+ - 0x40265039: o
+ - 0x402650a1: o
+ - 0x4026514a: o
+ - 0x40265184: o
+ - 0x402651d4: o
+ - 0x4026521a: o
+ - 0x40265258: o
+ - 0x402652a3: o
+ - 0x402653f3: o
+ - 0x4026552c: o
+ - 0x40265548: o
+ - 0x40265707: o
+ - 0x4026580c: o
+ - 0x402658b0: o
+ - 0x40265a5d: o
+ - 0x40265b1a: o
+ - 0x40265e12: o
+ - 0x40265e87: o
+ - 0x40265ee4: o
+ - 0x40265fa2: o
+ - 0x402660aa: o
+ - 0x40266146: o
+ - 0x402661c4: o
+ - 0x4026629e: o
+ - 0x402663dc: o
+ - 0x4026645a: o
+ - 0x4026654c: o
+ - 0x402665ae: o
+ - 0x40266720: o
+ - 0x402667fd: o
+ - 0x40266835: o
+ - 0x40266871: o
+ - 0x402669a5: o
+ - 0x40266aa9: o
+ - 0x40266b2c: o
+ - 0x40266daf: o
+ - 0x40266e62: o
+ - 0x40266f46: o
+ - 0x40266f64: o
+ - 0x40266fbc: o
+ - 0x40266fe0: o
+ - 0x40267010: o
+ - 0x40267028: o
+ - 0x40267067: o
+ - 0x402670f5: o
+ - 0x40267116: o
+ - 0x402671a5: o
+ - 0x402671b0: o
+ - 0x4026720b: o
+ - 0x40267224: o
+ - 0x402672a5: o
+ - 0x40267361: o
+ - 0x40267416: o
+ - 0x4026741c: o
+ - 0x40267a41: o
+ - 0x40267aeb: o
+ - 0x40267b74: o
+ - 0x40267c2b: o
+ - 0x40267cca: o
+ - 0x40267d66: o
+ - 0x40267d95: o
+ - 0x40267eca: o
+ - 0x40267f78: o
+ - 0x40267fea: o
+ - 0x4026801f: o
+ - 0x40268038: o
+ - 0x4026806d: o
+ - 0x402681a9: o
+ - 0x40268284: o
+ - 0x402734f6: o
+ - 0x40273d0c: o
+ - 0x402743d7: o
+ - 0x40274491: o
+ - 0x402744ae: o
+ - 0x40275e23: o
+ - 0x40275f20: o
+ - 0x40289294: o
+ - 0x4028929b: o
+ - 0x402895cf: o
+ - 0x40289885: o
+ - 0x40289dae: o
+ - 0x402953e5: o
+ - 0x40295fb1: o
+ - 0x40296484: o
+ - 0x40296631: o
+ - 0x40296913: o
+ - 0x40296a1d: o
+ - 0x40297e06: o
+ - 0x40297e5e: o
+ - 0x40297e7a: o
+ - 0x40297eaf: o
+ - 0x40297f2b: o
+ - 0x40297f52: o
+ - 0x40297f5c: o
+ - 0x40297fdc: o
+ - 0x40297ff0: o
+ - 0x40298055: o
+ - 0x402980b2: o
+ - 0x4029811d: o
+ - 0x4029947c: o
+ - 0x40299665: o
+ - 0x4029cd83: o
+ - 0x4029d796: o
+ - 0x4029d7f8: o
+ - 0x4029d854: o
+ - 0x4029d9b6: o
+ - 0x4029da8c: o
+ - 0x4029db65: o
+ - 0x4029dc54: o
+ - 0x4029df9a: o
+ - 0x4029e032: o
+ - 0x4029e07f: o
+ - 0x4029e08a: o
+ - 0x4029e093: o
+ - 0x4029e0a3: o
+ - 0x4029e10f: o
+ - 0x4029e158: o
+0x3ffecf48:
+ f: D 04
+ l:
+ x:
+ - 0x40262e6c: o
+ - 0x40262f58: o
+ - 0x40263161: o
+ - 0x402632e5: o
+ - 0x40263450: o
+ - 0x402638cc: o
+ - 0x40263ecb: o
+0x3ffecfd8:
+ f: D 04
+ l:
+ x:
+ - 0x40264700: o
+ - 0x40264742: o
+0x3ffecfdc:
+ f: D 04
+ l:
+ x:
+ - 0x40255810: o
+ - 0x4025589c: o
+0x3ffed01c:
+ f: D 04
+ l:
+ x:
+ - 0x40255fc0: o
+ - 0x4025600f: o
+ - 0x40256da5: o
+ - 0x40256db7: o
+ - 0x40256f4c: o
+ - 0x4025eba1: o
+ - 0x40260275: o
+ - 0x40261d09: o
+ - 0x40267241: o
+ - 0x40267379: o
+ - 0x4029d708: o
+ - 0x4029d775: o
+ - 0x4029d7e3: o
+ - 0x4029e16e: o
+ - 0x4029e1d0: o
+ - 0x4029e1e8: o
+ - 0x4029e1fe: o
+0x3ffed050:
+ f: D 04
+ l:
+ x:
+ - 0x40264704: o
+ - 0x4026476a: o
+0x3ffed080:
+ f: D 04
+ l:
+ x:
+ - 0x402607f8: o
+ - 0x4026080f: o
+0x3ffed084:
+ f: D 04
+ l:
+ x:
+ - 0x4026433c: o
+ - 0x40264345: o
+0x3ffed08c:
+ f: D 04
+ l:
+ x:
+ - 0x40256814: o
+ - 0x402568bc: o
+0x3ffed090:
+ f: D 04
+ l:
+ x:
+ - 0x40256824: o
+ - 0x4025690a: o
+0x3ffed094:
+ f: D 04
+ l:
+ x:
+ - 0x40256828: o
+ - 0x40256910: o
+0x3ffed098:
+ f: D 04
+ l:
+ x:
+ - 0x4025682c: o
+ - 0x40256916: o
+0x3ffed09c:
+ f: D 04
+ l:
+ x:
+ - 0x401027ac: o
+ - 0x401027b0: o
+ - 0x4010507c: o
+ - 0x4010526c: o
+ - 0x401052b0: o
+ - 0x401052f2: o
+ - 0x4010537e: o
+ - 0x40105390: o
+ - 0x401053a5: o
+ - 0x401053b7: o
+ - 0x401057e7: o
+ - 0x40105c30: o
+ - 0x40243a44: o
+ - 0x40243a51: o
+ - 0x40243a65: o
+ - 0x40243a85: o
+ - 0x40243ab1: o
+ - 0x40243acd: o
+ - 0x40243af1: o
+ - 0x40243b0d: o
+ - 0x40243b35: o
+ - 0x40243b85: o
+ - 0x40243bb1: o
+ - 0x40243bd5: o
+ - 0x40243bf1: o
+ - 0x40243c0d: o
+ - 0x40243c29: o
+ - 0x40243c45: o
+ - 0x40243c61: o
+ - 0x40243c7d: o
+ - 0x40243c99: o
+ - 0x40243cb5: o
+ - 0x40243cd9: o
+ - 0x40243cf5: o
+ - 0x40243d11: o
+ - 0x40243d2d: o
+ - 0x40243e2d: o
+ - 0x40244150: o
+ - 0x402442d1: o
+ - 0x40244349: o
+ - 0x40245365: o
+ - 0x402453a5: o
+ - 0x402453e5: o
+ - 0x40252706: o
+ - 0x402527ce: o
+ - 0x4025285e: o
+ - 0x40252881: o
+ - 0x4025475b: o
+ - 0x40254a33: o
+ - 0x40254a7b: o
+ - 0x40254ac3: o
+ - 0x40254b1b: o
+ - 0x40254da8: o
+ - 0x40255846: o
+ - 0x4025595d: o
+ - 0x40255c4e: o
+ - 0x40255cda: o
+ - 0x4025637f: o
+ - 0x4025645d: o
+ - 0x402566e0: o
+ - 0x40256774: o
+ - 0x402567a3: o
+ - 0x402568b6: o
+ - 0x402569d1: o
+ - 0x40256ae0: o
+ - 0x40256b45: o
+ - 0x40256cac: o
+ - 0x40256f75: o
+ - 0x40256fe5: o
+ - 0x4025703f: o
+ - 0x4025709a: o
+ - 0x402572fb: o
+ - 0x40257340: o
+ - 0x402573dc: o
+ - 0x40258bbc: o
+ - 0x4025eb51: o
+ - 0x4025ee4a: o
+ - 0x4025ee9b: o
+ - 0x4025ef04: o
+ - 0x4025f1e5: o
+ - 0x40260027: o
+ - 0x40260290: o
+ - 0x402604b8: o
+ - 0x40260616: o
+ - 0x40262cf7: o
+ - 0x40262d47: o
+ - 0x40262e70: o
+ - 0x402636e8: o
+ - 0x40263909: o
+ - 0x40263912: o
+ - 0x40263c27: o
+ - 0x40263f22: o
+ - 0x4026405c: o
+ - 0x402647b4: o
+ - 0x402649ac: o
+ - 0x40265529: o
+ - 0x40265c2f: o
+ - 0x40265e08: o
+ - 0x40265f51: o
+ - 0x40265f71: o
+ - 0x402668cc: o
+ - 0x40266bac: o
+ - 0x40266bdb: o
+ - 0x40266e99: o
+ - 0x40267007: o
+ - 0x402671dc: o
+ - 0x4026725d: o
+ - 0x402672c5: o
+ - 0x40267323: o
+ - 0x40267407: o
+ - 0x40270e8a: o
+ - 0x40270f79: o
+ - 0x4027103f: o
+ - 0x402742bb: o
+ - 0x40274444: o
+ - 0x402747a1: o
+ - 0x402748ef: o
+ - 0x4028987c: o
+ - 0x402898bc: o
+ - 0x40297ff5: o
+ - 0x4029943f: o
+ - 0x4029d8de: o
+ - 0x4029d90a: o
+ - 0x4029e430: o
+ - 0x4029e480: o
+ - 0x4029e4a6: o
+ - 0x4029e4df: o
+ - 0x4029e51e: o
+0x3ffed0a0:
+ f: D 04
+ l:
+ x:
+ - 0x40262008: o
+ - 0x4026200c: o
+ - 0x4026203c: o
+0x3ffed0a4:
+ f: D 04
+ l:
+ x:
+ - 0x40261ff0: o
+ - 0x40261ff6: o
+ - 0x40264d1b: o
+ - 0x40265255: o
+0x3ffed0ac:
+ f: D 04
+ l:
+ x:
+ - 0x40256580: o
+ - 0x402565ae: o
+ - 0x4025663f: o
+0x3ffed0b0:
+ f: D 04
+ l:
+ x:
+ - 0x402661b8: o
+ - 0x402661e2: o
+0x3ffed0b4:
+ f: D 04
+ l:
+ x:
+ - 0x40253e80: o
+ - 0x40253e89: o
+ - 0x40253f1c: o
+0x3ffed0bc:
+ f: D 04
+ l:
+ x:
+ - 0x402574b8: o
+ - 0x402574c1: o
+ - 0x402574f5: o
+0x3ffed0e0:
+ f: D 04
+ l:
+ x:
+ - 0x40261a0c: o
+ - 0x40261a4f: o
+ - 0x40261b73: o
+ - 0x40265fed: o
+ - 0x40266078: o
+0x3ffed0e4:
+ f: D 04
+ l:
+ x:
+ - 0x40263130: o
+ - 0x4026315e: o
+ - 0x402633e7: o
+ - 0x40267a85: o
+0x3ffed0e8:
+ f: D 04
+ l:
+ x:
+ - 0x4025581c: o
+ - 0x402558d1: o
+0x3ffed0f4:
+ f: D 04
+ l:
+ x:
+ - 0x40264b9c: o
+ - 0x40264c10: o
+0x3ffed104:
+ f: D 04
+ l:
+ x:
+ - 0x4025eb14: o
+ - 0x4025ec22: o
+0x3ffed11c:
+ f: D 04
+ l:
+ x:
+ - 0x40243a48: o
+ - 0x40243a68: o
+ - 0x40243a92: o
+ - 0x40244685: o
+ - 0x40251dbd: o
+ - 0x40254dff: o
+ - 0x40254e21: o
+ - 0x40254e5e: o
+ - 0x402569d4: o
+ - 0x402569eb: o
+ - 0x40256a28: o
+ - 0x40257334: o
+ - 0x40257367: o
+ - 0x4025739b: o
+ - 0x402573ea: o
+ - 0x4025e147: o
+ - 0x4025e169: o
+ - 0x4025e658: o
+ - 0x4025ec0d: o
+ - 0x4025ed35: o
+ - 0x40260741: o
+ - 0x40263dee: o
+ - 0x4026426c: o
+ - 0x402642b5: o
+ - 0x4026430d: o
+ - 0x402659b9: o
+ - 0x402659f1: o
+ - 0x40266525: o
+ - 0x4026667e: o
+ - 0x40266bd4: o
+ - 0x4026724c: o
+ - 0x402672e9: o
+ - 0x402672fd: o
+ - 0x40267b6c: o
+ - 0x40271025: o
+ - 0x40271085: o
+ - 0x40298018: o
+ - 0x4029807b: o
+ - 0x4029816c: o
+ - 0x4029816f: o
+ - 0x4029948d: o
+ - 0x4029cf04: o
+ - 0x4029cf48: o
+ - 0x4029d82c: o
+ - 0x4029e355: o
+ - 0x4029e462: o
+ - 0x4029e472: o
+ - 0x4029e4c7: o
+ - 0x4029e52c: o
+0x3ffed130:
+ f: D 04
+ l:
+ x:
+ - 0x40100e34: o
+ - 0x40101052: o
+ - 0x40251edc: o
+ - 0x40251ffa: o
+ - 0x40253dc9: o
+ - 0x40254be9: o
+ - 0x40255088: o
+ - 0x40255124: o
+ - 0x40255765: o
+ - 0x40255a7c: o
+ - 0x40255c91: o
+ - 0x40256047: o
+ - 0x402564db: o
+ - 0x40261473: o
+ - 0x40266f91: o
+ - 0x4026743e: o
+ - 0x40267e42: o
+0x3ffed13c:
+ f: D 04
+ l:
+ x:
+ - 0x40251ed0: o
+ - 0x40251f94: o
+ - 0x40255514: o
+ - 0x40255b09: o
+0x3ffed140:
+ f: D 04
+ l:
+ x:
+ - 0x40255814: o
+ - 0x402558a4: o
+ - 0x40263442: o
+ - 0x40265584: o
+ - 0x40265a4e: o
+ - 0x40265b09: o
+ - 0x40266ea6: o
+ - 0x402670e5: o
+ - 0x4026715b: o
+ - 0x40267ced: o
+ - 0x40298014: o
+ - 0x4029806d: o
+ - 0x40299476: o
+0x3ffed15c:
+ f: D 04
+ l:
+ x:
+ - 0x402554c0: o
+ - 0x4025553d: o
+ - 0x40260cd8: o
+ - 0x40260db8: o
+ - 0x402650c5: o
+ - 0x4026566d: o
+ - 0x40267537: o
+ - 0x402744f0: o
+0x3ffed167:
+ f: D 04
+ l:
+ x:
+ - 0x40251ed4: o
+ - 0x40251f9f: o
+ - 0x40255532: o
+ - 0x402558b5: o
+ - 0x402651ad: o
+0x3ffed16c:
+ f: D 04
+ l:
+ x:
+ - 0x40256970: o
+ - 0x40256974: o
+0x3ffed18c:
+ f: D 04
+ l:
+ x:
+ - 0x40251ebc: o
+ - 0x40251eec: o
+ - 0x40263700: o
+ - 0x40263e1d: o
+0x3ffed19c:
+ f: D 04
+ l:
+ x:
+ - 0x40255fb4: o
+ - 0x40255fd3: o
+ - 0x40256525: o
+ - 0x4025654d: o
+ - 0x402565b1: o
+ - 0x40256601: o
+ - 0x4025668a: o
+ - 0x4025672e: o
+ - 0x4025675f: o
+ - 0x4025eb77: o
+ - 0x4025fb9b: o
+ - 0x40260241: o
+ - 0x402632b6: o
+ - 0x40264d97: o
+ - 0x40267f69: o
+ - 0x40267fdb: o
+ - 0x40268070: o
+ - 0x402680a1: o
+ - 0x40298024: o
+ - 0x402980b5: o
+ - 0x4029e3c9: o
+0x3ffed1a8:
+ f: D 04
+ l:
+ x:
+ - 0x40255820: o
+ - 0x402558e2: o
+ - 0x40255b78: o
+ - 0x40299428: o
+ - 0x40299445: o
+ - 0x4029945a: o
+ - 0x40299498: o
+0x3ffed1c9:
+ f: D 04
+ l:
+ x:
+ - 0x40265094: o
+ - 0x402651f5: o
+ - 0x4026740a: o
+0x3ffed1da:
+ f: D 04
+ l:
+ x:
+ - 0x40255824: o
+ - 0x40255904: o
+ - 0x40255bdc: o
+ - 0x402650fc: o
+ - 0x40265569: o
+ - 0x4026559a: o
+ - 0x40265676: o
+0x3ffed1e0:
+ f: D 04
+ l:
+ x:
+ - 0x40255fb8: o
+ - 0x40255ff1: o
+0x3ffed1e4:
+ f: D 04
+ l:
+ x:
+ - 0x40255fbc: o
+ - 0x40255ffd: o
+ - 0x4025efea: o
+ - 0x4025fd4f: o
+ - 0x402638c6: o
+ - 0x40263eaa: o
+ - 0x40263feb: o
+0x3ffed1e8:
+ f: D 04
+ l:
+ x:
+ - 0x40251e18: o
+ - 0x40251ea2: o
+ - 0x40251f17: o
+ - 0x4025efb4: o
+ - 0x402603b3: o
+ - 0x402682ba: o
+0x3ffed1ec:
+ f: D 04
+ l:
+ x:
+ - 0x40255204: o
+ - 0x40255210: o
+ - 0x40255833: o
+ - 0x40255a64: o
+0x3ffed1f0:
+ f: D 04
+ l:
+ x:
+ - 0x402557c0: o
+ - 0x402557c4: o
+0x3ffed1f4:
+ f: D 04
+ l:
+ x:
+ - 0x40255208: o
+ - 0x4025528b: o
+ - 0x402557e3: o
+ - 0x40255865: o
+0x3ffed204:
+ f: D 04
+ l:
+ x:
+ - 0x40251ecc: o
+ - 0x40251f61: o
+ - 0x4025f015: o
+0x3ffed21c:
+ f: D 04
+ l:
+ x:
+ - 0x40256c98: o
+ - 0x40256d75: o
+ - 0x4025ecac: o
+0x3ffed245:
+ f: D 04
+ l:
+ x:
+ - 0x40294870: o
+ - 0x4029489c: o
+0x3ffed2a4:
+ f: D 04
+ l:
+ x:
+ - 0x40265c04: o
+ - 0x40265e15: o
+ - 0x40267ec7: o
+0x3ffed31c:
+ f: D 04
+ l:
+ x:
+ - 0x4029d81c: o
+ - 0x4029d8b2: o
+ - 0x4029dc87: o
+ - 0x4029dd11: o
+ - 0x4029dfa9: o
+0x3ffed36c:
+ f: D 04
+ l:
+ x:
+ - 0x402606d8: o
+ - 0x40260703: o
+ - 0x40260abc: o
+0x3ffed3a0:
+ f: D 04
+ l:
+ x:
+ - 0x40251ec4: o
+ - 0x40251f14: o
+ - 0x402638a6: o
+ - 0x40263e53: o
+0x3ffed3f0:
+ f: D 04
+ l:
+ x:
+ - 0x40255988: o
+ - 0x4025598c: o
+ - 0x402559f6: o
+0x3ffed3f8:
+ f: D 04
+ l:
+ x:
+ - 0x4025520c: o
+ - 0x40255291: o
+ - 0x4025590d: o
+0x3ffed41c:
+ f: D 04
+ l:
+ x:
+ - 0x4025eb1c: o
+ - 0x4025ec68: o
+0x3ffed494:
+ f: D 04
+ l:
+ x:
+ - 0x40255818: o
+ - 0x402558c6: o
+0x3ffed49c:
+ f: D 04
+ l:
+ x:
+ - 0x40258da4: o
+ - 0x40258dde: o
+ - 0x40258e89: o
+0x3ffed4ac:
+ f: D 04
+ l:
+ x:
+ - 0x40258d9c: o
+ - 0x40258dc5: o
+ - 0x40258e3d: o
+0x3ffed4b8:
+ f: D 04
+ l:
+ x:
+ - 0x40256bbc: o
+ - 0x40256be3: o
+ - 0x40256d1a: o
+ - 0x40256e1b: o
+0x3ffed4cc:
+ f: D 04
+ l:
+ x:
+ - 0x40258da0: o
+ - 0x40258dd3: o
+ - 0x40258e6c: o
+0x3ffed534:
+ f: D 04
+ l:
+ x:
+ - 0x40251e0c: o
+ - 0x40251e21: o
+0x3ffed53c:
+ f: D 04
+ l:
+ x:
+ - 0x40251e14: o
+ - 0x40251e36: o
+ - 0x4026463d: o
+0x3ffed540:
+ f: D 04
+ l:
+ x:
+ - 0x402561d0: o
+ - 0x402562bf: o
+ - 0x40256d46: o
+ - 0x40264672: o
+0x3ffed59c:
+ f: D 04
+ l:
+ x:
+ - 0x402561cc: o
+ - 0x40256299: o
+ - 0x40256bc0: o
+ - 0x40256ce4: o
+ - 0x40256df6: o
+ - 0x40263922: o
+ - 0x40263f3c: o
+ - 0x402646c4: o
+ - 0x40266c11: o
+ - 0x40267ac8: o
+0x3ffed5b4:
+ f: D 04
+ l:
+ x:
+ - 0x40251e10: o
+ - 0x40251e46: o
+ - 0x40256c29: o
+0x3ffed5c4:
+ f: D 04
+ l: gScanStruct
+ cmnt: 'Array, num bytes: 156'
+ x:
+ - 0x40260000: o
+ - 0x4026018a: o
+ - 0x40264882: o
+ - 0x402648c4: o
+ - 0x40264935: o
+ - 0x40264ac9: o
+ - 0x40264b21: o
+ - 0x40264b69: o
+ - 0x40264ba5: o
+ - 0x40264c6a: o
+ - 0x40264cad: o
+ - 0x40264dd2: o
+ - 0x40264de4: o
+ - 0x40264df0: o
+ - 0x40264e0c: o
+ - 0x40264e38: o
+ - 0x40264e51: o
+ - 0x40264e6e: o
+ - 0x40264efc: o
+ - 0x40264fbf: o
+ - 0x40264ffc: o
+ - 0x40265008: o
+ - 0x4026511c: o
+ - 0x4026515f: o
+ - 0x4026519a: o
+ - 0x40265221: o
+ - 0x402653f0: o
+ - 0x40265457: o
+ - 0x40265c78: o
+ - 0x40267afb: o
+ - 0x40267e08: o
+ - 0x402743f9: o
+ - 0x402745d0: o
+0x3ffed5c8:
+ f: D 04
+ l:
+ x:
+ - 0x40264b98: o
+ - 0x40264bcb: o
+ - 0x40264c85: o
+ - 0x40264cd7: o
+0x3ffed5dc:
+ f: D 04
+ l:
+ x:
+ - 0x40264868: o
+ - 0x4026489d: o
+ - 0x40264bfe: o
+ - 0x40264c7c: o
+0x3ffed658:
+ f: D 04
+ l:
+ x:
+ - 0x40264dbc: o
+ - 0x40264dc7: o
+ - 0x402654b3: o
+ - 0x402654df: o
+ - 0x40265743: o
+0x3ffed670:
+ f: D 04
+ l: connect_scan_flag
+ cmnt: 'Array, num bytes: 1'
+0x3ffed671:
+ f: D 04
+ l: FreqCalCntForScan
+ cmnt: 'Array, num bytes: 1'
+ x:
+ - 0x40265870: o
+ - 0x402658f1: o
+0x3ffed672:
+ f: D 04
+ l: TestStaFreqCalValInput
+ cmnt: 'Array, num bytes: 2'
+ x:
+ - 0x40252464: o
+ - 0x402527d9: o
+ - 0x4025ecb5: o
+ - 0x40260096: o
+ - 0x40263937: o
+ - 0x40263f71: o
+ - 0x40274690: o
+ - 0x402746b4: o
+ - 0x402746c3: o
+0x3ffed674:
+ f: D 04
+ l: auth_type
+ cmnt: 'Array, num bytes: 1'
+ x:
+ - 0x402679d8: o
+ - 0x40267b03: o
+0x3ffed676:
+ f: D 04
+ l: scannum
+ cmnt: 'Array, num bytes: 2'
+ x:
+ - 0x4025593c: o
+ - 0x4025596d: o
+0x3ffed678:
+ f: . 00
+ l:
+ x:
+ - 0x402648e4: o
+ - 0x40264918: o
+0x3ffed690:
+ f: . 00
+ l:
+ x:
+ - 0x402657b0: o
+ - 0x402657b4: o
+ - 0x40266352: o
+ - 0x40266370: o
+ - 0x40266387: o
+0x3ffed694:
+ f: . 00
+ l:
+ x:
+ - 0x402661bc: o
+ - 0x40266215: o
+0x3ffed6b0:
+ f: . 00
+ l:
+ x:
+ - 0x402657cc: o
+ - 0x402657d0: o
+0x3ffed6b8:
+ f: . 00
+ l:
+ x:
+ - 0x401027d4: o
+ - 0x401027d8: o
+ - 0x402668b0: o
+ - 0x402668c9: o
+ - 0x40266935: o
+ - 0x40266953: o
+ - 0x40266970: o
+ - 0x40266989: o
+ - 0x402669c7: o
+ - 0x40266a2f: o
+ - 0x40266a4b: o
+ - 0x40266a75: o
+ - 0x40266a8c: o
+ - 0x40266af0: o
+ - 0x40266b06: o
+0x3ffed6bc:
+ f: . 00
+ l:
+ x:
+ - 0x402669bc: o
+ - 0x402669f5: o
+0x3ffed6d8:
+ f: . 00
+ l:
+ x:
+ - 0x402668b4: o
+ - 0x40266912: o
+ - 0x40266a03: o
+0x3ffed6f8:
+ f: . 00
+ l:
+ x:
+ - 0x40266b5c: o
+ - 0x40266b74: o
+ - 0x40266b87: o
+ - 0x40266c99: o
+ - 0x40266dd8: o
+ - 0x40266e27: o
+ - 0x4026706a: o
+ - 0x4026712d: o
+ - 0x402671c7: o
+ - 0x40267532: o
+ - 0x4026755f: o
+ - 0x402675f9: o
+ - 0x4026769f: o
+ - 0x402676e5: o
+ - 0x4026770e: o
+ - 0x4026778d: o
+ - 0x402677d3: o
+ - 0x4026784f: o
+ - 0x40267944: o
+ - 0x402679dc: o
+ - 0x40267c7d: o
+0x3ffed9b8:
+ f: . 00
+ l:
+ x:
+ - 0x40267834: o
+ - 0x40267843: o
+ - 0x40267866: o
+0x3ffed9bc:
+ f: . 00
+ l:
+ x:
+ - 0x40266b60: o
+ - 0x40266b80: o
+ - 0x40267594: o
+0x3ffed9c0:
+ f: . 00
+ l:
+ x:
+ - 0x40266f04: o
+ - 0x40266f13: o
+ - 0x40267518: o
+ - 0x40267562: o
+ - 0x40267693: o
+ - 0x402676ba: o
+ - 0x402676dc: o
+ - 0x40267708: o
+ - 0x4026777f: o
+ - 0x402677cb: o
+0x3ffed9cc:
+ f: . 00
+ l:
+ x:
+ - 0x402673d0: o
+ - 0x40267438: o
+0x3ffed9ec:
+ f: . 00
+ l:
+ x:
+ - 0x40266da4: o
+ - 0x40266dac: o
+0x3ffed9f4:
+ f: . 00
+ l:
+ x:
+ - 0x40266f3c: o
+ - 0x40266f5f: o
+ - 0x40266f71: o
+0x3ffed9f8:
+ f: . 00
+ l:
+ x:
+ - 0x40267058: o
+ - 0x4026708b: o
+0x3ffeda1c:
+ f: . 00
+ l:
+ x:
+ - 0x40267274: o
+ - 0x40267285: o
+ - 0x402672a2: o
+ - 0x4026738a: o
+0x3ffeda58:
+ f: D 04
+ l: sta_con_timer
+ cmnt: 'Array, num bytes: 20'
+ x:
+ - 0x40253d3c: o
+ - 0x40253d6c: o
+ - 0x40253d75: o
+ - 0x40253d84: o
+ - 0x402544e5: o
+ - 0x402544ee: o
+ - 0x402544fc: o
+ - 0x4025476f: o
+ - 0x402574fe: o
+ - 0x40266c2d: o
+ - 0x40266c36: o
+ - 0x40266c44: o
+0x3ffeda6c:
+ f: D 04
+ l: backup_ni_connect_status
+ cmnt: 'Array, num bytes: 1'
+0x3ffeda70:
+ f: D 04
+ l: g_cnx_probe_rc_list_cb
+ cmnt: 'Array, num bytes: 4'
+0x3ffeda74:
+ f: D 04
+ l: reconnect_flag
+ cmnt: 'Array, num bytes: 1'
+ x:
+ - 0x40265874: o
+ - 0x40265ad4: o
+0x3ffeda75:
+ f: D 04
+ l: no_ap_found_index
+ cmnt: 'Array, num bytes: 1'
+ x:
+ - 0x402556c4: o
+ - 0x402556ea: o
+ - 0x40298028: o
+ - 0x402980d8: o
+0x3ffeda78:
+ f: . 00
+ l:
+ x:
+ - 0x40267278: o
+ - 0x40267309: o
+ - 0x40267312: o
+ - 0x40267320: o
+0x3ffeda8c:
+ f: D 04
+ l: tout_dis_txpwr_track
+ cmnt: 'Array, num bytes: 1'
+ x:
+ - 0x401027e0: o
+ - 0x401027fe: o
+ - 0x401029c9: o
+ - 0x40269868: o
+ - 0x4026986c: o
+ - 0x40269969: o
+ - 0x402699cd: o
+ - 0x40269b3b: o
+ - 0x40269b4d: o
+ - 0x40269b66: o
+ - 0x4026afb7: o
+0x3ffeda8d:
+ f: D 04
+ l: sleep_mode_flag
+ cmnt: 'Array, num bytes: 1'
+ x:
+ - 0x402703f0: o
+ - 0x40270424: o
+ - 0x402706e1: o
+0x3ffeda90:
+ f: D 04
+ l: phy_tx_power_out
+ cmnt: 'Array, num bytes: 2'
+ x:
+ - 0x40102bd0: o
+ - 0x40102c29: o
+ - 0x4026ac0c: o
+ - 0x4026ac57: o
+ - 0x4026aea9: o
+ - 0x4026afc6: o
+ - 0x4026b008: o
+ - 0x4026ba56: o
+0x3ffeda92:
+ f: D 04
+ l: phy_tx_pwr_error
+ cmnt: 'Array, num bytes: 2'
+ x:
+ - 0x40102c4c: o
+ - 0x40102c71: o
+ - 0x4026fb44: o
+ - 0x4026fb71: o
+0x3ffeda94:
+ f: D 04
+ l: tx_pwctrl_track_num
+ cmnt: 'Array, num bytes: 1'
+0x3ffeda95:
+ f: D 04
+ l: rxiq_cover_fail_num
+ cmnt: 'Array, num bytes: 1'
+0x3ffeda96:
+ f: D 04
+ l: phy_meas_freq_offset
+ cmnt: 'Array, num bytes: 2'
+ x:
+ - 0x40102c50: o
+ - 0x40102c6b: o
+ - 0x4026fb9c: o
+ - 0x4026fba3: o
+0x3ffeda98:
+ f: D 04
+ l: tx_pwctrl_pk_num
+ cmnt: 'Array, num bytes: 1'
+0x3ffedaa0:
+ f: D 04
+ l: g_phyFuns
+ cmnt: 'Array, num bytes: 4'
+ x:
+ - 0x401027ec: o
+ - 0x401028bb: o
+ - 0x401029b6: o
+ - 0x40102c68: o
+ - 0x40268498: o
+ - 0x402684a5: o
+ - 0x40268593: o
+ - 0x4026862c: o
+ - 0x4026869a: o
+ - 0x402686c2: o
+ - 0x402686cf: o
+ - 0x4026870f: o
+ - 0x40268858: o
+ - 0x402688ce: o
+ - 0x402688e6: o
+ - 0x4026890c: o
+ - 0x40268953: o
+ - 0x40268b3d: o
+ - 0x40268b4b: o
+ - 0x40268bd3: o
+ - 0x40268bf1: o
+ - 0x40268c0f: o
+ - 0x40268c45: o
+ - 0x40268da2: o
+ - 0x40268e15: o
+ - 0x40268f9f: o
+ - 0x4026908b: o
+ - 0x40269350: o
+ - 0x40269369: o
+ - 0x40269381: o
+ - 0x402695cf: o
+ - 0x40269895: o
+ - 0x4026991f: o
+ - 0x40269c49: o
+ - 0x40269dc1: o
+ - 0x40269ddc: o
+ - 0x40269f4f: o
+ - 0x40269f91: o
+ - 0x40269fd4: o
+ - 0x4026a0f2: o
+ - 0x4026a3e5: o
+ - 0x4026a448: o
+ - 0x4026a4b5: o
+ - 0x4026a4dd: o
+ - 0x4026a5c4: o
+ - 0x4026a5f3: o
+ - 0x4026a63f: o
+ - 0x4026a654: o
+ - 0x4026a6bd: o
+ - 0x4026a90c: o
+ - 0x4026b024: o
+ - 0x4026b170: o
+ - 0x4026b1a0: o
+ - 0x4026b1b2: o
+ - 0x4026b2ac: o
+ - 0x4026b37a: o
+ - 0x4026b394: o
+ - 0x4026b3ed: o
+ - 0x4026b408: o
+ - 0x4026b427: o
+ - 0x4026b43a: o
+ - 0x4026b4a2: o
+ - 0x4026b4c0: o
+ - 0x4026b4e0: o
+ - 0x4026b505: o
+ - 0x4026b59b: o
+ - 0x4026b5b1: o
+ - 0x4026b736: o
+ - 0x4026b948: o
+ - 0x4026baf2: o
+ - 0x4026bcf0: o
+ - 0x4026bd31: o
+ - 0x4026be16: o
+ - 0x4026becf: o
+ - 0x4026bf82: o
+ - 0x4026bfce: o
+ - 0x4026c093: o
+ - 0x4026c0ac: o
+ - 0x4026c175: o
+ - 0x4026c397: o
+ - 0x4026c3ba: o
+ - 0x4026c403: o
+ - 0x4026c52e: o
+ - 0x4026c58f: o
+ - 0x4026c811: o
+ - 0x4026c884: o
+ - 0x4026c942: o
+ - 0x4026c989: o
+ - 0x4026c9ad: o
+ - 0x4026c9f1: o
+ - 0x4026ca8b: o
+ - 0x4026ca96: o
+ - 0x4026caa1: o
+ - 0x4026cb65: o
+ - 0x4026cc9a: o
+ - 0x4026cf4d: o
+ - 0x4026d064: o
+ - 0x4026d092: o
+ - 0x4026d0b8: o
+ - 0x4026d106: o
+ - 0x4026d239: o
+ - 0x4026d344: o
+ - 0x4026d49f: o
+ - 0x4026d612: o
+ - 0x4026d623: o
+ - 0x4026d631: o
+ - 0x4026d73a: o
+ - 0x4026d769: o
+ - 0x4026d7ed: o
+ - 0x4026d8ad: o
+ - 0x4026d8ee: o
+ - 0x4026d8f8: o
+ - 0x4026d928: o
+ - 0x4026d985: o
+ - 0x4026df37: o
+ - 0x4026e281: o
+ - 0x4026e503: o
+ - 0x4026e726: o
+ - 0x4026e738: o
+ - 0x4026e7d3: o
+ - 0x4026e83f: o
+ - 0x4026ed94: o
+ - 0x4026ef74: o
+ - 0x4026effc: o
+ - 0x4026f0be: o
+ - 0x4026f51d: o
+ - 0x4026f5a3: o
+ - 0x4026f5b3: o
+ - 0x4026f5bd: o
+ - 0x4026f5e9: o
+ - 0x4026f778: o
+ - 0x4026f7db: o
+ - 0x4026f7ef: o
+ - 0x4026f841: o
+ - 0x4026fa24: o
+ - 0x4026fa49: o
+ - 0x4026fb94: o
+ - 0x4026fba0: o
+ - 0x4026fd63: o
+ - 0x402704c1: o
+ - 0x402706f3: o
+ - 0x40270720: o
+ - 0x4027073f: o
+ - 0x40270757: o
+ - 0x4027076f: o
+ - 0x40271e78: o
+0x3ffedaa4:
+ f: D 04
+ l: rxiq_compute_num
+ cmnt: 'Array, num bytes: 4'
+0x3ffedaa8:
+ f: D 04
+ l: rx_table_renew_en
+ cmnt: 'Array, num bytes: 1'
+0x3ffedaac:
+ f: D 04
+ l: check_result
+ cmnt: 'Array, num bytes: 4'
+ x:
+ - 0x4026a468: o
+ - 0x4026a602: o
+ - 0x4026aa47: o
+ - 0x4026ba53: o
+0x3ffedab0:
+ f: D 04
+ l: chip6_sleep_params
+ cmnt: 'Array, num bytes: 148'
+ x:
+ - 0x40268af4: o
+ - 0x40268b75: o
+ - 0x402692e5: o
+ - 0x4026948e: o
+ - 0x402694b0: o
+ - 0x402694d0: o
+ - 0x40269563: o
+ - 0x40269719: o
+ - 0x4026981c: o
+ - 0x40269860: o
+ - 0x40269a11: o
+ - 0x40269a32: o
+ - 0x40269a65: o
+ - 0x40269a97: o
+ - 0x40269ad4: o
+ - 0x40269b03: o
+ - 0x40269da1: o
+ - 0x40269fd7: o
+ - 0x4026a05e: o
+ - 0x4026a311: o
+ - 0x4026a905: o
+ - 0x4026aac9: o
+ - 0x4026aad4: o
+ - 0x4026acd0: o
+ - 0x4026b021: o
+ - 0x4026b70f: o
+ - 0x4026bced: o
+ - 0x4026c971: o
+ - 0x4026c9e8: o
+ - 0x4026ca60: o
+ - 0x4026caaf: o
+ - 0x4026cade: o
+ - 0x4026cb0c: o
+ - 0x4026cb37: o
+ - 0x4026cbba: o
+ - 0x4026cc3e: o
+ - 0x4026cd71: o
+ - 0x4026ce77: o
+ - 0x4026ce8b: o
+ - 0x4026cef8: o
+ - 0x4026cf99: o
+ - 0x4026d02d: o
+ - 0x4026d08f: o
+ - 0x4026e373: o
+ - 0x4026e887: o
+ - 0x4026e8ca: o
+ - 0x4026e920: o
+ - 0x4026e9b2: o
+ - 0x4026fb4a: o
+ - 0x40270780: o
+ - 0x4027079d: o
+0x3ffedab6:
+ f: D 04
+ l:
+ x:
+ - 0x402699fc: o
+ - 0x40269a2d: o
+0x3ffedad0:
+ f: D 04
+ l:
+ x:
+ - 0x4026c960: o
+ - 0x4026c9c0: o
+0x3ffedad2:
+ f: D 04
+ l:
+ x:
+ - 0x4026d684: o
+ - 0x4026d694: o
+ - 0x4026d69f: o
+0x3ffedad3:
+ f: D 04
+ l:
+ x:
+ - 0x4026cd4c: o
+ - 0x4026cd5d: o
+ - 0x4026cd6c: o
+ - 0x4026cdb0: o
+ - 0x4026cde1: o
+ - 0x4026ce14: o
+ - 0x4026cea2: o
+ - 0x4026cedd: o
+ - 0x4026cf1b: o
+ - 0x4026cf88: o
+0x3ffedadb:
+ f: D 04
+ l:
+ x:
+ - 0x4026f9b8: o
+ - 0x4026f9c1: o
+0x3ffedadc:
+ f: D 04
+ l:
+ x:
+ - 0x4026f280: o
+ - 0x4026f332: o
+ - 0x4026f36f: o
+ - 0x4026f37d: o
+ - 0x4026f3a0: o
+ - 0x4026f446: o
+ - 0x4026f537: o
+ - 0x4026f55f: o
+ - 0x4026f576: o
+0x3ffedae2:
+ f: D 04
+ l:
+ x:
+ - 0x4026cbb0: o
+ - 0x4026cbfa: o
+ - 0x4026f8bc: o
+0x3ffedae4:
+ f: D 04
+ l:
+ x:
+ - 0x4026d32c: o
+ - 0x4026d3dd: o
+0x3ffedaf7:
+ f: D 04
+ l:
+ x:
+ - 0x4026d8e4: o
+ - 0x4026d91f: o
+ - 0x4026ef3c: o
+0x3ffedaf8:
+ f: D 04
+ l:
+ x:
+ - 0x4026e994: o
+ - 0x4026e998: o
+0x3ffedafa:
+ f: D 04
+ l:
+ x:
+ - 0x4026cfac: o
+ - 0x4026cfc7: o
+ - 0x4026d0db: o
+ - 0x4026fb6e: o
+0x3ffedafc:
+ f: D 04
+ l:
+ x:
+ - 0x4026df78: o
+ - 0x4026e011: o
+0x3ffedafd:
+ f: D 04
+ l:
+ x:
+ - 0x4026ed7c: o
+ - 0x4026edf5: o
+ - 0x4026ee48: o
+ - 0x4026ee7c: o
+ - 0x4026ef71: o
+0x3ffedb00:
+ f: D 04
+ l:
+ x:
+ - 0x4026af98: o
+ - 0x4026affe: o
+0x3ffedb03:
+ f: D 04
+ l:
+ x:
+ - 0x4026f2c0: o
+ - 0x4026f557: o
+ - 0x4026f61f: o
+0x3ffedb04:
+ f: D 04
+ l:
+ x:
+ - 0x4026ac1c: o
+ - 0x4026ae8a: o
+ - 0x4026d38c: o
+ - 0x4026e9bf: o
+ - 0x4026f62e: o
+0x3ffedb0b:
+ f: D 04
+ l:
+ x:
+ - 0x40269534: o
+ - 0x40269574: o
+ - 0x4026cb6b: o
+ - 0x4026cbe1: o
+0x3ffedb0d:
+ f: D 04
+ l:
+ x:
+ - 0x4026f2bc: o
+ - 0x4026f54d: o
+0x3ffedb29:
+ f: D 04
+ l:
+ x:
+ - 0x4026e82c: o
+ - 0x4026e8a8: o
+ - 0x4026e945: o
+ - 0x4026e95f: o
+0x3ffedb30:
+ f: D 04
+ l:
+ x:
+ - 0x4026ac14: o
+ - 0x4026ad93: o
+ - 0x4026adff: o
+ - 0x4026ae23: o
+ - 0x4026b03f: o
+ - 0x4026f106: o
+0x3ffedb3a:
+ f: D 04
+ l:
+ x:
+ - 0x4026fa38: o
+ - 0x4026fa41: o
+0x3ffedb3b:
+ f: D 04
+ l:
+ x:
+ - 0x4026cbac: o
+ - 0x4026cbec: o
+ - 0x4026cd1d: o
+0x3ffedb3c:
+ f: D 04
+ l:
+ x:
+ - 0x4026e70c: o
+ - 0x4026e71d: o
+ - 0x4026e771: o
+0x3ffedb3f:
+ f: D 04
+ l:
+ x:
+ - 0x4026ea74: o
+ - 0x4026ea7d: o
+ - 0x4026eaa1: o
+ - 0x4026eaaf: o
+0x3ffedb40:
+ f: D 04
+ l:
+ x:
+ - 0x4026e7bc: o
+ - 0x4026e7c5: o
+ - 0x4026e7da: o
+ - 0x4026e7e6: o
+ - 0x4026f8ed: o
+0x3ffedb44:
+ f: D 04
+ l: chip6_phy_init_ctrl
+ cmnt: 'Array, num bytes: 116'
+ x:
+ - 0x401027f4: o
+ - 0x4010295e: o
+ - 0x40102d54: o
+ - 0x40268aec: o
+ - 0x40268b01: o
+ - 0x40269064: o
+ - 0x40269288: o
+ - 0x402692fa: o
+ - 0x4026942b: o
+ - 0x402694b8: o
+ - 0x40269512: o
+ - 0x4026955a: o
+ - 0x40269949: o
+ - 0x40269b50: o
+ - 0x4026a30e: o
+ - 0x4026a927: o
+ - 0x4026aa44: o
+ - 0x4026aad7: o
+ - 0x4026afa2: o
+ - 0x4026b53b: o
+ - 0x4026b6d8: o
+ - 0x4026eae0: o
+ - 0x4026fd21: o
+ - 0x4026ff02: o
+ - 0x4026ff4e: o
+ - 0x4027014c: o
+ - 0x4027023f: o
+ - 0x402702df: o
+ - 0x402704a2: o
+ - 0x402707ad: o
+ - 0x40274ad0: o
+0x3ffedb47:
+ f: D 04
+ l:
+ x:
+ - 0x4026dff4: o
+ - 0x4026e367: o
+ - 0x4026eb0a: o
+0x3ffedb48:
+ f: D 04
+ l:
+ x:
+ - 0x4026ead0: o
+ - 0x4026eb2d: o
+0x3ffedb4a:
+ f: D 04
+ l:
+ x:
+ - 0x4026ead4: o
+ - 0x4026eb74: o
+0x3ffedb4c:
+ f: D 04
+ l:
+ x:
+ - 0x4026ead8: o
+ - 0x4026eb8a: o
+0x3ffedb5c:
+ f: D 04
+ l:
+ x:
+ - 0x4026f9d8: o
+ - 0x4026f9e4: o
+0x3ffedb6e:
+ f: D 04
+ l:
+ x:
+ - 0x4026af94: o
+ - 0x4026affb: o
+ - 0x4026ce4a: o
+ - 0x4026d6b8: o
+0x3ffedbb8:
+ f: D 04
+ l: phy_freq_offset
+ cmnt: 'Array, num bytes: 2'
+ x:
+ - 0x40269424: o
+ - 0x40269433: o
+ - 0x402694bb: o
+ - 0x40269560: o
+0x3ffedbba:
+ f: D 04
+ l: do_pwctrl_flag
+ cmnt: 'Array, num bytes: 1'
+ x:
+ - 0x4027057c: o
+ - 0x402707c5: o
+0x3ffedbbb:
+ f: D 04
+ l: txbk_dpdby_flag
+ cmnt: 'Array, num bytes: 1'
+0x3ffedbbd:
+ f: D 04
+ l: sw_scan_mode
+ cmnt: 'Array, num bytes: 1'
+0x3ffedbbe:
+ f: D 04
+ l: rxmax_ext_level
+ cmnt: 'Array, num bytes: 1'
+ x:
+ - 0x4026884c: o
+ - 0x40268869: o
+0x3ffedbc0:
+ f: D 04
+ l: phy_rx_gain_dc_table
+ cmnt: 'Array, num bytes: 4'
+ x:
+ - 0x4025243c: o
+ - 0x40252668: o
+ - 0x40252678: o
+ - 0x402715a1: o
+ - 0x40271f81: o
+0x3ffedbd4:
+ f: D 04
+ l: periodic_cal_flag
+ cmnt: 'Array, num bytes: 1'
+ x:
+ - 0x40102db8: o
+ - 0x40102e05: o
+ - 0x40270578: o
+ - 0x402706c0: o
+0x3ffedbd5:
+ f: D 04
+ l: bbpll_cal_flag
+ cmnt: 'Array, num bytes: 1'
+ x:
+ - 0x40102dbc: o
+ - 0x40102e28: o
+0x3ffedbd6:
+ f: D 04
+ l: phy_in_most_power
+ cmnt: 'Array, num bytes: 1'
+0x3ffedbd7:
+ f: D 04
+ l: init_rf_no_cal
+ cmnt: 'Array, num bytes: 1'
+ x:
+ - 0x40269598: o
+ - 0x40269616: o
+0x3ffedbd8:
+ f: D 04
+ l: test_print_time
+ cmnt: 'Array, num bytes: 4'
+0x3ffedbdc:
+ f: D 04
+ l: phy_in_vdd33_offset
+ cmnt: 'Array, num bytes: 1'
+ x:
+ - 0x4026af90: o
+ - 0x4026afe8: o
+0x3ffedbdd:
+ f: D 04
+ l: phy_set_most_tpw_disbg
+ cmnt: 'Array, num bytes: 1'
+ x:
+ - 0x4026af8c: o
+ - 0x4026afb4: o
+0x3ffedbde:
+ f: D 04
+ l: phy_set_most_tpw_index
+ cmnt: 'Array, num bytes: 1'
+ x:
+ - 0x4026aab8: o
+ - 0x4026ab66: o
+0x3ffedbe0:
+ f: D 04
+ l: adc_rand_noise
+ cmnt: 'Array, num bytes: 4'
+ x:
+ - 0x40270574: o
+ - 0x402706a9: o
+0x3ffedbe4:
+ f: D 04
+ l: phy_rx_gain_dc_flag
+ cmnt: 'Array, num bytes: 1'
+ x:
+ - 0x40271554: o
+ - 0x402715a9: o
+ - 0x402715f1: o
+ - 0x40271f8a: o
+ - 0x40271fd2: o
+0x3ffedbe5:
+ f: D 04
+ l: dpd_bypass_original
+ cmnt: 'Array, num bytes: 1'
+0x3ffedbe6:
+ f: D 04
+ l: phy_txpwr_diff_flash
+ cmnt: 'Array, num bytes: 2'
+0x3ffedbe8:
+ f: D 04
+ l: noise_array
+ cmnt: 'Array, num bytes: 8'
+ x:
+ - 0x4026d484: o
+ - 0x4026d4ef: o
+ - 0x4026d57e: o
+ - 0x4026d5e6: o
+0x3ffedbf0:
+ f: . 00
+ l:
+ x:
+ - 0x4026d328: o
+ - 0x4026d375: o
+ - 0x4026d3b6: o
+ - 0x4026d439: o
+0x3ffedbf2:
+ f: . 00
+ l:
+ x:
+ - 0x4026f2b4: o
+ - 0x4026f35c: o
+ - 0x4026f570: o
+ - 0x4026f59b: o
+0x3ffedbf4:
+ f: . 00
+ l:
+ x:
+ - 0x40102c9c: o
+ - 0x40102cad: o
+ - 0x40102cc4: o
+ - 0x40102cd1: o
+ - 0x4026fbb4: o
+ - 0x4026fbbd: o
+ - 0x4026fbd9: o
+ - 0x4026fbf5: o
+ - 0x4026fc07: o
+ - 0x4026fc21: o
+ - 0x4026fc3d: o
+ - 0x4026fc55: o
+ - 0x4026fc6d: o
+ - 0x4026fc85: o
+ - 0x4026fc9d: o
+0x3ffedbf8:
+ f: D 04
+ l: periodic_cal_sat
+ cmnt: 'Array, num bytes: 1'
+ x:
+ - 0x40102db4: o
+ - 0x40102dcc: o
+ - 0x40102e08: o
+ - 0x4026fcec: o
+ - 0x4026fcfe: o
+ - 0x4027003e: o
+ - 0x40270052: o
+ - 0x4027058f: o
+ - 0x402706b8: o
+ - 0x402706c9: o
+ - 0x402707b0: o
+0x3ffedbfa:
+ f: D 04
+ l: lslp_mem_opt_8266
+ cmnt: 'Array, num bytes: 2'
+0x3ffedbfc:
+ f: D 04
+ l: software_slp_reject
+ cmnt: 'Array, num bytes: 1'
+0x3ffedbfd:
+ f: D 04
+ l: SDIO_slp_reject
+ cmnt: 'Array, num bytes: 1'
+0x3ffedbfe:
+ f: D 04
+ l: hardware_reject
+ cmnt: 'Array, num bytes: 1'
+0x3ffedc00:
+ f: . 00
+ l:
+ x:
+ - 0x40102f48: o
+ - 0x40102f54: o
+ - 0x40102f71: o
+ - 0x40102f86: o
+ - 0x40270938: o
+ - 0x4027094b: o
+ - 0x402709de: o
+ - 0x40270a93: o
+ - 0x40270acb: o
+ - 0x40270b90: o
+ - 0x40270beb: o
+ - 0x40270c18: o
+ - 0x40270c44: o
+0x3ffedc20:
+ f: . 00
+ l:
+ x:
+ - 0x40270c5c: o
+ - 0x40270c7f: o
+0x3ffee170:
+ f: . 00
+ l:
+ x:
+ - 0x40270c64: o
+ - 0x40270cb0: o
+0x3ffee3d0:
+ f: . 00
+ l:
+ x:
+ - 0x40270c58: o
+ - 0x40270c7c: o
+0x3ffee650:
+ f: . 00
+ l:
+ x:
+ - 0x40270c68: o
+ - 0x40270d04: o
+0x3ffee6b0:
+ f: D 04
+ l: interface_mask
+ cmnt: 'Array, num bytes: 1'
+ x:
+ - 0x40270d68: o
+ - 0x40270d9a: o
+ - 0x40270dbc: o
+ - 0x40270dd6: o
+ - 0x40270df4: o
+ - 0x40270e00: o
+ - 0x40270f9e: o
+ - 0x40271058: o
+0x3ffee6b4:
+ f: . 00
+ l:
+ x:
+ - 0x40270f04: o
+ - 0x40270f6d: o
+ - 0x40270fb5: o
+ - 0x40271036: o
+ - 0x40271061: o
+ - 0x402710a1: o
+0x3ffee6d0:
+ f: D 04
+ l: if_ctrl
+ cmnt: 'Array, num bytes: 32'
+ x:
+ - 0x40270d48: o
+ - 0x40270d4c: o
+ - 0x40270d58: o
+ - 0x40270d7c: o
+ - 0x40270e18: o
+ - 0x40270e34: o
+ - 0x40270e44: o
+ - 0x40270e54: o
+ - 0x40270e64: o
+ - 0x40270e74: o
+0x3ffee6f0:
+ f: . 00
+ l:
+ x:
+ - 0x40102f94: o
+ - 0x40102f98: o
+ - 0x40102fd1: o
+ - 0x4010300d: o
+ - 0x40103072: o
+ - 0x401030f3: o
+ - 0x4010330e: o
+ - 0x40103480: o
+ - 0x40103500: o
+ - 0x4010350b: o
+ - 0x4010354b: o
+ - 0x401035d3: o
+ - 0x401035f9: o
+ - 0x40103652: o
+ - 0x4010380c: o
+ - 0x401038cc: o
+ - 0x401038ed: o
+ - 0x4010391c: o
+ - 0x40103d33: o
+ - 0x40103eaf: o
+ - 0x40103ef1: o
+ - 0x40103f8e: o
+ - 0x40103fa8: o
+ - 0x4010410c: o
+ - 0x4010428e: o
+ - 0x401042c4: o
+ - 0x401042fa: o
+ - 0x401043db: o
+ - 0x40104472: o
+ - 0x402711ec: o
+ - 0x4027124a: o
+ - 0x40271279: o
+ - 0x4027129c: o
+0x3ffee6f4:
+ f: D 04
+ l: lmacConfMib
+ cmnt: 'Array, num bytes: 32'
+ x:
+ - 0x4010534c: o
+ - 0x401053c5: o
+ - 0x40105863: o
+ - 0x401058ae: o
+0x3ffee718:
+ f: D 04
+ l: our_tx_eb
+ cmnt: 'Array, num bytes: 4'
+ x:
+ - 0x40105d78: o
+ - 0x40105ebb: o
+0x3ffee720:
+ f: . 00
+ l:
+ x:
+ - 0x40102fa8: o
+ - 0x40102fae: o
+ - 0x40103449: o
+ - 0x40103770: o
+ - 0x40103cca: o
+ - 0x40103e4e: o
+ - 0x4010423a: o
+ - 0x40104358: o
+ - 0x40104407: o
+ - 0x402711bc: o
+ - 0x402711c2: o
+0x3ffee840:
+ f: . 00
+ l:
+ x:
+ - 0x402712b8: o
+ - 0x402712f2: o
+ - 0x40271312: o
+ - 0x40271364: o
+ - 0x40271388: o
+ - 0x40271390: o
+ - 0x402713a4: o
+ - 0x402713b0: o
+ - 0x402713e1: o
+ - 0x40271472: o
+ - 0x402714fd: o
+ - 0x4027152a: o
+ - 0x40271565: o
+ - 0x4027168c: o
+ - 0x402716b0: o
+ - 0x402716bf: o
+ - 0x402716f0: o
+ - 0x402717a3: o
+ - 0x402717bd: o
+ - 0x402717df: o
+ - 0x402717f6: o
+ - 0x4027180e: o
+ - 0x40271846: o
+ - 0x402718fe: o
+ - 0x40271a5b: o
+ - 0x40271a8f: o
+ - 0x40271aed: o
+ - 0x40271d61: o
+ - 0x40271d9e: o
+ - 0x40271dd6: o
+ - 0x40271e04: o
+0x3ffee858:
+ f: . 00
+ l:
+ x:
+ - 0x402713cc: o
+ - 0x40271403: o
+ - 0x40271823: o
+0x3ffee880:
+ f: D 04
+ l: pmc
+ cmnt: 'Array, num bytes: 232'
+ x:
+ - 0x40271e0c: o
+ - 0x40271e13: o
+ - 0x40271e48: o
+ - 0x40271e7b: o
+ - 0x40271e8a: o
+ - 0x40271e93: o
+ - 0x40271ebc: o
+ - 0x40271ec8: o
+ - 0x40271eea: o
+ - 0x40271ef6: o
+ - 0x40271f39: o
+ - 0x40272068: o
+ - 0x402720b5: o
+ - 0x40272228: o
+ - 0x40272261: o
+ - 0x40272344: o
+ - 0x40272365: o
+ - 0x402723d4: o
+ - 0x40272410: o
+ - 0x40272432: o
+ - 0x4027250c: o
+ - 0x4027251d: o
+ - 0x40272633: o
+ - 0x4027266f: o
+ - 0x402726ac: o
+ - 0x40272719: o
+ - 0x402727f7: o
+ - 0x4027280f: o
+ - 0x4027284d: o
+ - 0x40272960: o
+ - 0x40272bf3: o
+ - 0x40272c2c: o
+ - 0x40272c53: o
+ - 0x40272c68: o
+ - 0x40272c7b: o
+ - 0x40272c98: o
+ - 0x40272cd8: o
+ - 0x40272ce0: o
+ - 0x40272d03: o
+ - 0x40272ef7: o
+ - 0x40272f35: o
+ - 0x40272faa: o
+ - 0x40273068: o
+ - 0x40273129: o
+ - 0x402731b8: o
+ - 0x402731ff: o
+ - 0x40273220: o
+ - 0x402732a4: o
+ - 0x402732ef: o
+ - 0x40273324: o
+ - 0x402733b0: o
+ - 0x402733d1: o
+ - 0x40273547: o
+ - 0x40273570: o
+ - 0x40273588: o
+ - 0x402735af: o
+ - 0x40273606: o
+ - 0x40273684: o
+ - 0x40273698: o
+ - 0x402736c0: o
+ - 0x402736d1: o
+ - 0x402736f1: o
+ - 0x40273721: o
+ - 0x402737b3: o
+ - 0x40273820: o
+0x3ffee8bd:
+ f: D 04
+ l:
+ x:
+ - 0x40272840: o
+ - 0x402728d8: o
+ - 0x402730e5: o
+ - 0x402734f3: o
+0x3ffee8d0:
+ f: D 04
+ l:
+ x:
+ - 0x40272934: o
+ - 0x402729c1: o
+ - 0x40273365: o
+0x3ffee8e4:
+ f: D 04
+ l:
+ x:
+ - 0x40272538: o
+ - 0x4027253c: o
+ - 0x402725b6: o
+ - 0x402726c2: o
+ - 0x4027272f: o
+ - 0x40272b82: o
+ - 0x40273373: o
+0x3ffee8f8:
+ f: D 04
+ l:
+ x:
+ - 0x40272f88: o
+ - 0x40272f9d: o
+ - 0x4027305b: o
+ - 0x4027327c: o
+ - 0x40273381: o
+ - 0x40273419: o
+0x3ffee920:
+ f: D 04
+ l:
+ x:
+ - 0x402727f0: o
+ - 0x40272803: o
+ - 0x4027289b: o
+ - 0x4027338f: o
+0x3ffee924:
+ f: D 04
+ l:
+ x:
+ - 0x402732b8: o
+ - 0x402732f2: o
+ - 0x4027332e: o
+0x3ffee934:
+ f: D 04
+ l:
+ x:
+ - 0x40272358: o
+ - 0x402723ac: o
+ - 0x40272758: o
+0x3ffee938:
+ f: D 04
+ l:
+ x:
+ - 0x40273768: o
+ - 0x4027380a: o
+0x3ffee980:
+ f: . 00
+ l:
+ x:
+ - 0x402732dc: o
+ - 0x402733a2: o
+0x3ffee9a0:
+ f: . 00
+ l:
+ x:
+ - 0x40273718: o
+ - 0x40273733: o
+ - 0x40273773: o
+ - 0x40273789: o
+0x3ffee9a4:
+ f: . 00
+ l:
+ x:
+ - 0x40271ea0: o
+ - 0x40271ea9: o
+ - 0x40271eb4: o
+0x3ffee9a5:
+ f: . 00
+ l:
+ x:
+ - 0x40272938: o
+ - 0x40272a68: o
+ - 0x40272aa5: o
+0x3ffee9a6:
+ f: . 00
+ l:
+ x:
+ - 0x4027293c: o
+ - 0x40272ab6: o
+0x3ffee9a8:
+ f: . 00
+ l:
+ x:
+ - 0x40272f8c: o
+ - 0x40272fc0: o
+ - 0x40273021: o
+0x3ffee9a9:
+ f: . 00
+ l:
+ x:
+ - 0x40273050: o
+ - 0x40273077: o
+ - 0x402730fb: o
+0x3ffee9b0:
+ f: . 00
+ l:
+ x:
+ - 0x401045dc: o
+ - 0x401045e8: o
+ - 0x40104668: o
+ - 0x40104d27: o
+ - 0x40104d4d: o
+ - 0x40273868: o
+ - 0x40273884: o
+ - 0x402738c4: o
+ - 0x402738ee: o
+ - 0x40273925: o
+ - 0x402739b5: o
+ - 0x40273af9: o
+ - 0x40273b1d: o
+ - 0x40273b45: o
+ - 0x40273c01: o
+ - 0x40273c12: o
+ - 0x40273c34: o
+ - 0x40273d2d: o
+ - 0x40273d40: o
+ - 0x40273d62: o
+ - 0x40273eb7: o
+ - 0x40274038: o
+ - 0x40274059: o
+ - 0x402743c6: o
+ - 0x40274605: o
+ - 0x402747bf: o
+ - 0x402747df: o
+0x3ffee9b4:
+ f: . 00
+ l:
+ x:
+ - 0x40273978: o
+ - 0x4027397c: o
+ - 0x4027399c: o
+ - 0x40273a36: o
+ - 0x40273ac3: o
+ - 0x40273ad3: o
+ - 0x40274ac5: o
+0x3ffee9c8:
+ f: D 04
+ l: pend_flag_noise_check
+ cmnt: 'Array, num bytes: 1'
+ x:
+ - 0x4027155c: o
+ - 0x40271625: o
+ - 0x40272005: o
+0x3ffee9d0:
+ f: D 04
+ l: pend_flag_periodic_cal
+ cmnt: 'Array, num bytes: 1'
+ x:
+ - 0x40271558: o
+ - 0x402715f4: o
+ - 0x40271fd5: o
+0x3ffee9d4:
+ f: . 00
+ l:
+ x:
+ - 0x40273af0: o
+ - 0x40273b07: o
+ - 0x40273b53: o
+ - 0x40274ab7: o
+0x3ffee9e8:
+ f: D 04
+ l: idle_timer_reopen_flag
+ cmnt: 'Array, num bytes: 1'
+ x:
+ - 0x40272244: o
+ - 0x402722a1: o
+0x3ffee9ea:
+ f: D 04
+ l: dbg_stop_sw_wdt
+ cmnt: 'Array, num bytes: 1'
+0x3ffee9eb:
+ f: D 04
+ l: dbg_stop_hw_wdt
+ cmnt: 'Array, num bytes: 1'
+0x3ffee9ed:
+ f: D 04
+ l: total_buffed_eb_num
+ cmnt: 'Array, num bytes: 1'
+ x:
+ - 0x4025eb18: o
+ - 0x4025ec30: o
+0x3ffee9f0:
+ f: D 04
+ l: HighestFreqOffsetInOneChk
+ cmnt: 'Array, num bytes: 2'
+ x:
+ - 0x4025ffe4: o
+ - 0x40260055: o
+ - 0x40260148: o
+0x3ffee9f2:
+ f: D 04
+ l: LowestFreqOffsetInOneChk
+ cmnt: 'Array, num bytes: 2'
+ x:
+ - 0x4025ffe0: o
+ - 0x40260058: o
+ - 0x40260143: o
+0x3ffee9f4:
+ f: D 04
+ l: DefFreqCalTimer
+ cmnt: 'Array, num bytes: 20'
+ x:
+ - 0x4025fff4: o
+ - 0x402600fe: o
+ - 0x40274703: o
+ - 0x4027472c: o
+0x3ffeea08:
+ f: D 04
+ l: PktNumInOneChk
+ cmnt: 'Array, num bytes: 2'
+ x:
+ - 0x4025fffc: o
+ - 0x40260151: o
+0x3ffeea0c:
+ f: . 00
+ l:
+ x:
+ - 0x3ffe81a0: o
+0x3ffeeb80:
+ f: . 00
+ l:
+ x:
+ - 0x40104cf0: o
+ - 0x40104d03: o
+ - 0x40273bec: o
+ - 0x40273c44: o
+ - 0x40273c90: o
+ - 0x40273cd1: o
+ - 0x40273cf7: o
+ - 0x40273d28: o
+ - 0x40273d7b: o
+ - 0x40273d9c: o
+ - 0x40273ddb: o
+0x3ffeeb90:
+ f: D 04
+ l: buffed_eb_arr
+ cmnt: 'Array, num bytes: 40'
+ x:
+ - 0x40273ea8: o
+ - 0x40273ec9: o
+ - 0x40273ee0: o
+ - 0x40274095: o
+0x3ffeebc0:
+ f: . 00
+ l:
+ x:
+ - 0x402749f8: o
+ - 0x40274aac: o
+0x3ffeecd0:
+ f: . 00
+ l:
+ x:
+ - 0x40274250: o
+ - 0x402742d0: o
+ - 0x402742ed: o
+ - 0x40274304: o
+0x3ffeecd1:
+ f: . 00
+ l:
+ x:
+ - 0x40274af4: o
+ - 0x40274b0d: o
+0x3ffeece0:
+ f: . 00
+ l:
+ x:
+ - 0x40104eb4: o
+ - 0x40104eb8: o
+ - 0x40104ec4: o
+ - 0x40104ed4: o
+ - 0x40104f27: o
+ - 0x40104f5f: o
+ - 0x40274e08: o
+ - 0x40274e80: o
+ - 0x40275061: o
+0x3ffeede0:
+ f: . 00
+ l:
+ x:
+ - 0x401055e4: o
+ - 0x40105626: o
+ - 0x4010578b: o
+ - 0x40275390: o
+ - 0x402753a0: o
+ - 0x40275483: o
+ - 0x40275500: o
+ - 0x40275568: o
+ - 0x40275638: o
+ - 0x40275658: o
+ - 0x4027566d: o
+0x3ffeede6:
+ f: . 00
+ l:
+ x:
+ - 0x40275508: o
+ - 0x40275519: o
+ - 0x4027558a: o
+ - 0x402755d3: o
+0x3ffeedf0:
+ f: . 00
+ l:
+ x:
+ - 0x402753e8: o
+ - 0x402753ec: o
+ - 0x4027542d: o
+ - 0x402755a0: o
+ - 0x402755f5: o
+0x3ffef250:
+ f: D 04
+ l: wDevCtrl
+ cmnt: 'Array, num bytes: 64'
+ x:
+ - 0x3ffe843c: o
+ - 0x40105a40: o
+ - 0x40105a51: o
+ - 0x40105a76: o
+ - 0x40105df6: o
+ - 0x40105e59: o
+ - 0x40105f40: o
+ - 0x40105f51: o
+ - 0x40105fa3: o
+ - 0x40105fea: o
+ - 0x40106791: o
+ - 0x40270c60: o
+ - 0x40270c89: o
+ - 0x40273940: o
+ - 0x40273958: o
+ - 0x402739d1: o
+ - 0x402757d4: o
+ - 0x402757fb: o
+0x3ffef290:
+ f: . 00
+ l:
+ x:
+ - 0x40105d80: o
+ - 0x40105f03: o
+ - 0x401060ed: o
+ - 0x40106174: o
+0x3ffef350:
+ f: . 00
+ l:
+ x:
+ - 0x40105aac: o
+ - 0x40105b14: o
+ - 0x40105c55: o
+ - 0x40105c67: o
+0x3ffef370:
+ f: . 00
+ l:
+ x:
+ - 0x401064cc: o
+ - 0x401064e5: o
+ - 0x40275a70: o
+ - 0x40275acd: o
+ - 0x4027603d: o
+0x3ffef3f8:
+ f: D 04
+ l: WdevTimOffSet
+ cmnt: 'Array, num bytes: 4'
+ x:
+ - 0x40102638: o
+ - 0x40102640: o
+ - 0x402716b8: o
+ - 0x402716e8: o
+ - 0x40272bf0: o
+0x3ffef400:
+ f: . 00
+ l:
+ x:
+ - 0x40275834: o
+ - 0x4027585a: o
+ - 0x40275980: o
+0x3fff19e8:
+ f: . 00
+ l:
+ x:
+ - 0x40275840: o
+ - 0x40275986: o
+0x3fff19f0:
+ f: . 00
+ l:
+ x:
+ - 0x40275838: o
+ - 0x402758e5: o
+0x3fff1a70:
+ f: . 00
+ l:
+ x:
+ - 0x4027583c: o
+ - 0x4027590e: o
+ - 0x40275992: o
+0x3fff1fd8:
+ f: . 00
+ l:
+ x:
+ - 0x40105ccc: o
+ - 0x40105ce2: o
+0x3fff212a:
+ f: . 00
+ l:
+ x:
+ - 0x40276350: o
+ - 0x40276611: o
+0x3fff2130:
+ f: . 00
+ l:
+ x:
+ - 0x40276318: o
+ - 0x402763a2: o
+ - 0x40276491: o
+ - 0x40276506: o
+ - 0x4027651c: o
+ - 0x40276533: o
+ - 0x40276585: o
+ - 0x402765e0: o
+ - 0x402765f0: o
+0x3fff21d0:
+ f: . 00
+ l:
+ x:
+ - 0x40105d54: o
+ - 0x40105d5d: o
+ - 0x40275844: o
+ - 0x40275998: o
+0x3fff21e0:
+ f: D 04
+ l: pwm
+ cmnt: 'Array, num bytes: 40'
+ x:
+ - 0x40106988: o
+ - 0x401069a1: o
+ - 0x40106d0e: o
+ - 0x40106d48: o
+ - 0x40276314: o
+ - 0x40276393: o
+ - 0x402767ce: o
+ - 0x402767e5: o
+ - 0x40276814: o
+ - 0x40276840: o
+ - 0x4027684c: o
+ - 0x40276871: o
+ - 0x40276970: o
+0x3fff2208:
+ f: D 04
+ l: light_debug_en_33
+ cmnt: 'Array, num bytes: 1'
+0x3fff220c:
+ f: D 04
+ l: pwm_chn_num_36
+ cmnt: 'Array, num bytes: 4'
+0x3fff2210:
+ f: D 04
+ l: pwm_gpio_38
+ cmnt: 'Array, num bytes: 2'
+0x3fff2212:
+ f: D 04
+ l: local_channel_39
+ cmnt: 'Array, num bytes: 1'
+0x3fff2213:
+ f: D 04
+ l: init_flg_45
+ cmnt: 'Array, num bytes: 1'
+0x3fff2214:
+ f: D 04
+ l: run_pwm_toggle_46
+ cmnt: 'Array, num bytes: 1'
+0x3fff2218:
+ f: D 04
+ l: pwm_single_50
+ cmnt: 'Array, num bytes: 4'
+0x3fff221c:
+ f: D 04
+ l: pwm_channel_51
+ cmnt: 'Array, num bytes: 1'
+0x3fff2220:
+ f: D 04
+ l: pwm_single_lsb_52
+ cmnt: 'Array, num bytes: 4'
+0x3fff2224:
+ f: D 04
+ l: update_flg_54
+ cmnt: 'Array, num bytes: 1'
+0x3fff2226:
+ f: D 04
+ l: rest_num_62
+ cmnt: 'Array, num bytes: 2'
+0x3fff2228:
+ f: D 04
+ l: pwm_current_channel_64
+ cmnt: 'Array, num bytes: 1'
+0x3fff2230:
+ f: D 04
+ l: local_single_30
+ cmnt: 'Array, num bytes: 80'
+ x:
+ - 0x4027630c: o
+ - 0x4027636e: o
+ - 0x402764ce: o
+ - 0x4027657a: o
+ - 0x402765c1: o
+ - 0x40276640: o
+ - 0x4027667e: o
+ - 0x40276726: o
+0x3fff2280:
+ f: D 04
+ l: local_single_lsb_31
+ cmnt: 'Array, num bytes: 32'
+ x:
+ - 0x40276310: o
+ - 0x40276388: o
+ - 0x402763ee: o
+ - 0x4027654f: o
+ - 0x402766b1: o
+ - 0x40276759: o
+0x3fff22a0:
+ f: D 04
+ l: run_pwm_single_47
+ cmnt: 'Array, num bytes: 160'
+ x:
+ - 0x40106d30: o
+ - 0x40106de3: o
+ - 0x40276354: o
+ - 0x40276664: o
+ - 0x402766d0: o
+0x3fff2340:
+ f: D 04
+ l: run_pwm_channel_48
+ cmnt: 'Array, num bytes: 2'
+ x:
+ - 0x40106d2c: o
+ - 0x40106de9: o
+ - 0x4027635c: o
+ - 0x402766a4: o
+ - 0x40276749: o
+0x3fff2344:
+ f: . 00
+ l:
+ x:
+ - 0x40278058: o
+ - 0x40278110: o
+ - 0x40278184: o
+0x3fff2350:
+ f: D 04
+ l: run_pwm_single_lsb_49
+ cmnt: 'Array, num bytes: 64'
+ x:
+ - 0x40276358: o
+ - 0x40276667: o
+0x3fff2390:
+ f: D 04
+ l: pAKGuideGlob
+ cmnt: 'Array, num bytes: 4'
+ x:
+ - 0x40276980: o
+ - 0x40276999: o
+ - 0x402769ad: o
+ - 0x402769be: o
+ - 0x402769e4: o
+ - 0x402769fb: o
+ - 0x40276a19: o
+ - 0x40276a2f: o
+ - 0x40276a40: o
+ - 0x40276a75: o
+ - 0x40276a8b: o
+ - 0x40276a9c: o
+ - 0x40276ac4: o
+ - 0x40276adc: o
+ - 0x40276aec: o
+ - 0x40276b04: o
+ - 0x40276bb7: o
+ - 0x40276d9d: o
+ - 0x40276f13: o
+ - 0x40276f44: o
+ - 0x40276fa5: o
+ - 0x40276fe7: o
+ - 0x40276ff5: o
+ - 0x40277031: o
+ - 0x40277071: o
+ - 0x4027709d: o
+ - 0x402770d5: o
+ - 0x402770f6: o
+ - 0x40277122: o
+ - 0x402772f7: o
+ - 0x40277330: o
+ - 0x40277342: o
+ - 0x402774ee: o
+ - 0x402781a8: o
+ - 0x40278268: o
+ - 0x402783ca: o
+ - 0x4027aa6f: o
+ - 0x4027aff9: o
+ - 0x4027b152: o
+0x3fff2394:
+ f: D 04
+ l: pAkTrans
+ cmnt: 'Array, num bytes: 4'
+ x:
+ - 0x4027af50: o
+ - 0x4027b016: o
+ - 0x4027b116: o
+0x3fff2398:
+ f: D 04
+ l: pAkDiret
+ cmnt: 'Array, num bytes: 4'
+ x:
+ - 0x4027af4c: o
+ - 0x4027b004: o
+ - 0x4027b165: o
+0x3fff239c:
+ f: D 04
+ l: KissRes_ht20_timer
+ cmnt: 'Array, num bytes: 20'
+ x:
+ - 0x40276b94: o
+ - 0x40276cf7: o
+ - 0x40277441: o
+ - 0x4027744a: o
+ - 0x40277458: o
+ - 0x402781e6: o
+ - 0x4027b044: o
+ - 0x4027b08b: o
+0x3fff23b0:
+ f: . 00
+ l:
+ x:
+ - 0x40278054: o
+ - 0x40278101: o
+ - 0x402781fd: o
+0x3fff23d8:
+ f: . 00
+ l:
+ x:
+ - 0x40278288: o
+ - 0x402782cd: o
+ - 0x402782e9: o
+0x3fff23e8:
+ f: . 00
+ l:
+ x:
+ - 0x402783a4: o
+ - 0x402783fe: o
+0x3fff23ec:
+ f: . 00
+ l:
+ x:
+ - 0x4027833c: o
+ - 0x4027837f: o
+0x3fff2411:
+ f: . 00
+ l:
+ x:
+ - 0x4027806c: o
+ - 0x402781b7: o
+0x3fff2418:
+ f: D 04
+ l: pKissConn
+ cmnt: 'Array, num bytes: 28'
+ x:
+ - 0x4027828c: o
+ - 0x402782fd: o
+ - 0x40278376: o
+ - 0x40278432: o
+ - 0x4027b029: o
+ - 0x4027b02f: o
+0x3fff241c:
+ f: D 04
+ l:
+ x:
+ - 0x40279144: o
+ - 0x402796a1: o
+ - 0x4027a414: o
+0x3fff2434:
+ f: D 04
+ l: weixin_timer
+ cmnt: 'Array, num bytes: 20'
+ x:
+ - 0x40278338: o
+ - 0x40278363: o
+ - 0x40278442: o
+ - 0x4027b020: o
+0x3fff2448:
+ f: D 04
+ l: pETGuideGlob
+ cmnt: 'Array, num bytes: 4'
+ x:
+ - 0x402784bc: o
+ - 0x402784d9: o
+ - 0x40278573: o
+ - 0x402785ca: o
+ - 0x402785e8: o
+ - 0x40278624: o
+ - 0x4027863c: o
+ - 0x40278689: o
+ - 0x402788eb: o
+ - 0x40279192: o
+ - 0x40279a59: o
+ - 0x40279bdb: o
+ - 0x40279bfb: o
+ - 0x40279c3a: o
+ - 0x40279c88: o
+ - 0x40279d54: o
+ - 0x40279d78: o
+ - 0x40279d8a: o
+ - 0x40279e02: o
+ - 0x4027a65a: o
+ - 0x4027a6bf: o
+ - 0x4027a6d4: o
+ - 0x4027a748: o
+ - 0x4027a764: o
+ - 0x4027a7d9: o
+ - 0x4027a7fe: o
+ - 0x4027a817: o
+ - 0x4027aa4d: o
+0x3fff244c:
+ f: D 04
+ l: pCHListHead
+ cmnt: 'Array, num bytes: 4'
+0x3fff2450:
+ f: D 04
+ l: pCHListTral
+ cmnt: 'Array, num bytes: 4'
+0x3fff2454:
+ f: D 04
+ l: pTouchGlob
+ cmnt: 'Array, num bytes: 4'
+ x:
+ - 0x4027af48: o
+ - 0x4027af73: o
+ - 0x4027b17b: o
+0x3fff2458:
+ f: D 04
+ l: TouchRestart_ht20_timer
+ cmnt: 'Array, num bytes: 20'
+ x:
+ - 0x4027865c: o
+ - 0x4027875e: o
+ - 0x40278e8e: o
+ - 0x40278e97: o
+ - 0x40278ea5: o
+ - 0x4027980d: o
+ - 0x4027a591: o
+ - 0x4027afa3: o
+0x3fff246c:
+ f: . 00
+ l:
+ x:
+ - 0x40279140: o
+ - 0x40279691: o
+ - 0x40279796: o
+ - 0x4027a401: o
+ - 0x4027a53b: o
+ - 0x4027a5b2: o
+0x3fff2478:
+ f: . 00
+ l:
+ x:
+ - 0x40279148: o
+ - 0x4027979b: o
+ - 0x4027a517: o
+0x3fff248c:
+ f: . 00
+ l:
+ x:
+ - 0x40279150: o
+ - 0x402797b7: o
+ - 0x4027a52f: o
+0x3fff24b8:
+ f: . 00
+ l:
+ x:
+ - 0x4027a864: o
+ - 0x4027a893: o
+ - 0x4027a8ad: o
+ - 0x4027a8b5: o
+ - 0x4027a8cd: o
+0x3fff24bc:
+ f: . 00
+ l:
+ x:
+ - 0x4027a7cc: o
+ - 0x4027a83b: o
+0x3fff24d4:
+ f: D 04
+ l: TouchRestart_ht40_timer
+ cmnt: 'Array, num bytes: 20'
+ x:
+ - 0x40279164: o
+ - 0x40279804: o
+ - 0x40279d0d: o
+ - 0x4027a588: o
+ - 0x4027afd0: o
+ - 0x4027b0b5: o
+0x3fff24e8:
+ f: D 04
+ l: pTouchConn
+ cmnt: 'Array, num bytes: 28'
+ x:
+ - 0x4027a704: o
+ - 0x4027a789: o
+ - 0x4027a832: o
+ - 0x4027a8ca: o
+ - 0x4027a8dd: o
+ - 0x4027a8e6: o
+ - 0x4027af8a: o
+ - 0x4027af90: o
+0x3fff2504:
+ f: D 04
+ l: TouchUdpTimer
+ cmnt: 'Array, num bytes: 20'
+ x:
+ - 0x4027a7c8: o
+ - 0x4027a811: o
+ - 0x4027a8ec: o
+ - 0x4027a8f5: o
+ - 0x4027a903: o
+ - 0x4027af76: o
+0x3fff2518:
+ f: . 00
+ l:
+ x:
+ - 0x4027a7c4: o
+ - 0x4027a806: o
+ - 0x4027a84c: o
+0x3fff251c:
+ f: D 04
+ l: pAPListHead
+ cmnt: 'Array, num bytes: 4'
+ x:
+ - 0x40276b8c: o
+ - 0x40276cbe: o
+ - 0x40276d8e: o
+ - 0x4027717a: o
+ - 0x4027772d: o
+ - 0x40278723: o
+ - 0x402788c6: o
+ - 0x4027917e: o
+ - 0x40279743: o
+ - 0x40279df0: o
+ - 0x4027a4b2: o
+ - 0x4027a604: o
+ - 0x4027a92d: o
+ - 0x4027a941: o
+ - 0x4027a977: o
+ - 0x4027a9c1: o
+ - 0x4027a9ee: o
+ - 0x4027aae7: o
+ - 0x4027abcb: o
+ - 0x4027ae2a: o
+ - 0x4027aed8: o
+ - 0x4027aef4: o
+ - 0x4027af0a: o
+ - 0x4027afa8: o
+ - 0x4027b049: o
+ - 0x4027b0d5: o
+ - 0x4027b101: o
+0x3fff2520:
+ f: D 04
+ l: pAPListTral
+ cmnt: 'Array, num bytes: 4'
+0x3fff2524:
+ f: D 04
+ l: smartconfig_cb
+ cmnt: 'Array, num bytes: 4'
+ x:
+ - 0x40276ba4: o
+ - 0x40276d31: o
+ - 0x4027747d: o
+ - 0x402781fa: o
+ - 0x4027838d: o
+ - 0x4027880c: o
+ - 0x40278f82: o
+ - 0x4027982d: o
+ - 0x40279d6b: o
+ - 0x4027a5af: o
+ - 0x4027a849: o
+0x3fff2528:
+ f: D 04
+ l: SnifGlob
+ cmnt: 'Array, num bytes: 16'
+ x:
+ - 0x40276b5c: o
+ - 0x40276bd4: o
+ - 0x40276df9: o
+ - 0x40276f2e: o
+ - 0x40276fa2: o
+ - 0x40276fef: o
+ - 0x40277013: o
+ - 0x402770bd: o
+ - 0x4027739d: o
+ - 0x402773af: o
+ - 0x4027741b: o
+ - 0x40277468: o
+ - 0x402774a6: o
+ - 0x402774bd: o
+ - 0x402774d7: o
+ - 0x402776b1: o
+ - 0x402776c8: o
+ - 0x40277887: o
+ - 0x402778d2: o
+ - 0x40277977: o
+ - 0x40277998: o
+ - 0x402779bd: o
+ - 0x40277a53: o
+ - 0x40277c05: o
+ - 0x40277d60: o
+ - 0x40277ddc: o
+ - 0x40277e6c: o
+ - 0x40277eae: o
+ - 0x40277f32: o
+ - 0x40277f85: o
+ - 0x40277fd0: o
+ - 0x40278023: o
+ - 0x4027803a: o
+ - 0x4027829d: o
+ - 0x40278343: o
+ - 0x402783bb: o
+ - 0x402785cd: o
+ - 0x402786dc: o
+ - 0x402787e0: o
+ - 0x40278af3: o
+ - 0x40278c4c: o
+ - 0x40278d3c: o
+ - 0x40278d9b: o
+ - 0x40278dae: o
+ - 0x40278e28: o
+ - 0x40278ebe: o
+ - 0x40278f58: o
+ - 0x40278f8e: o
+ - 0x40278faa: o
+ - 0x4027900f: o
+ - 0x4027907a: o
+ - 0x402790c7: o
+ - 0x402792aa: o
+ - 0x402793f9: o
+ - 0x4027953d: o
+ - 0x40279642: o
+ - 0x402797cb: o
+ - 0x4027992a: o
+ - 0x40279a12: o
+ - 0x40279c77: o
+ - 0x40279f3e: o
+ - 0x4027a0c0: o
+ - 0x4027a0dd: o
+ - 0x4027a11d: o
+ - 0x4027a137: o
+ - 0x4027a2ae: o
+ - 0x4027a4ec: o
+ - 0x4027a544: o
+ - 0x4027a715: o
+ - 0x4027a7d6: o
+ - 0x4027a814: o
+ - 0x4027a87d: o
+0x3fff2530:
+ f: D 04
+ l:
+ x:
+ - 0x40276ba8: o
+ - 0x40276d38: o
+ - 0x402771c4: o
+ - 0x40278815: o
+ - 0x4027894d: o
+ - 0x40279d72: o
+0x3fff2538:
+ f: D 04
+ l: channel_timer
+ cmnt: 'Array, num bytes: 20'
+ x:
+ - 0x40276b90: o
+ - 0x40276ce8: o
+ - 0x40277432: o
+ - 0x4027874c: o
+ - 0x40278e6d: o
+ - 0x40279d04: o
+ - 0x4027a9d8: o
+ - 0x4027aa1e: o
+ - 0x4027aac6: o
+ - 0x4027adab: o
+ - 0x4027af5b: o
+ - 0x4027afc7: o
+ - 0x4027b068: o
+ - 0x4027b0ac: o
+0x3fff254c:
+ f: D 04
+ l: def_certificate
+ cmnt: 'Array, num bytes: 4'
+ x:
+ - 0x4027b4d0: o
+ - 0x4027b4f1: o
+ - 0x4027b507: o
+ - 0x4027b539: o
+ - 0x4027b54f: o
+ - 0x4027b57c: o
+ - 0x4027b58a: o
+ - 0x4027b5a1: o
+ - 0x402829aa: o
+0x3fff2550:
+ f: D 04
+ l: def_certificate_len
+ cmnt: 'Array, num bytes: 4'
+ x:
+ - 0x4028293c: o
+ - 0x402829b5: o
+0x3fff2554:
+ f: D 04
+ l: def_private_key
+ cmnt: 'Array, num bytes: 4'
+ x:
+ - 0x40282934: o
+ - 0x40282973: o
+0x3fff2558:
+ f: D 04
+ l: def_private_key_len
+ cmnt: 'Array, num bytes: 4'
+ x:
+ - 0x40282938: o
+ - 0x4028297f: o
+0x3fff2560:
+ f: D 04
+ l: pfile_param
+ cmnt: 'Array, num bytes: 4'
+ x:
+ - 0x4027b908: o
+ - 0x4027b978: o
+ - 0x4027c25b: o
+ - 0x4027c92d: o
+ - 0x4027c97d: o
+ - 0x4027c9f4: o
+ - 0x4027ca24: o
+ - 0x4027ca5d: o
+ - 0x40282111: o
+ - 0x40282128: o
+0x3fff2568:
+ f: D 04
+ l: plink_server
+ cmnt: 'Array, num bytes: 4'
+0x3fff2570:
+ f: . 00
+ l:
+ x:
+ - 0x4027ca44: o
+ - 0x4027ca4d: o
+0x3fff25e8:
+ f: D 04
+ l: hex_finish
+ cmnt: 'Array, num bytes: 4'
+0x3fff25ec:
+ f: D 04
+ l: hex_index
+ cmnt: 'Array, num bytes: 4'
+0x3fff25f0:
+ f: . 00
+ l:
+ x:
+ - 0x402842b0: o
+ - 0x402842d4: o
+0x3fff25f4:
+ f: . 00
+ l:
+ x:
+ - 0x40289034: o
+ - 0x40289038: o
+ - 0x40289058: o
+ - 0x40289083: o
+ - 0x402891f3: o
+ - 0x40289222: o
+ - 0x40289249: o
+ - 0x402897b5: o
+ - 0x40289868: o
+ - 0x40289890: o
+ - 0x4028992d: o
+ - 0x40289a10: o
+ - 0x40289b3d: o
+ - 0x40289b96: o
+ - 0x40289ba6: o
+ - 0x40289c3e: o
+ - 0x40289c73: o
+ - 0x40289e30: o
+ - 0x40289e54: o
+ - 0x40289e6d: o
+ - 0x40289e78: o
+ - 0x40289e98: o
+ - 0x40289eb2: o
+ - 0x40289ec6: o
+ - 0x40289edc: o
+ - 0x40289ef9: o
+ - 0x40289f0c: o
+ - 0x40289f2f: o
+ - 0x40289f49: o
+ - 0x40289f5d: o
+ - 0x40289f73: o
+ - 0x40289f89: o
+ - 0x40289f9c: o
+ - 0x40289fbf: o
+ - 0x40289fd9: o
+ - 0x40289fed: o
+ - 0x4028a003: o
+ - 0x4028a019: o
+ - 0x4028a02c: o
+ - 0x4028a050: o
+ - 0x4028a058: o
+0x3fff2638:
+ f: . 00
+ l:
+ x:
+ - 0x4028d248: o
+ - 0x4028d26d: o
+0x3fff263c:
+ f: . 00
+ l:
+ x:
+ - 0x4028df18: o
+ - 0x4028df26: o
+ - 0x4028df39: o
+ - 0x4028df5f: o
+0x3fff2640:
+ f: . 00
+ l:
+ x:
+ - 0x402991b0: o
+ - 0x40299259: o
+ - 0x40299365: o
+ - 0x4029937f: o
+ - 0x4029938a: o
+ - 0x402993b9: o
+ - 0x402993e2: o
+ - 0x40299408: o
+ - 0x4029949b: o
+ - 0x402994ae: o
+ - 0x402994c1: o
+ - 0x40299543: o
+ - 0x4029956c: o
+ - 0x40299581: o
+ - 0x402995c9: o
+ - 0x402995e2: o
+ - 0x402995ec: o
+ - 0x4029962f: o
+ - 0x40299672: o
+ - 0x4029968c: o
+ - 0x402996f1: o
+ - 0x40299705: o
+0x3fff26f8:
+ f: . 00
+ l:
+ x:
+ - 0x40299330: o
+ - 0x40299334: o
+0x3fff2730:
+ f: . 00
+ l:
+ x:
+ - 0x402991b4: o
+ - 0x40299277: o
+ - 0x402993d2: o
+0x3fff275c:
+ f: . 00
+ l:
+ x:
+ - 0x402995a4: o
+ - 0x402995c6: o
+ - 0x402996fc: o
+0x3fff2780:
+ f: . 00
+ l:
+ x:
+ - 0x40299398: o
+ - 0x402993dd: o
+0x3fff2786:
+ f: . 00
+ l:
+ x:
+ - 0x4029939c: o
+ - 0x402993f7: o
+0x3fff27ec:
+ f: . 00
+ l:
+ x:
+ - 0x402995a0: o
+ - 0x402995bc: o
+0x3fff2890:
+ f: . 00
+ l:
+ x:
+ - 0x402993a0: o
+ - 0x40299402: o
+0x3fff28ac:
+ f: . 00
+ l:
+ x:
+ - 0x4029cec8: o
+ - 0x4029cef2: o
+ - 0x4029d02e: o
+ - 0x4029d71e: o
+ - 0x4029d83a: o
+ - 0x4029d890: o
+ - 0x4029d9bd: o
+ - 0x4029da41: o
+ - 0x4029daa0: o
+ - 0x4029db70: o
+ - 0x4029dbb5: o
+ - 0x4029dbe1: o
+ - 0x4029dda1: o
+ - 0x4029df91: o
+ - 0x4029dfc9: o
+ - 0x4029e004: o
+ - 0x4029e02f: o
+ - 0x4029e19d: o
+ - 0x4029e1bd: o
+ - 0x4029e284: o
+ - 0x4029e292: o
+ - 0x4029e2a8: o
+ - 0x4029e2bc: o
+ - 0x4029e2da: o
+ - 0x4029e366: o
+ - 0x4029e38d: o
+ - 0x4029e4c4: o
+0x3fff28b0:
+ f: D 04
+ l: default_certificate_len
+ cmnt: 'Array, num bytes: 4'
+0x3fff28b4:
+ f: D 04
+ l: default_private_key_len
+ cmnt: 'Array, num bytes: 4'

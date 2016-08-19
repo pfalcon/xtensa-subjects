@@ -1,0 +1,6 @@
+header:
+ version: 1.0
+0x00000110:
+ f: . 00
+ l: _memmap_cacheattr_wt_base
+ cmnt: 'Another label: _memmap_cacheattr_wb_base'

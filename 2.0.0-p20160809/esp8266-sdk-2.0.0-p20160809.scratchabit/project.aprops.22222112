@@ -1,0 +1,6 @@
+header:
+ version: 1.0
+0x22222112:
+ f: . 00
+ l: _memmap_cacheattr_wb_allvalid
+ cmnt: 'Another label: _memmap_cacheattr_wt_allvalid'

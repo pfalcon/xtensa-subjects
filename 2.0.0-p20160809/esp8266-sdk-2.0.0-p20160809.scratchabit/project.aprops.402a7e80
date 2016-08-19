@@ -1,0 +1,5 @@
+header:
+ version: 1.0
+0x402a7e80:
+ f: . 00
+ l: _irom0_text_end

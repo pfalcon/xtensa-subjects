@@ -1,0 +1,6 @@
+header:
+ version: 1.0
+0x3ff00000:
+ f: . 00
+ l: _dport0_literal_start
+ cmnt: 'Another label: _dport0_rodata_start\nAnother label: _dport0_data_start\nAnother label: _dport0_rodata_end\nAnother label: _dport0_data_end\nAnother label: _dport0_literal_end'

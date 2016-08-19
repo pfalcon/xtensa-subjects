@@ -1,0 +1,5 @@
+header:
+ version: 1.0
+0xfffff22f:
+ f: . 00
+ l: _memmap_cacheattr_bp_strict

@@ -1,0 +1,967 @@
+header:
+ version: 1.0
+0x3ffe8000:
+ f: . 00
+ l: .data
+ cmnt: 'Another label: _data_start'
+ x:
+ - 0x40242720: o
+ - 0x40242724: o
+ - 0x402547a8: o
+ - 0x402547d2: o
+0x3ffe8004:
+ f: D 04
+ args:
+  0: {'subtype': 'addr'}
+0x3ffe800c:
+ f: D 04
+ args:
+  0: {'subtype': 'addr'}
+0x3ffe8020:
+ f: . 00
+ l:
+ x:
+ - 0x4024299c: o
+ - 0x40242a0e: o
+0x3ffe8060:
+ f: . 00
+ l:
+ x:
+ - 0x40246788: o
+ - 0x40246834: o
+0x3ffe8064:
+ f: D 04
+ l: dhcps_lease_time
+ cmnt: 'Array, num bytes: 4\nxtensa: Array, num bytes: 4'
+ x:
+ - 0x40246a04: o
+ - 0x40246a0c: o
+ - 0x402473e8: o
+ - 0x4024741f: o
+ - 0x4024744b: o
+ - 0x40247460: o
+ - 0x40247630: o
+ - 0x4024767f: o
+ - 0x402476b4: o
+ - 0x402476fe: o
+ - 0x40247729: o
+0x3ffe806c:
+ f: D 04
+ l: memp_sizes_test
+ cmnt: 'Array, num bytes: 2'
+0x3ffe8070:
+ f: D 04
+ l: time_zone
+ cmnt: 'Array, num bytes: 1\nxtensa: Array, num bytes: 2'
+ x:
+ - 0x4024e108: o
+ - 0x4024e10c: o
+ - 0x4024e12d: o
+ - 0x4024e231: o
+ - 0x4024e2f8: o
+ - 0x4024e34f: o
+ - 0x4024e3ae: o
+ - 0x4024e56b: o
+ - 0x4024e58b: o
+0x3ffe8071:
+ f: D 04
+ l: sntp_receive_time_size
+ cmnt: 'Array, num bytes: 1'
+0x3ffe8078:
+ f: D 04
+ l:
+ cmnt: 'xtensa: Array, num bytes: 2'
+ x:
+ - 0x401007fc: o
+ - 0x40100823: o
+0x3ffe807c:
+ f: . 00
+ l:
+ x:
+ - 0x402505b8: o
+ - 0x402505bf: o
+0x3ffe8080:
+ f: . 00
+ l:
+ x:
+ - 0x40100aa0: o
+ - 0x40100aad: o
+ - 0x40100eac: o
+ - 0x40100f99: o
+0x3ffe8084:
+ f: D 04
+ l: default_hostname
+ cmnt: 'Array, num bytes: 1'
+ x:
+ - 0x40253098: o
+ - 0x40253105: o
+ - 0x40255ee8: o
+ - 0x40257322: o
+0x3ffe8085:
+ f: . 00
+ l: _Pri_3_HandlerAddress
+ x:
+ - 0x401017c8: o
+ - 0x401017d5: o
+0x3ffe808c:
+ f: D 04
+ l:
+ cmnt: 'xtensa: Array, num bytes: 2'
+ x:
+ - 0x40253990: o
+ - 0x40253994: o
+ - 0x402539a4: o
+ - 0x40254668: o
+ - 0x40254a40: o
+ - 0x40254a56: o
+ - 0x40254a88: o
+ - 0x40254a96: o
+ - 0x40254aac: o
+ - 0x40254ad4: o
+ - 0x40254afe: o
+ - 0x40254b28: o
+ - 0x40254b36: o
+ - 0x40254bd0: o
+ - 0x40255781: o
+ - 0x40255799: o
+ - 0x40255ac6: o
+ - 0x40255b99: o
+ - 0x40255dc3: o
+ - 0x40255dd0: o
+ - 0x40257104: o
+ - 0x4025715c: o
+0x3ffe808d:
+ f: D 04
+ l: timer2_ms_flag
+ cmnt: 'Array, num bytes: 1'
+ x:
+ - 0x40101150: o
+ - 0x40101175: o
+ - 0x4010136c: o
+ - 0x40251728: o
+ - 0x40251749: o
+ - 0x40271706: o
+ - 0x40271b8e: o
+ - 0x40271ce1: o
+ - 0x40272d06: o
+ - 0x40272d79: o
+ - 0x40272dc3: o
+ - 0x40272e6c: o
+0x3ffe808e:
+ f: D 04
+ l: dhcps_flag
+ cmnt: 'Array, num bytes: 1\nxtensa: Array, num bytes: 2'
+ x:
+ - 0x402530b4: o
+ - 0x402531ba: o
+ - 0x402532bc: o
+0x3ffe808f:
+ f: D 04
+ l: dhcpc_flag
+ cmnt: 'Array, num bytes: 1'
+ x:
+ - 0x4029802c: o
+ - 0x4029815e: o
+0x3ffe8090:
+ f: D 04
+ cmnt: 'xtensa: Array, num bytes: 1'
+0x3ffe8091:
+ f: D 04
+ l: reconnect_internal
+ cmnt: 'Array, num bytes: 1'
+0x3ffe80a0:
+ f: . 00
+ l:
+ x:
+ - 0x4025778c: o
+ - 0x40257790: o
+0x3ffe80e0:
+ f: . 00
+ l:
+ x:
+ - 0x40257688: o
+ - 0x40257690: o
+0x3ffe80e4:
+ f: D 04
+ l:
+ cmnt: 'xtensa: Array, num bytes: 2'
+ x:
+ - 0x40257cb0: o
+ - 0x40257cd1: o
+ - 0x40257d40: o
+ - 0x40257d4c: o
+ - 0x402586fd: o
+ - 0x402587bc: o
+ - 0x40258828: o
+ - 0x402588c1: o
+ - 0x40258913: o
+ - 0x40258935: o
+ - 0x40258947: o
+ - 0x40258956: o
+ - 0x40258975: o
+ - 0x402589ba: o
+ - 0x40258a2d: o
+ - 0x40258a78: o
+ - 0x40258a85: o
+ - 0x40258ad4: o
+ - 0x40258afa: o
+ - 0x40258be8: o
+ - 0x40258c41: o
+ - 0x40258c9a: o
+ - 0x40258ccd: o
+ - 0x40258d01: o
+ - 0x40258d46: o
+ - 0x40258ef1: o
+ - 0x40258f6b: o
+ - 0x402590a0: o
+ - 0x40259143: o
+ - 0x402591a4: o
+ - 0x402591e4: o
+ - 0x40259c25: o
+ - 0x40259e30: o
+ - 0x40259f63: o
+ - 0x40259f7b: o
+ - 0x40259fd5: o
+ - 0x40259fdd: o
+ - 0x4025a18f: o
+ - 0x4025a40e: o
+ - 0x4025a5af: o
+ - 0x4025a658: o
+ - 0x4025a771: o
+ - 0x4025a84e: o
+ - 0x4025a91e: o
+ - 0x4025ac20: o
+ - 0x4025acf7: o
+ - 0x4025ad06: o
+ - 0x4025ae29: o
+ - 0x4025aec9: o
+ - 0x4025b065: o
+ - 0x4025b145: o
+ - 0x4025b196: o
+ - 0x4025b38d: o
+ - 0x4025b3cf: o
+ - 0x4025b53d: o
+ - 0x4025b6a3: o
+ - 0x4025bbf4: o
+ - 0x4025c0f1: o
+ - 0x4025c1cb: o
+ - 0x4025c240: o
+ - 0x4025cac2: o
+ - 0x4025caeb: o
+ - 0x4025cbda: o
+ - 0x4025cd10: o
+ - 0x4025d1a3: o
+ - 0x4025d249: o
+ - 0x4025d3b5: o
+ - 0x4025d40f: o
+ - 0x4025d709: o
+ - 0x4025d8ff: o
+ - 0x4025d953: o
+ - 0x4025daf4: o
+ - 0x4025db3c: o
+ - 0x4025dbfa: o
+ - 0x4025de50: o
+0x3ffe80e6:
+ f: D 04
+ l:
+ cmnt: 'xtensa: Array, num bytes: 2'
+ x:
+ - 0x40257e44: o
+ - 0x40257f2b: o
+ - 0x4025c84c: o
+ - 0x4025c912: o
+0x3ffe80e8:
+ f: D 04
+ cmnt: 'xtensa: Array, num bytes: 1'
+0x3ffe80ec:
+ f: D 04
+ cmnt: 'xtensa: Array, num bytes: 8'
+0x3ffe80f4:
+ f: D 04
+ cmnt: 'xtensa: Array, num bytes: 2'
+0x3ffe80f8:
+ f: D 04
+ l:
+ cmnt: 'xtensa: Array, num bytes: 4'
+ x:
+ - 0x40257cac: o
+ - 0x40257cc6: o
+ - 0x40258cf1: o
+ - 0x4025a886: o
+0x3ffe80fc:
+ f: D 04
+ l:
+ cmnt: 'xtensa: Array, num bytes: 2'
+ x:
+ - 0x40258b2c: o
+ - 0x40258b62: o
+ - 0x40258bd9: o
+ - 0x40258bf6: o
+ - 0x40258d7e: o
+ - 0x40258d8d: o
+0x3ffe80fd:
+ f: D 04
+ l:
+ x:
+ - 0x40258ecc: o
+ - 0x4025905a: o
+0x3ffe8100:
+ f: D 04
+ l:
+ cmnt: 'xtensa: Array, num bytes: 4'
+ x:
+ - 0x40259a6c: o
+ - 0x40259a87: o
+0x3ffe8104:
+ f: . 00
+ l:
+ x:
+ - 0x4025b0d4: o
+ - 0x4025b11c: o
+ - 0x4025b262: o
+0x3ffe8108:
+ f: D 04
+ l:
+ args:
+  0: {'subtype': 'addr'}
+ cmnt: 'xtensa: Array, num bytes: 8'
+ x:
+ - 0x4025dfa0: o
+ - 0x4025dfc9: o
+ - 0x4025e019: o
+ - 0x4025e0fc: o
+0x3ffe810c:
+ f: D 04
+ args:
+  0: {'subtype': 'addr'}
+0x3ffe8110:
+ f: D 04
+ l:
+ args:
+  0: {'subtype': 'addr'}
+ cmnt: 'xtensa: Array, num bytes: 4'
+ x:
+ - 0x4025dfa4: o
+ - 0x4025dfd2: o
+ - 0x4025e034: o
+0x3ffe8114:
+ f: D 04
+ l:
+ args:
+  0: {'subtype': 'addr'}
+ cmnt: 'xtensa: Array, num bytes: 4'
+ x:
+ - 0x4025df9c: o
+ - 0x4025dfb6: o
+ - 0x4025e006: o
+0x3ffe8118:
+ f: D 04
+ l:
+ args:
+  0: {'subtype': 'addr'}
+ cmnt: 'xtensa: Array, num bytes: 4'
+ x:
+ - 0x4025e054: o
+ - 0x4025e07d: o
+ - 0x4025e0d8: o
+0x3ffe811c:
+ f: D 04
+ l:
+ args:
+  0: {'subtype': 'addr'}
+ cmnt: 'xtensa: Array, num bytes: 4'
+ x:
+ - 0x4025e058: o
+ - 0x4025e086: o
+ - 0x4025e0f1: o
+0x3ffe8120:
+ f: D 04
+ l:
+ args:
+  0: {'subtype': 'addr'}
+ x:
+ - 0x4025e050: o
+ - 0x4025e06a: o
+0x3ffe8124:
+ f: D 04
+ l: TmpSTAAPCloseAP
+ cmnt: 'Array, num bytes: 1'
+ x:
+ - 0x4025ee2c: o
+ - 0x4025ee3b: o
+ - 0x402602d7: o
+ - 0x4026044a: o
+ - 0x4027445c: o
+0x3ffe8128:
+ f: . 00
+ l:
+ x:
+ - 0x402681d8: o
+ - 0x402681dc: o
+ - 0x40268213: o
+ - 0x40268344: o
+ - 0x4026837d: o
+ - 0x402683c3: o
+0x3ffe812c:
+ f: D 04
+ l: rfcal_bb_atten_init
+ cmnt: 'Array, num bytes: 1'
+ x:
+ - 0x40269fb8: o
+ - 0x40269fdd: o
+ - 0x4026a188: o
+ - 0x4026c9c7: o
+ - 0x4026c9e2: o
+ - 0x4026cca0: o
+ - 0x4026cceb: o
+0x3ffe8130:
+ f: D 04
+ l:
+ cmnt: 'xtensa: Array, num bytes: 1'
+ x:
+ - 0x4026c20c: o
+ - 0x4026c33d: o
+ - 0x4026c996: o
+ - 0x4026d103: o
+ - 0x4026dffb: o
+ - 0x4026e37a: o
+ - 0x4026e8c7: o
+0x3ffe8132:
+ f: D 04
+ l: tx_rf_ana_gain
+ cmnt: 'Array, num bytes: 2\nxtensa: Array, num bytes: 2'
+ x:
+ - 0x40102a40: o
+ - 0x40102a55: o
+ - 0x40269c28: o
+ - 0x40269c4c: o
+ - 0x40269cb0: o
+ - 0x40269cbb: o
+ - 0x40269fda: o
+ - 0x4026ace9: o
+ - 0x4026ad52: o
+ - 0x4026adb9: o
+ - 0x4026ae08: o
+ - 0x4026ae14: o
+ - 0x4026ae20: o
+ - 0x4026aed0: o
+0x3ffe8134:
+ f: D 04
+ l:
+ args:
+  0: {'subtype': 'addr'}
+ cmnt: 'xtensa: Array, num bytes: 32'
+ x:
+ - 0x4026f098: o
+ - 0x4026f0a8: o
+ - 0x4026f5d8: o
+0x3ffe8138:
+ f: D 04
+ args:
+  0: {'subtype': 'addr'}
+0x3ffe813c:
+ f: D 04
+ args:
+  0: {'subtype': 'addr'}
+0x3ffe8140:
+ f: D 04
+ args:
+  0: {'subtype': 'addr'}
+0x3ffe8144:
+ f: D 04
+ args:
+  0: {'subtype': 'addr'}
+0x3ffe8148:
+ f: D 04
+ args:
+  0: {'subtype': 'addr'}
+0x3ffe814c:
+ f: D 04
+ args:
+  0: {'subtype': 'addr'}
+0x3ffe8150:
+ f: D 04
+ args:
+  0: {'subtype': 'addr'}
+0x3ffe8160:
+ f: D 04
+ l: rx_gain_swp
+ cmnt: 'Array, num bytes: 32\nxtensa: Array, num bytes: 32'
+ x:
+ - 0x4026dff0: o
+ - 0x4026e364: o
+0x3ffe8180:
+ f: D 04
+ l: test_rffreq_txcap
+ cmnt: 'Array, num bytes: 3'
+0x3ffe8184:
+ f: D 04
+ l: chip_version
+ cmnt: 'Array, num bytes: 4'
+ x:
+ - 0x4026fe9c: o
+ - 0x4026fea4: o
+0x3ffe8188:
+ f: . 00
+ l:
+ x:
+ - 0x402713c8: o
+ - 0x402713f5: o
+ - 0x402715a4: o
+ - 0x40271805: o
+ - 0x40271bf4: o
+ - 0x40271c12: o
+ - 0x40271c31: o
+ - 0x40271c51: o
+ - 0x40271cc7: o
+0x3ffe818c:
+ f: . 00
+ l:
+ x:
+ - 0x40271f30: o
+ - 0x40271f84: o
+ - 0x402724e9: o
+ - 0x4027273d: o
+ - 0x40272d67: o
+ - 0x40273209: o
+ - 0x4027321a: o
+ - 0x402737c9: o
+0x3ffe8190:
+ f: D 04
+ l: soft_wdt_interval
+ cmnt: 'Array, num bytes: 4\nxtensa: Array, num bytes: 4'
+ x:
+ - 0x401045e0: o
+ - 0x4010465e: o
+ - 0x401046b9: o
+ - 0x401046f3: o
+ - 0x40104733: o
+ - 0x4010475a: o
+ - 0x4010477c: o
+ - 0x4010478c: o
+ - 0x401047cd: o
+ - 0x401047e8: o
+ - 0x40104807: o
+ - 0x40104883: o
+ - 0x401048a2: o
+ - 0x401048de: o
+ - 0x40104950: o
+ - 0x4010495f: o
+ - 0x4010498d: o
+ - 0x401049f3: o
+ - 0x40104a50: o
+ - 0x40104bc9: o
+ - 0x40104be4: o
+ - 0x40104c4d: o
+ - 0x40104c7e: o
+ - 0x40104d85: o
+ - 0x40104db1: o
+ - 0x40104dcc: o
+ - 0x40273864: o
+ - 0x40273881: o
+ - 0x402738b2: o
+ - 0x4027391a: o
+ - 0x40273a00: o
+ - 0x40273a1b: o
+ - 0x40273a63: o
+ - 0x40273ad6: o
+ - 0x40273b1a: o
+ - 0x40273b56: o
+ - 0x40273e79: o
+ - 0x40273fb8: o
+ - 0x40273fc8: o
+ - 0x402740c0: o
+ - 0x402740e8: o
+ - 0x402741a4: o
+ - 0x40274269: o
+ - 0x402745b4: o
+ - 0x40274681: o
+ - 0x4027471b: o
+ - 0x40274777: o
+ - 0x40274796: o
+ - 0x402747e2: o
+ - 0x40274930: o
+ - 0x40274947: o
+ - 0x40274985: o
+ - 0x402749c1: o
+ - 0x40274a0b: o
+ - 0x40274acd: o
+0x3ffe8194:
+ f: D 04
+ l: NoiseTimerInterval
+ cmnt: 'Array, num bytes: 2\nxtensa: Array, num bytes: 2'
+ x:
+ - 0x40260378: o
+ - 0x40260441: o
+0x3ffe8196:
+ f: D 04
+ cmnt: 'xtensa: Array, num bytes: 1'
+0x3ffe8198:
+ f: D 04
+ cmnt: 'xtensa: Array, num bytes: 4'
+0x3ffe819c:
+ f: D 04
+ l: sleep_start_wait_time
+ cmnt: 'Array, num bytes: 2\nxtensa: Array, num bytes: 2'
+ x:
+ - 0x40272940: o
+ - 0x40272abc: o
+0x3ffe81a0:
+ f: D 04
+ args:
+  0: {'subtype': 'addr'}
+ cmnt: 'xtensa: Array, num bytes: 4'
+0x3ffe81a4:
+ f: D 04
+ l: CanDoFreqCal
+ cmnt: 'Array, num bytes: 1\nxtensa: Array, num bytes: 1'
+ x:
+ - 0x4025ffe8: o
+ - 0x40260085: o
+ - 0x40260119: o
+0x3ffe81a8:
+ f: D 04
+ l: tcb
+ cmnt: 'Array, num bytes: 4'
+0x3ffe81b0:
+ f: . 00
+ l:
+ x:
+ - 0x40104ed0: o
+ - 0x40104eda: o
+0x3ffe81f0:
+ f: D 04
+ l:
+ cmnt: 'xtensa: Array, num bytes: 12'
+ x:
+ - 0x40105268: o
+ - 0x40105337: o
+0x3ffe8200:
+ f: D 04
+ l:
+ cmnt: 'xtensa: Array, num bytes: 20'
+ x:
+ - 0x40105064: o
+ - 0x4010509d: o
+ - 0x40105623: o
+ - 0x402750b4: o
+ - 0x402750bf: o
+ - 0x402751e7: o
+0x3ffe8220:
+ f: D 04
+ l:
+ cmnt: 'xtensa: Array, num bytes: 96'
+ x:
+ - 0x4027539c: o
+ - 0x402753d1: o
+0x3ffe8274:
+ f: D 04
+ l:
+ x:
+ - 0x40105254: o
+ - 0x40105291: o
+0x3ffe8280:
+ f: D 04
+ l:
+ cmnt: 'xtensa: Array, num bytes: 132'
+ x:
+ - 0x402751c4: o
+ - 0x40275242: o
+ - 0x402753c9: o
+0x3ffe82d4:
+ f: D 04
+ l:
+ x:
+ - 0x40105258: o
+ - 0x4010529c: o
+ - 0x402751c8: o
+ - 0x402752cc: o
+0x3ffe8310:
+ f: D 04
+ l:
+ cmnt: 'xtensa: Array, num bytes: 192'
+ x:
+ - 0x402751cc: o
+ - 0x4027536a: o
+ - 0x402753d9: o
+0x3ffe8334:
+ f: D 04
+ l:
+ x:
+ - 0x40105260: o
+ - 0x40105316: o
+ - 0x402751bc: o
+ - 0x402751ea: o
+0x3ffe8340:
+ f: D 04
+ l:
+ x:
+ - 0x40275394: o
+ - 0x402753b9: o
+0x3ffe83d0:
+ f: . 00
+ l:
+ x:
+ - 0x40275398: o
+ - 0x402753c1: o
+0x3ffe843c:
+ f: D 04
+ l:
+ args:
+  0: {'subtype': 'addr'}
+ cmnt: 'xtensa: Array, num bytes: 4'
+ x:
+ - 0x40105930: o
+ - 0x40105934: o
+ - 0x401059f7: o
+ - 0x40105a80: o
+ - 0x40105abe: o
+ - 0x40105b59: o
+ - 0x40106320: o
+ - 0x40106462: o
+ - 0x4010652d: o
+ - 0x4010668d: o
+ - 0x4010673f: o
+ - 0x401067b0: o
+ - 0x401068b9: o
+ - 0x40106959: o
+ - 0x402757bc: o
+ - 0x402757c0: o
+ - 0x402757fe: o
+ - 0x4027586a: o
+ - 0x40275ea7: o
+ - 0x40275f1d: o
+ - 0x40275ff0: o
+ - 0x40276063: o
+ - 0x40276184: o
+0x3ffe8448:
+ f: D 04
+ l: last_gpio_hdl_frc1_tick_53
+ cmnt: 'Array, num bytes: 4\nxtensa: Array, num bytes: 4'
+ x:
+ - 0x40106d24: o
+ - 0x40106d45: o
+ - 0x40106dca: o
+ - 0x40106ebd: o
+ - 0x40276364: o
+ - 0x402767a5: o
+0x3ffe844c:
+ f: D 04
+ l: TestInputVal1
+ cmnt: 'Array, num bytes: 2\nxtensa: Array, num bytes: 2'
+0x3ffe8450:
+ f: D 04
+ l: pwm_out_io_num_35
+ cmnt: 'Array, num bytes: 8'
+ x:
+ - 0x4010698c: o
+ - 0x401069eb: o
+ - 0x40276334: o
+ - 0x4027646e: o
+ - 0x402768ac: o
+0x3ffe8458:
+ f: D 04
+ l: AK_Group_bssid
+ cmnt: 'Array, num bytes: 6'
+ x:
+ - 0x40276b70: o
+ - 0x40276c40: o
+ - 0x40277500: o
+ - 0x4027825d: o
+0x3ffe8460:
+ f: D 04
+ l: g_ET_TimeOut
+ cmnt: 'Array, num bytes: 1'
+ x:
+ - 0x40278660: o
+ - 0x4027877c: o
+ - 0x40278ea8: o
+ - 0x40279d27: o
+ - 0x4027b1d4: o
+0x3ffe8468:
+ f: D 04
+ l: g_SC_Select
+ cmnt: 'Array, num bytes: 4\nxtensa: Array, num bytes: 4'
+ x:
+ - 0x4027a9d4: o
+ - 0x4027aa50: o
+ - 0x4027aaf7: o
+ - 0x4027abc3: o
+ - 0x4027ac04: o
+ - 0x4027ac5f: o
+ - 0x4027ace4: o
+ - 0x4027acef: o
+ - 0x4027ad00: o
+ - 0x4027ad18: o
+ - 0x4027af13: o
+ - 0x4027af58: o
+ - 0x4027afad: o
+ - 0x4027b04e: o
+ - 0x4027b230: o
+0x3ffe846c:
+ f: D 04
+ cmnt: 'xtensa: Array, num bytes: 2'
+0x3ffe8470:
+ f: D 04
+ l: ET_Group_bssid
+ cmnt: 'Array, num bytes: 6'
+ x:
+ - 0x40278674: o
+ - 0x402787e3: o
+ - 0x402788d5: o
+ - 0x402798a4: o
+ - 0x4027ad44: o
+0x3ffe8478:
+ f: D 04
+ l: ssl_option
+ cmnt: 'Array, num bytes: 52'
+ x:
+ - 0x4027b3a4: o
+ - 0x4027b3b9: o
+ - 0x4027b3e1: o
+ - 0x4027b41d: o
+ - 0x4027b44f: o
+ - 0x4027b479: o
+ - 0x4027b4ab: o
+ - 0x4027b8c3: o
+ - 0x4027bc99: o
+ - 0x4027be46: o
+ - 0x4027bfd9: o
+ - 0x4027c127: o
+ - 0x4027c375: o
+ - 0x4027c546: o
+ - 0x4027c6cd: o
+ - 0x4027c79f: o
+ - 0x4028433c: o
+ - 0x40284db8: o
+0x3ffe84ac:
+ f: D 04
+ l:
+ args:
+  0: {'subtype': 'addr'}
+ cmnt: 'xtensa: Array, num bytes: 4'
+ x:
+ - 0x40284b5c: o
+ - 0x40284c67: o
+ - 0x40285006: o
+0x3ffe84b0:
+ f: D 04
+ args:
+  0: {'subtype': 'addr'}
+0x3ffe84b4:
+ f: . 00
+ l:
+ x:
+ - 0x4028a03c: o
+ - 0x4028a040: o
+ - 0x4028a048: o
+0x3ffe84b8:
+ f: D 04
+ l:
+ args:
+  0: {'subtype': 'addr'}
+ cmnt: 'xtensa: Array, num bytes: 36'
+ x:
+ - 0x402909d0: o
+ - 0x402909e7: o
+ - 0x40290b0b: o
+ - 0x40290bcc: o
+ - 0x40290bda: o
+ - 0x40290bee: o
+ - 0x40290ddd: o
+ - 0x40290df7: o
+ - 0x40290e0e: o
+0x3ffe84bc:
+ f: D 04
+ args:
+  0: {'subtype': 'addr'}
+0x3ffe84c0:
+ f: D 04
+ args:
+  0: {'subtype': 'addr'}
+0x3ffe84c4:
+ f: D 04
+ args:
+  0: {'subtype': 'addr'}
+0x3ffe84c8:
+ f: D 04
+ args:
+  0: {'subtype': 'addr'}
+0x3ffe84cc:
+ f: D 04
+ args:
+  0: {'subtype': 'addr'}
+0x3ffe84d0:
+ f: D 04
+ args:
+  0: {'subtype': 'addr'}
+0x3ffe84d4:
+ f: D 04
+ args:
+  0: {'subtype': 'addr'}
+0x3ffe84d8:
+ f: D 04
+ args:
+  0: {'subtype': 'addr'}
+0x3ffe84dc:
+ f: D 04
+ args:
+  0: {'subtype': 'addr'}
+0x3ffe84e0:
+ f: D 04
+ l: __ctype_ptr__
+ args:
+  0: {'subtype': 'addr'}
+ cmnt: 'Array, num bytes: 4'
+ x:
+ - 0x401071ac: o
+ - 0x401071e2: o
+ - 0x40107229: o
+0x3ffe84e8:
+ f: D 04
+ l: _impure_ptr
+ args:
+  0: {'subtype': 'addr'}
+ cmnt: 'Array, num bytes: 4\nxtensa: Array, num bytes: 4'
+ x:
+ - 0x401071b0: o
+ - 0x40107366: o
+ - 0x40107386: o
+0x3ffe84f0:
+ f: D 04
+ l: impure_data
+ cmnt: 'Array, num bytes: 1064'
+ x:
+ - 0x3ffe84e8: o
+ - 0x3ffea5c8: o
+0x3ffe84f4:
+ f: D 04
+ args:
+  0: {'subtype': 'addr'}
+0x3ffe84f8:
+ f: D 04
+ args:
+  0: {'subtype': 'addr'}
+0x3ffe84fc:
+ f: D 04
+ args:
+  0: {'subtype': 'addr'}
+0x3ffe8524:
+ f: D 04
+ args:
+  0: {'subtype': 'addr'}
+0x3ffe87dc:
+ f: D 04
+ l:
+ x:
+ - 0x3ffe84f4: o
+0x3ffe8844:
+ f: D 04
+ l:
+ x:
+ - 0x3ffe84f8: o
+0x3ffe88ac:
+ f: D 04
+ l:
+ x:
+ - 0x3ffe84fc: o
