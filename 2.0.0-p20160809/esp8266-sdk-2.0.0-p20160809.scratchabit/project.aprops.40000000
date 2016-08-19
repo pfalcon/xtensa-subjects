@@ -542,6 +542,10 @@ header:
  l:
  x:
  - 0x400005dc: j
+0x400005e9:
+ f: C 01
+ args:
+  2: {'subtype': 'addr'}
 0x400005f0:
  f: C 01
  l: srand
@@ -13037,6 +13041,8 @@ header:
  l: _xtos_return_from_exc
  fn_end: '?'
  fn_ranges: [[0x4000dc54,0x4000dc88]]
+ x:
+ - 0x400005e9: o
 0x4000dc88:
  f: C 01
  l: __divsi3
