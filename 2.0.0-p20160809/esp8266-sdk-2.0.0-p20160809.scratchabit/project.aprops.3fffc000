@@ -2,15 +2,52 @@ header:
  version: 1.0
 0x3fffc000:
  f: . 00
- l:
+ l: user_exccause_table
  x:
+ - 0x40000398: o
+ - 0x4000045f: o
  - 0x4000e328: o
  - 0x4000fe34: o
+0x3fffc100:
+ f: . 00
+ l:
+ x:
+ - 0x40000390: o
+ - 0x40000465: o
+ - 0x400005cb: o
+0x3fffc180:
+ f: . 00
+ l:
+ x:
+ - 0x400003a8: o
+ - 0x400004e3: o
+ - 0x4000053c: o
+0x3fffc200:
+ f: . 00
+ l:
+ x:
+ - 0x400003a0: o
+ - 0x400004b6: o
+ - 0x4000050c: o
+ - 0x4000054b: o
+ - 0x40000576: o
+0x3fffc208:
+ f: . 00
+ l:
+ x:
+ - 0x400003e8: o
 0x3fffc2f8:
  f: . 00
  l:
  x:
  - 0x4000ebe8: o
+0x3fffc6f8:
+ f: . 00
+ l:
+ x:
+ - 0x400003b0: o
+ - 0x400005f0: o
+ - 0x40000606: o
 0x3fffc714:
  f: . 00
  l: flashchip
@@ -97,12 +134,13 @@ header:
  - 0x4000e32c: o
 0x3fffc860:
  f: . 00
- l:
+ l: _sysram_rodata
  x:
  - 0x4000e334: o
 0x3fffccf0:
  f: . 00
  l: Te0
+ cmnt: 'rijndael enc-related table'
  x:
  - 0x40240a34: o
  - 0x40240a8e: o
@@ -111,7 +149,9 @@ header:
 0x3fffd0f0:
  f: . 00
  l: rcons
+ cmnt: 'rijndael rcon mapping'
  x:
+ - 0x40009320: o
  - 0x4024147c: o
  - 0x4024150e: o
  - 0x402416a3: o
@@ -128,6 +168,16 @@ header:
  x:
  - 0x40240b70: o
  - 0x40240e40: o
+0x3fffd600:
+ f: . 00
+ l:
+ x:
+ - 0x4000953c: o
+0x3fffd650:
+ f: . 00
+ l:
+ x:
+ - 0x400003e4: o
 0x3fffd670:
  f: . 00
  l:
@@ -148,6 +198,8 @@ header:
  l:
  x:
  - 0x400010ae: o
+ - 0x40002c5c: o
+ - 0x40002c98: o
 0x3fffd6c0:
  f: . 00
  l:
@@ -179,17 +231,25 @@ header:
  l:
  x:
  - 0x4000187b: o
+0x3fffd878:
+ f: . 00
+ l:
+ x:
+ - 0x40002c60: o
+ - 0x40002c9b: o
 0x3fffdaac:
  f: D 04
- l:
+ l: user_exc_vector_table
+ cmnt: '0x3fffc000'
  x:
  - 0x40000057: r
  - 0x4000e338: o
  - 0x4000e340: o
 0x3fffdab0:
  f: . 00
- l:
+ l: _ram_seg_empty
  x:
+ - 0x40000384: o
  - 0x40000439: o
  - 0x4000e344: o
  - 0x4000e34c: o
@@ -213,6 +273,17 @@ header:
  l:
  x:
  - 0x400017f2: o
+0x3fffdd64:
+ f: . 00
+ l:
+ x:
+ - 0x400027d9: o
+0x3fffddb0:
+ f: . 00
+ l:
+ x:
+ - 0x40002c58: o
+ - 0x40002c64: o
 0x3fffde00:
  f: . 00
  l:
@@ -230,8 +301,15 @@ header:
  l:
  x:
  - 0x4000568b: o
+0x3fffea80:
+ f: . 00
+ l:
+ x:
+ - 0x40008eb6: o
+ - 0x40008ebc: o
 0x3fffeb30:
  f: . 00
  l:
  x:
+ - 0x40000388: o
  - 0x4000043c: o

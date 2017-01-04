@@ -149,42 +149,58 @@ header:
 0x40000384:
  f: D 04
  l:
+ args:
+  0: {'subtype': 'addr'}
  x:
  - 0x40000439: r
 0x40000388:
  f: D 04
  l:
+ args:
+  0: {'subtype': 'addr'}
  x:
  - 0x4000043c: r
 0x4000038c:
  f: D 04
  l:
+ args:
+  0: {'subtype': 'addr'}
  x:
  - 0x40000462: r
 0x40000390:
  f: D 04
  l:
+ args:
+  0: {'subtype': 'addr'}
  x:
  - 0x40000465: r
  - 0x400005cb: r
 0x40000394:
  f: D 04
  l:
+ args:
+  0: {'subtype': 'addr'}
  x:
  - 0x40000459: r
 0x40000398:
  f: D 04
  l:
+ args:
+  0: {'subtype': 'addr'}
  x:
  - 0x4000045f: r
 0x4000039c:
  f: D 04
  l:
+ args:
+  0: {'subtype': 'addr'}
  x:
  - 0x4000045c: r
 0x400003a0:
  f: D 04
  l:
+ args:
+  0: {'subtype': 'addr'}
  x:
  - 0x400004b6: r
  - 0x4000050c: r
@@ -204,18 +220,24 @@ header:
 0x400003a8:
  f: D 04
  l:
+ args:
+  0: {'subtype': 'addr'}
  x:
  - 0x400004e3: r
  - 0x4000053c: r
 0x400003ac:
  f: D 04
  l:
+ args:
+  0: {'subtype': 'addr'}
  x:
  - 0x40000530: r
  - 0x400005e9: r
 0x400003b0:
  f: D 04
  l:
+ args:
+  0: {'subtype': 'addr'}
  x:
  - 0x400005f0: r
  - 0x40000606: r
@@ -331,16 +353,22 @@ header:
 0x400003e4:
  f: D 04
  l:
+ args:
+  0: {'subtype': 'addr'}
  x:
  - 0x4000bd30: r
 0x400003e8:
  f: D 04
  l:
+ args:
+  0: {'subtype': 'addr'}
  x:
  - 0x4000bd3b: r
 0x400003ec:
  f: D 04
  l:
+ args:
+  0: {'subtype': 'addr'}
  x:
  - 0x4000bd44: r
 0x400003f4:
@@ -502,6 +530,26 @@ header:
  - 0x402524c6: o
  - 0x402524d0: o
  - 0x402524da: o
+0x40000459:
+ f: C 01
+ args:
+  2: {'subtype': 'addr'}
+0x4000045c:
+ f: C 01
+ args:
+  2: {'subtype': 'addr'}
+0x4000045f:
+ f: C 01
+ args:
+  2: {'subtype': 'addr'}
+0x40000462:
+ f: C 01
+ args:
+  2: {'subtype': 'addr'}
+0x40000465:
+ f: C 01
+ args:
+  2: {'subtype': 'addr'}
 0x40000486:
  f: C 01
  l:
@@ -514,19 +562,33 @@ header:
  fn_ranges: [[0x4000048c,0x40000569]]
  x:
  - 0x4000e398: o
+0x400004b6:
+ f: C 01
+ args:
+  2: {'subtype': 'addr'}
 0x400004d4:
  f: C 01
  l:
  x:
  - 0x4000054e: j
+0x400004e3:
+ f: C 01
+ args:
+  2: {'subtype': 'addr'}
 0x400004ec:
  f: C 01
  l:
  x:
  - 0x40000566: j
+0x4000050c:
+ f: C 01
+ args:
+  2: {'subtype': 'addr'}
 0x40000530:
  f: C 01
  l:
+ args:
+  2: {'subtype': 'addr'}
  x:
  - 0x400004c9: j
 0x40000539:
@@ -534,6 +596,14 @@ header:
  l:
  x:
  - 0x4000051f: j
+0x4000053c:
+ f: C 01
+ args:
+  2: {'subtype': 'addr'}
+0x4000054b:
+ f: C 01
+ args:
+  2: {'subtype': 'addr'}
 0x4000056c:
  f: C 01
  l: _xtos_restore_intlevel
@@ -544,6 +614,10 @@ header:
  l: _xtos_set_vpri
  fn_end: '?'
  fn_ranges: [[0x40000574,0x40000590]]
+0x40000576:
+ f: C 01
+ args:
+  2: {'subtype': 'addr'}
 0x40000590:
  f: C 01
  l: _xtos_cause3_handler
@@ -560,7 +634,13 @@ header:
  fn_end: '?'
  fn_ranges: [[0x40000598,0x400005ef]]
  x:
+ - 0x40000394: o
+ - 0x40000459: o
  - 0x40000592: j
+0x400005cb:
+ f: C 01
+ args:
+  2: {'subtype': 'addr'}
 0x400005e1:
  f: C 01
  l:
@@ -573,6 +653,8 @@ header:
 0x400005f0:
  f: C 01
  l: srand
+ args:
+  2: {'subtype': 'addr'}
  fn_end: '?'
  fn_ranges: [[0x400005f0,0x400005ff]]
 0x40000600:
@@ -585,6 +667,10 @@ header:
  - 0x4000275c: c
  - 0x40002831: c
  - 0x40002994: c
+0x40000606:
+ f: C 01
+ args:
+  2: {'subtype': 'addr'}
 0x4000063c:
  f: C 01
  l:
@@ -4500,6 +4586,10 @@ header:
  fn_ranges: [[0x400027d4,0x40002823], [0x40002824,0x4000285b]]
  x:
  - 0x40002a31: c
+0x400027d9:
+ f: C 01
+ args:
+  2: {'subtype': 'addr'}
 0x400027e6:
  f: C 01
  l:
@@ -4614,6 +4704,8 @@ header:
  l: rtc_intr_handler
  fn_end: '?'
  fn_ranges: [[0x400029ec,0x40002a3b]]
+ x:
+ - 0x40002a58: o
 0x40002a3c:
  f: D 04
  l:
@@ -4624,6 +4716,10 @@ header:
  l: ets_rtc_int_register
  fn_end: '?'
  fn_ranges: [[0x40002a40,0x40002a85]]
+0x40002a58:
+ f: C 01
+ args:
+  2: {'subtype': 'addr'}
 0x40002a88:
  f: C 01
  l: ets_strcpy
@@ -5116,6 +5212,8 @@ header:
 0x40002c58:
  f: D 04
  l:
+ args:
+  0: {'subtype': 'addr'}
  x:
  - 0x40002c64: r
  - 0x40002d40: r
@@ -5124,6 +5222,8 @@ header:
 0x40002c5c:
  f: D 04
  l:
+ args:
+  0: {'subtype': 'addr'}
  x:
  - 0x40002c98: r
  - 0x40002cd9: r
@@ -5131,6 +5231,8 @@ header:
 0x40002c60:
  f: D 04
  l:
+ args:
+  0: {'subtype': 'addr'}
  x:
  - 0x40002c9b: r
  - 0x40002cdc: r
@@ -5138,6 +5240,8 @@ header:
 0x40002c64:
  f: C 01
  l: timer_insert
+ args:
+  2: {'subtype': 'addr'}
  fn_end: '?'
  fn_ranges: [[0x40002c64,0x40002ca7], [0x40002ca8,0x40002caf], [0x40002cb0,0x40002cbc]]
  x:
@@ -5158,6 +5262,14 @@ header:
  l:
  x:
  - 0x40002cb9: j
+0x40002c98:
+ f: C 01
+ args:
+  2: {'subtype': 'addr'}
+0x40002c9b:
+ f: C 01
+ args:
+  2: {'subtype': 'addr'}
 0x40002ca4:
  f: C 01
  l:
@@ -10114,6 +10226,14 @@ header:
  l:
  x:
  - 0x40008ea9: j
+0x40008eb6:
+ f: C 01
+ args:
+  2: {'subtype': 'addr'}
+0x40008ebc:
+ f: C 01
+ args:
+  2: {'subtype': 'addr'}
 0x40008ec8:
  f: D 04
  l:
@@ -10165,6 +10285,10 @@ header:
  fn_ranges: [[0x40009300,0x4000940e]]
  x:
  - 0x40008dd9: c
+0x40009320:
+ f: C 01
+ args:
+  2: {'subtype': 'addr'}
 0x4000939c:
  f: C 01
  l:
@@ -10229,6 +10353,10 @@ header:
  l:
  x:
  - 0x40009522: j
+0x4000953c:
+ f: C 01
+ args:
+  2: {'subtype': 'addr'}
 0x40009551:
  f: C 01
  l:
@@ -13520,6 +13648,11 @@ header:
  fn_end: '?'
  fn_ranges: [[0x4000dbf8,0x4000dbfa]]
  x:
+ - 0x4000038c: o
+ - 0x40000462: o
+ - 0x4000e488: o
+ - 0x4000e48c: o
+ - 0x4000e490: o
  - 0x4000e4a8: o
  - 0x4000e524: o
  - 0x4000e528: o
@@ -13548,6 +13681,7 @@ header:
  fn_end: '?'
  fn_ranges: [[0x4000dc3c,0x4000dc41]]
  x:
+ - 0x400003ec: o
  - 0x4000e590: o
  - 0x4000e598: o
  - 0x4000e5a0: o
@@ -13564,6 +13698,8 @@ header:
  fn_end: '?'
  fn_ranges: [[0x4000dc44,0x4000dc51]]
  x:
+ - 0x4000039c: o
+ - 0x4000045c: o
  - 0x4000e388: o
  - 0x4000e390: o
  - 0x4000e394: o
@@ -13579,12 +13715,15 @@ header:
  - 0x4000e3f4: o
  - 0x4000e3f8: o
  - 0x4000e450: o
+ - 0x4000e484: o
 0x4000dc54:
  f: C 01
  l: _xtos_return_from_exc
  fn_end: '?'
  fn_ranges: [[0x4000dc54,0x4000dc88]]
  x:
+ - 0x400003ac: o
+ - 0x40000530: o
  - 0x400005e9: j
 0x4000dc88:
  f: C 01
@@ -14605,6 +14744,7 @@ header:
  f: D 04
  args:
   0: {'subtype': 'addr'}
+ cmnt: 'len=0x857'
 0x4000e330:
  f: D 04
  args:
@@ -14617,6 +14757,7 @@ header:
  f: D 04
  args:
   0: {'subtype': 'addr'}
+ cmnt: 'len=0x124c'
 0x4000e33c:
  f: D 04
  args:
@@ -14629,6 +14770,7 @@ header:
  f: D 04
  args:
   0: {'subtype': 'addr'}
+ cmnt: 'len=4'
 0x4000e348:
  f: D 04
  args:
@@ -14771,6 +14913,22 @@ header:
  args:
   0: {'subtype': 'addr'}
 0x4000e450:
+ f: D 04
+ args:
+  0: {'subtype': 'addr'}
+0x4000e484:
+ f: D 04
+ args:
+  0: {'subtype': 'addr'}
+0x4000e488:
+ f: D 04
+ args:
+  0: {'subtype': 'addr'}
+0x4000e48c:
+ f: D 04
+ args:
+  0: {'subtype': 'addr'}
+0x4000e490:
  f: D 04
  args:
   0: {'subtype': 'addr'}
@@ -14946,9 +15104,12 @@ header:
  f: D 04
  args:
   0: {'subtype': 'addr'}
+0x4000ebdf:
+ f: . 00
+ cmnt: 'Last byte of rom_store seg #0'
 0x4000ebe8:
  f: D 04
- l:
+ l: _rom_store_seg1
  args:
   0: {'subtype': 'addr'}
  x:
@@ -15220,16 +15381,19 @@ header:
 0x4000fda0:
  f: X 10
  l: s_bt__
+0x4000fe33:
+ f: . 00
+ cmnt: 'Last byte of _rom_store_seg1'
 0x4000fe34:
  f: D 04
- l:
+ l: _rom_store_seg2
  args:
   0: {'subtype': 'addr'}
  x:
  - 0x4000e348: o
 0x4000fe38:
  f: . 00
- l:
+ l: _rom_store_seg_empty
  x:
  - 0x4000e354: o
  - 0x4000e360: o

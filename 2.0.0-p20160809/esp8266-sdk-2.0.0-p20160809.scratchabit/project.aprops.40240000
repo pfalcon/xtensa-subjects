@@ -1264,7 +1264,7 @@ header:
  - 0x40240bfa: r
 0x40240a3c:
  f: C 01
- l: fun_40240a3c
+ l: rijndaelKeySetupDec__1
  fn_end: '?'
  fn_ranges: [[0x40240a3c,0x40240b13]]
  x:
@@ -1573,6 +1573,8 @@ header:
 0x40240b20:
  f: C 01
  l: aes_decrypt_init
+ args:
+  1: {'subtype': 'udec'}
  fn_end: 0x40240b6e
  fn_ranges: [[0x40240b20,0x40240b6e]]
  x:
@@ -1580,6 +1582,10 @@ header:
  - 0x402418ad: c
  - 0x40243dd8: c
  - 0x40243e03: c
+0x40240b2b:
+ f: C 01
+ args:
+  1: {'subtype': 'udec'}
 0x40240b2e:
  f: C 01
  args:
@@ -1592,6 +1598,10 @@ header:
  f: C 01
  args:
   2: {'subtype': 'addr'}
+0x40240b53:
+ f: C 01
+ args:
+  1: {'subtype': 'udec'}
 0x40240b55:
  f: C 01
  args:
@@ -158557,8 +158567,8 @@ header:
  x:
  - 0x402a24e3: j
 0x402a2500:
- f: . 00
- l:
+ f: X 10
+ l: s_aes_internal_dec_c
  x:
  - 0x40240b14: o
  - 0x40240b2e: o
