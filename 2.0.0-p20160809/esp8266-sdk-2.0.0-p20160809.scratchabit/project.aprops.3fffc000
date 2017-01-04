@@ -1,5 +1,16 @@
 header:
  version: 1.0
+0x3fffc000:
+ f: . 00
+ l:
+ x:
+ - 0x4000e328: o
+ - 0x4000fe34: o
+0x3fffc2f8:
+ f: . 00
+ l:
+ x:
+ - 0x4000ebe8: o
 0x3fffc714:
  f: . 00
  l: flashchip
@@ -74,6 +85,21 @@ header:
  - 0x4027199b: o
  - 0x40271f58: o
  - 0x40272158: o
+0x3fffc734:
+ f: . 00
+ l:
+ x:
+ - 0x4000eab8: o
+0x3fffc857:
+ f: . 00
+ l:
+ x:
+ - 0x4000e32c: o
+0x3fffc860:
+ f: . 00
+ l:
+ x:
+ - 0x4000e334: o
 0x3fffccf0:
  f: . 00
  l: Te0
@@ -102,11 +128,110 @@ header:
  x:
  - 0x40240b70: o
  - 0x40240e40: o
+0x3fffd670:
+ f: . 00
+ l:
+ x:
+ - 0x4000e6b4: o
+0x3fffd674:
+ f: . 00
+ l:
+ x:
+ - 0x40001054: o
+0x3fffd6a0:
+ f: . 00
+ l:
+ x:
+ - 0x40001051: o
+0x3fffd6b8:
+ f: . 00
+ l:
+ x:
+ - 0x400010ae: o
+0x3fffd6c0:
+ f: . 00
+ l:
+ x:
+ - 0x400010b1: o
+0x3fffd6dc:
+ f: . 00
+ l:
+ x:
+ - 0x40001100: o
+0x3fffd784:
+ f: . 00
+ l:
+ x:
+ - 0x40001823: o
+0x3fffd78c:
+ f: . 00
+ l:
+ x:
+ - 0x40001831: o
+0x3fffd7cc:
+ f: . 00
+ l:
+ x:
+ - 0x4000184c: o
+ - 0x40001887: o
+0x3fffd814:
+ f: . 00
+ l:
+ x:
+ - 0x4000187b: o
 0x3fffdaac:
  f: D 04
  l:
  x:
  - 0x40000057: r
-0x3fffde10:
+ - 0x4000e338: o
+ - 0x4000e340: o
+0x3fffdab0:
  f: . 00
+ l:
+ x:
+ - 0x40000439: o
+ - 0x4000e344: o
+ - 0x4000e34c: o
+ - 0x4000e350: o
+ - 0x4000e358: o
+ - 0x4000e35c: o
+ - 0x4000e364: o
+ - 0x4000e368: o
+ - 0x4000e370: o
+ - 0x4000e374: o
+0x3fffdcd0:
+ f: . 00
+ l:
+ x:
+ - 0x4000106c: o
+ - 0x400010f5: o
+ - 0x40001121: o
+ - 0x40001127: o
+0x3fffdce0:
+ f: . 00
+ l:
+ x:
+ - 0x400017f2: o
+0x3fffde00:
+ f: . 00
+ l:
+ x:
+ - 0x4000337e: o
+0x3fffde10:
+ f: D 04
  l: UartDev
+ x:
+ - 0x400038af: o
+ - 0x40003935: o
+ - 0x40003a4a: o
+0x3fffdff0:
+ f: . 00
+ l:
+ x:
+ - 0x4000568b: o
+0x3fffeb30:
+ f: . 00
+ l:
+ x:
+ - 0x4000043c: o
