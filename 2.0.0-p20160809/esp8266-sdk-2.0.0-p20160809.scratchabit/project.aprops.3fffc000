@@ -2765,11 +2765,21 @@ header:
  - 0x400038af: o
  - 0x40003935: o
  - 0x40003a4a: o
+0x3fffde28:
+ f: . 00
+ l:
+ x:
+ - 0x4000388a: o
 0x3fffdff0:
  f: . 00
  l:
  x:
  - 0x4000568b: o
+0x3fffe1d0:
+ f: . 00
+ l:
+ x:
+ - 0x40005f6a: o
 0x3fffea80:
  f: . 00
  l:

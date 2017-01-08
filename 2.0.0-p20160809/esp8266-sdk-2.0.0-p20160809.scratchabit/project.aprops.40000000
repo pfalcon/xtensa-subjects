@@ -1202,6 +1202,7 @@ header:
  fn_end: '?'
  fn_ranges: [[0x40000e24,0x40000ebc]]
  x:
+ - 0x40002e32: c
  - 0x40005123: c
  - 0x401012f0: o
  - 0x401012ff: c
@@ -1608,11 +1609,15 @@ header:
  - 0x40004cf0: r
  - 0x40004d9f: r
  - 0x40004dee: r
+ - 0x40004e3d: r
+ - 0x40004e5d: r
  - 0x40004e9f: r
  - 0x40004ed6: r
  - 0x40005e09: r
  - 0x40005e75: r
  - 0x40005e87: r
+ - 0x40005ff7: r
+ - 0x40006006: r
  - 0x40006178: r
  - 0x40006190: r
  - 0x40006260: r
@@ -6240,6 +6245,13 @@ header:
  l:
  x:
  - 0x40002dc7: j
+0x40002e24:
+ f: C 01
+ l: rom_timer_intr_handler
+ args:
+  1: {'subtype': 'udec'}
+ x:
+ - 0x40002e6e: o
 0x40002e3c:
  f: C 01
  l:
@@ -6282,6 +6294,10 @@ header:
  cmnt: 'Original label: ets_timer_init'
  fn_end: '?'
  fn_ranges: [[0x40002e68,0x40002ec6]]
+0x40002e6e:
+ f: C 01
+ args:
+  2: {'subtype': 'addr'}
 0x40002e74:
  f: C 01
  args:
@@ -6457,7 +6473,7 @@ header:
  - 0x40002f41: c
 0x40002f3c:
  f: C 01
- l: rom_wdt_sth1
+ l: wdt_irq_real_handler
  fn_end: '?'
  fn_ranges: [[0x40002f3c,0x40002f73], [0x40002f74,0x40002f87]]
  x:
@@ -6479,9 +6495,10 @@ header:
  - 0x40002f56: j
 0x40002f88:
  f: C 01
- l:
+ l: wdt_intr_handler
  x:
  - 0x4000309c: o
+ - 0x40003188: o
 0x40002f98:
  f: D 04
  l:
@@ -6522,7 +6539,7 @@ header:
  - 0x4000302e: j
 0x4000300a:
  f: C 01
- l:
+ l: wdt_enable_mode_2_or_4
  x:
  - 0x40002fe1: j
  - 0x40002fe4: j
@@ -6536,7 +6553,7 @@ header:
   2: {'subtype': 'addr'}
 0x40003060:
  f: C 01
- l:
+ l: wdt_enable_mode_3
  x:
  - 0x40002fe7: j
 0x40003070:
@@ -6545,7 +6562,7 @@ header:
   2: {'subtype': 'addr'}
 0x4000309c:
  f: C 01
- l:
+ l: wdt_enable_mode_1
  args:
   2: {'subtype': 'addr'}
  x:
@@ -6602,6 +6619,10 @@ header:
  l: ets_wdt_init
  fn_end: '?'
  fn_ranges: [[0x40003170,0x400031b1]]
+0x40003188:
+ f: C 01
+ args:
+  2: {'subtype': 'addr'}
 0x400031b4:
  f: C 01
  l: roundup2
@@ -7083,6 +7104,14 @@ header:
  fn_ranges: [[0x4000383c,0x40003897]]
  x:
  - 0x40000ff6: c
+0x40003887:
+ f: C 01
+ args:
+  2: {'subtype': 'addr'}
+0x4000388a:
+ f: C 01
+ args:
+  2: {'subtype': 'addr'}
 0x40003898:
  f: D 04
  l:
@@ -7289,6 +7318,8 @@ header:
  l: uart_rx_intr_handler
  fn_end: '?'
  fn_ranges: [[0x40003bbc,0x40003c2e]]
+ x:
+ - 0x40003887: o
 0x40003bfc:
  f: C 01
  l:
@@ -7598,6 +7629,7 @@ header:
  - 0x40005ec6: r
  - 0x40005f17: r
  - 0x40005f2b: r
+ - 0x40005f67: r
  - 0x4000601f: r
  - 0x40006047: r
  - 0x40006068: r
@@ -8130,6 +8162,7 @@ header:
  l:
  x:
  - 0x400046fc: r
+ - 0x40005f7c: r
  - 0x4000881c: r
 0x40004668:
  f: D 04
@@ -8560,9 +8593,12 @@ header:
  - 0x40004d88: r
  - 0x40004ddc: r
  - 0x40004e28: r
+ - 0x40004e57: r
 0x40004c4c:
  f: D 04
  l:
+ args:
+  0: {'subtype': 'addr'}
  x:
  - 0x40004cb3: r
 0x40004c50:
@@ -8570,6 +8606,10 @@ header:
  l: gpio_init
  fn_end: '?'
  fn_ranges: [[0x40004c50,0x40004ccf]]
+0x40004c53:
+ f: C 01
+ args:
+  2: {'subtype': 'addr'}
 0x40004c8a:
  f: C 01
  l:
@@ -8675,6 +8715,7 @@ header:
  fn_ranges: [[0x40004d90,0x40004dcb]]
  x:
  - 0x40004e09: c
+ - 0x40004e4f: c
 0x40004dcc:
  f: C 01
  l: gpio_intr_ack
@@ -8704,6 +8745,26 @@ header:
  fn_ranges: [[0x40004e28,0x40004e31]]
  x:
  - 0x40004cb8: c
+0x40004e34:
+ f: C 01
+ l: gpio_irq_handler
+ x:
+ - 0x40004c53: o
+0x40004e48:
+ f: C 01
+ l:
+ x:
+ - 0x40004e54: j
+0x40004e52:
+ f: C 01
+ l:
+ x:
+ - 0x40004e48: j
+0x40004e79:
+ f: C 01
+ l:
+ x:
+ - 0x40004e67: j
 0x40004e90:
  f: C 01
  l: gpio_pin_wakeup_enable
@@ -8737,6 +8798,8 @@ header:
  l: gpio_intr_test
  fn_end: '?'
  fn_ranges: [[0x40004efc,0x40004f1b], [0x40004f1e,0x40004f37]]
+ x:
+ - 0x40004c4c: o
 0x40004f1e:
  f: C 01
  l:
@@ -9059,6 +9122,7 @@ header:
  - 0x40005ef8: r
  - 0x40005f10: r
  - 0x40005f24: r
+ - 0x40005f6a: r
  - 0x40006014: r
  - 0x4000603c: r
 0x40005c1c:
@@ -9175,6 +9239,10 @@ header:
  fn_ranges: [[0x40005d90,0x40005db7]]
  x:
  - 0x400056aa: c
+0x40005d92:
+ f: C 01
+ args:
+  2: {'subtype': 'addr'}
 0x40005db8:
  f: C 01
  l: slc_select_tohost_gpio_mode
@@ -9195,6 +9263,9 @@ header:
  l:
  x:
  - 0x40005e0f: r
+ - 0x40005f64: r
+ - 0x40005f91: r
+ - 0x40005fb0: r
 0x40005de4:
  f: C 01
  l: slc_send_to_host_chain
@@ -9260,11 +9331,75 @@ header:
  l: slc_from_host_chain_fetch
  fn_end: '?'
  fn_ranges: [[0x40005f24,0x40005f42]]
+0x40005f44:
+ f: D 04
+ l:
+ x:
+ - 0x40005f50: r
+ - 0x40005f94: r
+ - 0x40005fb3: r
+0x40005f48:
+ f: D 04
+ l:
+ x:
+ - 0x40005f61: r
 0x40005f4c:
  f: D 04
  l:
  x:
+ - 0x40005f9d: r
  - 0x40006044: r
+0x40005f50:
+ f: C 01
+ l: slc_intr_handler
+ x:
+ - 0x40005d92: o
+0x40005f6a:
+ f: C 01
+ args:
+  2: {'subtype': 'addr'}
+0x40005f6d:
+ f: C 01
+ l:
+ x:
+ - 0x40005fdf: j
+0x40005f97:
+ f: C 01
+ l:
+ x:
+ - 0x40005f76: j
+0x40005fb6:
+ f: C 01
+ l:
+ x:
+ - 0x40005f97: j
+0x40005fc1:
+ f: C 01
+ l:
+ x:
+ - 0x40005ffd: j
+ - 0x4000600c: j
+0x40005fdc:
+ f: C 01
+ l:
+ x:
+ - 0x40005fb6: j
+0x40005fe2:
+ f: C 01
+ l:
+ x:
+ - 0x40005f73: j
+ - 0x40005fdc: j
+0x40005ff1:
+ f: C 01
+ l:
+ x:
+ - 0x40005fbb: j
+0x40006000:
+ f: C 01
+ l:
+ x:
+ - 0x40005fbe: j
 0x40006010:
  f: D 04
  l:
@@ -13310,11 +13445,19 @@ header:
  x:
  - 0x40000f8d: c
  - 0x4000bd77: c
+0x4000bd2b:
+ f: C 01
+ args:
+  1: {'subtype': 'udec'}
 0x4000bd30:
  f: C 01
  args:
   2: {'subtype': 'addr'}
 0x4000bd3b:
+ f: C 01
+ args:
+  2: {'subtype': 'addr'}
+0x4000bd44:
  f: C 01
  args:
   2: {'subtype': 'addr'}
@@ -15612,6 +15755,7 @@ header:
  - 0x3fffc270: o
  - 0x3fffc278: o
  - 0x400003ec: o
+ - 0x4000bd44: o
  - 0x4000e590: o
  - 0x4000e598: o
  - 0x4000e5a0: o

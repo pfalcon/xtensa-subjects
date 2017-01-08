@@ -3064,7 +3064,7 @@ header:
  - 0x40104d90: r
 0x401012f4:
  f: C 01
- l:
+ l: timer_intr_handler_
  x:
  - 0x40253440: o
  - 0x40253451: o

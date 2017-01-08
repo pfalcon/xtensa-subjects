@@ -4566,8 +4566,8 @@ header:
  - 0x40273077: o
  - 0x402730fb: o
 0x3ffee9b0:
- f: . 00
- l:
+ f: D 04
+ l: wd_restart_if_1
  x:
  - 0x401045dc: o
  - 0x401045e8: o

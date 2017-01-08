@@ -29899,7 +29899,7 @@ header:
  - 0x4027693d: r
 0x40251d80:
  f: C 01
- l: fun_40251d80
+ l: WiFiInit
  fn_end: '?'
  fn_ranges: [[0x40251d80,0x40251e0b]]
  x:
@@ -29912,13 +29912,17 @@ header:
  f: C 01
  args:
   2: {'subtype': 'addr'}
+0x40251d97:
+ f: C 01
+ args:
+  1: {'subtype': 'udec'}
 0x40251d9a:
  f: C 01
  args:
   2: {'subtype': 'addr'}
 0x40251da0:
  f: C 01
- l:
+ l: infloop1
  x:
  - 0x40251da0: j
 0x40251da3:
@@ -29926,10 +29930,18 @@ header:
  l:
  x:
  - 0x40251d8f: j
+0x40251da6:
+ f: C 01
+ args:
+  1: {'subtype': 'udec'}
 0x40251da9:
  f: C 01
  args:
   2: {'subtype': 'addr'}
+0x40251db1:
+ f: C 01
+ args:
+  1: {'subtype': 'udec'}
 0x40251db4:
  f: C 01
  args:
@@ -88690,6 +88702,10 @@ header:
  f: C 01
  args:
   2: {'subtype': 'addr'}
+0x402738f9:
+ f: C 01
+ args:
+  2: {'subtype': 'udec'}
 0x402738fc:
  f: C 01
  args:
