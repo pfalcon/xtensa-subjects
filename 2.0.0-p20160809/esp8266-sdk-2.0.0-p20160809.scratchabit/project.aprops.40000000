@@ -630,6 +630,10 @@ header:
  fn_end: '?'
  fn_ranges: [[0x40000590,0x40000595]]
  x:
+ - 0x3fffc030: o
+ - 0x3fffc034: o
+ - 0x3fffc038: o
+ - 0x3fffc03c: o
  - 0x4000e3b8: o
  - 0x4000e3bc: o
  - 0x4000e3c0: o
@@ -4119,6 +4123,7 @@ header:
  fn_ranges: [[0x40001df8,0x40001e2f], [0x40001e30,0x40001ec3], [0x40001ec4,0x40001ee1]]
  x:
  - 0x40002361: c
+ - 0x40002379: c
  - 0x40002391: c
 0x40001e30:
  f: C 01
@@ -4192,8 +4197,11 @@ header:
  - 0x4000235e: r
 0x40001ef8:
  f: D 04
+ l:
  args:
   0: {'subtype': 'addr'}
+ x:
+ - 0x40002376: r
 0x40001efc:
  f: D 04
  l:
@@ -4303,7 +4311,39 @@ header:
  - 0x3fffc8c0: o
  - 0x3fffc8c4: o
  - 0x3fffc8c8: o
+ - 0x3fffc8cc: o
+ - 0x3fffc8d0: o
+ - 0x3fffc8d4: o
+ - 0x3fffc8d8: o
+ - 0x3fffc8e0: o
+ - 0x3fffc8e4: o
+ - 0x3fffc8ec: o
+ - 0x3fffc8f0: o
+ - 0x3fffc8f4: o
+ - 0x3fffc8f8: o
+ - 0x3fffc8fc: o
+ - 0x3fffc900: o
+ - 0x3fffc904: o
+ - 0x3fffc908: o
+ - 0x3fffc90c: o
+ - 0x3fffc914: o
+ - 0x3fffc91c: o
+ - 0x3fffc920: o
+ - 0x3fffc924: o
+ - 0x3fffc928: o
+ - 0x3fffc92c: o
+ - 0x3fffc930: o
+ - 0x3fffc934: o
+ - 0x3fffc938: o
+ - 0x3fffc93c: o
+ - 0x3fffc940: o
+ - 0x3fffc944: o
+ - 0x3fffc94c: o
+ - 0x3fffc950: o
+ - 0x3fffc954: o
  - 0x3fffc958: o
+ - 0x3fffc960: o
+ - 0x3fffc964: o
  - 0x40001fcb: j
  - 0x4000ec1c: o
  - 0x4000ec24: o
@@ -4330,12 +4370,23 @@ header:
  l:
  x:
  - 0x40001f89: j
+0x40002010:
+ f: . 00
+ l:
+ x:
+ - 0x3fffc948: o
 0x40002012:
  f: C 01
  l:
  x:
  - 0x3fffc890: o
  - 0x3fffc898: o
+ - 0x3fffc8dc: o
+ - 0x3fffc8e8: o
+ - 0x3fffc910: o
+ - 0x3fffc918: o
+ - 0x3fffc95c: o
+ - 0x3fffc968: o
  - 0x4000ec18: o
  - 0x4000ec20: o
 0x4000202c:
@@ -4358,9 +4409,63 @@ header:
  - 0x3fffc994: o
  - 0x3fffc998: o
  - 0x3fffc99c: o
+ - 0x3fffc9a0: o
+ - 0x3fffc9a4: o
+ - 0x3fffc9a8: o
+ - 0x3fffc9ac: o
+ - 0x3fffc9b0: o
+ - 0x3fffc9b4: o
+ - 0x3fffc9b8: o
+ - 0x3fffc9bc: o
+ - 0x3fffc9c0: o
+ - 0x3fffc9c4: o
+ - 0x3fffc9c8: o
+ - 0x3fffc9cc: o
+ - 0x3fffc9d0: o
+ - 0x3fffc9d4: o
+ - 0x3fffc9d8: o
  - 0x3fffc9dc: o
  - 0x3fffc9e0: o
  - 0x3fffc9f0: o
+ - 0x3fffc9f4: o
+ - 0x3fffc9f8: o
+ - 0x3fffc9fc: o
+ - 0x3fffca00: o
+ - 0x3fffca04: o
+ - 0x3fffca08: o
+ - 0x3fffca0c: o
+ - 0x3fffca10: o
+ - 0x3fffca14: o
+ - 0x3fffca18: o
+ - 0x3fffca1c: o
+ - 0x3fffca20: o
+ - 0x3fffca24: o
+ - 0x3fffca2c: o
+ - 0x3fffca34: o
+ - 0x3fffca38: o
+ - 0x3fffca40: o
+ - 0x3fffca44: o
+ - 0x3fffca48: o
+ - 0x3fffca4c: o
+ - 0x3fffca50: o
+ - 0x3fffca54: o
+ - 0x3fffca58: o
+ - 0x3fffca5c: o
+ - 0x3fffca60: o
+ - 0x3fffca70: o
+ - 0x3fffca74: o
+ - 0x3fffca78: o
+ - 0x3fffca7c: o
+ - 0x3fffca80: o
+ - 0x3fffca84: o
+ - 0x3fffca88: o
+ - 0x3fffca8c: o
+ - 0x3fffca90: o
+ - 0x3fffca94: o
+ - 0x3fffca98: o
+ - 0x3fffcaa0: o
+ - 0x3fffcaa4: o
+ - 0x3fffcaac: o
  - 0x3fffcab4: o
  - 0x3fffcab8: o
  - 0x40001fe3: j
@@ -4399,12 +4504,51 @@ header:
  - 0x3fffcad0: o
  - 0x3fffcad4: o
  - 0x3fffcad8: o
+ - 0x3fffcadc: o
+ - 0x3fffcae0: o
+ - 0x3fffcae4: o
+ - 0x3fffcae8: o
+ - 0x3fffcaec: o
+ - 0x3fffcaf0: o
+ - 0x3fffcaf4: o
+ - 0x3fffcaf8: o
+ - 0x3fffcafc: o
+ - 0x3fffcb00: o
+ - 0x3fffcb08: o
+ - 0x3fffcb0c: o
+ - 0x3fffcb14: o
  - 0x3fffcb18: o
+ - 0x3fffcb1c: o
+ - 0x3fffcb20: o
+ - 0x3fffcb24: o
+ - 0x3fffcb28: o
+ - 0x3fffcb2c: o
+ - 0x3fffcb30: o
+ - 0x3fffcb34: o
+ - 0x3fffcb38: o
+ - 0x3fffcb3c: o
+ - 0x3fffcb44: o
+ - 0x3fffcb48: o
+ - 0x3fffcb4c: o
+ - 0x3fffcb50: o
  - 0x3fffcb54: o
+ - 0x3fffcb58: o
+ - 0x3fffcb5c: o
+ - 0x3fffcb60: o
+ - 0x3fffcb64: o
+ - 0x3fffcb68: o
+ - 0x3fffcb6c: o
+ - 0x3fffcb74: o
+ - 0x3fffcb78: o
+ - 0x3fffcb7c: o
+ - 0x3fffcb80: o
+ - 0x3fffcb88: o
+ - 0x3fffcb8c: o
  - 0x40002050: j
  - 0x4000207c: j
  - 0x400021b9: j
  - 0x40002369: j
+ - 0x40002381: j
  - 0x40002399: j
  - 0x4000eed4: o
 0x400020c7:
@@ -4479,12 +4623,20 @@ header:
  l:
  x:
  - 0x400022d4: j
+0x4000219c:
+ f: C 01
+ l:
+ x:
+ - 0x3fffca9c: o
 0x400021b1:
  f: C 01
  l:
  x:
  - 0x3fffc9ec: o
  - 0x3fffca30: o
+ - 0x3fffca3c: o
+ - 0x3fffca6c: o
+ - 0x3fffcab0: o
  - 0x3fffcabc: o
 0x400021bc:
  f: C 01
@@ -4539,11 +4691,13 @@ header:
  l:
  x:
  - 0x3fffca28: o
+ - 0x3fffcaa8: o
 0x40002243:
  f: C 01
  l:
  x:
  - 0x3fffc9e8: o
+ - 0x3fffca68: o
 0x4000225c:
  f: C 01
  l:
@@ -4642,11 +4796,22 @@ header:
  f: C 01
  args:
   2: {'subtype': 'addr'}
+0x4000236c:
+ f: C 01
+ l:
+ x:
+ - 0x3fffcb10: o
+0x40002376:
+ f: C 01
+ args:
+  2: {'subtype': 'addr'}
 0x40002384:
  f: C 01
  l:
  x:
  - 0x3fffcac0: o
+ - 0x3fffcb04: o
+ - 0x3fffcb40: o
  - 0x3fffcb84: o
 0x4000238e:
  f: C 01
@@ -9873,6 +10038,18 @@ header:
  - 0x40006eb1: j
  - 0x40006ec2: j
  - 0x40006ece: j
+ - 0x40006eda: j
+ - 0x40006ee6: j
+ - 0x40006ef2: j
+ - 0x40006efe: j
+ - 0x40006f0a: j
+ - 0x40006f16: j
+ - 0x40006f22: j
+ - 0x40006f2e: j
+ - 0x40006f3a: j
+ - 0x40006f46: j
+ - 0x40006f52: j
+ - 0x40006f5e: j
 0x40006d0c:
  f: C 01
  l:
@@ -9969,6 +10146,7 @@ header:
  f: C 01
  l:
  x:
+ - 0x3fffcc60: o
  - 0x40006de1: j
  - 0x4000efe8: o
 0x40006dff:
@@ -10045,7 +10223,68 @@ header:
  f: C 01
  l:
  x:
+ - 0x3fffcc64: o
  - 0x4000efec: o
+0x40006ed1:
+ f: C 01
+ l:
+ x:
+ - 0x3fffcc94: o
+0x40006edd:
+ f: C 01
+ l:
+ x:
+ - 0x3fffcc90: o
+0x40006ee9:
+ f: C 01
+ l:
+ x:
+ - 0x3fffcc8c: o
+0x40006ef5:
+ f: C 01
+ l:
+ x:
+ - 0x3fffcc88: o
+0x40006f01:
+ f: C 01
+ l:
+ x:
+ - 0x3fffcc84: o
+0x40006f0d:
+ f: C 01
+ l:
+ x:
+ - 0x3fffcc80: o
+0x40006f19:
+ f: C 01
+ l:
+ x:
+ - 0x3fffcc7c: o
+0x40006f25:
+ f: C 01
+ l:
+ x:
+ - 0x3fffcc78: o
+0x40006f31:
+ f: C 01
+ l:
+ x:
+ - 0x3fffcc74: o
+0x40006f3d:
+ f: C 01
+ l:
+ x:
+ - 0x3fffcc70: o
+0x40006f49:
+ f: C 01
+ l:
+ x:
+ - 0x3fffcc6c: o
+0x40006f55:
+ f: C 01
+ l:
+ x:
+ - 0x3fffcc68: o
 0x40006f64:
  f: D 04
  l:
@@ -15262,11 +15501,68 @@ header:
  x:
  - 0x3fffc100: o
  - 0x3fffc104: o
+ - 0x3fffc108: o
+ - 0x3fffc10c: o
+ - 0x3fffc110: o
+ - 0x3fffc114: o
+ - 0x3fffc118: o
+ - 0x3fffc11c: o
+ - 0x3fffc120: o
+ - 0x3fffc124: o
+ - 0x3fffc128: o
+ - 0x3fffc12c: o
+ - 0x3fffc130: o
+ - 0x3fffc134: o
+ - 0x3fffc138: o
+ - 0x3fffc13c: o
+ - 0x3fffc140: o
+ - 0x3fffc144: o
+ - 0x3fffc148: o
+ - 0x3fffc14c: o
+ - 0x3fffc150: o
+ - 0x3fffc154: o
+ - 0x3fffc158: o
+ - 0x3fffc15c: o
+ - 0x3fffc160: o
+ - 0x3fffc164: o
+ - 0x3fffc168: o
+ - 0x3fffc16c: o
+ - 0x3fffc170: o
+ - 0x3fffc174: o
+ - 0x3fffc178: o
  - 0x3fffc17c: o
  - 0x3fffc180: o
  - 0x3fffc184: o
  - 0x3fffc188: o
  - 0x3fffc18c: o
+ - 0x3fffc190: o
+ - 0x3fffc194: o
+ - 0x3fffc198: o
+ - 0x3fffc19c: o
+ - 0x3fffc1a0: o
+ - 0x3fffc1a4: o
+ - 0x3fffc1a8: o
+ - 0x3fffc1ac: o
+ - 0x3fffc1b0: o
+ - 0x3fffc1b4: o
+ - 0x3fffc1b8: o
+ - 0x3fffc1bc: o
+ - 0x3fffc1c0: o
+ - 0x3fffc1c4: o
+ - 0x3fffc1c8: o
+ - 0x3fffc1cc: o
+ - 0x3fffc1d0: o
+ - 0x3fffc1d4: o
+ - 0x3fffc1d8: o
+ - 0x3fffc1dc: o
+ - 0x3fffc1e0: o
+ - 0x3fffc1e4: o
+ - 0x3fffc1e8: o
+ - 0x3fffc1ec: o
+ - 0x3fffc1f0: o
+ - 0x3fffc1f4: o
+ - 0x3fffc1f8: o
+ - 0x3fffc1fc: o
  - 0x4000038c: o
  - 0x40000462: o
  - 0x4000e488: o
@@ -15306,6 +15602,8 @@ header:
  - 0x3fffc220: o
  - 0x3fffc228: o
  - 0x3fffc230: o
+ - 0x3fffc238: o
+ - 0x3fffc240: o
  - 0x3fffc248: o
  - 0x3fffc250: o
  - 0x3fffc258: o
@@ -15335,6 +15633,56 @@ header:
  - 0x3fffc00c: o
  - 0x3fffc018: o
  - 0x3fffc01c: o
+ - 0x3fffc020: o
+ - 0x3fffc024: o
+ - 0x3fffc028: o
+ - 0x3fffc02c: o
+ - 0x3fffc040: o
+ - 0x3fffc044: o
+ - 0x3fffc048: o
+ - 0x3fffc04c: o
+ - 0x3fffc050: o
+ - 0x3fffc054: o
+ - 0x3fffc058: o
+ - 0x3fffc05c: o
+ - 0x3fffc060: o
+ - 0x3fffc064: o
+ - 0x3fffc068: o
+ - 0x3fffc06c: o
+ - 0x3fffc070: o
+ - 0x3fffc074: o
+ - 0x3fffc078: o
+ - 0x3fffc07c: o
+ - 0x3fffc080: o
+ - 0x3fffc084: o
+ - 0x3fffc088: o
+ - 0x3fffc08c: o
+ - 0x3fffc090: o
+ - 0x3fffc094: o
+ - 0x3fffc098: o
+ - 0x3fffc09c: o
+ - 0x3fffc0a0: o
+ - 0x3fffc0a4: o
+ - 0x3fffc0a8: o
+ - 0x3fffc0ac: o
+ - 0x3fffc0b0: o
+ - 0x3fffc0b4: o
+ - 0x3fffc0b8: o
+ - 0x3fffc0bc: o
+ - 0x3fffc0c0: o
+ - 0x3fffc0c4: o
+ - 0x3fffc0c8: o
+ - 0x3fffc0cc: o
+ - 0x3fffc0d0: o
+ - 0x3fffc0d4: o
+ - 0x3fffc0d8: o
+ - 0x3fffc0dc: o
+ - 0x3fffc0e0: o
+ - 0x3fffc0e4: o
+ - 0x3fffc0e8: o
+ - 0x3fffc0ec: o
+ - 0x3fffc0f0: o
+ - 0x3fffc0f4: o
  - 0x3fffc0f8: o
  - 0x3fffc0fc: o
  - 0x4000039c: o
