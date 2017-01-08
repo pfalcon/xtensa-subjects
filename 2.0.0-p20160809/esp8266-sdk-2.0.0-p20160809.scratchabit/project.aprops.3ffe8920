@@ -111,10 +111,12 @@ header:
  f: D 04
  cmnt: 'xtensa: Array, num bytes: 12'
 0x3ffe9440:
- f: D 04
+ f: X 10
+ l: s_Magic_server_to_client_signing_constant
  cmnt: 'xtensa: Array, num bytes: 39'
 0x3ffe9470:
- f: D 04
+ f: X 10
+ l: s_Pad_to_make_it_do_more_than_one_iteration
  cmnt: 'xtensa: Array, num bytes: 41'
 0x3ffe94a0:
  f: D 04
@@ -124,17 +126,19 @@ header:
  - 0x40243230: o
  - 0x40243234: o
 0x3ffe94b0:
- f: D 04
+ f: X 10
+ l: s_This_is_the_MPPE_Master_Key
  cmnt: 'xtensa: Array, num bytes: 27'
 0x3ffe94d0:
- f: D 04
- l:
+ f: X 10
+ l: s_On_the_client_side__this_is_the_send_key__on_the_server_side__it_is_the_receive_key_
  cmnt: 'xtensa: Array, num bytes: 84'
  x:
  - 0x40243288: o
  - 0x402432b4: o
 0x3ffe9530:
- f: D 04
+ f: X 10
+ l: s_On_the_client_side__this_is_the_receive_key__on_the_server_side__it_is_the_send_key_
  cmnt: 'xtensa: Array, num bytes: 84'
 0x3ffe9590:
  f: D 04
@@ -156,58 +160,58 @@ header:
  - 0x402434c4: o
  - 0x4024357a: o
 0x3ffe96d0:
- f: D 04
- l:
+ f: X 10
+ l: s_mt_add_peer
  cmnt: 'xtensa: Array, num bytes: 12'
  x:
  - 0x40244254: o
  - 0x402443ed: o
 0x3ffe96e0:
- f: . 00
- l:
+ f: X 10
+ l: s_mt_deinit
  x:
  - 0x402446b4: o
  - 0x4024474c: o
 0x3ffe96f0:
- f: D 04
- l:
+ f: X 10
+ l: s_ringbuf_free
  cmnt: 'xtensa: Array, num bytes: 13'
  x:
  - 0x401000f4: o
  - 0x4010012d: o
 0x3ffe9700:
- f: D 04
- l:
+ f: X 10
+ l: s_ringbuf_nextp
  cmnt: 'xtensa: Array, num bytes: 14'
  x:
  - 0x40100208: o
  - 0x4010024c: o
 0x3ffe9710:
- f: D 04
- l:
+ f: X 10
+ l: s_ringbuf_findchr
  cmnt: 'xtensa: Array, num bytes: 16'
  x:
  - 0x4010025c: o
  - 0x401002c2: o
 0x3ffe9720:
- f: D 04
- l:
+ f: X 10
+ l: s_ringbuf_memset
  cmnt: 'xtensa: Array, num bytes: 15'
  x:
  - 0x401002f4: o
  - 0x4010038e: o
  - 0x401003ae: o
 0x3ffe9730:
- f: D 04
- l:
+ f: X 10
+ l: s_ringbuf_memcpy_into
  cmnt: 'xtensa: Array, num bytes: 20'
  x:
  - 0x401003c0: o
  - 0x40100448: o
  - 0x4010046a: o
 0x3ffe9750:
- f: . 00
- l:
+ f: X 10
+ l: s_ringbuf_memcpy_from
  x:
  - 0x4010047c: o
  - 0x4010050d: o
@@ -254,43 +258,97 @@ header:
  - 0x4024df1d: o
  - 0x4024e075: o
 0x3ffe97e0:
- f: D 04
- l:
+ f: X 10
+ l: s_Sun
  cmnt: 'xtensa: Array, num bytes: 28'
  x:
  - 0x4024e0a0: o
  - 0x4024e0a8: o
+0x3ffe97e4:
+ f: X 10
+ l: s_Mon
+0x3ffe97e8:
+ f: X 10
+ l: s_Tue
+0x3ffe97ec:
+ f: X 10
+ l: s_Wed
+0x3ffe97f0:
+ f: X 10
+ l: s_Thu
+0x3ffe97f4:
+ f: X 10
+ l: s_Fri
+0x3ffe97f8:
+ f: X 10
+ l: s_Sat
+0x3ffe9800:
+ f: X 10
+ l: s_Jan
+0x3ffe9804:
+ f: X 10
+ l: s_Feb
+0x3ffe9808:
+ f: X 10
+ l: s_Mar
+0x3ffe980c:
+ f: X 10
+ l: s_Apr
+0x3ffe9810:
+ f: X 10
+ l: s_May
+0x3ffe9814:
+ f: X 10
+ l: s_Jun
+0x3ffe9818:
+ f: X 10
+ l: s_Jul
+0x3ffe981c:
+ f: X 10
+ l: s_Aug
+0x3ffe9820:
+ f: X 10
+ l: s_Sep
+0x3ffe9824:
+ f: X 10
+ l: s_Oct
+0x3ffe9828:
+ f: X 10
+ l: s_Nov
+0x3ffe982c:
+ f: X 10
+ l: s_Dec
 0x3ffe9830:
- f: D 04
- l:
+ f: X 10
+ l: s_espconn_mesh_pack_connect
  cmnt: 'xtensa: Array, num bytes: 26'
  x:
  - 0x402592ac: o
  - 0x402592da: o
 0x3ffe9850:
- f: D 04
- l:
+ f: X 10
+ l: s_espconn_mesh_dhcp_timeout
  cmnt: 'xtensa: Array, num bytes: 26'
  x:
  - 0x40259350: o
  - 0x40259357: o
 0x3ffe9870:
- f: D 04
- l:
+ f: X 10
+ l: s_espconn_mesh_flow_request_timeout
  cmnt: 'xtensa: Array, num bytes: 34'
  x:
  - 0x40259780: o
  - 0x4025978f: o
 0x3ffe98a0:
- f: D 04
- l:
+ f: X 10
+ l: s_espconn_mesh_flow_request
  cmnt: 'xtensa: Array, num bytes: 26'
  x:
  - 0x402597c4: o
  - 0x402598dd: o
 0x3ffe98c0:
- f: D 04
- l:
+ f: X 10
+ l: s_espconn_mesh_tx_task
  cmnt: 'xtensa: Array, num bytes: 21'
  x:
  - 0x40259b4c: o
@@ -300,15 +358,15 @@ header:
  f: D 04
  cmnt: 'xtensa: Array, num bytes: 4'
 0x3ffe98f0:
- f: D 04
- l:
+ f: X 10
+ l: s_espconn_mesh_sta_exception
  cmnt: 'xtensa: Array, num bytes: 27'
  x:
  - 0x40259f48: o
  - 0x4025a037: o
 0x3ffe9910:
- f: D 04
- l:
+ f: X 10
+ l: s_espconn_mesh_connect
  cmnt: 'xtensa: Array, num bytes: 21'
  x:
  - 0x4025a6d8: o

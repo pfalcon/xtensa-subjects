@@ -638,6 +638,12 @@ header:
 0x3fffc39f:
  f: . 00
  cmnt: 'last byte of rand struct?'
+0x3fffc3a0:
+ f: D 04
+ l: rand_cur_longlong
+0x3fffc3a4:
+ f: D 04
+ l: rand_initial_zero
 0x3fffc5e4:
  f: . 00
  l:
@@ -1139,7 +1145,7 @@ header:
  - 0x40007c95: o
 0x3fffc857:
  f: - 40
- l: ram_seg0_end
+ l: _sysram_data_end
  x:
  - 0x4000e32c: o
 0x3fffc860:
@@ -2279,8 +2285,8 @@ header:
  - 0x4000b644: o
  - 0x4000b69e: o
 0x3fffd650:
- f: . 00
- l:
+ f: D 04
+ l: xtos_int_level_table
  x:
  - 0x400003e4: o
  - 0x4000bd30: o
@@ -2559,7 +2565,7 @@ header:
  - 0x40008c86: o
 0x3fffda20:
  f: D 04
- l: byte_0x80
+ l: sha1_byte_0x80
  x:
  - 0x4000b640: o
  - 0x4000b688: o
