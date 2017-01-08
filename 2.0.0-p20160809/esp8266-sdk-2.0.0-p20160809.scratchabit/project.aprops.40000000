@@ -28,6 +28,10 @@ header:
  cmnt: 'Original label: _UserExceptionVector'
  fn_end: '?'
  fn_ranges: [[0x40000050,0x40000067]]
+0x40000057:
+ f: C 01
+ args:
+  2: {'subtype': 'addr'}
 0x40000070:
  f: C 01
  l: _DoubleExceptionVector__1
@@ -512,6 +516,7 @@ header:
 0x40000454:
  f: C 01
  l: _xtos_set_exception_handler
+ cmnt: 'XCHAL_EXCCAUSE_NUM'
  fn_end: '?'
  fn_ranges: [[0x40000454,0x4000048a]]
  x:
@@ -561,6 +566,7 @@ header:
  fn_end: '?'
  fn_ranges: [[0x4000048c,0x40000569]]
  x:
+ - 0x3fffc010: o
  - 0x4000e398: o
 0x400004b6:
  f: C 01
@@ -1094,6 +1100,8 @@ header:
 0x40000dbc:
  f: D 04
  l:
+ args:
+  0: {'subtype': 'addr'}
  x:
  - 0x40000dc0: r
  - 0x40000e91: r
@@ -1101,6 +1109,8 @@ header:
 0x40000dc0:
  f: C 01
  l: ets_set_idle_cb
+ args:
+  2: {'subtype': 'addr'}
  fn_end: '?'
  fn_ranges: [[0x40000dc0,0x40000dc9]]
  x:
@@ -1124,6 +1134,8 @@ header:
 0x40000dcc:
  f: D 04
  l:
+ args:
+  0: {'subtype': 'addr'}
  x:
  - 0x40000dd5: r
  - 0x40000e37: r
@@ -1146,6 +1158,10 @@ header:
  - 0x402733a7: c
  - 0x40274ab1: c
  - 0x4027ca57: c
+0x40000dd5:
+ f: C 01
+ args:
+  2: {'subtype': 'addr'}
 0x40000dfc:
  f: C 01
  l: fun_40000dfc
@@ -1156,6 +1172,8 @@ header:
 0x40000e00:
  f: D 04
  l:
+ args:
+  0: {'subtype': 'addr'}
  x:
  - 0x40000e07: r
  - 0x40000ed9: r
@@ -1170,6 +1188,10 @@ header:
  - 0x40001106: c
  - 0x40100b60: o
  - 0x40100b6c: c
+0x40000e07:
+ f: C 01
+ args:
+  2: {'subtype': 'addr'}
 0x40000e24:
  f: C 01
  l: ets_post
@@ -1211,6 +1233,10 @@ header:
  - 0x4027c711: c
  - 0x4029804c: o
  - 0x40298146: c
+0x40000e37:
+ f: C 01
+ args:
+  2: {'subtype': 'addr'}
 0x40000e74:
  f: C 01
  l:
@@ -1219,6 +1245,8 @@ header:
 0x40000e91:
  f: C 01
  l:
+ args:
+  2: {'subtype': 'addr'}
  x:
  - 0x40000e80: j
 0x40000ead:
@@ -1240,9 +1268,19 @@ header:
  fn_ranges: [[0x40000ecc,0x40000f6e]]
  x:
  - 0x40000e16: c
+0x40000ed9:
+ f: C 01
+ args:
+  2: {'subtype': 'addr'}
+0x40000edc:
+ f: C 01
+ args:
+  2: {'subtype': 'addr'}
 0x40000ee5:
  f: C 01
  l:
+ args:
+  2: {'subtype': 'addr'}
  x:
  - 0x40000f58: j
 0x40000f14:
@@ -1253,8 +1291,14 @@ header:
 0x40000f34:
  f: C 01
  l:
+ args:
+  2: {'subtype': 'addr'}
  x:
  - 0x40000f24: j
+0x40000f49:
+ f: C 01
+ args:
+  2: {'subtype': 'addr'}
 0x40000f4f:
  f: C 01
  l:
@@ -1269,6 +1313,8 @@ header:
 0x40000f70:
  f: D 04
  l:
+ args:
+  0: {'subtype': 'addr'}
  x:
  - 0x40000f77: r
 0x40000f74:
@@ -1358,6 +1404,10 @@ header:
  - 0x4027497f: c
  - 0x402749bb: c
  - 0x40274c67: c
+0x40000f77:
+ f: C 01
+ args:
+  2: {'subtype': 'addr'}
 0x40000f80:
  f: C 01
  l: ets_intr_unlock
@@ -1508,6 +1558,8 @@ header:
 0x40000fb8:
  f: D 04
  l:
+ args:
+  0: {'subtype': 'addr'}
  x:
  - 0x40000fbc: r
  - 0x4000106c: r
@@ -1517,6 +1569,8 @@ header:
 0x40000fbc:
  f: C 01
  l: ets_set_user_start
+ args:
+  2: {'subtype': 'addr'}
  fn_end: '?'
  fn_ranges: [[0x40000fbc,0x40000fc3]]
  x:
@@ -1572,48 +1626,66 @@ header:
 0x40000fc8:
  f: D 04
  l:
+ args:
+  0: {'subtype': 'addr'}
  x:
  - 0x40001051: r
 0x40000fcc:
  f: D 04
  l:
+ args:
+  0: {'subtype': 'addr'}
  x:
  - 0x40001054: r
 0x40000fd0:
  f: D 04
  l:
+ args:
+  0: {'subtype': 'addr'}
  x:
  - 0x400010ae: r
  - 0x40001136: r
 0x40000fd4:
  f: D 04
  l:
+ args:
+  0: {'subtype': 'addr'}
  x:
  - 0x400010b1: r
  - 0x40001139: r
 0x40000fd8:
  f: D 04
  l:
+ args:
+  0: {'subtype': 'addr'}
  x:
  - 0x400010c1: r
 0x40000fdc:
  f: D 04
  l:
+ args:
+  0: {'subtype': 'addr'}
  x:
  - 0x400010c7: r
 0x40000fe0:
  f: D 04
  l:
+ args:
+  0: {'subtype': 'addr'}
  x:
  - 0x40001100: r
 0x40000fe4:
  f: D 04
  l:
+ args:
+  0: {'subtype': 'addr'}
  x:
  - 0x40001118: r
 0x40000fe8:
  f: D 04
  l:
+ args:
+  0: {'subtype': 'addr'}
  x:
  - 0x40001130: r
 0x40000fec:
@@ -1714,6 +1786,8 @@ header:
 0x40001118:
  f: C 01
  l:
+ args:
+  2: {'subtype': 'addr'}
  x:
  - 0x4000107b: j
 0x40001121:
@@ -1730,9 +1804,23 @@ header:
 0x40001130:
  f: C 01
  l:
+ args:
+  2: {'subtype': 'addr'}
  x:
  - 0x40001081: j
  - 0x40001087: j
+0x40001136:
+ f: C 01
+ args:
+  2: {'subtype': 'addr'}
+0x40001139:
+ f: C 01
+ args:
+  2: {'subtype': 'addr'}
+0x4000113c:
+ f: C 01
+ args:
+  1: {'subtype': 'udec'}
 0x40001142:
  f: C 01
  l:
@@ -1766,6 +1854,7 @@ header:
  - 0x40002d0f: r
  - 0x40002db3: r
  - 0x40002ea8: r
+ - 0x40002f47: r
  - 0x40002fca: r
  - 0x40003010: r
  - 0x40003022: r
@@ -1802,6 +1891,8 @@ header:
 0x4000119c:
  f: D 04
  l:
+ args:
+  0: {'subtype': 'addr'}
  x:
  - 0x4000121a: r
 0x400011a0:
@@ -1846,6 +1937,10 @@ header:
  l:
  x:
  - 0x4000128e: j
+0x4000121a:
+ f: C 01
+ args:
+  2: {'subtype': 'addr'}
 0x40001223:
  f: C 01
  l:
@@ -1916,21 +2011,29 @@ header:
 0x400012e8:
  f: D 04
  l:
+ args:
+  0: {'subtype': 'addr'}
  x:
  - 0x400013bd: r
 0x400012ec:
  f: D 04
  l:
+ args:
+  0: {'subtype': 'addr'}
  x:
  - 0x400014d8: r
 0x400012f0:
  f: D 04
  l:
+ args:
+  0: {'subtype': 'addr'}
  x:
  - 0x4000153c: r
 0x400012f4:
  f: D 04
  l:
+ args:
+  0: {'subtype': 'addr'}
  x:
  - 0x40001664: r
  - 0x400017a0: r
@@ -1938,21 +2041,29 @@ header:
 0x400012f8:
  f: D 04
  l:
+ args:
+  0: {'subtype': 'addr'}
  x:
  - 0x40001667: r
 0x400012fc:
  f: D 04
- l:
+ l: s_l
+ args:
+  0: {'subtype': 'addr'}
  x:
  - 0x40001721: r
 0x40001300:
  f: D 04
  l:
+ args:
+  0: {'subtype': 'addr'}
  x:
  - 0x40001771: r
 0x40001304:
  f: D 04
  l:
+ args:
+  0: {'subtype': 'addr'}
  x:
  - 0x40001783: r
 0x40001308:
@@ -1978,6 +2089,10 @@ header:
  l:
  x:
  - 0x400015b6: j
+0x400013bd:
+ f: C 01
+ args:
+  2: {'subtype': 'addr'}
 0x400013e4:
  f: C 01
  l:
@@ -2037,6 +2152,10 @@ header:
  l:
  x:
  - 0x400014bb: j
+0x400014d8:
+ f: C 01
+ args:
+  2: {'subtype': 'addr'}
 0x400014ed:
  f: C 01
  l:
@@ -2055,6 +2174,8 @@ header:
 0x4000153c:
  f: C 01
  l:
+ args:
+  2: {'subtype': 'addr'}
  x:
  - 0x400014ed: j
  - 0x40001513: j
@@ -2107,8 +2228,14 @@ header:
 0x40001664:
  f: C 01
  l:
+ args:
+  2: {'subtype': 'addr'}
  x:
  - 0x4000146e: j
+0x40001667:
+ f: C 01
+ args:
+  2: {'subtype': 'addr'}
 0x40001684:
  f: C 01
  l:
@@ -2137,6 +2264,8 @@ header:
 0x40001721:
  f: C 01
  l:
+ args:
+  2: {'subtype': 'addr'}
  x:
  - 0x4000155c: j
 0x4000176c:
@@ -2147,36 +2276,56 @@ header:
 0x40001771:
  f: C 01
  l:
+ args:
+  2: {'subtype': 'addr'}
  x:
  - 0x4000154a: j
+0x40001783:
+ f: C 01
+ args:
+  2: {'subtype': 'addr'}
 0x400017a0:
  f: C 01
  l:
+ args:
+  2: {'subtype': 'addr'}
  x:
  - 0x400014c8: j
+0x400017a3:
+ f: C 01
 0x400017c0:
  f: C 01
  l:
+ args:
+  2: {'subtype': 'addr'}
  x:
  - 0x40001743: j
 0x400017d0:
  f: D 04
  l:
+ args:
+  0: {'subtype': 'addr'}
  x:
  - 0x400017f2: r
 0x400017d4:
  f: D 04
  l:
+ args:
+  0: {'subtype': 'addr'}
  x:
  - 0x40001823: r
 0x400017d8:
  f: D 04
  l:
+ args:
+  0: {'subtype': 'addr'}
  x:
  - 0x40001831: r
 0x400017dc:
  f: D 04
  l:
+ args:
+  0: {'subtype': 'addr'}
  x:
  - 0x4000184c: r
  - 0x40001887: r
@@ -2184,6 +2333,7 @@ header:
  f: C 01
  l:
  x:
+ - 0x40000fd8: o
  - 0x400010c1: o
 0x400017f2:
  f: C 01
@@ -2222,12 +2372,15 @@ header:
 0x40001874:
  f: D 04
  l:
+ args:
+  0: {'subtype': 'addr'}
  x:
  - 0x4000187b: r
 0x40001878:
  f: C 01
  l:
  x:
+ - 0x40000fdc: o
  - 0x400010c7: o
 0x4000187b:
  f: C 01
@@ -3557,6 +3710,8 @@ header:
 0x400018e4:
  f: D 04
  l:
+ args:
+  0: {'subtype': 'addr'}
  x:
  - 0x400018eb: r
  - 0x4000199c: r
@@ -3572,6 +3727,10 @@ header:
  fn_ranges: [[0x400018e8,0x40001990]]
  x:
  - 0x40001a06: c
+0x400018eb:
+ f: C 01
+ args:
+  2: {'subtype': 'addr'}
 0x40001905:
  f: C 01
  l:
@@ -3620,6 +3779,10 @@ header:
  l: mem_init
  fn_end: '?'
  fn_ranges: [[0x40001998,0x400019dd]]
+0x4000199c:
+ f: C 01
+ args:
+  2: {'subtype': 'addr'}
 0x400019e0:
  f: C 01
  l: mem_free
@@ -3628,6 +3791,10 @@ header:
  x:
  - 0x40001c9e: c
  - 0x40009770: c
+0x400019e7:
+ f: C 01
+ args:
+  2: {'subtype': 'addr'}
 0x40001a04:
  f: C 01
  l:
@@ -3659,6 +3826,8 @@ header:
 0x40001a32:
  f: C 01
  l:
+ args:
+  2: {'subtype': 'addr'}
  x:
  - 0x40001a2c: j
 0x40001a3f:
@@ -3720,6 +3889,8 @@ header:
 0x40001b61:
  f: C 01
  l:
+ args:
+  2: {'subtype': 'addr'}
  x:
  - 0x40001b5b: j
 0x40001b78:
@@ -3752,11 +3923,19 @@ header:
  x:
  - 0x40001bde: j
  - 0x40001be9: j
+0x40001bfe:
+ f: C 01
+ args:
+  2: {'subtype': 'addr'}
 0x40001c09:
  f: C 01
  l:
  x:
  - 0x40001c21: j
+0x40001c12:
+ f: C 01
+ args:
+  2: {'subtype': 'addr'}
 0x40001c24:
  f: C 01
  l:
@@ -3795,8 +3974,11 @@ header:
 0x40001cb0:
  f: D 04
  l:
+ args:
+  0: {'subtype': 'addr'}
  x:
  - 0x40001cb8: r
+ - 0x40001cdf: r
  - 0x40001d48: r
  - 0x40001da5: r
  - 0x40001db4: r
@@ -3807,6 +3989,7 @@ header:
  - 0x4000248c: r
  - 0x40002494: r
  - 0x4000249c: r
+ - 0x400024a8: r
  - 0x400024dd: r
  - 0x40002578: r
  - 0x40002592: r
@@ -3819,8 +4002,33 @@ header:
 0x40001cb8:
  f: C 01
  l: eprintf_init_buf
+ args:
+  2: {'subtype': 'addr'}
  fn_end: '?'
  fn_ranges: [[0x40001cb8,0x40001cd6]]
+0x40001cd8:
+ f: D 04
+ l:
+ args:
+  0: {'subtype': 'addr'}
+ x:
+ - 0x40001d00: r
+0x40001cdc:
+ f: C 01
+ l:
+ x:
+ - 0x40001d36: o
+0x40001cdf:
+ f: C 01
+ args:
+  2: {'subtype': 'addr'}
+0x40001d00:
+ f: C 01
+ l:
+ args:
+  2: {'subtype': 'addr'}
+ x:
+ - 0x40001ce7: j
 0x40001d10:
  f: D 04
  l:
@@ -3848,9 +4056,15 @@ header:
  - 0x40008c89: c
  - 0x40008ca4: c
  - 0x40008cb2: c
+0x40001d36:
+ f: C 01
+ args:
+  2: {'subtype': 'addr'}
 0x40001d48:
  f: C 01
  l: eprintf_to_host
+ args:
+  2: {'subtype': 'addr'}
  fn_end: '?'
  fn_ranges: [[0x40001d48,0x40001d9f]]
 0x40001da0:
@@ -3859,9 +4073,19 @@ header:
  fn_end: '?'
  fn_ranges: [[0x40001da0,0x40001dc9]]
  x:
+ - 0x400024c8: o
+ - 0x40002500: o
  - 0x40102408: o
  - 0x40102453: o
  - 0x40102507: o
+0x40001da5:
+ f: C 01
+ args:
+  2: {'subtype': 'addr'}
+0x40001db4:
+ f: C 01
+ args:
+  2: {'subtype': 'addr'}
 0x40001db7:
  f: C 01
  l:
@@ -3872,19 +4096,115 @@ header:
  l:
  x:
  - 0x40001db9: j
+0x40001dcc:
+ f: C 01
+ l:
+ x:
+ - 0x40002438: o
+ - 0x40002566: o
+0x40001ddc:
+ f: C 01
+ l:
+ x:
+ - 0x40001dd6: j
+0x40001de4:
+ f: C 01
+ l:
+ x:
+ - 0x40001dd1: j
+0x40001df8:
+ f: C 01
+ l: fun_40001df8
+ fn_end: '?'
+ fn_ranges: [[0x40001df8,0x40001e2f], [0x40001e30,0x40001ec3], [0x40001ec4,0x40001ee1]]
+ x:
+ - 0x40002361: c
+ - 0x40002391: c
+0x40001e30:
+ f: C 01
+ l:
+ x:
+ - 0x40001e22: j
+0x40001e3e:
+ f: C 01
+ l:
+ x:
+ - 0x40001e74: j
+0x40001e77:
+ f: C 01
+ l:
+ x:
+ - 0x40001e2c: j
+0x40001e90:
+ f: C 01
+ l:
+ x:
+ - 0x40001e82: j
+0x40001e9a:
+ f: C 01
+ l:
+ x:
+ - 0x40001ead: j
+0x40001eb0:
+ f: C 01
+ l:
+ x:
+ - 0x40001e98: j
+0x40001ec4:
+ f: C 01
+ l:
+ x:
+ - 0x40001e79: j
 0x40001ee4:
  f: D 04
  l:
+ args:
+  0: {'subtype': 'addr'}
  x:
  - 0x40001fce: r
 0x40001ee8:
  f: D 04
  l:
+ args:
+  0: {'subtype': 'addr'}
  x:
  - 0x40001fe6: r
+0x40001eec:
+ f: D 04
+ l:
+ args:
+  0: {'subtype': 'addr'}
+ x:
+ - 0x400021bc: r
+0x40001ef0:
+ f: D 04
+ l:
+ args:
+  0: {'subtype': 'addr'}
+ x:
+ - 0x4000227a: r
+0x40001ef4:
+ f: D 04
+ l:
+ args:
+  0: {'subtype': 'addr'}
+ x:
+ - 0x4000235e: r
+0x40001ef8:
+ f: D 04
+ args:
+  0: {'subtype': 'addr'}
+0x40001efc:
+ f: D 04
+ l:
+ args:
+  0: {'subtype': 'addr'}
+ x:
+ - 0x4000238e: r
 0x40001f00:
  f: C 01
  l: ets_vprintf
+ cmnt: 'a2 - putc handler'
  fn_end: '?'
  fn_ranges: [[0x40001f00,0x40002010], [0x40002034,0x40002049], [0x400020c7,0x40002159], [0x400021cc,0x40002207], [0x40002208,0x4000222e], [0x400022f8,0x40002313], [0x4000239c,0x400023a9], [0x400023fa,0x40002412]]
  x:
@@ -3900,6 +4220,11 @@ header:
  l:
  x:
  - 0x40001f59: j
+0x40001f46:
+ f: C 01
+ l:
+ x:
+ - 0x400022c1: j
 0x40001f49:
  f: C 01
  l:
@@ -3957,10 +4282,28 @@ header:
  l:
  x:
  - 0x400021e1: j
+0x40001fce:
+ f: C 01
+ args:
+  2: {'subtype': 'addr'}
 0x40001fd9:
  f: C 01
  l:
  x:
+ - 0x3fffc894: o
+ - 0x3fffc89c: o
+ - 0x3fffc8a0: o
+ - 0x3fffc8a4: o
+ - 0x3fffc8a8: o
+ - 0x3fffc8ac: o
+ - 0x3fffc8b0: o
+ - 0x3fffc8b4: o
+ - 0x3fffc8b8: o
+ - 0x3fffc8bc: o
+ - 0x3fffc8c0: o
+ - 0x3fffc8c4: o
+ - 0x3fffc8c8: o
+ - 0x3fffc958: o
  - 0x40001fcb: j
  - 0x4000ec1c: o
  - 0x4000ec24: o
@@ -3973,6 +4316,10 @@ header:
  x:
  - 0x40002197: j
  - 0x400022f5: j
+0x40001fe6:
+ f: C 01
+ args:
+  2: {'subtype': 'addr'}
 0x40001ff1:
  f: C 01
  l:
@@ -3987,6 +4334,8 @@ header:
  f: C 01
  l:
  x:
+ - 0x3fffc890: o
+ - 0x3fffc898: o
  - 0x4000ec18: o
  - 0x4000ec20: o
 0x4000202c:
@@ -3998,20 +4347,74 @@ header:
  f: C 01
  l:
  x:
+ - 0x3fffc974: o
+ - 0x3fffc978: o
+ - 0x3fffc97c: o
+ - 0x3fffc980: o
+ - 0x3fffc984: o
+ - 0x3fffc988: o
+ - 0x3fffc98c: o
+ - 0x3fffc990: o
+ - 0x3fffc994: o
+ - 0x3fffc998: o
+ - 0x3fffc99c: o
+ - 0x3fffc9dc: o
+ - 0x3fffc9e0: o
+ - 0x3fffc9f0: o
+ - 0x3fffcab4: o
+ - 0x3fffcab8: o
  - 0x40001fe3: j
  - 0x4000ed04: o
  - 0x4000ed08: o
  - 0x4000ede0: o
-0x400020c4:
- f: . 00
+0x40002049:
+ f: C 01
  l:
  x:
+ - 0x3fffc9e4: o
+ - 0x3fffca64: o
+0x40002053:
+ f: C 01
+ l:
+ x:
+ - 0x400023b3: j
+ - 0x4000241c: j
+0x40002079:
+ f: C 01
+ l:
+ x:
+ - 0x40002059: j
+0x4000207f:
+ f: C 01
+ l:
+ x:
+ - 0x400020c1: j
+0x400020c4:
+ f: C 01
+ l:
+ x:
+ - 0x3fffcac4: o
+ - 0x3fffcac8: o
+ - 0x3fffcacc: o
+ - 0x3fffcad0: o
+ - 0x3fffcad4: o
+ - 0x3fffcad8: o
+ - 0x3fffcb18: o
+ - 0x3fffcb54: o
+ - 0x40002050: j
+ - 0x4000207c: j
+ - 0x400021b9: j
+ - 0x40002369: j
+ - 0x40002399: j
  - 0x4000eed4: o
 0x400020c7:
  f: C 01
  l:
  x:
  - 0x40002046: j
+ - 0x40002267: j
+ - 0x400022a0: j
+ - 0x40002414: j
 0x400020e6:
  f: C 01
  l:
@@ -4076,6 +4479,20 @@ header:
  l:
  x:
  - 0x400022d4: j
+0x400021b1:
+ f: C 01
+ l:
+ x:
+ - 0x3fffc9ec: o
+ - 0x3fffca30: o
+ - 0x3fffcabc: o
+0x400021bc:
+ f: C 01
+ l:
+ args:
+  2: {'subtype': 'addr'}
+ x:
+ - 0x400021b6: j
 0x400021cc:
  f: C 01
  l:
@@ -4117,6 +4534,60 @@ header:
  l:
  x:
  - 0x40002225: j
+0x4000222e:
+ f: C 01
+ l:
+ x:
+ - 0x3fffca28: o
+0x40002243:
+ f: C 01
+ l:
+ x:
+ - 0x3fffc9e8: o
+0x4000225c:
+ f: C 01
+ l:
+ x:
+ - 0x3fffc970: o
+0x4000226a:
+ f: C 01
+ l:
+ x:
+ - 0x4000223a: j
+0x40002274:
+ f: C 01
+ l:
+ x:
+ - 0x4000226c: j
+0x40002277:
+ f: C 01
+ l:
+ x:
+ - 0x40002240: j
+0x4000227a:
+ f: C 01
+ args:
+  2: {'subtype': 'addr'}
+0x40002296:
+ f: C 01
+ l:
+ x:
+ - 0x4000229d: j
+0x400022a6:
+ f: C 01
+ l:
+ x:
+ - 0x40002252: j
+0x400022b0:
+ f: C 01
+ l:
+ x:
+ - 0x400022a8: j
+0x400022b3:
+ f: C 01
+ l:
+ x:
+ - 0x40002258: j
 0x400022c4:
  f: C 01
  l:
@@ -4161,11 +4632,36 @@ header:
  l:
  x:
  - 0x40002329: j
+0x40002354:
+ f: C 01
+ l:
+ x:
+ - 0x3fffcb70: o
+ - 0x3fffcb90: o
+0x4000235e:
+ f: C 01
+ args:
+  2: {'subtype': 'addr'}
+0x40002384:
+ f: C 01
+ l:
+ x:
+ - 0x3fffcac0: o
+ - 0x3fffcb84: o
+0x4000238e:
+ f: C 01
+ args:
+  2: {'subtype': 'addr'}
 0x4000239c:
  f: C 01
  l:
  x:
  - 0x400021da: j
+0x400023ac:
+ f: C 01
+ l:
+ x:
+ - 0x4000204b: j
 0x400023b8:
  f: C 01
  l:
@@ -4201,6 +4697,16 @@ header:
  l:
  x:
  - 0x40001f22: j
+0x40002412:
+ f: C 01
+ l:
+ x:
+ - 0x4000228e: j
+0x40002418:
+ f: C 01
+ l:
+ x:
+ - 0x400023ac: j
 0x40002420:
  f: C 01
  l:
@@ -4214,6 +4720,8 @@ header:
 0x4000242c:
  f: C 01
  l: ets_install_putc1
+ args:
+  2: {'subtype': 'addr'}
  fn_end: '?'
  fn_ranges: [[0x4000242c,0x40002433]]
  x:
@@ -4230,6 +4738,8 @@ header:
 0x40002438:
  f: C 01
  l: ets_install_uart_printf
+ args:
+  2: {'subtype': 'addr'}
  fn_end: '?'
  fn_ranges: [[0x40002438,0x4000244b]]
  x:
@@ -4237,6 +4747,8 @@ header:
 0x4000244c:
  f: D 04
  l:
+ args:
+  0: {'subtype': 'addr'}
  x:
  - 0x40002474: r
  - 0x400025a4: r
@@ -4245,14 +4757,30 @@ header:
  l: ets_install_external_printf
  fn_end: '?'
  fn_ranges: [[0x40002450,0x4000248b]]
+0x40002456:
+ f: C 01
+ args:
+  2: {'subtype': 'addr'}
+0x40002468:
+ f: C 01
+ args:
+  2: {'subtype': 'addr'}
 0x40002474:
  f: C 01
  l:
+ args:
+  2: {'subtype': 'addr'}
  x:
  - 0x4000245f: j
+0x4000247d:
+ f: C 01
+ args:
+  2: {'subtype': 'addr'}
 0x4000248c:
  f: C 01
  l: ets_install_putc2
+ args:
+  2: {'subtype': 'addr'}
  fn_end: '?'
  fn_ranges: [[0x4000248c,0x40002493]]
  x:
@@ -4261,21 +4789,44 @@ header:
 0x40002494:
  f: C 01
  l: est_get_printf_buf_remain_len
+ args:
+  2: {'subtype': 'addr'}
  fn_end: '?'
  fn_ranges: [[0x40002494,0x4000249c]]
 0x4000249c:
  f: C 01
  l: est_reset_printf_buf_len
+ args:
+  2: {'subtype': 'addr'}
  fn_end: '?'
  fn_ranges: [[0x4000249c,0x400024a6]]
+0x400024a8:
+ f: C 01
+ l: eprintf_buf_putc
+ args:
+  2: {'subtype': 'addr'}
+ cmnt: ''
+ x:
+ - 0x4000244c: o
+ - 0x40002474: o
+ - 0x400025a4: o
+0x400024c0:
+ f: C 01
+ l:
+ x:
+ - 0x400024b0: j
 0x400024c4:
  f: D 04
  l:
+ args:
+  0: {'subtype': 'addr'}
  x:
  - 0x400024f2: r
 0x400024c8:
  f: D 04
  l:
+ args:
+  0: {'subtype': 'addr'}
  x:
  - 0x40002500: r
 0x400024cc:
@@ -4305,6 +4856,7 @@ header:
  - 0x4000185e: c
  - 0x40001884: c
  - 0x40001899: c
+ - 0x40001d03: c
  - 0x40002ca1: c
  - 0x40002ce2: c
  - 0x40002d93: c
@@ -4411,14 +4963,24 @@ header:
  - 0x40274db1: c
  - 0x40296fa8: o
  - 0x40296fb4: c
+0x400024dd:
+ f: C 01
+ args:
+  2: {'subtype': 'addr'}
 0x400024ee:
  f: C 01
  l:
  x:
  - 0x400024e6: j
+0x400024f2:
+ f: C 01
+ args:
+  2: {'subtype': 'addr'}
 0x40002500:
  f: C 01
  l:
+ args:
+  2: {'subtype': 'addr'}
  x:
  - 0x400024f0: j
 0x4000252d:
@@ -4436,16 +4998,32 @@ header:
  l: ets_uart_printf
  fn_end: '?'
  fn_ranges: [[0x40002544,0x40002577]]
+0x40002566:
+ f: C 01
+ args:
+  2: {'subtype': 'addr'}
 0x40002578:
  f: C 01
  l: ets_external_printf
+ args:
+  2: {'subtype': 'addr'}
  fn_end: '?'
  fn_ranges: [[0x40002578,0x400025d3], [0x400025d4,0x400025d9]]
+0x40002592:
+ f: C 01
+ args:
+  2: {'subtype': 'addr'}
 0x400025a4:
  f: C 01
  l:
+ args:
+  2: {'subtype': 'addr'}
  x:
  - 0x40002590: j
+0x400025b8:
+ f: C 01
+ args:
+  2: {'subtype': 'addr'}
 0x400025d4:
  f: C 01
  l:
@@ -4500,6 +5078,8 @@ header:
 0x40002698:
  f: D 04
  l:
+ args:
+  0: {'subtype': 'addr'}
  x:
  - 0x400026ac: r
  - 0x400026b4: r
@@ -4517,14 +5097,26 @@ header:
  l: dtm_params_init
  fn_end: '?'
  fn_ranges: [[0x4000269c,0x400026c5]]
+0x400026ac:
+ f: C 01
+ args:
+  2: {'subtype': 'addr'}
+0x400026b4:
+ f: C 01
+ args:
+  2: {'subtype': 'addr'}
 0x400026c8:
  f: C 01
  l: dtm_set_intr_mask
+ args:
+  2: {'subtype': 'addr'}
  fn_end: '?'
  fn_ranges: [[0x400026c8,0x400026cf]]
 0x400026d0:
  f: C 01
  l: dtm_get_intr_mask
+ args:
+  2: {'subtype': 'addr'}
  fn_end: '?'
  fn_ranges: [[0x400026d0,0x400026d7]]
 0x400026d8:
@@ -4537,6 +5129,8 @@ header:
 0x400026dc:
  f: C 01
  l: dtm_set_params
+ args:
+  2: {'subtype': 'addr'}
  fn_end: '?'
  fn_ranges: [[0x400026dc,0x4000272f], [0x40002730,0x400027a1]]
 0x4000270e:
@@ -4549,31 +5143,49 @@ header:
  l:
  x:
  - 0x40002709: j
+0x40002756:
+ f: C 01
+ args:
+  2: {'subtype': 'addr'}
 0x4000275c:
  f: C 01
  l:
  x:
  - 0x40002710: j
+0x40002784:
+ f: C 01
+ args:
+  2: {'subtype': 'addr'}
 0x400027a4:
  f: C 01
  l: save_rxbcn_mactime
+ args:
+  2: {'subtype': 'addr'}
  fn_end: '?'
  fn_ranges: [[0x400027a4,0x400027ab]]
 0x400027ac:
  f: C 01
  l: save_tsf_us
+ args:
+  2: {'subtype': 'addr'}
  fn_end: '?'
  fn_ranges: [[0x400027ac,0x400027b3]]
 0x400027b4:
  f: D 04
  l:
+ args:
+  0: {'subtype': 'addr'}
  x:
  - 0x400027b8: r
 0x400027b8:
  f: C 01
  l: ets_enter_sleep
+ args:
+  2: {'subtype': 'addr'}
  fn_end: '?'
  fn_ranges: [[0x400027b8,0x400027cf]]
+ x:
+ - 0x400027f9: o
 0x400027d0:
  f: D 04
  l:
@@ -4600,6 +5212,10 @@ header:
  l:
  x:
  - 0x400027e8: j
+0x400027f9:
+ f: C 01
+ args:
+  2: {'subtype': 'addr'}
 0x4000280c:
  f: C 01
  l:
@@ -4658,6 +5274,13 @@ header:
  l: rtc_enter_sleep
  fn_end: '?'
  fn_ranges: [[0x40002870,0x400028c3], [0x400028c6,0x400029eb]]
+ x:
+ - 0x400027b4: o
+ - 0x400027b8: o
+0x40002883:
+ f: C 01
+ args:
+  2: {'subtype': 'addr'}
 0x400028b1:
  f: C 01
  l:
@@ -4683,6 +5306,10 @@ header:
  l:
  x:
  - 0x400028e6: j
+0x400028ff:
+ f: C 01
+ args:
+  2: {'subtype': 'addr'}
 0x4000290e:
  f: C 01
  l:
@@ -5308,6 +5935,18 @@ header:
  x:
  - 0x40002812: c
  - 0x400030b1: c
+0x40002cd9:
+ f: C 01
+ args:
+  2: {'subtype': 'addr'}
+0x40002cdc:
+ f: C 01
+ args:
+  2: {'subtype': 'addr'}
+0x40002cdf:
+ f: C 01
+ args:
+  1: {'subtype': 'udec'}
 0x40002ce5:
  f: C 01
  l:
@@ -5342,6 +5981,8 @@ header:
 0x40002d40:
  f: C 01
  l: ets_timer_disarm__1
+ args:
+  2: {'subtype': 'addr'}
  cmnt: 'Original label: ets_timer_disarm'
  fn_end: '?'
  fn_ranges: [[0x40002d40,0x40002d80]]
@@ -5376,6 +6017,18 @@ header:
  cmnt: 'Original label: ets_timer_done'
  fn_end: '?'
  fn_ranges: [[0x40002d80,0x40002da7]]
+0x40002d8a:
+ f: C 01
+ args:
+  2: {'subtype': 'addr'}
+0x40002d8d:
+ f: C 01
+ args:
+  2: {'subtype': 'addr'}
+0x40002d90:
+ f: C 01
+ args:
+  1: {'subtype': 'udec'}
 0x40002d96:
  f: C 01
  l:
@@ -5392,6 +6045,12 @@ header:
  cmnt: 'Original label: ets_timer_handler_isr'
  fn_end: '?'
  fn_ranges: [[0x40002da8,0x40002dde], [0x40002de0,0x40002e23]]
+ x:
+ - 0x40002e4e: c
+0x40002db6:
+ f: C 01
+ args:
+  2: {'subtype': 'addr'}
 0x40002dca:
  f: C 01
  l:
@@ -5416,6 +6075,16 @@ header:
  l:
  x:
  - 0x40002dc7: j
+0x40002e3c:
+ f: C 01
+ l:
+ x:
+ - 0x40002e9b: o
+0x40002e4c:
+ f: C 01
+ l:
+ x:
+ - 0x40002e43: j
 0x40002e58:
  f: D 04
  l:
@@ -5438,6 +6107,8 @@ header:
 0x40002e64:
  f: D 04
  l:
+ args:
+  0: {'subtype': 'addr'}
  x:
  - 0x40002ea0: r
 0x40002e68:
@@ -5446,9 +6117,23 @@ header:
  cmnt: 'Original label: ets_timer_init'
  fn_end: '?'
  fn_ranges: [[0x40002e68,0x40002ec6]]
+0x40002e74:
+ f: C 01
+ args:
+  2: {'subtype': 'addr'}
+0x40002e9b:
+ f: C 01
+ args:
+  2: {'subtype': 'addr'}
+0x40002ea0:
+ f: C 01
+ args:
+  2: {'subtype': 'addr'}
 0x40002ec8:
  f: D 04
  l:
+ args:
+  0: {'subtype': 'addr'}
  x:
  - 0x40002edb: r
  - 0x40002f04: r
@@ -5513,6 +6198,10 @@ header:
  - 0x4027610a: c
  - 0x402995b8: o
  - 0x402995f7: c
+0x40002edb:
+ f: C 01
+ args:
+  2: {'subtype': 'addr'}
 0x40002eee:
  f: C 01
  l:
@@ -5526,6 +6215,8 @@ header:
 0x40002f04:
  f: C 01
  l: ets_update_cpu_frequency
+ args:
+  2: {'subtype': 'addr'}
  fn_end: '?'
  fn_ranges: [[0x40002f04,0x40002f0b]]
  x:
@@ -5549,6 +6240,8 @@ header:
 0x40002f0c:
  f: C 01
  l: ets_get_cpu_frequency
+ args:
+  2: {'subtype': 'addr'}
  fn_end: '?'
  fn_ranges: [[0x40002f0c,0x40002f13]]
  x:
@@ -5576,6 +6269,8 @@ header:
 0x40002f30:
  f: D 04
  l:
+ args:
+  0: {'subtype': 'addr'}
  x:
  - 0x40002f34: r
  - 0x40002fad: r
@@ -5589,8 +6284,39 @@ header:
 0x40002f34:
  f: C 01
  l: ets_wdt_get_mode
+ args:
+  2: {'subtype': 'addr'}
  fn_end: '?'
  fn_ranges: [[0x40002f34,0x40002f3b]]
+ x:
+ - 0x40002f41: c
+0x40002f3c:
+ f: C 01
+ l: rom_wdt_sth1
+ fn_end: '?'
+ fn_ranges: [[0x40002f3c,0x40002f73], [0x40002f74,0x40002f87]]
+ x:
+ - 0x40002f8d: c
+0x40002f59:
+ f: C 01
+ l:
+ x:
+ - 0x40002f4d: j
+0x40002f60:
+ f: C 01
+ l:
+ x:
+ - 0x40002f4a: j
+0x40002f74:
+ f: C 01
+ l:
+ x:
+ - 0x40002f56: j
+0x40002f88:
+ f: C 01
+ l:
+ x:
+ - 0x4000309c: o
 0x40002f98:
  f: D 04
  l:
@@ -5611,6 +6337,14 @@ header:
  fn_ranges: [[0x40002fa0,0x4000305e], [0x40003060,0x400030ed]]
  x:
  - 0x40003166: c
+0x40002fad:
+ f: C 01
+ args:
+  2: {'subtype': 'addr'}
+0x40002fc1:
+ f: C 01
+ args:
+  2: {'subtype': 'addr'}
 0x40002fc4:
  f: C 01
  l:
@@ -5627,24 +6361,56 @@ header:
  x:
  - 0x40002fe1: j
  - 0x40002fe4: j
+0x4000301c:
+ f: C 01
+ args:
+  2: {'subtype': 'addr'}
+0x4000304e:
+ f: C 01
+ args:
+  2: {'subtype': 'addr'}
 0x40003060:
  f: C 01
  l:
  x:
  - 0x40002fe7: j
+0x40003070:
+ f: C 01
+ args:
+  2: {'subtype': 'addr'}
 0x4000309c:
  f: C 01
  l:
+ args:
+  2: {'subtype': 'addr'}
  x:
  - 0x40002fde: j
+0x4000309f:
+ f: C 01
+ args:
+  2: {'subtype': 'addr'}
+0x400030a8:
+ f: C 01
+ args:
+  2: {'subtype': 'addr'}
+0x400030dc:
+ f: C 01
+ args:
+  2: {'subtype': 'addr'}
 0x400030f0:
  f: C 01
  l: ets_wdt_disable
  fn_end: '?'
  fn_ranges: [[0x400030f0,0x4000312e], [0x40003130,0x40003158]]
+0x400030f9:
+ f: C 01
+ args:
+  2: {'subtype': 'addr'}
 0x40003130:
  f: C 01
  l:
+ args:
+  2: {'subtype': 'addr'}
  x:
  - 0x4000311d: j
 0x40003144:
@@ -5657,6 +6423,10 @@ header:
  l: ets_wdt_restore
  fn_end: '?'
  fn_ranges: [[0x40003158,0x40003170]]
+0x4000315f:
+ f: C 01
+ args:
+  2: {'subtype': 'addr'}
 0x40003169:
  f: C 01
  l:
@@ -5714,6 +6484,8 @@ header:
 0x40003224:
  f: D 04
  l:
+ args:
+  0: {'subtype': 'addr'}
  x:
  - 0x40003230: r
  - 0x4000327a: r
@@ -5739,6 +6511,8 @@ header:
 0x4000322c:
  f: D 04
  l:
+ args:
+  0: {'subtype': 'addr'}
  x:
  - 0x4000328e: r
  - 0x400032a1: r
@@ -5747,6 +6521,8 @@ header:
 0x40003230:
  f: C 01
  l: UartConnCheck
+ args:
+  2: {'subtype': 'addr'}
  fn_end: '?'
  fn_ranges: [[0x40003230,0x40003284], [0x40003285,0x40003360]]
  x:
@@ -5769,14 +6545,28 @@ header:
  x:
  - 0x4000323c: j
  - 0x4000323f: j
+0x4000327a:
+ f: C 01
+ args:
+  2: {'subtype': 'addr'}
 0x40003285:
  f: C 01
  l:
  x:
  - 0x4000325a: j
+0x4000328e:
+ f: C 01
+ args:
+  2: {'subtype': 'addr'}
+0x400032a1:
+ f: C 01
+ args:
+  2: {'subtype': 'addr'}
 0x400032f5:
  f: C 01
  l:
+ args:
+  2: {'subtype': 'addr'}
  x:
  - 0x40003309: j
 0x40003315:
@@ -5787,11 +6577,15 @@ header:
 0x40003360:
  f: D 04
  l:
+ args:
+  0: {'subtype': 'addr'}
  x:
  - 0x4000339c: r
 0x40003364:
  f: D 04
  l:
+ args:
+  0: {'subtype': 'addr'}
  x:
  - 0x40003427: r
 0x40003368:
@@ -5844,41 +6638,78 @@ header:
  f: C 01
  l:
  x:
+ - 0x3fffcba0: o
+ - 0x3fffcba4: o
  - 0x4000342a: j
 0x4000343b:
  f: C 01
  l:
  x:
+ - 0x40003452: j
  - 0x40003462: j
  - 0x4000347a: j
  - 0x4000348a: j
  - 0x4000349f: j
  - 0x400034b5: j
+ - 0x400034cd: j
+ - 0x400034e8: j
+ - 0x400034fd: j
+ - 0x40003515: j
+0x40003440:
+ f: C 01
+ l:
+ x:
+ - 0x3fffcbb4: o
 0x40003455:
  f: C 01
  l:
  x:
+ - 0x3fffcbcc: o
  - 0x4000ef54: o
 0x40003468:
  f: C 01
  l:
  x:
+ - 0x3fffcbc8: o
  - 0x4000ef50: o
 0x4000347d:
  f: C 01
  l:
  x:
+ - 0x3fffcbc4: o
  - 0x4000ef4c: o
 0x4000348d:
  f: C 01
  l:
  x:
+ - 0x3fffcbc0: o
  - 0x4000ef48: o
 0x400034a3:
  f: C 01
  l:
  x:
+ - 0x3fffcbbc: o
  - 0x4000ef44: o
+0x400034b9:
+ f: C 01
+ l:
+ x:
+ - 0x3fffcbb8: o
+0x400034d0:
+ f: C 01
+ l:
+ x:
+ - 0x3fffcbb0: o
+0x400034eb:
+ f: C 01
+ l:
+ x:
+ - 0x3fffcbac: o
+0x40003500:
+ f: C 01
+ l:
+ x:
+ - 0x3fffcba8: o
 0x40003518:
  f: C 01
  l:
@@ -5895,6 +6726,8 @@ header:
  l: FlashDwnLdStartMsgProc
  fn_end: '?'
  fn_ranges: [[0x40003538,0x4000359a]]
+ x:
+ - 0x4000350c: c
 0x40003545:
  f: C 01
  l:
@@ -5921,6 +6754,8 @@ header:
  l: FilePacketSendReqMsgProc
  fn_end: '?'
  fn_ranges: [[0x400035a0,0x400035c3], [0x400035c4,0x40003655]]
+ x:
+ - 0x400034f4: c
 0x400035b6:
  f: C 01
  l:
@@ -5948,6 +6783,8 @@ header:
  l: FlashDwnLdStopReqMsgProc
  fn_end: '?'
  fn_ranges: [[0x40003658,0x4000368b]]
+ x:
+ - 0x400034d9: c
 0x40003671:
  f: C 01
  l:
@@ -5975,6 +6812,8 @@ header:
  l: MemDwnLdStartMsgProc
  fn_end: '?'
  fn_ranges: [[0x400036c4,0x400036f0]]
+ x:
+ - 0x40003449: c
 0x400036cc:
  f: C 01
  l:
@@ -6013,6 +6852,8 @@ header:
  l: MemDwnLdStopReqMsgProc
  fn_end: '?'
  fn_ranges: [[0x4000377c,0x400037a0]]
+ x:
+ - 0x400034c5: c
 0x4000378c:
  f: C 01
  l:
@@ -6231,6 +7072,9 @@ header:
  fn_end: '?'
  fn_ranges: [[0x40003b30,0x40003b62]]
  x:
+ - 0x40001dd9: c
+ - 0x40001de7: c
+ - 0x40001ded: c
  - 0x40002bed: c
  - 0x40003c95: c
  - 0x40003ca9: c
@@ -7109,6 +7953,7 @@ header:
  fn_ranges: [[0x40004644,0x4000465f]]
  x:
  - 0x400012b0: c
+ - 0x40003500: c
 0x40004660:
  f: D 04
  l:
@@ -8301,6 +9146,7 @@ header:
  fn_end: '?'
  fn_ranges: [[0x400060c0,0x400060ca]]
  x:
+ - 0x3fffc734: o
  - 0x4000eabc: o
 0x400060cc:
  f: D 04
@@ -8323,6 +9169,7 @@ header:
  fn_ranges: [[0x400060d0,0x400060e7]]
  x:
  - 0x3ffe8148: o
+ - 0x3fffc738: o
  - 0x4000eac0: o
 0x400060e8:
  f: D 04
@@ -8336,6 +9183,7 @@ header:
  fn_ranges: [[0x400060ec,0x40006103]]
  x:
  - 0x3ffe8144: o
+ - 0x3fffc73c: o
  - 0x4000eac4: o
 0x40006104:
  f: D 04
@@ -8353,6 +9201,7 @@ header:
  fn_end: '?'
  fn_ranges: [[0x4000610c,0x40006156]]
  x:
+ - 0x3fffc740: o
  - 0x4000eac8: o
 0x40006121:
  f: C 01
@@ -8470,6 +9319,7 @@ header:
  fn_end: '?'
  fn_ranges: [[0x4000615c,0x400061b3]]
  x:
+ - 0x3fffc744: o
  - 0x4000eacc: o
 0x400061b4:
  f: D 04
@@ -8482,6 +9332,7 @@ header:
  fn_end: '?'
  fn_ranges: [[0x400061b8,0x4000621b], [0x4000621c,0x40006236]]
  x:
+ - 0x3fffc74c: o
  - 0x4000ead4: o
 0x40006201:
  f: C 01
@@ -8499,6 +9350,7 @@ header:
  fn_end: '?'
  fn_ranges: [[0x40006238,0x4000625e]]
  x:
+ - 0x3fffc750: o
  - 0x4000ead8: o
 0x40006259:
  f: C 01
@@ -8511,6 +9363,7 @@ header:
  fn_end: '?'
  fn_ranges: [[0x40006260,0x400062d9]]
  x:
+ - 0x3fffc754: o
  - 0x4000eadc: o
 0x400062dc:
  f: C 01
@@ -8518,6 +9371,7 @@ header:
  fn_end: '?'
  fn_ranges: [[0x400062dc,0x40006391]]
  x:
+ - 0x3fffc758: o
  - 0x4000eae0: o
 0x4000631c:
  f: C 01
@@ -8530,6 +9384,7 @@ header:
  fn_end: '?'
  fn_ranges: [[0x40006394,0x400063ae]]
  x:
+ - 0x3fffc75c: o
  - 0x4000eae4: o
 0x400063b0:
  f: C 01
@@ -8537,6 +9392,7 @@ header:
  fn_end: '?'
  fn_ranges: [[0x400063b0,0x400063fb]]
  x:
+ - 0x3fffc760: o
  - 0x4000eae8: o
 0x400063fc:
  f: D 04
@@ -8550,6 +9406,7 @@ header:
  fn_end: '?'
  fn_ranges: [[0x40006400,0x4000642e]]
  x:
+ - 0x3fffc764: o
  - 0x4000eaec: o
 0x40006430:
  f: C 01
@@ -8557,6 +9414,7 @@ header:
  fn_end: '?'
  fn_ranges: [[0x40006430,0x4000647f]]
  x:
+ - 0x3fffc768: o
  - 0x4000eaf0: o
 0x40006474:
  f: C 01
@@ -8579,6 +9437,7 @@ header:
  fn_end: '?'
  fn_ranges: [[0x40006484,0x4000650b]]
  x:
+ - 0x3fffc76c: o
  - 0x4000eaf4: o
 0x400064b1:
  f: C 01
@@ -8600,11 +9459,15 @@ header:
  l: rom_set_txclk_en
  fn_end: '?'
  fn_ranges: [[0x4000650c,0x4000654e]]
+ x:
+ - 0x3fffc770: o
 0x40006550:
  f: C 01
  l: rom_set_rxclk_en
  fn_end: '?'
  fn_ranges: [[0x40006550,0x40006592]]
+ x:
+ - 0x3fffc774: o
 0x40006594:
  f: D 04
  l:
@@ -8632,6 +9495,7 @@ header:
  fn_end: '?'
  fn_ranges: [[0x400065a4,0x400065d2], [0x400065d4,0x400065e3], [0x400065e4,0x40006617], [0x40006618,0x40006621]]
  x:
+ - 0x3fffc778: o
  - 0x4000eb00: o
 0x400065d4:
  f: C 01
@@ -8664,6 +9528,8 @@ header:
  l: rom_rxiq_get_mis
  fn_end: '?'
  fn_ranges: [[0x40006628,0x40006737]]
+ x:
+ - 0x3fffc77c: o
 0x4000669d:
  f: C 01
  l:
@@ -8684,11 +9550,15 @@ header:
  l: rom_sar_init
  fn_end: '?'
  fn_ranges: [[0x40006738,0x4000678b]]
+ x:
+ - 0x3fffc780: o
 0x4000678c:
  f: C 01
  l: rom_set_ana_inf_tx_scale
  fn_end: '?'
  fn_ranges: [[0x4000678c,0x4000679f], [0x400067a0,0x400067c7]]
+ x:
+ - 0x3fffc784: o
 0x400067a0:
  f: C 01
  l:
@@ -8704,6 +9574,8 @@ header:
  l: rom_set_loopback_gain
  fn_end: '?'
  fn_ranges: [[0x400067c8,0x4000682b]]
+ x:
+ - 0x3fffc788: o
 0x4000682c:
  f: D 04
  l:
@@ -8714,6 +9586,8 @@ header:
  l: rom_set_noise_floor
  fn_end: '?'
  fn_ranges: [[0x40006830,0x4000686a]]
+ x:
+ - 0x3fffc78c: o
 0x4000686c:
  f: D 04
  l:
@@ -8729,6 +9603,8 @@ header:
  l: rom_start_noisefloor
  fn_end: '?'
  fn_ranges: [[0x40006874,0x400068ac]]
+ x:
+ - 0x3fffc798: o
 0x400068ac:
  f: D 04
  l:
@@ -8745,6 +9621,8 @@ header:
  l: rom_start_tx_tone
  fn_end: '?'
  fn_ranges: [[0x400068b4,0x4000697b], [0x4000697c,0x40006987]]
+ x:
+ - 0x3fffc79c: o
 0x4000690a:
  f: C 01
  l:
@@ -8770,6 +9648,8 @@ header:
  l: rom_stop_tx_tone
  fn_end: '?'
  fn_ranges: [[0x4000698c,0x400069f2], [0x400069f4,0x40006a06], [0x40006a08,0x40006a1a]]
+ x:
+ - 0x3fffc7a0: o
 0x400069cd:
  f: C 01
  l:
@@ -8797,6 +9677,8 @@ header:
  l: rom_txtone_linear_pwr
  fn_end: '?'
  fn_ranges: [[0x40006a1c,0x40006a92]]
+ x:
+ - 0x3fffc7a4: o
 0x40006a38:
  f: C 01
  l:
@@ -8820,11 +9702,15 @@ header:
  l: rom_tx_mac_disable
  fn_end: '?'
  fn_ranges: [[0x40006a98,0x40006ad1]]
+ x:
+ - 0x3fffc7a8: o
 0x40006ad4:
  f: C 01
  l: rom_tx_mac_enable
  fn_end: '?'
  fn_ranges: [[0x40006ad4,0x40006b08]]
+ x:
+ - 0x3fffc7ac: o
 0x40006b08:
  f: C 01
  l: phy_get_romfuncs
@@ -8838,6 +9724,8 @@ header:
  l: rom_ana_inf_gating_en
  fn_end: '?'
  fn_ranges: [[0x40006b10,0x40006c0d]]
+ x:
+ - 0x3fffc7b0: o
 0x40006bb6:
  f: C 01
  l:
@@ -8868,6 +9756,41 @@ header:
  l:
  x:
  - 0x40006d8a: r
+0x40006c24:
+ f: D 04
+ l:
+ x:
+ - 0x40006d90: r
+0x40006c28:
+ f: D 04
+ l:
+ x:
+ - 0x40006d96: r
+0x40006c2c:
+ f: D 04
+ l:
+ x:
+ - 0x40006d9c: r
+0x40006c30:
+ f: D 04
+ l:
+ x:
+ - 0x40006da2: r
+0x40006c34:
+ f: D 04
+ l:
+ x:
+ - 0x40006da8: r
+0x40006c38:
+ f: D 04
+ l:
+ x:
+ - 0x40006dae: r
+0x40006c3c:
+ f: D 04
+ l:
+ x:
+ - 0x40006db4: r
 0x40006c40:
  f: D 04
  l:
@@ -8878,6 +9801,11 @@ header:
  l:
  x:
  - 0x40006dc0: r
+0x40006c48:
+ f: D 04
+ l:
+ x:
+ - 0x40006dc6: r
 0x40006c4c:
  f: D 04
  l:
@@ -8888,6 +9816,8 @@ header:
  l: rom_set_channel_freq
  fn_end: '?'
  fn_ranges: [[0x40006c50,0x40006d0b], [0x40006d0c,0x40006d81], [0x40006dcc,0x40006def], [0x40006df0,0x40006dff]]
+ x:
+ - 0x3fffc7b4: o
 0x40006c79:
  f: C 01
  l:
@@ -8903,15 +9833,25 @@ header:
  f: C 01
  l:
  x:
+ - 0x3fffcbe0: o
  - 0x40006c94: j
 0x40006ca8:
  f: C 01
  l:
  x:
+ - 0x40006d81: j
  - 0x40006d87: j
  - 0x40006d8d: j
+ - 0x40006d93: j
+ - 0x40006d99: j
+ - 0x40006d9f: j
+ - 0x40006da5: j
+ - 0x40006dab: j
+ - 0x40006db1: j
+ - 0x40006db7: j
  - 0x40006dbd: j
  - 0x40006dc3: j
+ - 0x40006dc9: j
 0x40006ce0:
  f: C 01
  l:
@@ -8924,6 +9864,14 @@ header:
  - 0x40006e2a: j
  - 0x40006e3b: j
  - 0x40006e49: j
+ - 0x40006e58: j
+ - 0x40006e67: j
+ - 0x40006e75: j
+ - 0x40006e86: j
+ - 0x40006e95: j
+ - 0x40006ea3: j
+ - 0x40006eb1: j
+ - 0x40006ec2: j
  - 0x40006ece: j
 0x40006d0c:
  f: C 01
@@ -8939,33 +9887,79 @@ header:
  f: C 01
  l:
  x:
+ - 0x3fffcc20: o
  - 0x40006d62: j
  - 0x4000efa8: o
+0x40006d81:
+ f: C 01
+ l:
+ x:
+ - 0x3fffcbe4: o
 0x40006d84:
  f: C 01
  l:
  x:
+ - 0x3fffcc14: o
  - 0x4000ef9c: o
 0x40006d8a:
  f: C 01
  l:
  x:
+ - 0x3fffcc10: o
  - 0x4000ef98: o
-0x40006db4:
- f: . 00
+0x40006d90:
+ f: C 01
  l:
  x:
+ - 0x3fffcc0c: o
+0x40006d96:
+ f: C 01
+ l:
+ x:
+ - 0x3fffcc08: o
+0x40006d9c:
+ f: C 01
+ l:
+ x:
+ - 0x3fffcc04: o
+0x40006da2:
+ f: C 01
+ l:
+ x:
+ - 0x3fffcc00: o
+0x40006da8:
+ f: C 01
+ l:
+ x:
+ - 0x3fffcbfc: o
+0x40006dae:
+ f: C 01
+ l:
+ x:
+ - 0x3fffcbf8: o
+0x40006db4:
+ f: C 01
+ l:
+ x:
+ - 0x3fffcbf4: o
  - 0x4000ef7c: o
 0x40006dba:
  f: C 01
  l:
  x:
+ - 0x3fffcbf0: o
  - 0x4000ef78: o
 0x40006dc0:
  f: C 01
  l:
  x:
+ - 0x3fffcbec: o
  - 0x4000ef74: o
+0x40006dc6:
+ f: C 01
+ l:
+ x:
+ - 0x3fffcbe8: o
 0x40006dcc:
  f: C 01
  l:
@@ -8981,27 +9975,72 @@ header:
  f: C 01
  l:
  x:
+ - 0x3fffcc24: o
  - 0x4000efac: o
 0x40006e0e:
  f: C 01
  l:
  x:
+ - 0x3fffcc54: o
  - 0x4000efdc: o
 0x40006e1f:
  f: C 01
  l:
  x:
+ - 0x3fffcc50: o
  - 0x4000efd8: o
 0x40006e2d:
  f: C 01
  l:
  x:
+ - 0x3fffcc4c: o
  - 0x4000efd4: o
 0x40006e3e:
  f: C 01
  l:
  x:
+ - 0x3fffcc48: o
  - 0x4000efd0: o
+0x40006e4c:
+ f: C 01
+ l:
+ x:
+ - 0x3fffcc44: o
+0x40006e5b:
+ f: C 01
+ l:
+ x:
+ - 0x3fffcc40: o
+0x40006e6a:
+ f: C 01
+ l:
+ x:
+ - 0x3fffcc3c: o
+0x40006e78:
+ f: C 01
+ l:
+ x:
+ - 0x3fffcc38: o
+0x40006e89:
+ f: C 01
+ l:
+ x:
+ - 0x3fffcc34: o
+0x40006e98:
+ f: C 01
+ l:
+ x:
+ - 0x3fffcc30: o
+0x40006ea6:
+ f: C 01
+ l:
+ x:
+ - 0x3fffcc2c: o
+0x40006eb4:
+ f: C 01
+ l:
+ x:
+ - 0x3fffcc28: o
 0x40006ec5:
  f: C 01
  l:
@@ -9015,6 +10054,8 @@ header:
 0x40006f68:
  f: D 04
  l:
+ args:
+  0: {'subtype': 'addr'}
  x:
  - 0x40006ffa: r
 0x40006f6c:
@@ -9056,9 +10097,25 @@ header:
  l: rom_chip_50_set_channel
  fn_end: '?'
  fn_ranges: [[0x40006f84,0x400070c7], [0x400070c8,0x400070cd]]
+ x:
+ - 0x3fffc7b8: o
+0x40006f93:
+ f: C 01
+ args:
+  2: {'subtype': 'addr'}
+0x40006fab:
+ f: C 01
+ args:
+  2: {'subtype': 'addr'}
+0x40006fbc:
+ f: C 01
+ args:
+  2: {'subtype': 'addr'}
 0x40006fd1:
  f: C 01
  l:
+ args:
+  2: {'subtype': 'addr'}
  x:
  - 0x40006fb6: j
 0x40006fec:
@@ -9066,19 +10123,33 @@ header:
  l:
  x:
  - 0x40006fa8: j
+0x40006ffa:
+ f: C 01
+ args:
+  2: {'subtype': 'addr'}
 0x40007005:
  f: C 01
  l:
  x:
+ - 0x3fffcca0: o
  - 0x40006ff7: j
 0x40007008:
  f: C 01
  l:
  x:
+ - 0x400070d0: j
  - 0x400070d6: j
  - 0x400070dc: j
  - 0x400070e2: j
  - 0x400070e8: j
+ - 0x400070ee: j
+ - 0x400070f4: j
+ - 0x400070fa: j
+ - 0x40007100: j
+ - 0x40007106: j
+ - 0x4000710c: j
+ - 0x40007112: j
+ - 0x40007118: j
 0x4000704b:
  f: C 01
  l:
@@ -9108,41 +10179,104 @@ header:
  l:
  x:
  - 0x40007038: j
+0x400070cd:
+ f: C 01
+ l:
+ x:
+ - 0x3fffcca4: o
 0x400070d3:
  f: C 01
  l:
  x:
+ - 0x3fffccd4: o
  - 0x4000f05c: o
 0x400070d9:
  f: C 01
  l:
  x:
+ - 0x3fffccd0: o
  - 0x4000f058: o
 0x400070df:
  f: C 01
  l:
  x:
+ - 0x3fffcccc: o
  - 0x4000f054: o
 0x400070e5:
  f: C 01
  l:
  x:
+ - 0x3fffccc8: o
  - 0x4000f050: o
+0x400070eb:
+ f: C 01
+ l:
+ x:
+ - 0x3fffccc4: o
+0x400070f1:
+ f: C 01
+ l:
+ x:
+ - 0x3fffccc0: o
+0x400070f7:
+ f: C 01
+ l:
+ x:
+ - 0x3fffccbc: o
+0x400070fd:
+ f: C 01
+ l:
+ x:
+ - 0x3fffccb8: o
+0x40007103:
+ f: C 01
+ l:
+ x:
+ - 0x3fffccb4: o
+0x40007109:
+ f: C 01
+ l:
+ x:
+ - 0x3fffccb0: o
+0x4000710f:
+ f: C 01
+ l:
+ x:
+ - 0x3fffccac: o
+0x40007115:
+ f: C 01
+ l:
+ x:
+ - 0x3fffcca8: o
 0x4000711c:
  f: C 01
  l: rom_chip_v5_rx_init
  fn_end: '?'
  fn_ranges: [[0x4000711c,0x4000718b]]
+ x:
+ - 0x3fffc7bc: o
+0x40007126:
+ f: C 01
+ args:
+  2: {'subtype': 'addr'}
 0x4000718c:
  f: C 01
  l: rom_chip_v5_tx_init
  fn_end: '?'
  fn_ranges: [[0x4000718c,0x40007266]]
+ x:
+ - 0x3fffc7c0: o
+0x40007196:
+ f: C 01
+ args:
+  2: {'subtype': 'addr'}
 0x40007268:
  f: C 01
  l: rom_i2c_readReg
  fn_end: '?'
  fn_ranges: [[0x40007268,0x4000729b]]
+ x:
+ - 0x3fffc7c4: o
 0x40007285:
  f: C 01
  l:
@@ -9158,11 +10292,19 @@ header:
  l: rom_i2c_readReg_Mask
  fn_end: '?'
  fn_ranges: [[0x4000729c,0x400072d6]]
+ x:
+ - 0x3fffc7c8: o
+0x400072a1:
+ f: C 01
+ args:
+  2: {'subtype': 'addr'}
 0x400072d8:
  f: C 01
  l: rom_i2c_writeReg
  fn_end: '?'
  fn_ranges: [[0x400072d8,0x4000730c]]
+ x:
+ - 0x3fffc7cc: o
 0x40007301:
  f: C 01
  l:
@@ -9178,11 +10320,27 @@ header:
  l: rom_i2c_writeReg_Mask
  fn_end: '?'
  fn_ranges: [[0x4000730c,0x4000737b]]
+ x:
+ - 0x3fffc7d0: o
+0x4000731d:
+ f: C 01
+ args:
+  2: {'subtype': 'addr'}
+0x40007338:
+ f: C 01
+ args:
+  2: {'subtype': 'addr'}
 0x4000737c:
  f: C 01
  l: rom_pbus_debugmode
  fn_end: '?'
  fn_ranges: [[0x4000737c,0x40007410]]
+ x:
+ - 0x3fffc7d4: o
+0x400073a4:
+ f: C 01
+ args:
+  2: {'subtype': 'addr'}
 0x400073b9:
  f: C 01
  l:
@@ -9200,11 +10358,39 @@ header:
  l: rom_pbus_enter_debugmode
  fn_end: '?'
  fn_ranges: [[0x40007410,0x40007445]]
+ x:
+ - 0x3fffc7d8: o
+0x40007416:
+ f: C 01
+ args:
+  2: {'subtype': 'addr'}
+0x40007424:
+ f: C 01
+ args:
+  2: {'subtype': 'addr'}
+0x40007431:
+ f: C 01
+ args:
+  2: {'subtype': 'addr'}
 0x40007448:
  f: C 01
  l: rom_pbus_exit_debugmode
  fn_end: '?'
  fn_ranges: [[0x40007448,0x40007477]]
+ x:
+ - 0x3fffc7dc: o
+0x4000744d:
+ f: C 01
+ args:
+  2: {'subtype': 'addr'}
+0x40007459:
+ f: C 01
+ args:
+  2: {'subtype': 'addr'}
+0x40007465:
+ f: C 01
+ args:
+  2: {'subtype': 'addr'}
 0x40007478:
  f: D 04
  l:
@@ -9215,6 +10401,8 @@ header:
  l: rom_pbus_force_test
  fn_end: '?'
  fn_ranges: [[0x4000747c,0x400074cd]]
+ x:
+ - 0x3fffc7e0: o
 0x400074b1:
  f: C 01
  l:
@@ -9228,6 +10416,8 @@ header:
 0x400074d0:
  f: D 04
  l:
+ args:
+  0: {'subtype': 'addr'}
  x:
  - 0x400074dd: r
 0x400074d4:
@@ -9240,6 +10430,12 @@ header:
  l: rom_pbus_rd
  fn_end: '?'
  fn_ranges: [[0x400074d8,0x4000754b]]
+ x:
+ - 0x3fffc7e4: o
+0x400074dd:
+ f: C 01
+ args:
+  2: {'subtype': 'addr'}
 0x400074f4:
  f: C 01
  l:
@@ -9266,11 +10462,23 @@ header:
  l: rom_pbus_set_rxgain
  fn_end: '?'
  fn_ranges: [[0x4000754c,0x40007610]]
+ x:
+ - 0x3fffc7e8: o
+0x40007555:
+ f: C 01
+ args:
+  2: {'subtype': 'addr'}
 0x40007610:
  f: C 01
  l: rom_pbus_set_txgain
  fn_end: '?'
  fn_ranges: [[0x40007610,0x40007643]]
+ x:
+ - 0x3fffc7ec: o
+0x40007626:
+ f: C 01
+ args:
+  2: {'subtype': 'addr'}
 0x40007644:
  f: D 04
  l:
@@ -9281,31 +10489,87 @@ header:
  l: rom_pbus_workmode
  fn_end: '?'
  fn_ranges: [[0x40007648,0x40007688]]
+ x:
+ - 0x3fffc7f0: o
+0x40007673:
+ f: C 01
+ args:
+  2: {'subtype': 'addr'}
 0x40007688:
  f: C 01
  l: rom_pbus_xpd_rx_off
  fn_end: '?'
  fn_ranges: [[0x40007688,0x400076c9]]
+ x:
+ - 0x3fffc7f4: o
+0x4000768d:
+ f: C 01
+ args:
+  2: {'subtype': 'addr'}
+0x400076a0:
+ f: C 01
+ args:
+  2: {'subtype': 'addr'}
+0x400076b1:
+ f: C 01
+ args:
+  2: {'subtype': 'addr'}
 0x400076cc:
  f: C 01
  l: rom_pbus_xpd_rx_on
  fn_end: '?'
  fn_ranges: [[0x400076cc,0x400076fc]]
+ x:
+ - 0x3fffc7f8: o
+0x400076d1:
+ f: C 01
+ args:
+  2: {'subtype': 'addr'}
+0x400076e4:
+ f: C 01
+ args:
+  2: {'subtype': 'addr'}
 0x400076fc:
  f: C 01
  l: rom_pbus_xpd_tx_off
  fn_end: '?'
  fn_ranges: [[0x400076fc,0x4000773d]]
+ x:
+ - 0x3fffc7fc: o
+0x40007701:
+ f: C 01
+ args:
+  2: {'subtype': 'addr'}
+0x40007714:
+ f: C 01
+ args:
+  2: {'subtype': 'addr'}
+0x40007725:
+ f: C 01
+ args:
+  2: {'subtype': 'addr'}
 0x40007740:
  f: C 01
  l: rom_pbus_xpd_tx_on
  fn_end: '?'
  fn_ranges: [[0x40007740,0x4000779d]]
+ x:
+ - 0x3fffc800: o
+0x40007749:
+ f: C 01
+ args:
+  2: {'subtype': 'addr'}
 0x400077a0:
  f: C 01
  l: rom_pbus_xpd_tx_on__low_gain
  fn_end: '?'
  fn_ranges: [[0x400077a0,0x400077fd]]
+ x:
+ - 0x3fffc804: o
+0x400077a9:
+ f: C 01
+ args:
+  2: {'subtype': 'addr'}
 0x40007800:
  f: D 04
  l:
@@ -9316,21 +10580,49 @@ header:
  l: rom_phy_reset_req
  fn_end: '?'
  fn_ranges: [[0x40007804,0x4000781b]]
+ x:
+ - 0x3fffc808: o
 0x4000781c:
  f: C 01
  l: rom_restart_cal
  fn_end: '?'
  fn_ranges: [[0x4000781c,0x40007867]]
+ x:
+ - 0x3fffc80c: o
+0x40007824:
+ f: C 01
+ args:
+  2: {'subtype': 'addr'}
+0x40007838:
+ f: C 01
+ args:
+  2: {'subtype': 'addr'}
+0x4000784f:
+ f: C 01
+ args:
+  2: {'subtype': 'addr'}
 0x40007868:
  f: C 01
  l: rom_rfpll_reset
  fn_end: '?'
  fn_ranges: [[0x40007868,0x400078db]]
+ x:
+ - 0x3fffc810: o
+0x40007872:
+ f: C 01
+ args:
+  2: {'subtype': 'addr'}
 0x400078dc:
  f: C 01
  l: rom_write_rfpll_sdm
  fn_end: '?'
  fn_ranges: [[0x400078dc,0x40007954]]
+ x:
+ - 0x3fffc814: o
+0x400078e9:
+ f: C 01
+ args:
+  2: {'subtype': 'addr'}
 0x40007954:
  f: D 04
  l:
@@ -9361,6 +10653,8 @@ header:
  l: rom_rfpll_set_freq
  fn_end: '?'
  fn_ranges: [[0x40007968,0x400079fa], [0x400079fd,0x40007a17]]
+ x:
+ - 0x3fffc818: o
 0x400079b0:
  f: C 01
  l:
@@ -9396,11 +10690,23 @@ header:
  l: rom_cal_tos_v50
  fn_end: '?'
  fn_ranges: [[0x40007a28,0x40007b43], [0x40007b46,0x40007bdc]]
+ x:
+ - 0x3fffc81c: o
+0x40007a44:
+ f: C 01
+ args:
+  2: {'subtype': 'addr'}
 0x40007a64:
  f: C 01
  l:
+ args:
+  2: {'subtype': 'addr'}
  x:
  - 0x40007b0c: j
+0x40007a76:
+ f: C 01
+ args:
+  2: {'subtype': 'addr'}
 0x40007ad4:
  f: C 01
  l:
@@ -9426,6 +10732,10 @@ header:
  l:
  x:
  - 0x40007b00: j
+0x40007b0f:
+ f: C 01
+ args:
+  2: {'subtype': 'addr'}
 0x40007b15:
  f: C 01
  l:
@@ -9450,6 +10760,8 @@ header:
 0x40007bdc:
  f: D 04
  l:
+ args:
+  0: {'subtype': 'addr'}
  x:
  - 0x40007c95: r
 0x40007be0:
@@ -9479,6 +10791,8 @@ header:
  l: rom_pbus_dco___SA2
  fn_end: '?'
  fn_ranges: [[0x40007bf0,0x40007d93], [0x40007d94,0x40007dab], [0x40007dac,0x40007ea7], [0x40007ea8,0x40007ead]]
+ x:
+ - 0x3fffc820: o
 0x40007c2e:
  f: C 01
  l:
@@ -9509,6 +10823,10 @@ header:
  l:
  x:
  - 0x40007c8e: j
+0x40007c95:
+ f: C 01
+ args:
+  2: {'subtype': 'addr'}
 0x40007cca:
  f: C 01
  l:
@@ -9519,6 +10837,14 @@ header:
  l:
  x:
  - 0x40007e0d: j
+0x40007d2c:
+ f: C 01
+ args:
+  2: {'subtype': 'addr'}
+0x40007d37:
+ f: C 01
+ args:
+  2: {'subtype': 'addr'}
 0x40007d41:
  f: C 01
  l:
@@ -9566,16 +10892,28 @@ header:
  x:
  - 0x40007e33: j
  - 0x40007ea4: j
+0x40007e40:
+ f: C 01
+ args:
+  2: {'subtype': 'addr'}
 0x40007e5c:
  f: C 01
  l:
  x:
  - 0x40007e3e: j
+0x40007e63:
+ f: C 01
+ args:
+  2: {'subtype': 'addr'}
 0x40007e69:
  f: C 01
  l:
  x:
  - 0x40007e61: j
+0x40007e8b:
+ f: C 01
+ args:
+  2: {'subtype': 'addr'}
 0x40007e91:
  f: C 01
  l:
@@ -9594,6 +10932,8 @@ header:
 0x40007eb0:
  f: D 04
  l:
+ args:
+  0: {'subtype': 'addr'}
  x:
  - 0x40007f32: r
 0x40007eb4:
@@ -9601,6 +10941,12 @@ header:
  l: rom_rfcal_pwrctrl
  fn_end: '?'
  fn_ranges: [[0x40007eb4,0x40007fe1], [0x40007fe4,0x40007fef], [0x40007ff0,0x40008049]]
+ x:
+ - 0x3fffc824: o
+0x40007ec8:
+ f: C 01
+ args:
+  2: {'subtype': 'addr'}
 0x40007f26:
  f: C 01
  l:
@@ -9611,6 +10957,10 @@ header:
  l:
  x:
  - 0x40008015: j
+0x40007f32:
+ f: C 01
+ args:
+  2: {'subtype': 'addr'}
 0x40007f41:
  f: C 01
  l:
@@ -9663,6 +11013,12 @@ header:
  l: rom_rfcal_rxiq
  fn_end: '?'
  fn_ranges: [[0x4000804c,0x40008262]]
+ x:
+ - 0x3fffc828: o
+0x40008072:
+ f: C 01
+ args:
+  2: {'subtype': 'addr'}
 0x40008100:
  f: C 01
  l:
@@ -9673,6 +11029,12 @@ header:
  l: rom_rfcal_rxiq_set_reg
  fn_end: '?'
  fn_ranges: [[0x40008264,0x400082e7], [0x400082e9,0x40008357], [0x40008358,0x40008366], [0x40008368,0x4000837e]]
+ x:
+ - 0x3fffc82c: o
+0x4000827a:
+ f: C 01
+ args:
+  2: {'subtype': 'addr'}
 0x40008289:
  f: C 01
  l:
@@ -9683,6 +11045,10 @@ header:
  l:
  x:
  - 0x4000828c: j
+0x400082b1:
+ f: C 01
+ args:
+  2: {'subtype': 'addr'}
 0x400082b4:
  f: C 01
  l:
@@ -9708,6 +11074,14 @@ header:
  l:
  x:
  - 0x400082b4: j
+0x400082f3:
+ f: C 01
+ args:
+  2: {'subtype': 'addr'}
+0x4000830d:
+ f: C 01
+ args:
+  2: {'subtype': 'addr'}
 0x40008325:
  f: C 01
  l:
@@ -9743,14 +11117,22 @@ header:
  l:
  x:
  - 0x4000829d: j
+0x40008378:
+ f: C 01
+ args:
+  2: {'subtype': 'addr'}
 0x40008380:
  f: D 04
  l:
+ args:
+  0: {'subtype': 'addr'}
  x:
  - 0x400084be: r
 0x40008384:
  f: D 04
  l:
+ args:
+  0: {'subtype': 'addr'}
  x:
  - 0x400084e1: r
 0x40008388:
@@ -9759,7 +11141,32 @@ header:
  fn_end: '?'
  fn_ranges: [[0x40008388,0x4000846f], [0x40008470,0x4000848b], [0x4000848c,0x400085af], [0x400085b0,0x400085cb], [0x400085cc,0x400085e7], [0x400085e8,0x40008603]]
  x:
+ - 0x3fffc830: o
  - 0x4000ebb8: o
+0x400083a1:
+ f: C 01
+ args:
+  2: {'subtype': 'addr'}
+0x400083bd:
+ f: C 01
+ args:
+  2: {'subtype': 'addr'}
+0x400083cd:
+ f: C 01
+ args:
+  2: {'subtype': 'addr'}
+0x400083dc:
+ f: C 01
+ args:
+  2: {'subtype': 'addr'}
+0x400083e8:
+ f: C 01
+ args:
+  2: {'subtype': 'addr'}
+0x400083fd:
+ f: C 01
+ args:
+  2: {'subtype': 'addr'}
 0x40008425:
  f: C 01
  l:
@@ -9785,23 +11192,41 @@ header:
  l:
  x:
  - 0x400084d9: j
+0x4000845b:
+ f: C 01
+ args:
+  2: {'subtype': 'addr'}
 0x40008470:
  f: C 01
  l:
  x:
  - 0x4000844e: j
+0x40008477:
+ f: C 01
+ args:
+  2: {'subtype': 'addr'}
 0x4000848c:
  f: C 01
  l:
  x:
  - 0x4000844c: j
+0x40008493:
+ f: C 01
+ args:
+  2: {'subtype': 'addr'}
 0x400084a5:
  f: C 01
  l:
+ args:
+  2: {'subtype': 'addr'}
  x:
  - 0x40008451: j
  - 0x4000846c: j
  - 0x40008488: j
+0x400084be:
+ f: C 01
+ args:
+  2: {'subtype': 'addr'}
 0x400084c8:
  f: C 01
  l:
@@ -9817,6 +11242,10 @@ header:
  l:
  x:
  - 0x400084d6: j
+0x400084e1:
+ f: C 01
+ args:
+  2: {'subtype': 'addr'}
 0x400084ec:
  f: C 01
  l:
@@ -9829,29 +11258,59 @@ header:
  - 0x400085c8: j
  - 0x400085e4: j
  - 0x40008600: j
+0x4000851c:
+ f: C 01
+ args:
+  2: {'subtype': 'addr'}
+0x40008529:
+ f: C 01
+ args:
+  2: {'subtype': 'addr'}
 0x40008550:
  f: C 01
  l:
  x:
  - 0x400083ab: j
+0x40008573:
+ f: C 01
+ args:
+  2: {'subtype': 'addr'}
+0x4000858e:
+ f: C 01
+ args:
+  2: {'subtype': 'addr'}
 0x400085b0:
  f: C 01
  l:
  x:
  - 0x400084ec: j
+0x400085b7:
+ f: C 01
+ args:
+  2: {'subtype': 'addr'}
 0x400085cc:
  f: C 01
  l:
  x:
  - 0x400084f1: j
+0x400085d3:
+ f: C 01
+ args:
+  2: {'subtype': 'addr'}
 0x400085e8:
  f: C 01
  l:
  x:
  - 0x400084f7: j
+0x400085ef:
+ f: C 01
+ args:
+  2: {'subtype': 'addr'}
 0x40008604:
  f: D 04
  l:
+ args:
+  0: {'subtype': 'addr'}
  x:
  - 0x400086cd: r
 0x40008608:
@@ -9872,7 +11331,16 @@ header:
  fn_end: '?'
  fn_ranges: [[0x40008610,0x4000885b], [0x4000885c,0x4000889b], [0x4000889c,0x400088a4]]
  x:
+ - 0x3fffc834: o
  - 0x4000ebbc: o
+0x40008640:
+ f: C 01
+ args:
+  2: {'subtype': 'addr'}
+0x400086cd:
+ f: C 01
+ args:
+  2: {'subtype': 'addr'}
 0x400086d6:
  f: C 01
  l:
@@ -9931,16 +11399,22 @@ header:
 0x400088ac:
  f: D 04
  l:
+ args:
+  0: {'subtype': 'addr'}
  x:
  - 0x400089f5: r
 0x400088b0:
  f: D 04
  l:
+ args:
+  0: {'subtype': 'addr'}
  x:
  - 0x40008a36: r
 0x400088b4:
  f: D 04
  l:
+ args:
+  0: {'subtype': 'addr'}
  x:
  - 0x40008a51: r
 0x400088b8:
@@ -9948,16 +11422,30 @@ header:
  l: rom_rfcal_txiq_cover
  fn_end: '?'
  fn_ranges: [[0x400088b8,0x400089b3], [0x400089b4,0x40008a13], [0x40008a14,0x40008a32], [0x40008a33,0x40008a6d]]
+ x:
+ - 0x3fffc838: o
 0x400088d9:
  f: C 01
  l:
+ args:
+  2: {'subtype': 'addr'}
  x:
  - 0x400088d1: j
 0x40008924:
  f: C 01
  l:
+ args:
+  2: {'subtype': 'addr'}
  x:
  - 0x40008a08: j
+0x4000895b:
+ f: C 01
+ args:
+  2: {'subtype': 'addr'}
+0x40008983:
+ f: C 01
+ args:
+  2: {'subtype': 'addr'}
 0x400089a5:
  f: C 01
  l:
@@ -9990,6 +11478,10 @@ header:
  x:
  - 0x40008a20: j
  - 0x40008a2f: j
+0x400089f5:
+ f: C 01
+ args:
+  2: {'subtype': 'addr'}
 0x400089fe:
  f: C 01
  l:
@@ -10005,9 +11497,15 @@ header:
  l:
  x:
  - 0x40008a10: j
+0x40008a36:
+ f: C 01
+ args:
+  2: {'subtype': 'addr'}
 0x40008a51:
  f: C 01
  l:
+ args:
+  2: {'subtype': 'addr'}
  x:
  - 0x40008a33: j
 0x40008a5a:
@@ -10020,6 +11518,12 @@ header:
  l: rom_rfcal_txiq_set_reg
  fn_end: '?'
  fn_ranges: [[0x40008a70,0x40008af0], [0x40008af1,0x40008b43], [0x40008b44,0x40008b52], [0x40008b54,0x40008b6a]]
+ x:
+ - 0x3fffc83c: o
+0x40008a88:
+ f: C 01
+ args:
+  2: {'subtype': 'addr'}
 0x40008a95:
  f: C 01
  l:
@@ -10030,6 +11534,10 @@ header:
  l:
  x:
  - 0x40008a97: j
+0x40008ab9:
+ f: C 01
+ args:
+  2: {'subtype': 'addr'}
 0x40008abc:
  f: C 01
  l:
@@ -10090,11 +11598,21 @@ header:
  l:
  x:
  - 0x40008aa6: j
+0x40008b64:
+ f: C 01
+ args:
+  2: {'subtype': 'addr'}
 0x40008b6c:
  f: C 01
  l: rom_rxiq_cover_mg_mp
  fn_end: '?'
  fn_ranges: [[0x40008b6c,0x40008c61]]
+ x:
+ - 0x3fffc840: o
+0x40008b8e:
+ f: C 01
+ args:
+  2: {'subtype': 'addr'}
 0x40008bae:
  f: C 01
  l:
@@ -10103,11 +11621,15 @@ header:
 0x40008c64:
  f: D 04
  l:
+ args:
+  0: {'subtype': 'addr'}
  x:
  - 0x40008c86: r
 0x40008c68:
  f: D 04
  l:
+ args:
+  0: {'subtype': 'addr'}
  x:
  - 0x40008c9e: r
 0x40008c6c:
@@ -10116,15 +11638,26 @@ header:
  fn_end: '?'
  fn_ranges: [[0x40008c6c,0x40008d2c]]
  x:
+ - 0x3fffc844: o
  - 0x4000ebcc: o
+0x40008c86:
+ f: C 01
+ args:
+  2: {'subtype': 'addr'}
 0x40008c94:
  f: C 01
  l:
  x:
  - 0x40008cac: j
+0x40008c9e:
+ f: C 01
+ args:
+  2: {'subtype': 'addr'}
 0x40008caf:
  f: C 01
  l:
+ args:
+  2: {'subtype': 'addr'}
  x:
  - 0x40008c8e: j
 0x40008cb5:
@@ -10132,6 +11665,10 @@ header:
  l:
  x:
  - 0x40008c84: j
+0x40008cbc:
+ f: C 01
+ args:
+  2: {'subtype': 'addr'}
 0x40008ce0:
  f: C 01
  l:
@@ -10163,6 +11700,7 @@ header:
  fn_end: '?'
  fn_ranges: [[0x40008d34,0x40008dc6]]
  x:
+ - 0x3fffc848: o
  - 0x4000ebd0: o
 0x40008d70:
  f: C 01
@@ -10174,14 +11712,26 @@ header:
  l:
  x:
  - 0x40008d70: j
+0x40008d8c:
+ f: C 01
+ args:
+  2: {'subtype': 'addr'}
+0x40008dac:
+ f: C 01
+ args:
+  2: {'subtype': 'addr'}
 0x40008dc8:
  f: D 04
  l:
+ args:
+  0: {'subtype': 'addr'}
  x:
  - 0x40008e18: r
 0x40008dcc:
  f: D 04
  l:
+ args:
+  0: {'subtype': 'addr'}
  x:
  - 0x40008e1b: r
  - 0x40008eef: r
@@ -10197,6 +11747,14 @@ header:
  l:
  x:
  - 0x40008e13: j
+0x40008e18:
+ f: C 01
+ args:
+  2: {'subtype': 'addr'}
+0x40008e1b:
+ f: C 01
+ args:
+  2: {'subtype': 'addr'}
 0x40008e24:
  f: C 01
  l:
@@ -10210,6 +11768,8 @@ header:
 0x40008ea0:
  f: D 04
  l:
+ args:
+  0: {'subtype': 'addr'}
  x:
  - 0x40008eb6: r
  - 0x40008ebc: r
@@ -10237,6 +11797,8 @@ header:
 0x40008ec8:
  f: D 04
  l:
+ args:
+  0: {'subtype': 'addr'}
  x:
  - 0x40009198: r
 0x40008ecc:
@@ -10246,6 +11808,10 @@ header:
  fn_ranges: [[0x40008ecc,0x4000917f], [0x40009180,0x400092d4]]
  x:
  - 0x400092d9: c
+0x40008eef:
+ f: C 01
+ args:
+  2: {'subtype': 'addr'}
 0x40008f6c:
  f: C 01
  l:
@@ -10256,6 +11822,10 @@ header:
  l:
  x:
  - 0x40009075: j
+0x40009198:
+ f: C 01
+ args:
+  2: {'subtype': 'addr'}
 0x400092d4:
  f: C 01
  l: aes_decrypt__1
@@ -10275,6 +11845,8 @@ header:
 0x400092fc:
  f: D 04
  l:
+ args:
+  0: {'subtype': 'addr'}
  x:
  - 0x40009320: r
 0x40009300:
@@ -10332,6 +11904,8 @@ header:
 0x400094f8:
  f: D 04
  l:
+ args:
+  0: {'subtype': 'addr'}
  x:
  - 0x4000953c: r
  - 0x40009671: r
@@ -10414,6 +11988,10 @@ header:
  cmnt: 'Original label: base64_decode'
  fn_end: '?'
  fn_ranges: [[0x40009648,0x400096cb], [0x400096cd,0x4000978b], [0x4000978c,0x400097a9]]
+0x40009671:
+ f: C 01
+ args:
+  2: {'subtype': 'addr'}
 0x40009678:
  f: C 01
  l:
@@ -11144,11 +12722,15 @@ header:
 0x4000b640:
  f: D 04
  l:
+ args:
+  0: {'subtype': 'addr'}
  x:
  - 0x4000b688: r
 0x4000b644:
  f: D 04
  l:
+ args:
+  0: {'subtype': 'addr'}
  x:
  - 0x4000b69e: r
 0x4000b648:
@@ -11173,6 +12755,14 @@ header:
  l:
  x:
  - 0x4000b66d: j
+0x4000b688:
+ f: C 01
+ args:
+  2: {'subtype': 'addr'}
+0x4000b69e:
+ f: C 01
+ args:
+  2: {'subtype': 'addr'}
 0x4000b6a1:
  f: C 01
  l:
@@ -11432,6 +13022,8 @@ header:
 0x4000bc3c:
  f: D 04
  l:
+ args:
+  0: {'subtype': 'addr'}
  x:
  - 0x4000bc5b: r
 0x4000bc40:
@@ -11439,6 +13031,10 @@ header:
  l: wepkey_128
  fn_end: '?'
  fn_ranges: [[0x4000bc40,0x4000bcc3], [0x4000bcc4,0x4000bd25]]
+0x4000bc5b:
+ f: C 01
+ args:
+  2: {'subtype': 'addr'}
 0x4000bc96:
  f: C 01
  l:
@@ -11475,6 +13071,14 @@ header:
  x:
  - 0x40000f8d: c
  - 0x4000bd77: c
+0x4000bd30:
+ f: C 01
+ args:
+  2: {'subtype': 'addr'}
+0x4000bd3b:
+ f: C 01
+ args:
+  2: {'subtype': 'addr'}
 0x4000bd5c:
  f: C 01
  l:
@@ -11495,6 +13099,8 @@ header:
 0x4000bd84:
  f: C 01
  l: _xtos_ints_on
+ args:
+  2: {'subtype': 'addr'}
  fn_end: '?'
  fn_ranges: [[0x4000bd84,0x4000bda3]]
  x:
@@ -11502,6 +13108,8 @@ header:
 0x4000bda4:
  f: C 01
  l: _xtos_ints_off
+ args:
+  2: {'subtype': 'addr'}
  fn_end: '?'
  fn_ranges: [[0x4000bda4,0x4000bdc6]]
  x:
@@ -13336,6 +14944,7 @@ header:
  fn_end: '?'
  fn_ranges: [[0x4000d310,0x4000d353], [0x4000d354,0x4000d49b], [0x4000d49c,0x4000d4b3], [0x4000d4b5,0x4000d595], [0x4000d596,0x4000d5c0], [0x4000d5c1,0x4000d73b], [0x4000d73c,0x4000d770]]
  x:
+ - 0x40001e62: c
  - 0x40102250: o
  - 0x401022bb: c
  - 0x40102393: c
@@ -13475,6 +15084,7 @@ header:
  fn_end: '?'
  fn_ranges: [[0x4000d770,0x4000d7f4], [0x4000d7f5,0x4000d8f6], [0x4000d8f8,0x4000d96f], [0x4000d970,0x4000d988], [0x4000d989,0x4000da37], [0x4000da38,0x4000da60], [0x4000da62,0x4000dbc7], [0x4000dbc8,0x4000dbe0]]
  x:
+ - 0x40001e48: c
  - 0x40102254: o
  - 0x401022e1: c
  - 0x40272944: o
@@ -13634,6 +15244,7 @@ header:
  fn_end: '?'
  fn_ranges: [[0x4000dbe0,0x4000dbe3]]
  x:
+ - 0x3fffc014: o
  - 0x4000e39c: o
 0x4000dbe4:
  f: C 01
@@ -13641,6 +15252,7 @@ header:
  fn_end: '?'
  fn_ranges: [[0x4000dbe4,0x4000dbf8]]
  x:
+ - 0x3fffc004: o
  - 0x4000e38c: o
 0x4000dbf8:
  f: C 01
@@ -13648,6 +15260,13 @@ header:
  fn_end: '?'
  fn_ranges: [[0x4000dbf8,0x4000dbfa]]
  x:
+ - 0x3fffc100: o
+ - 0x3fffc104: o
+ - 0x3fffc17c: o
+ - 0x3fffc180: o
+ - 0x3fffc184: o
+ - 0x3fffc188: o
+ - 0x3fffc18c: o
  - 0x4000038c: o
  - 0x40000462: o
  - 0x4000e488: o
@@ -13681,6 +15300,19 @@ header:
  fn_end: '?'
  fn_ranges: [[0x4000dc3c,0x4000dc41]]
  x:
+ - 0x3fffc208: o
+ - 0x3fffc210: o
+ - 0x3fffc218: o
+ - 0x3fffc220: o
+ - 0x3fffc228: o
+ - 0x3fffc230: o
+ - 0x3fffc248: o
+ - 0x3fffc250: o
+ - 0x3fffc258: o
+ - 0x3fffc260: o
+ - 0x3fffc268: o
+ - 0x3fffc270: o
+ - 0x3fffc278: o
  - 0x400003ec: o
  - 0x4000e590: o
  - 0x4000e598: o
@@ -13698,6 +15330,13 @@ header:
  fn_end: '?'
  fn_ranges: [[0x4000dc44,0x4000dc51]]
  x:
+ - 0x3fffc000: o
+ - 0x3fffc008: o
+ - 0x3fffc00c: o
+ - 0x3fffc018: o
+ - 0x3fffc01c: o
+ - 0x3fffc0f8: o
+ - 0x3fffc0fc: o
  - 0x4000039c: o
  - 0x4000045c: o
  - 0x4000e388: o

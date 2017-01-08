@@ -6860,6 +6860,8 @@ header:
 0x40102738:
  f: D 04
  l:
+ args:
+  0: {'subtype': 'addr'}
  x:
  - 0x40102746: r
 0x4010273c:
@@ -6869,6 +6871,10 @@ header:
  fn_ranges: [[0x4010273c,0x40102756]]
  x:
  - 0x40100053: c
+0x40102746:
+ f: C 01
+ args:
+  2: {'subtype': 'addr'}
 0x40102758:
  f: C 01
  l: mesh_zalloc

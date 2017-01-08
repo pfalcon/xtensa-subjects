@@ -31890,11 +31890,15 @@ header:
 0x40252a60:
  f: D 04
  l:
+ args:
+  0: {'subtype': 'addr'}
  x:
  - 0x40252a7a: r
 0x40252a64:
  f: D 04
  l:
+ args:
+  0: {'subtype': 'addr'}
  x:
  - 0x40252a83: r
 0x40252a68:
@@ -31905,6 +31909,14 @@ header:
  x:
  - 0x40252d8b: c
  - 0x40252e7b: c
+0x40252a7a:
+ f: C 01
+ args:
+  2: {'subtype': 'addr'}
+0x40252a83:
+ f: C 01
+ args:
+  2: {'subtype': 'addr'}
 0x40252a9b:
  f: C 01
  l:
@@ -32038,6 +32050,8 @@ header:
 0x40252bb4:
  f: D 04
  l:
+ args:
+  0: {'subtype': 'addr'}
  x:
  - 0x40252eac: r
 0x40252bb8:
@@ -32421,6 +32435,10 @@ header:
  l:
  x:
  - 0x40252e9a: j
+0x40252eac:
+ f: C 01
+ args:
+  2: {'subtype': 'addr'}
 0x40252ebc:
  f: C 01
  args:
@@ -35938,6 +35956,8 @@ header:
 0x402547c4:
  f: D 04
  l:
+ args:
+  0: {'subtype': 'addr'}
  x:
  - 0x40254810: r
  - 0x40254816: r
@@ -36003,6 +36023,8 @@ header:
  f: C 01
  args:
   2: {'subtype': 'addr'}
+0x40254810:
+ f: C 01
 0x40254813:
  f: C 01
  args:
