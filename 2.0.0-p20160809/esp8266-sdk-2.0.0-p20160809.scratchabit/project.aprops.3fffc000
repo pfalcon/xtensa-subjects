@@ -1156,7 +1156,7 @@ header:
  x:
  - 0x4000e334: o
 0x3fffc870:
- f: X 10
+ f: A 10
  l: s_ets_unpack_flash_code__1
  x:
  - 0x400012f8: o
@@ -2297,25 +2297,25 @@ header:
  - 0x3fffc32c: o
  - 0x4000e6b4: o
 0x3fffd674:
- f: X 10
+ f: A 10
  l: s___ets__s_rst_cause__d__boot_mode___d__d___
  x:
  - 0x40000fcc: o
  - 0x40001054: o
 0x3fffd6a0:
- f: X 10
+ f: A 10
  l: s_Jan__8_2013__1
  x:
  - 0x40000fc8: o
  - 0x40001051: o
 0x3fffd6ac:
- f: X 10
+ f: A 10
  l: s_wdt_reset___1
  x:
  - 0x40000fe4: o
  - 0x40001118: o
 0x3fffd6b8:
- f: X 10
+ f: A 10
  l: s__s__s____1
  x:
  - 0x40000fd0: o
@@ -2326,38 +2326,38 @@ header:
  - 0x40002cd9: o
  - 0x40002d8a: o
 0x3fffd6c0:
- f: X 10
+ f: A 10
  l: s_ets_main_c__1
  x:
  - 0x40000fd4: o
  - 0x400010b1: o
  - 0x40001139: o
 0x3fffd6cc:
- f: X 10
+ f: A 10
  l: s_unknown_reset___1
  x:
  - 0x40000fe8: o
  - 0x40001130: o
 0x3fffd6dc:
- f: X 10
+ f: A 10
  l: s_user_code_done___1
  x:
  - 0x40000fe0: o
  - 0x40001100: o
 0x3fffd6ec:
- f: X 10
+ f: A 10
  l: s_waiting_for_host___1
  x:
  - 0x4000119c: o
  - 0x4000121a: o
 0x3fffd700:
- f: X 10
+ f: A 10
  l: s_load_0x_08x__len__d__room__d____1
  x:
  - 0x400012e8: o
  - 0x400013bd: o
 0x3fffd720:
- f: X 10
+ f: A 10
  l: s_flash_read_err___s___1
  x:
  - 0x400012f4: o
@@ -2365,74 +2365,74 @@ header:
  - 0x400017a0: o
  - 0x400017c0: o
 0x3fffd734:
- f: X 10
+ f: A 10
  l: s_tail__d___1
  x:
  - 0x400012ec: o
  - 0x400014d8: o
 0x3fffd740:
- f: X 10
+ f: A 10
  l: s_chksum_0x_02x___1
  x:
  - 0x400012f0: o
  - 0x4000153c: o
 0x3fffd750:
- f: X 10
+ f: A 10
  l: s_csum_0x_02x___1
  x:
  - 0x40001300: o
  - 0x40001771: o
 0x3fffd760:
- f: X 10
+ f: A 10
  l: s_csum_err___1
  x:
  - 0x40001304: o
  - 0x40001783: o
 0x3fffd76c:
- f: X 10
+ f: A 10
  l: s_ho__d_tail__d_room__d___1
  x:
  - 0x400012fc: o
  - 0x40001721: o
 0x3fffd784:
- f: X 10
+ f: A 10
  l: s_sp__p____1
  x:
  - 0x400017d4: o
  - 0x40001823: o
 0x3fffd78c:
- f: X 10
+ f: A 10
  l: s_sf_dump__d__a0__0x_08x__a1__0x_08x__a2__0x_08x__a3__0x_08x____1
  x:
  - 0x400017d8: o
  - 0x40001831: o
 0x3fffd7cc:
- f: X 10
+ f: A 10
  l: s_epc1_0x_08x__epc2_0x_08x__epc3_0x_08x__excvaddr_0x_08x__depc_0x_08x___1
  x:
  - 0x400017dc: o
  - 0x4000184c: o
  - 0x40001887: o
 0x3fffd814:
- f: X 10
+ f: A 10
  l: s_Fatal_exception___d______1
  x:
  - 0x40001874: o
  - 0x4000187b: o
 0x3fffd82c:
- f: X 10
+ f: A 10
  l: s_eprintf_no_buf___1
  x:
  - 0x40001cd8: o
  - 0x40001d00: o
 0x3fffd83c:
- f: X 10
+ f: A 10
  l: s_0123456789__1
  x:
  - 0x40001efc: o
  - 0x4000238e: o
 0x3fffd848:
- f: X 10
+ f: A 10
  l: s_0123456789abcdef__1
  x:
  - 0x40001ef4: o
@@ -2440,7 +2440,7 @@ header:
  - 0x40252a64: o
  - 0x40252a83: o
 0x3fffd85c:
- f: X 10
+ f: A 10
  l: s_0123456789ABCDEF__1
  x:
  - 0x40001ef8: o
@@ -2448,7 +2448,7 @@ header:
  - 0x40252a60: o
  - 0x40252a7a: o
 0x3fffd870:
- f: X 10
+ f: A 10
  l: s__null___1
  x:
  - 0x40001ef0: o
@@ -2456,7 +2456,7 @@ header:
  - 0x40252bb4: o
  - 0x40252eac: o
 0x3fffd878:
- f: X 10
+ f: A 10
  l: s_ets_timer_c__1
  x:
  - 0x40002c60: o
@@ -2464,101 +2464,101 @@ header:
  - 0x40002cdc: o
  - 0x40002d8d: o
 0x3fffd884:
- f: X 10
+ f: A 10
  l: s_bootup___addr_0x_08x___1
 0x3fffd89c:
- f: X 10
+ f: A 10
  l: s_no_rds___1
 0x3fffd8a4:
- f: X 10
+ f: A 10
  l: s_sip_bogus_rx_done___1
 0x3fffd8b8:
- f: X 10
+ f: A 10
  l: s_rx_done_unknown___1
 0x3fffd8cc:
- f: X 10
+ f: A 10
  l: s_sip_bogus_tx___1
 0x3fffd8dc:
- f: X 10
+ f: A 10
  l: s_seq__u___u_ds__p___1
 0x3fffd8f0:
- f: X 10
+ f: A 10
  l: s_tx_unknown___1
 0x3fffd8fc:
- f: X 10
+ f: A 10
  l: s_rxiq_get_mis__s_pwr__lld___d__d____1
 0x3fffd920:
- f: X 10
+ f: A 10
  l: s____d__d____1
  x:
  - 0x40007d2c: o
 0x3fffd92c:
- f: X 10
+ f: A 10
  l: s__d__d___1
  x:
  - 0x40007d37: o
 0x3fffd934:
- f: X 10
+ f: A 10
  l: s_stage__d__CGAIN__d_FGAIN__d__DC_OS___d__d___DAC___d__d__
  x:
  - 0x40007e40: o
 0x3fffd96c:
- f: X 10
+ f: A 10
  l: s_eol
  x:
  - 0x40007e63: o
  - 0x40007e8b: o
  - 0x40008caf: o
 0x3fffd970:
- f: X 10
+ f: A 10
  l: s_pwctrl__rate_i__d__target_power__d__detect_power__d___1
  x:
  - 0x40007eb0: o
  - 0x40007f32: o
 0x3fffd9a8:
- f: X 10
+ f: A 10
  l: s_num_k__d__power_out_
  x:
  - 0x40008380: o
  - 0x400084be: o
 0x3fffd9bc:
- f: X 10
+ f: A 10
  l: s__d__
  x:
  - 0x40008c68: o
  - 0x40008c9e: o
 0x3fffd9c4:
- f: X 10
+ f: A 10
  l: s_reg_i__d__indata__d___1
  x:
  - 0x40008384: o
  - 0x400084e1: o
 0x3fffd9dc:
- f: X 10
+ f: A 10
  l: s_txiq__tone_atten__d___1
  x:
  - 0x40008604: o
  - 0x400086cd: o
 0x3fffd9f4:
- f: X 10
+ f: A 10
  l: s_percent_d_comma
  x:
  - 0x400088ac: o
  - 0x400089f5: o
 0x3fffd9f8:
- f: X 10
+ f: A 10
  l: s_txiq_gain__d___1
  x:
  - 0x400088b0: o
  - 0x40008a36: o
 0x3fffda08:
- f: X 10
+ f: A 10
  l: s_txiq_phase__d___1
  x:
  - 0x400088b4: o
  - 0x40008a51: o
 0x3fffda18:
- f: X 10
+ f: A 10
  l: s_bt____1
  x:
  - 0x40008c64: o
