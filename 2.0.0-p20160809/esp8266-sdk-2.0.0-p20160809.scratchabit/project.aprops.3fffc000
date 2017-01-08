@@ -2258,7 +2258,7 @@ header:
  - 0x40240a91: o
  - 0x40240bfa: o
 0x3fffd500:
- f: . 00
+ f: D 04
  l: Td4s
  x:
  - 0x40008ec8: o
@@ -2266,7 +2266,7 @@ header:
  - 0x40240b70: o
  - 0x40240e40: o
 0x3fffd600:
- f: . 00
+ f: D 04
  l: base64_table
  x:
  - 0x400094f8: o
