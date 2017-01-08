@@ -2231,8 +2231,11 @@ header:
  - 0x40240a8e: o
  - 0x4024105d: o
  - 0x402414c5: o
+0x3fffd0ec:
+ f: D 04
+ cmnt: 'Te0 end'
 0x3fffd0ef:
- f: . 00
+ f: d 08
  cmnt: 'End of Te0'
 0x3fffd0f0:
  f: D 04
