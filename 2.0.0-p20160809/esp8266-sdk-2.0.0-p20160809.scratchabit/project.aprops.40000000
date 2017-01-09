@@ -568,7 +568,6 @@ header:
  fn_ranges: [[0x4000048c,0x40000569]]
  x:
  - 0x3fffc010: o
- - 0x4000e398: o
 0x400004b6:
  f: C 01
  args:
@@ -635,10 +634,6 @@ header:
  - 0x3fffc034: o
  - 0x3fffc038: o
  - 0x3fffc03c: o
- - 0x4000e3b8: o
- - 0x4000e3bc: o
- - 0x4000e3c0: o
- - 0x4000e3c4: o
 0x40000598:
  f: C 01
  l: _xtos_c_wrapper_handler
@@ -16108,7 +16103,6 @@ header:
  fn_ranges: [[0x4000dbe0,0x4000dbe3]]
  x:
  - 0x3fffc014: o
- - 0x4000e39c: o
 0x4000dbe4:
  f: C 01
  l: _xtos_syscall_handler
@@ -16116,7 +16110,6 @@ header:
  fn_ranges: [[0x4000dbe4,0x4000dbf8]]
  x:
  - 0x3fffc004: o
- - 0x4000e38c: o
 0x4000dbf8:
  f: C 01
  l: _xtos_p_none
@@ -16189,21 +16182,6 @@ header:
  - 0x3fffc1fc: o
  - 0x4000038c: o
  - 0x40000462: o
- - 0x4000e488: o
- - 0x4000e48c: o
- - 0x4000e490: o
- - 0x4000e4a8: o
- - 0x4000e524: o
- - 0x4000e528: o
- - 0x4000e52c: o
- - 0x4000e530: o
- - 0x4000e534: o
- - 0x4000e570: o
- - 0x4000e574: o
- - 0x4000e578: o
- - 0x4000e57c: o
- - 0x4000e580: o
- - 0x4000e584: o
 0x4000dbfc:
  f: C 01
  l: _xtos_set_intlevel
@@ -16237,16 +16215,6 @@ header:
  - 0x3fffc278: o
  - 0x400003ec: o
  - 0x4000bd44: o
- - 0x4000e590: o
- - 0x4000e598: o
- - 0x4000e5a0: o
- - 0x4000e5a8: o
- - 0x4000e5c8: o
- - 0x4000e5d0: o
- - 0x4000e5e8: o
- - 0x4000e5f0: o
- - 0x4000e5f8: o
- - 0x4000e600: o
 0x4000dc44:
  f: C 01
  l: _xtos_unhandled_exception
@@ -16312,22 +16280,6 @@ header:
  - 0x3fffc0fc: o
  - 0x4000039c: o
  - 0x4000045c: o
- - 0x4000e388: o
- - 0x4000e390: o
- - 0x4000e394: o
- - 0x4000e3a0: o
- - 0x4000e3a4: o
- - 0x4000e3a8: o
- - 0x4000e3ac: o
- - 0x4000e3b0: o
- - 0x4000e3b4: o
- - 0x4000e3c8: o
- - 0x4000e3cc: o
- - 0x4000e3f0: o
- - 0x4000e3f4: o
- - 0x4000e3f8: o
- - 0x4000e450: o
- - 0x4000e484: o
 0x4000dc54:
  f: C 01
  l: _xtos_return_from_exc
@@ -17240,6 +17192,9 @@ header:
  l:
  x:
  - 0x4000e268: j
+0x4000e299:
+ f: A 10
+ l: s_DIV0
 0x4000e29d:
  f: C 01
  l:
@@ -17438,200 +17393,104 @@ header:
 0x4000e388:
  f: D 04
  l: _rom_store
- args:
-  0: {'subtype': 'addr'}
  fn_end: '?'
  fn_ranges: []
  x:
  - 0x4000e330: o
 0x4000e38c:
  f: D 04
- args:
-  0: {'subtype': 'addr'}
 0x4000e390:
  f: D 04
- args:
-  0: {'subtype': 'addr'}
 0x4000e394:
  f: D 04
- args:
-  0: {'subtype': 'addr'}
 0x4000e398:
  f: D 04
- args:
-  0: {'subtype': 'addr'}
 0x4000e39c:
  f: D 04
- args:
-  0: {'subtype': 'addr'}
 0x4000e3a0:
  f: D 04
- args:
-  0: {'subtype': 'addr'}
 0x4000e3a4:
  f: D 04
- args:
-  0: {'subtype': 'addr'}
 0x4000e3a8:
  f: D 04
- args:
-  0: {'subtype': 'addr'}
 0x4000e3ac:
  f: D 04
- args:
-  0: {'subtype': 'addr'}
 0x4000e3b0:
  f: D 04
- args:
-  0: {'subtype': 'addr'}
 0x4000e3b4:
  f: D 04
- args:
-  0: {'subtype': 'addr'}
 0x4000e3b8:
  f: D 04
- args:
-  0: {'subtype': 'addr'}
 0x4000e3bc:
  f: D 04
- args:
-  0: {'subtype': 'addr'}
 0x4000e3c0:
  f: D 04
- args:
-  0: {'subtype': 'addr'}
 0x4000e3c4:
  f: D 04
- args:
-  0: {'subtype': 'addr'}
 0x4000e3c8:
  f: D 04
- args:
-  0: {'subtype': 'addr'}
 0x4000e3cc:
  f: D 04
- args:
-  0: {'subtype': 'addr'}
 0x4000e3f0:
  f: D 04
- args:
-  0: {'subtype': 'addr'}
 0x4000e3f4:
  f: D 04
- args:
-  0: {'subtype': 'addr'}
 0x4000e3f8:
  f: D 04
- args:
-  0: {'subtype': 'addr'}
 0x4000e450:
  f: D 04
- args:
-  0: {'subtype': 'addr'}
 0x4000e484:
  f: D 04
- args:
-  0: {'subtype': 'addr'}
 0x4000e488:
  f: D 04
- args:
-  0: {'subtype': 'addr'}
 0x4000e48c:
  f: D 04
- args:
-  0: {'subtype': 'addr'}
 0x4000e490:
  f: D 04
- args:
-  0: {'subtype': 'addr'}
 0x4000e4a8:
  f: D 04
- args:
-  0: {'subtype': 'addr'}
 0x4000e524:
  f: D 04
- args:
-  0: {'subtype': 'addr'}
 0x4000e528:
  f: D 04
- args:
-  0: {'subtype': 'addr'}
 0x4000e52c:
  f: D 04
- args:
-  0: {'subtype': 'addr'}
 0x4000e530:
  f: D 04
- args:
-  0: {'subtype': 'addr'}
 0x4000e534:
  f: D 04
- args:
-  0: {'subtype': 'addr'}
 0x4000e570:
  f: D 04
- args:
-  0: {'subtype': 'addr'}
 0x4000e574:
  f: D 04
- args:
-  0: {'subtype': 'addr'}
 0x4000e578:
  f: D 04
- args:
-  0: {'subtype': 'addr'}
 0x4000e57c:
  f: D 04
- args:
-  0: {'subtype': 'addr'}
 0x4000e580:
  f: D 04
- args:
-  0: {'subtype': 'addr'}
 0x4000e584:
  f: D 04
- args:
-  0: {'subtype': 'addr'}
 0x4000e590:
  f: D 04
- args:
-  0: {'subtype': 'addr'}
 0x4000e598:
  f: D 04
- args:
-  0: {'subtype': 'addr'}
 0x4000e5a0:
  f: D 04
- args:
-  0: {'subtype': 'addr'}
 0x4000e5a8:
  f: D 04
- args:
-  0: {'subtype': 'addr'}
 0x4000e5c8:
  f: D 04
- args:
-  0: {'subtype': 'addr'}
 0x4000e5d0:
  f: D 04
- args:
-  0: {'subtype': 'addr'}
 0x4000e5e8:
  f: D 04
- args:
-  0: {'subtype': 'addr'}
 0x4000e5f0:
  f: D 04
- args:
-  0: {'subtype': 'addr'}
 0x4000e5f8:
  f: D 04
- args:
-  0: {'subtype': 'addr'}
 0x4000e600:
  f: D 04
- args:
-  0: {'subtype': 'addr'}
 0x4000e6b4:
  f: D 04
  args:
