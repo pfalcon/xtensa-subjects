@@ -449,6 +449,7 @@ header:
  - 0x400041c5: r
  - 0x4000422e: r
  - 0x40005704: r
+ - 0x40005b5d: r
  - 0x4000c401: r
 0x4000041c:
  f: D 04
@@ -1204,6 +1205,7 @@ header:
  x:
  - 0x40002e32: c
  - 0x40005123: c
+ - 0x40005439: c
  - 0x401012f0: o
  - 0x401012ff: c
  - 0x40102672: c
@@ -1337,6 +1339,9 @@ header:
  - 0x40005193: c
  - 0x400052a0: c
  - 0x40005832: c
+ - 0x400058c5: c
+ - 0x400058f4: c
+ - 0x40005a38: c
  - 0x40005eb1: c
  - 0x40005ef5: c
  - 0x40100d2c: o
@@ -1432,6 +1437,10 @@ header:
  - 0x400052b2: c
  - 0x4000583d: c
  - 0x40005850: c
+ - 0x400058d7: c
+ - 0x40005901: c
+ - 0x400059f3: c
+ - 0x40005a45: c
  - 0x40005ebf: c
  - 0x40005f03: c
  - 0x40101298: o
@@ -1580,6 +1589,7 @@ header:
  fn_ranges: [[0x40000fbc,0x40000fc3]]
  x:
  - 0x400015bb: c
+ - 0x400055dc: c
 0x40000fc4:
  f: D 04
  l:
@@ -2687,6 +2697,8 @@ header:
  x:
  - 0x40001c98: c
  - 0x4000375b: c
+ - 0x40005562: c
+ - 0x4000565e: c
  - 0x4000942b: c
  - 0x40009439: c
  - 0x4000946f: c
@@ -4376,7 +4388,7 @@ header:
  x:
  - 0x40001f89: j
 0x40002010:
- f: . 00
+ f: C 01
  l:
  x:
  - 0x3fffc948: o
@@ -5030,6 +5042,13 @@ header:
  - 0x40002ca1: c
  - 0x40002ce2: c
  - 0x40002d93: c
+ - 0x40005531: c
+ - 0x4000560a: c
+ - 0x4000591a: c
+ - 0x400059db: c
+ - 0x40005aa8: c
+ - 0x40005aed: c
+ - 0x40005ba7: c
  - 0x40100a78: o
  - 0x40100a92: c
  - 0x40101282: c
@@ -5971,7 +5990,7 @@ header:
  - 0x40281648: c
 0x40002bf8:
  f: C 01
- l: fun_40002bf8
+ l: timer_frc2_set_alarm
  fn_end: '?'
  fn_ranges: [[0x40002bf8,0x40002c02]]
  x:
@@ -6638,6 +6657,10 @@ header:
  l: multofup
  fn_end: '?'
  fn_ranges: [[0x400031c0,0x400031d3]]
+ x:
+ - 0x40005963: c
+ - 0x4000599b: c
+ - 0x40005b1b: c
 0x400031d4:
  f: C 01
  l: fun_400031d4
@@ -8819,6 +8842,7 @@ header:
  - 0x40005279: r
  - 0x400052d5: r
  - 0x4000538e: r
+ - 0x40005b80: r
 0x40004f3c:
  f: D 04
  l:
@@ -8862,6 +8886,9 @@ header:
  fn_end: '?'
  fn_ranges: [[0x40005050,0x4000507b]]
  x:
+ - 0x4000596f: c
+ - 0x400059a9: c
+ - 0x40005b29: c
  - 0x40274118: o
  - 0x40274148: c
 0x40005066:
@@ -8906,11 +8933,14 @@ header:
  l:
  x:
  - 0x40005101: r
+ - 0x40005bc3: r
 0x400050fc:
  f: C 01
  l: sip_post
  fn_end: '?'
  fn_ranges: [[0x400050fc,0x4000512d]]
+ x:
+ - 0x400054bd: c
 0x40005118:
  f: C 01
  l:
@@ -8925,8 +8955,14 @@ header:
  - 0x40005186: r
  - 0x40005196: r
  - 0x400052a5: r
+ - 0x400053d4: r
+ - 0x4000542f: r
+ - 0x4000543c: r
  - 0x4000544c: r
  - 0x4000545c: r
+ - 0x4000547b: r
+ - 0x400055df: r
+ - 0x4000560d: r
  - 0x40005668: r
  - 0x4000568b: r
  - 0x400056d0: r
@@ -8935,6 +8971,8 @@ header:
  - 0x40005835: r
  - 0x40005864: r
  - 0x400058a8: r
+ - 0x400058c8: r
+ - 0x40005a15: r
 0x40005134:
  f: D 04
  l:
@@ -8952,6 +8990,9 @@ header:
  l: sip_alloc_to_host_evt
  fn_end: '?'
  fn_ranges: [[0x40005180,0x40005233]]
+ x:
+ - 0x40005526: c
+ - 0x40005c09: c
 0x400051a6:
  f: C 01
  l:
@@ -8972,6 +9013,8 @@ header:
  l: sip_to_host_evt_send_done
  fn_end: '?'
  fn_ranges: [[0x40005234,0x400052be]]
+ x:
+ - 0x4000594e: c
 0x400052c0:
  f: C 01
  l: sip_reclaim_tx_data_pkt
@@ -8992,19 +9035,121 @@ header:
  l: sip_reclaim_from_host_cmd
  fn_end: '?'
  fn_ranges: [[0x4000534c,0x400053c4]]
+ x:
+ - 0x4000550d: c
+ - 0x40005b06: c
+0x40005429:
+ f: C 01
+ l:
+ x:
+ - 0x40005413: j
 0x4000544c:
  f: C 01
  l: sip_install_rx_ctrl_cb
+ args:
+  2: {'subtype': 'addr'}
  fn_end: '?'
  fn_ranges: [[0x4000544c,0x4000545a]]
 0x4000545c:
  f: C 01
  l: sip_install_rx_data_cb
+ args:
+  2: {'subtype': 'addr'}
  fn_end: '?'
  fn_ranges: [[0x4000545c,0x4000546a]]
+0x4000546c:
+ f: C 01
+ l:
+ x:
+ - 0x4000567c: o
+0x4000547b:
+ f: C 01
+ args:
+  2: {'subtype': 'addr'}
+0x400054a4:
+ f: C 01
+ l:
+ x:
+ - 0x40005494: j
+0x400054b5:
+ f: C 01
+ l:
+ x:
+ - 0x400054a6: j
+0x400054c8:
+ f: D 04
+ l:
+ args:
+  0: {'subtype': 'addr'}
+ x:
+ - 0x4000552e: r
+0x400054cc:
+ f: D 04
+ l:
+ args:
+  0: {'subtype': 'addr'}
+ x:
+ - 0x400055e9: r
+0x4000550a:
+ f: C 01
+ l:
+ x:
+ - 0x40005534: j
+ - 0x4000556c: j
+ - 0x400055b1: j
+ - 0x40005619: j
+ - 0x40005661: j
+0x40005519:
+ f: C 01
+ l:
+ x:
+ - 0x40005507: j
+0x4000552e:
+ f: C 01
+ args:
+  2: {'subtype': 'addr'}
+0x4000553a:
+ f: C 01
+ l:
+ x:
+ - 0x4000552b: j
+0x40005570:
+ f: C 01
+ l:
+ x:
+ - 0x400054fe: j
+0x400055b5:
+ f: C 01
+ l:
+ x:
+ - 0x40005504: j
+0x400055df:
+ f: C 01
+ args:
+  2: {'subtype': 'addr'}
+0x400055e9:
+ f: C 01
+ args:
+  2: {'subtype': 'addr'}
+0x4000560d:
+ f: C 01
+ args:
+  2: {'subtype': 'addr'}
+0x40005610:
+ f: C 01
+ l:
+ x:
+ - 0x400055e4: j
+0x4000561d:
+ f: C 01
+ l:
+ x:
+ - 0x400054fb: j
 0x40005668:
  f: C 01
  l: sip_get_state
+ args:
+  2: {'subtype': 'addr'}
  fn_end: '?'
  fn_ranges: [[0x40005668,0x4000566f]]
  x:
@@ -9028,6 +9173,8 @@ header:
 0x4000567c:
  f: C 01
  l: sip_init_attach
+ args:
+  2: {'subtype': 'addr'}
  fn_end: '?'
  fn_ranges: [[0x4000567c,0x400056ba]]
  x:
@@ -9042,11 +9189,15 @@ header:
 0x400056bc:
  f: D 04
  l:
+ args:
+  0: {'subtype': 'addr'}
  x:
  - 0x400056dc: r
 0x400056c0:
  f: D 04
  l:
+ args:
+  0: {'subtype': 'addr'}
  x:
  - 0x400056c7: r
 0x400056c4:
@@ -9054,6 +9205,18 @@ header:
  l: sip_post_init
  fn_end: '?'
  fn_ranges: [[0x400056c4,0x400056e9]]
+0x400056c7:
+ f: C 01
+ args:
+  2: {'subtype': 'addr'}
+0x400056d0:
+ f: C 01
+ args:
+  2: {'subtype': 'addr'}
+0x400056dc:
+ f: C 01
+ args:
+  2: {'subtype': 'addr'}
 0x400056ec:
  f: C 01
  l: fun_400056ec
@@ -9061,6 +9224,11 @@ header:
  fn_ranges: [[0x400056ec,0x40005806]]
  x:
  - 0x40005853: c
+ - 0x400059f6: c
+0x400056f3:
+ f: C 01
+ args:
+  2: {'subtype': 'addr'}
 0x40005709:
  f: C 01
  l:
@@ -9079,10 +9247,14 @@ header:
 0x40005808:
  f: C 01
  l: sip_send
+ args:
+  2: {'subtype': 'addr'}
  fn_end: '?'
  fn_ranges: [[0x40005808,0x40005849], [0x4000584a,0x40005861]]
  x:
  - 0x40001d95: c
+ - 0x40005569: c
+ - 0x40005c0e: c
 0x4000584a:
  f: C 01
  l:
@@ -9091,6 +9263,8 @@ header:
 0x40005864:
  f: C 01
  l: sip_to_host_chain_append
+ args:
+  2: {'subtype': 'addr'}
  fn_end: '?'
  fn_ranges: [[0x40005864,0x400058a5]]
  x:
@@ -9103,11 +9277,252 @@ header:
 0x400058a8:
  f: C 01
  l: sip_get_ptr
+ args:
+  2: {'subtype': 'addr'}
  fn_end: '?'
  fn_ranges: [[0x400058a8,0x400058ad]]
+0x400058b0:
+ f: D 04
+ l:
+ args:
+  0: {'subtype': 'addr'}
+ x:
+ - 0x40005917: r
+0x400058b4:
+ f: D 04
+ l:
+ args:
+  0: {'subtype': 'addr'}
+ x:
+ - 0x400059d8: r
+0x400058b8:
+ f: C 01
+ l: fun_400058b8
+ fn_end: '?'
+ fn_ranges: [[0x400058b8,0x400058f3], [0x400058f4,0x4000594b], [0x4000594c,0x4000598b], [0x4000598c,0x400059ee], [0x400059f0,0x400059fc]]
+ x:
+ - 0x40005bf5: c
+0x400058c8:
+ f: C 01
+ args:
+  2: {'subtype': 'addr'}
+0x400058d7:
+ f: C 01
+ l:
+ x:
+ - 0x400058d2: j
+0x400058da:
+ f: C 01
+ l:
+ x:
+ - 0x400059f9: j
+0x400058e6:
+ f: C 01
+ l:
+ x:
+ - 0x40005906: j
+ - 0x4000591d: j
+0x400058f4:
+ f: C 01
+ l:
+ x:
+ - 0x400058de: j
+0x40005909:
+ f: C 01
+ l:
+ x:
+ - 0x4000592a: j
+0x40005912:
+ f: C 01
+ l:
+ x:
+ - 0x4000590c: j
+0x40005917:
+ f: C 01
+ args:
+  2: {'subtype': 'addr'}
+0x4000591d:
+ f: C 01
+ l:
+ x:
+ - 0x40005914: j
+ - 0x4000593c: j
+ - 0x40005948: j
+ - 0x40005951: j
+ - 0x4000597d: j
+ - 0x40005988: j
+ - 0x400059cb: j
+ - 0x400059d5: j
+0x40005920:
+ f: C 01
+ l:
+ x:
+ - 0x40005904: j
+0x4000594c:
+ f: C 01
+ l:
+ x:
+ - 0x40005939: j
+0x40005954:
+ f: C 01
+ l:
+ x:
+ - 0x40005909: j
+0x4000598c:
+ f: C 01
+ l:
+ x:
+ - 0x4000590f: j
+0x400059c0:
+ f: C 01
+ l:
+ x:
+ - 0x400059b7: j
+0x400059d8:
+ f: C 01
+ l:
+ args:
+  2: {'subtype': 'addr'}
+ x:
+ - 0x400058e3: j
+0x400059f0:
+ f: C 01
+ l:
+ x:
+ - 0x400058d4: j
+0x40005a00:
+ f: D 04
+ l:
+ args:
+  0: {'subtype': 'addr'}
+ x:
+ - 0x40005aa5: r
+0x40005a04:
+ f: D 04
+ l:
+ args:
+  0: {'subtype': 'addr'}
+ x:
+ - 0x40005ae5: r
+0x40005a08:
+ f: D 04
+ l:
+ args:
+  0: {'subtype': 'addr'}
+ x:
+ - 0x40005ba4: r
+0x40005a0c:
+ f: C 01
+ l: fun_40005a0c
+ fn_end: '?'
+ fn_ranges: [[0x40005a0c,0x40005a37], [0x40005a38,0x40005a52], [0x40005a54,0x40005af3], [0x40005af4,0x40005ba3], [0x40005ba4,0x40005bbc]]
+ x:
+ - 0x40005bdf: c
+0x40005a15:
+ f: C 01
+ args:
+  2: {'subtype': 'addr'}
+0x40005a28:
+ f: C 01
+ l:
+ x:
+ - 0x40005a48: j
+ - 0x40005aab: j
+0x40005a38:
+ f: C 01
+ l:
+ x:
+ - 0x40005a1e: j
+0x40005a54:
+ f: C 01
+ l:
+ x:
+ - 0x40005abb: j
+0x40005a74:
+ f: C 01
+ l:
+ x:
+ - 0x40005a54: j
+ - 0x40005ae2: j
+ - 0x40005af0: j
+0x40005a8f:
+ f: C 01
+ l:
+ x:
+ - 0x40005a77: j
+ - 0x40005a7f: j
+ - 0x40005a82: j
+ - 0x40005a86: j
+0x40005aa5:
+ f: C 01
+ args:
+  2: {'subtype': 'addr'}
+0x40005aab:
+ f: C 01
+ l:
+ x:
+ - 0x40005aa2: j
+ - 0x40005b09: j
+ - 0x40005ba0: j
+0x40005aae:
+ f: C 01
+ l:
+ x:
+ - 0x40005a4f: j
+0x40005ae5:
+ f: C 01
+ args:
+  2: {'subtype': 'addr'}
+0x40005af4:
+ f: C 01
+ l:
+ x:
+ - 0x40005a95: j
+0x40005b0c:
+ f: C 01
+ l:
+ x:
+ - 0x40005a98: j
+ - 0x40005a9b: j
+0x40005ba4:
+ f: C 01
+ l:
+ args:
+  2: {'subtype': 'addr'}
+ x:
+ - 0x40005a25: j
+0x40005bbc:
+ f: C 01
+ l:
+ x:
+ - 0x400056bc: o
+ - 0x400056dc: o
+0x40005bc3:
+ f: C 01
+ args:
+  2: {'subtype': 'addr'}
+0x40005bd4:
+ f: C 01
+ l:
+ x:
+ - 0x40005bc8: j
+0x40005be9:
+ f: C 01
+ l:
+ x:
+ - 0x40005bc6: j
+0x40005c00:
+ f: C 01
+ l: fun_40005c00
+ fn_end: '?'
+ fn_ranges: [[0x40005c00,0x40005c18]]
+ x:
+ - 0x40005a88: c
 0x40005c18:
  f: D 04
  l:
+ args:
+  0: {'subtype': 'addr'}
  x:
  - 0x40005c1c: r
  - 0x40005c87: r
@@ -9128,11 +9543,15 @@ header:
 0x40005c1c:
  f: C 01
  l: slc_reattach
+ args:
+  2: {'subtype': 'addr'}
  fn_end: '?'
  fn_ranges: [[0x40005c1c,0x40005c27]]
 0x40005c28:
  f: D 04
  l:
+ args:
+  0: {'subtype': 'addr'}
  x:
  - 0x40005c50: r
 0x40005c2c:
@@ -9148,6 +9567,8 @@ header:
 0x40005c34:
  f: D 04
  l:
+ args:
+  0: {'subtype': 'addr'}
  x:
  - 0x40005cd3: r
 0x40005c38:
@@ -9185,6 +9606,8 @@ header:
 0x40005c50:
  f: C 01
  l: slc_init_attach
+ args:
+  2: {'subtype': 'addr'}
  fn_end: '?'
  fn_ranges: [[0x40005c50,0x40005d42], [0x40005d44,0x40005d4f], [0x40005d50,0x40005d5b], [0x40005d5c,0x40005d6f], [0x40005d70,0x40005d86]]
  x:
@@ -9225,6 +9648,8 @@ header:
 0x40005d88:
  f: D 04
  l:
+ args:
+  0: {'subtype': 'addr'}
  x:
  - 0x40005d92: r
 0x40005d8c:
@@ -9246,6 +9671,8 @@ header:
 0x40005db8:
  f: C 01
  l: slc_select_tohost_gpio_mode
+ args:
+  2: {'subtype': 'addr'}
  fn_end: '?'
  fn_ranges: [[0x40005db8,0x40005dbf]]
 0x40005dc0:
@@ -9253,9 +9680,15 @@ header:
  l: slc_select_tohost_gpio
  fn_end: '?'
  fn_ranges: [[0x40005dc0,0x40005dd3], [0x40005dd4,0x40005dde]]
+0x40005dc3:
+ f: C 01
+ args:
+  2: {'subtype': 'addr'}
 0x40005dd4:
  f: C 01
  l:
+ args:
+  2: {'subtype': 'addr'}
  x:
  - 0x40005dc0: j
 0x40005de0:
@@ -9273,6 +9706,10 @@ header:
  fn_ranges: [[0x40005de4,0x40005e1f], [0x40005e20,0x40005e3f], [0x40005e40,0x40005e5f], [0x40005e60,0x40005e94]]
  x:
  - 0x400057f7: c
+0x40005dea:
+ f: C 01
+ args:
+  2: {'subtype': 'addr'}
 0x40005e18:
  f: C 01
  l:
@@ -9306,6 +9743,10 @@ header:
  x:
  - 0x4000533c: c
  - 0x400053ba: c
+0x40005ea5:
+ f: C 01
+ args:
+  2: {'subtype': 'addr'}
 0x40005ec4:
  f: C 01
  l:
@@ -9321,16 +9762,26 @@ header:
  l:
  x:
  - 0x40005eae: j
+0x40005ef8:
+ f: C 01
+ args:
+  2: {'subtype': 'addr'}
 0x40005f10:
  f: C 01
  l: slc_to_host_chain_recycle
+ args:
+  2: {'subtype': 'addr'}
  fn_end: '?'
  fn_ranges: [[0x40005f10,0x40005f24]]
+ x:
+ - 0x400053cd: c
 0x40005f24:
  f: C 01
  l: slc_from_host_chain_fetch
  fn_end: '?'
  fn_ranges: [[0x40005f24,0x40005f42]]
+ x:
+ - 0x40005475: c
 0x40005f44:
  f: D 04
  l:
@@ -9353,6 +9804,7 @@ header:
  f: C 01
  l: slc_intr_handler
  x:
+ - 0x40005d88: o
  - 0x40005d92: o
 0x40005f6a:
  f: C 01
@@ -9408,11 +9860,15 @@ header:
 0x40006014:
  f: C 01
  l: slc_pause_from_host
+ args:
+  2: {'subtype': 'addr'}
  fn_end: '?'
  fn_ranges: [[0x40006014,0x40006039]]
 0x4000603c:
  f: C 01
  l: slc_resume_from_host
+ args:
+  2: {'subtype': 'addr'}
  fn_end: '?'
  fn_ranges: [[0x4000603c,0x40006061]]
 0x40006064:
@@ -9516,6 +9972,8 @@ header:
 0x40006158:
  f: D 04
  l:
+ args:
+  0: {'subtype': 'addr'}
  x:
  - 0x40006165: r
  - 0x4000619c: r
@@ -9621,6 +10079,14 @@ header:
  x:
  - 0x3fffc744: o
  - 0x4000eacc: o
+0x40006165:
+ f: C 01
+ args:
+  2: {'subtype': 'addr'}
+0x4000619c:
+ f: C 01
+ args:
+  2: {'subtype': 'addr'}
 0x400061b4:
  f: D 04
  l:
@@ -9634,6 +10100,10 @@ header:
  x:
  - 0x3fffc74c: o
  - 0x4000ead4: o
+0x400061bd:
+ f: C 01
+ args:
+  2: {'subtype': 'addr'}
 0x40006201:
  f: C 01
  l:
@@ -9852,6 +10322,10 @@ header:
  fn_ranges: [[0x40006738,0x4000678b]]
  x:
  - 0x3fffc780: o
+0x40006743:
+ f: C 01
+ args:
+  2: {'subtype': 'addr'}
 0x4000678c:
  f: C 01
  l: rom_set_ana_inf_tx_scale
@@ -10034,11 +10508,15 @@ header:
 0x40006c10:
  f: D 04
  l:
+ args:
+  0: {'subtype': 'addr'}
  x:
  - 0x40006c97: r
 0x40006c14:
  f: D 04
  l:
+ args:
+  0: {'subtype': 'addr'}
  x:
  - 0x40006d65: r
 0x40006c18:
@@ -10109,6 +10587,8 @@ header:
 0x40006c4c:
  f: D 04
  l:
+ args:
+  0: {'subtype': 'addr'}
  x:
  - 0x40006de4: r
 0x40006c50:
@@ -13110,6 +13590,7 @@ header:
 0x4000b648:
  f: C 01
  l: SHA1Final
+ cmnt: 'hostapd/sha1-internal.c'
  fn_end: '?'
  fn_ranges: [[0x4000b648,0x4000b73d]]
  x:

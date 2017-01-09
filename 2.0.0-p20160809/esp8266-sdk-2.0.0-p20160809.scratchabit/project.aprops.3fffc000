@@ -792,6 +792,11 @@ header:
  args:
   0: {'subtype': 'addr'}
  x:
+ - 0x40006158: o
+ - 0x40006165: o
+ - 0x4000619c: o
+ - 0x400061bd: o
+ - 0x40006743: o
  - 0x40006f93: o
  - 0x40006fbc: o
  - 0x40006fd1: o
@@ -1994,8 +1999,11 @@ header:
   0: {'subtype': 'addr'}
 0x3fffcbe0:
  f: D 04
+ l:
  args:
   0: {'subtype': 'addr'}
+ x:
+ - 0x40006c10: o
 0x3fffcbe4:
  f: D 04
  args:
@@ -2050,8 +2058,11 @@ header:
   0: {'subtype': 'addr'}
 0x3fffcc20:
  f: D 04
+ l:
  args:
   0: {'subtype': 'addr'}
+ x:
+ - 0x40006c14: o
 0x3fffcc24:
  f: D 04
  args:
@@ -2106,8 +2117,11 @@ header:
   0: {'subtype': 'addr'}
 0x3fffcc60:
  f: D 04
+ l:
  args:
   0: {'subtype': 'addr'}
+ x:
+ - 0x40006c4c: o
 0x3fffcc64:
  f: D 04
  args:
@@ -2279,8 +2293,8 @@ header:
  - 0x4000953c: o
  - 0x40009671: o
 0x3fffd644:
- f: . 00
- l:
+ f: D 04
+ l: sha1_byte_0x00
  x:
  - 0x4000b644: o
  - 0x4000b69e: o
@@ -2466,24 +2480,45 @@ header:
 0x3fffd884:
  f: A 10
  l: s_bootup___addr_0x_08x___1
+ x:
+ - 0x400054cc: o
+ - 0x400055e9: o
 0x3fffd89c:
  f: A 10
  l: s_no_rds___1
+ x:
+ - 0x400054c8: o
+ - 0x4000552e: o
 0x3fffd8a4:
  f: A 10
  l: s_sip_bogus_rx_done___1
+ x:
+ - 0x400058b4: o
+ - 0x400059d8: o
 0x3fffd8b8:
  f: A 10
  l: s_rx_done_unknown___1
+ x:
+ - 0x400058b0: o
+ - 0x40005917: o
 0x3fffd8cc:
  f: A 10
  l: s_sip_bogus_tx___1
+ x:
+ - 0x40005a08: o
+ - 0x40005ba4: o
 0x3fffd8dc:
  f: A 10
  l: s_seq__u___u_ds__p___1
+ x:
+ - 0x40005a04: o
+ - 0x40005ae5: o
 0x3fffd8f0:
  f: A 10
  l: s_tx_unknown___1
+ x:
+ - 0x40005a00: o
+ - 0x40005aa5: o
 0x3fffd8fc:
  f: A 10
  l: s_rxiq_get_mis__s_pwr__lld___d__d____1
@@ -2772,17 +2807,63 @@ header:
  - 0x4000388a: o
 0x3fffdff0:
  f: . 00
+ l: sip_struct
+ x:
+ - 0x4000544c: o
+ - 0x4000545c: o
+ - 0x4000547b: o
+ - 0x400055df: o
+ - 0x4000560d: o
+ - 0x40005668: o
+ - 0x4000568b: o
+ - 0x400056d0: o
+ - 0x400056f3: o
+ - 0x40005808: o
+ - 0x40005864: o
+ - 0x400058a8: o
+ - 0x400058c8: o
+ - 0x40005a15: o
+0x3fffe050:
+ f: . 00
  l:
  x:
- - 0x4000568b: o
+ - 0x40005bc3: o
+0x3fffe190:
+ f: . 00
+ l:
+ x:
+ - 0x400056c0: o
+ - 0x400056c7: o
 0x3fffe1d0:
  f: . 00
- l:
+ l: slc_struct
  x:
+ - 0x40005c18: o
+ - 0x40005c1c: o
+ - 0x40005db8: o
+ - 0x40005dc3: o
+ - 0x40005dd4: o
+ - 0x40005dea: o
+ - 0x40005ea5: o
+ - 0x40005ef8: o
+ - 0x40005f10: o
  - 0x40005f6a: o
-0x3fffea80:
+ - 0x40006014: o
+ - 0x4000603c: o
+0x3fffe1e4:
  f: . 00
  l:
+ x:
+ - 0x40005c28: o
+ - 0x40005c50: o
+0x3fffe260:
+ f: . 00
+ l:
+ x:
+ - 0x40005c34: o
+0x3fffea80:
+ f: . 00
+ l: aes_decrypt_ctx
  x:
  - 0x40008ea0: o
  - 0x40008eb6: o
