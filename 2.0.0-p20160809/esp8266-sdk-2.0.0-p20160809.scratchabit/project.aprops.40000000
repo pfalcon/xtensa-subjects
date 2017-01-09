@@ -17576,7 +17576,7 @@ header:
  args:
   0: {'subtype': 'addr'}
 0x4000ebdf:
- f: . 00
+ f: D 04
  cmnt: 'Last byte of rom_store seg #0'
 0x4000ebe8:
  f: D 04
@@ -17586,7 +17586,7 @@ header:
  x:
  - 0x4000e33c: o
 0x4000ebf8:
- f: A 10
+ f: D 04
  l: s_ets_unpack_flash_code
 0x4000ec18:
  f: D 04
@@ -17721,145 +17721,143 @@ header:
  args:
   0: {'subtype': 'addr'}
 0x4000f9fd:
- f: A 10
+ f: D 04
  l: s__ets__s_rst_cause__d__boot_mode___d__d___
 0x4000fa28:
- f: A 10
+ f: D 04
  l: s_Jan__8_2013
 0x4000fa34:
- f: A 10
+ f: D 04
  l: s_wdt_reset_
 0x4000fa40:
- f: A 10
+ f: D 04
  l: s__s__s__
 0x4000fa48:
- f: A 10
+ f: D 04
  l: s_ets_main_c
 0x4000fa54:
- f: A 10
+ f: D 04
  l: s_unknown_reset_
 0x4000fa64:
- f: A 10
+ f: D 04
  l: s_user_code_done_
 0x4000fa74:
- f: A 10
+ f: D 04
  l: s_waiting_for_host_
 0x4000fa88:
- f: A 10
+ f: D 04
  l: s_load_0x_08x__len__d__room__d__
 0x4000faa8:
- f: A 10
+ f: D 04
  l: s_flash_read_err___s_
 0x4000fabc:
- f: A 10
+ f: D 04
  l: s_tail__d_
 0x4000fac8:
- f: A 10
+ f: D 04
  l: s_chksum_0x_02x_
 0x4000fad8:
- f: A 10
+ f: D 04
  l: s_csum_0x_02x_
 0x4000fae8:
- f: A 10
+ f: D 04
  l: s_csum_err_
 0x4000faf4:
- f: A 10
+ f: D 04
  l: s_ho__d_tail__d_room__d_
 0x4000fb0c:
- f: A 10
+ f: D 04
  l: s_sp__p__
 0x4000fb14:
- f: A 10
+ f: D 04
  l: s_sf_dump__d__a0__0x_08x__a1__0x_08x__a2__0x_08x__a3__0x_08x__
 0x4000fb54:
- f: A 10
+ f: D 04
  l: s_epc1_0x_08x__epc2_0x_08x__epc3_0x_08x__excvaddr_0x_08x__depc_0x_08x_
 0x4000fb9c:
- f: A 10
+ f: D 04
  l: s_Fatal_exception___d____
 0x4000fbb4:
- f: A 10
+ f: D 04
  l: s_eprintf_no_buf_
 0x4000fbc4:
- f: A 10
+ f: D 04
  l: s_0123456789
 0x4000fbd0:
- f: A 10
+ f: D 04
  l: s_0123456789abcdef
 0x4000fbe4:
- f: A 10
+ f: D 04
  l: s_0123456789ABCDEF
 0x4000fbf8:
- f: A 10
+ f: D 04
  l: s__null_
 0x4000fc00:
- f: A 10
+ f: D 04
  l: s_ets_timer_c
 0x4000fc0c:
- f: A 10
+ f: D 04
  l: s_bootup___addr_0x_08x_
 0x4000fc24:
- f: A 10
+ f: D 04
  l: s_no_rds_
 0x4000fc2c:
- f: A 10
+ f: D 04
  l: s_sip_bogus_rx_done_
 0x4000fc40:
- f: A 10
+ f: D 04
  l: s_rx_done_unknown_
 0x4000fc54:
- f: A 10
+ f: D 04
  l: s_sip_bogus_tx_
 0x4000fc64:
- f: A 10
+ f: D 04
  l: s_seq__u___u_ds__p_
 0x4000fc78:
- f: A 10
+ f: D 04
  l: s_tx_unknown_
 0x4000fc84:
- f: A 10
+ f: D 04
  l: s_rxiq_get_mis__s_pwr__lld___d__d__
 0x4000fca8:
- f: A 10
+ f: D 04
  l: s____d__d__
 0x4000fcb4:
- f: A 10
+ f: D 04
  l: s__d__d_
 0x4000fcbc:
- f: A 10
+ f: D 04
  l: s_stage__d__CGAIN__d_FGAIN__d__DC_OS___d__d___DAC___d__d___
 0x4000fcf8:
- f: A 10
+ f: D 04
  l: s_pwctrl__rate_i__d__target_power__d__detect_power__d_
 0x4000fd30:
- f: A 10
+ f: D 04
  l: s_num_k__d__power_out__d__
 0x4000fd4c:
- f: A 10
+ f: D 04
  l: s_reg_i__d__indata__d_
 0x4000fd64:
- f: A 10
+ f: D 04
  l: s_txiq__tone_atten__d_
 0x4000fd7c:
- f: A 10
+ f: D 04
  l: s__d_
 0x4000fd80:
- f: A 10
+ f: D 04
  l: s_txiq_gain__d_
 0x4000fd90:
- f: A 10
+ f: D 04
  l: s_txiq_phase__d_
 0x4000fda0:
- f: A 10
+ f: D 04
  l: s_bt__
 0x4000fe33:
- f: . 00
+ f: D 04
  cmnt: 'Last byte of _rom_store_seg1'
 0x4000fe34:
  f: D 04
  l: _rom_store_seg2
- args:
-  0: {'subtype': 'addr'}
  x:
  - 0x4000e348: o
 0x4000fe38:
