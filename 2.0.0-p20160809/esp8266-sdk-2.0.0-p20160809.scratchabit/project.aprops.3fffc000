@@ -2308,7 +2308,6 @@ header:
  l:
  x:
  - 0x3fffc32c: o
- - 0x4000e6b4: o
 0x3fffd674:
  f: A 10
  l: s___ets__s_rst_cause__d__boot_mode___d__d___
@@ -2604,7 +2603,7 @@ header:
  - 0x4000b640: o
  - 0x4000b688: o
 0x3fffda24:
- f: . 00
+ f: D 04
  l: wepkey_related
  x:
  - 0x4000bc3c: o
@@ -2801,7 +2800,7 @@ header:
  - 0x40003a4a: o
 0x3fffde28:
  f: . 00
- l:
+ l: uart_rx_irq_data
  x:
  - 0x4000388a: o
 0x3fffdff0:
@@ -2824,12 +2823,12 @@ header:
  - 0x40005a15: o
 0x3fffe050:
  f: . 00
- l:
+ l: sip_sth2
  x:
  - 0x40005bc3: o
 0x3fffe190:
  f: . 00
- l:
+ l: sip_sth1
  x:
  - 0x400056c0: o
  - 0x400056c7: o

@@ -9506,7 +9506,7 @@ header:
  - 0x40005a25: j
 0x40005bbc:
  f: C 01
- l:
+ l: sip_task_handler
  x:
  - 0x400056bc: o
  - 0x400056dc: o
@@ -17521,8 +17521,6 @@ header:
  f: D 04
 0x4000e6b4:
  f: D 04
- args:
-  0: {'subtype': 'addr'}
 0x4000eab8:
  f: D 04
  args:
