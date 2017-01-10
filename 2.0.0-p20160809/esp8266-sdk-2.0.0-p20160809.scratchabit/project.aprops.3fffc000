@@ -2834,7 +2834,7 @@ header:
  - 0x400056c0: o
  - 0x400056c7: o
 0x3fffe1d0:
- f: . 00
+ f: - 40
  l: slc_struct
  x:
  - 0x40005c18: o
@@ -2851,15 +2851,16 @@ header:
  - 0x4000603c: o
 0x3fffe1e4:
  f: . 00
- l:
+ l: slc_sth2
  x:
  - 0x40005c28: o
  - 0x40005c50: o
 0x3fffe260:
  f: . 00
- l:
+ l: slc_sth1
  x:
  - 0x40005c34: o
+ - 0x40005cd3: o
 0x3fffea80:
  f: . 00
  l: aes_decrypt_ctx
@@ -2868,8 +2869,8 @@ header:
  - 0x40008eb6: o
  - 0x40008ebc: o
 0x3fffeb30:
- f: . 00
- l:
+ f: D 04
+ l: _sysram_bss_end
  x:
  - 0x3fffdaa8: o
  - 0x40000388: o
