@@ -36039,8 +36039,6 @@ header:
  f: C 01
 0x40254813:
  f: C 01
- args:
-  2: {'subtype': 'addr'}
 0x4025481e:
  f: C 01
  args:
@@ -41808,7 +41806,7 @@ header:
  - 0x40257549: r
 0x4025752c:
  f: C 01
- l:
+ l: wifi_event_cb_task_handler
  args:
   2: {'subtype': 'addr'}
  x:
@@ -41818,6 +41816,10 @@ header:
  f: C 01
  args:
   2: {'subtype': 'addr'}
+0x40257549:
+ f: C 01
+ args:
+  2: {'subtype': 'udec'}
 0x4025754c:
  f: C 01
  args:
@@ -159894,8 +159896,8 @@ header:
  - 0x401021e4: o
  - 0x4010220d: o
 0x402a36b0:
- f: D 04
- l:
+ f: A 10
+ l: s_user_interface_c
  cmnt: 'xtensa: Array, num bytes: 17'
  x:
  - 0x4010240c: o
@@ -161104,8 +161106,8 @@ header:
  - 0x40265868: o
  - 0x4026588d: o
 0x402a4aa0:
- f: D 04
- l:
+ f: A 10
+ l: s_wl_cnx_c
  cmnt: 'xtensa: Array, num bytes: 9'
  x:
  - 0x4026705c: o
@@ -162953,14 +162955,14 @@ header:
  - 0x4027b1ec: o
  - 0x4027b206: o
 0x402a6230:
- f: . 00
- l:
+ f: A 10
+ l: s_smartconfig_type_input_err__
  x:
  - 0x4027b1f0: o
  - 0x4027b21c: o
 0x402a6250:
- f: . 00
- l:
+ f: A 10
+ l: s_espconn_secure_c
  x:
  - 0x4027b4cc: o
  - 0x4027b4e8: o
@@ -162968,8 +162970,8 @@ header:
  - 0x4027b57f: o
  - 0x4027b58f: o
 0x402a6270:
- f: D 04
- l:
+ f: A 10
+ l: s_espconn_ssl_c
  cmnt: 'xtensa: Array, num bytes: 14'
  x:
  - 0x4027b5b4: o
@@ -163001,8 +163003,8 @@ header:
  - 0x4027c9b2: o
  - 0x4027ca14: o
 0x402a6280:
- f: D 04
- l:
+ f: A 10
+ l: s__s__x_
  cmnt: 'xtensa: Array, num bytes: 7'
  x:
  - 0x4027b90c: o
@@ -164494,14 +164496,14 @@ header:
  - 0x40298030: o
  - 0x4029817d: o
 0x402a7c60:
- f: . 00
- l:
+ f: A 10
+ l: s_check_your_static_ip__
  x:
  - 0x4029803c: o
  - 0x402981c3: o
 0x402a7c80:
- f: . 00
- l:
+ f: A 10
+ l: s_Pairwise_key_expansion
  x:
  - 0x4029854c: o
  - 0x4029856d: o

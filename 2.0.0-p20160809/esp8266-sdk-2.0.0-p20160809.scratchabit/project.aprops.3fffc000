@@ -404,6 +404,7 @@ header:
  l: l1_vector_table
  args:
   0: {'subtype': 'addr'}
+ cmnt: 'handler'
  x:
  - 0x400003a8: o
  - 0x400004e3: o
@@ -412,6 +413,7 @@ header:
  f: D 04
  args:
   0: {'subtype': 'addr'}
+ cmnt: 'arg'
 0x3fffc188:
  f: D 04
  args:
@@ -680,6 +682,7 @@ header:
  f: D 04
  l:
  x:
+ - 0x40002860: o
  - 0x400028ff: o
 0x3fffc704:
  f: D 04
@@ -710,6 +713,25 @@ header:
  args:
   0: {'subtype': 'addr'}
  x:
+ - 0x40004874: o
+ - 0x40004878: o
+ - 0x40004891: o
+ - 0x400048a8: o
+ - 0x400048c1: o
+ - 0x400048f4: o
+ - 0x40004984: o
+ - 0x4000499d: o
+ - 0x400049b4: o
+ - 0x400049e2: o
+ - 0x40004a00: o
+ - 0x40004a2e: o
+ - 0x40004a4e: o
+ - 0x40004ada: o
+ - 0x40004aff: o
+ - 0x40004b27: o
+ - 0x40004b58: o
+ - 0x40004b88: o
+ - 0x40004c2c: o
  - 0x40100d28: o
  - 0x40100d43: o
  - 0x40100eaf: o
@@ -795,7 +817,25 @@ header:
  - 0x40006165: o
  - 0x4000619c: o
  - 0x400061bd: o
+ - 0x400063b5: o
+ - 0x400063c5: o
+ - 0x400063d4: o
+ - 0x4000651b: o
+ - 0x40006534: o
+ - 0x4000655f: o
+ - 0x40006578: o
  - 0x40006743: o
+ - 0x40006773: o
+ - 0x400067ab: o
+ - 0x400067d7: o
+ - 0x400068c5: o
+ - 0x400069cd: o
+ - 0x40006a38: o
+ - 0x40006b08: o
+ - 0x40006b21: o
+ - 0x40006c7f: o
+ - 0x40006ce0: o
+ - 0x40006d0c: o
  - 0x40006f93: o
  - 0x40006fbc: o
  - 0x40006fd1: o
@@ -833,6 +873,7 @@ header:
  - 0x40007a64: o
  - 0x40007a76: o
  - 0x40007b0f: o
+ - 0x40007c09: o
  - 0x40007ec8: o
  - 0x40008072: o
  - 0x4000827a: o
@@ -1947,11 +1988,12 @@ header:
   0: {'subtype': 'addr'}
 0x3fffcba0:
  f: D 04
- l:
+ l: UartDwnLdProc_jtable
  args:
   0: {'subtype': 'addr'}
  x:
  - 0x40003364: o
+ - 0x40003427: o
 0x3fffcba4:
  f: D 04
  args:
@@ -1996,6 +2038,12 @@ header:
  f: D 04
  args:
   0: {'subtype': 'addr'}
+0x3fffcbd0:
+ f: D 04
+ l: linear_to_db_table
+ x:
+ - 0x40006480: o
+ - 0x40006496: o
 0x3fffcbe0:
  f: D 04
  l:
@@ -2003,6 +2051,7 @@ header:
   0: {'subtype': 'addr'}
  x:
  - 0x40006c10: o
+ - 0x40006c97: o
 0x3fffcbe4:
  f: D 04
  args:
@@ -2062,6 +2111,7 @@ header:
   0: {'subtype': 'addr'}
  x:
  - 0x40006c14: o
+ - 0x40006d65: o
 0x3fffcc24:
  f: D 04
  args:
@@ -2121,6 +2171,7 @@ header:
   0: {'subtype': 'addr'}
  x:
  - 0x40006c4c: o
+ - 0x40006de4: o
 0x3fffcc64:
  f: D 04
  args:
@@ -2520,25 +2571,32 @@ header:
 0x3fffd8fc:
  f: A 10
  l: s_rxiq_get_mis__s_pwr__lld___d__d____1
+ x:
+ - 0x40006624: o
+ - 0x4000671c: o
 0x3fffd920:
  f: A 10
  l: s____d__d____1
  x:
+ - 0x40007be0: o
  - 0x40007d2c: o
 0x3fffd92c:
  f: A 10
  l: s__d__d___1
  x:
+ - 0x40007be4: o
  - 0x40007d37: o
 0x3fffd934:
  f: A 10
  l: s_stage__d__CGAIN__d_FGAIN__d__DC_OS___d__d___DAC___d__d__
  x:
+ - 0x40007be8: o
  - 0x40007e40: o
 0x3fffd96c:
  f: A 10
  l: s_eol
  x:
+ - 0x40007bec: o
  - 0x40007e63: o
  - 0x40007e8b: o
  - 0x40008caf: o
@@ -2771,6 +2829,7 @@ header:
  f: . 00
  l: wdt_timer
  x:
+ - 0x40002f9c: o
  - 0x4000309f: o
  - 0x400030a8: o
  - 0x40003130: o
@@ -2788,6 +2847,7 @@ header:
  l:
  x:
  - 0x40003360: o
+ - 0x4000339c: o
 0x3fffde10:
  f: D 04
  l: UartDev
@@ -2796,17 +2856,68 @@ header:
  - 0x40003230: o
  - 0x4000327a: o
  - 0x400038af: o
+ - 0x4000390f: o
  - 0x40003935: o
  - 0x40003a4a: o
+ - 0x40003a60: o
+ - 0x40003b33: o
+ - 0x40003b67: o
+ - 0x40003b8c: o
+ - 0x40003bbe: o
+ - 0x40003d1f: o
+ - 0x40003ef9: o
+ - 0x40003f0c: o
+ - 0x40003f1d: o
+ - 0x40003f4c: o
 0x3fffde28:
  f: . 00
  l: uart_rx_irq_data
  x:
+ - 0x40003838: o
  - 0x4000388a: o
+0x3fffde60:
+ f: . 00
+ l:
+ x:
+ - 0x4000382c: o
+ - 0x4000384d: o
+0x3fffdfd0:
+ f: D 04
+ l: gpio_intr_pending_var
+ x:
+ - 0x40004c48: o
+ - 0x40004c81: o
+ - 0x40004d88: o
+ - 0x40004ddc: o
+ - 0x40004e28: o
+ - 0x40004e57: o
+0x3fffdfd4:
+ f: D 04
+ cmnt: 'user gpio irq handler'
+0x3fffdfd8:
+ f: D 04
+ cmnt: 'user gpio irq handler arg'
+0x3fffdfe0:
+ f: D 04
+ l: gpio_pin_state2
+ x:
+ - 0x40004d00: o
+ - 0x40004d27: o
+ - 0x40004d6c: o
+ - 0x40004dfc: o
 0x3fffdff0:
  f: . 00
  l: sip_struct
  x:
+ - 0x40005130: o
+ - 0x40005138: o
+ - 0x4000516e: o
+ - 0x40005186: o
+ - 0x40005196: o
+ - 0x400052a5: o
+ - 0x400053d4: o
+ - 0x4000542f: o
+ - 0x4000543c: o
  - 0x4000544c: o
  - 0x4000545c: o
  - 0x4000547b: o
@@ -2817,6 +2928,7 @@ header:
  - 0x400056d0: o
  - 0x400056f3: o
  - 0x40005808: o
+ - 0x40005835: o
  - 0x40005864: o
  - 0x400058a8: o
  - 0x400058c8: o
@@ -2825,7 +2937,15 @@ header:
  f: . 00
  l: sip_sth2
  x:
+ - 0x400050f8: o
+ - 0x40005101: o
  - 0x40005bc3: o
+0x3fffe090:
+ f: . 00
+ l:
+ x:
+ - 0x40005134: o
+ - 0x40005161: o
 0x3fffe190:
  f: . 00
  l: sip_sth1
@@ -2838,13 +2958,18 @@ header:
  x:
  - 0x40005c18: o
  - 0x40005c1c: o
+ - 0x40005c87: o
+ - 0x40005cdb: o
  - 0x40005db8: o
  - 0x40005dc3: o
  - 0x40005dd4: o
  - 0x40005dea: o
+ - 0x40005e63: o
  - 0x40005ea5: o
+ - 0x40005eb4: o
  - 0x40005ef8: o
  - 0x40005f10: o
+ - 0x40005f24: o
  - 0x40005f6a: o
  - 0x40006014: o
  - 0x4000603c: o

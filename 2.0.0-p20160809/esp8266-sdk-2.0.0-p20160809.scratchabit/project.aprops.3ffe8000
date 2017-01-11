@@ -98,7 +98,7 @@ header:
  - 0x40255ee8: o
  - 0x40257322: o
 0x3ffe8085:
- f: . 00
+ f: D 04
  l: _Pri_3_HandlerAddress
  x:
  - 0x401017c8: o
@@ -393,8 +393,9 @@ header:
  - 0x4026044a: o
  - 0x4027445c: o
 0x3ffe8128:
- f: . 00
- l:
+ f: D 04
+ l: wifi_processing_flags
+ cmnt: 'if bit2 == 0, call wifi event cb directly\nelse, post to task'
  x:
  - 0x402681d8: o
  - 0x402681dc: o

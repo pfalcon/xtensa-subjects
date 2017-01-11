@@ -818,8 +818,8 @@ header:
  - 0x40251ca6: o
  - 0x40251cf9: o
 0x3ffec3d8:
- f: . 00
- l:
+ f: D 04
+ l: NmiTimSetFunc_handler
  x:
  - 0x40100ae0: o
  - 0x40100afa: o
@@ -1221,7 +1221,7 @@ header:
  - 0x402555a4: o
  - 0x40255672: o
 0x3ffec8c1:
- f: . 00
+ f: D 04
  l:
  x:
  - 0x4025755c: o
@@ -1299,6 +1299,7 @@ header:
 0x3ffecae0:
  f: . 00
  l:
+ cmnt: '0x160 bytes'
  x:
  - 0x40257e48: o
  - 0x40257fd5: o
