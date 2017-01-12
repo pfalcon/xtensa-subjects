@@ -1001,3 +1001,6 @@ libc.a(lib_a-memcmp.o) 0x4010747c(0x00000023)
 libc.a(lib_a-memcmp.o).fill 0x4010749f(0x00000001)
 libc.a(lib_a-memcpy.o) 0x401074a0(0x00000145)
 
+.sysram.data 0x3fffc000-0x3fffc856
+.sysram.rodata 0x3fffc860-0x3fffdaab
+.sysram.bss 0x3fffdab0-0x3fffeb2f
