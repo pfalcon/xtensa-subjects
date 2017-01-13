@@ -17649,8 +17649,6 @@ header:
  l: _rom_store_table
  args:
   0: {'subtype': 'addr'}
- fn_end: '?'
- fn_ranges: []
  x:
  - 0x40000098: o
  - 0x4000011f: o
@@ -17740,8 +17738,6 @@ header:
 0x4000e388:
  f: D 04
  l: _rom_store
- fn_end: '?'
- fn_ranges: []
  x:
  - 0x4000e330: o
 0x4000e38c:
