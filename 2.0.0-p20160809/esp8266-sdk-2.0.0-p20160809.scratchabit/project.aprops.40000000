@@ -2397,7 +2397,9 @@ header:
  - 0x4000187b: r
 0x40001878:
  f: C 01
- l:
+ l: fun_40001878
+ fn_end: '?'
+ fn_ranges: [[0x40001878,0x400018a4]]
  x:
  - 0x40000fdc: o
  - 0x400010c7: o
@@ -4036,7 +4038,9 @@ header:
  - 0x40001d00: r
 0x40001cdc:
  f: C 01
- l:
+ l: fun_40001cdc
+ fn_end: '?'
+ fn_ranges: [[0x40001cdc,0x40001cfe], [0x40001d00,0x40001d0d]]
  x:
  - 0x40001d36: o
 0x40001cdf:
@@ -4119,7 +4123,9 @@ header:
  - 0x40001db9: j
 0x40001dcc:
  f: C 01
- l:
+ l: fun_40001dcc
+ fn_end: '?'
+ fn_ranges: [[0x40001dcc,0x40001de3], [0x40001de4,0x40001df7]]
  x:
  - 0x40002438: o
  - 0x40002566: o
@@ -4988,6 +4994,8 @@ header:
  args:
   2: {'subtype': 'addr'}
  cmnt: ''
+ fn_end: '?'
+ fn_ranges: [[0x400024a8,0x400024c2]]
  x:
  - 0x4000244c: o
  - 0x40002474: o
@@ -6274,11 +6282,15 @@ header:
  l: rom_timer_intr_handler
  args:
   1: {'subtype': 'udec'}
+ fn_end: '?'
+ fn_ranges: [[0x40002e24,0x40002e3c]]
  x:
  - 0x40002e6e: o
 0x40002e3c:
  f: C 01
- l:
+ l: fun_40002e3c
+ fn_end: '?'
+ fn_ranges: [[0x40002e3c,0x40002e58]]
  x:
  - 0x40002e9b: o
 0x40002e4c:
@@ -6520,6 +6532,8 @@ header:
 0x40002f88:
  f: C 01
  l: wdt_intr_handler
+ fn_end: '?'
+ fn_ranges: [[0x40002f88,0x40002f97]]
  x:
  - 0x4000309c: o
  - 0x40003188: o
@@ -8917,6 +8931,8 @@ header:
 0x40004e34:
  f: C 01
  l: gpio_irq_handler
+ fn_end: '?'
+ fn_ranges: [[0x40004e34,0x40004e77], [0x40004e79,0x40004e8f]]
  x:
  - 0x40004c53: o
 0x40004e48:
@@ -9222,9 +9238,12 @@ header:
  - 0x40005b06: c
 0x400053c4:
  f: C 01
- l:
+ l: fun_400053c4
+ fn_end: '?'
+ fn_ranges: [[0x400053c4,0x40005427], [0x40005429,0x4000544b]]
  x:
  - 0x40005670: o
+ - 0x40005684: o
 0x400053d4:
  f: C 01
  args:
@@ -9258,7 +9277,9 @@ header:
  fn_ranges: [[0x4000545c,0x4000546a]]
 0x4000546c:
  f: C 01
- l:
+ l: fun_4000546c
+ fn_end: '?'
+ fn_ranges: [[0x4000546c,0x400054c7]]
  x:
  - 0x40005674: o
  - 0x4000567c: o
@@ -9292,9 +9313,12 @@ header:
  - 0x400055e9: r
 0x400054d0:
  f: C 01
- l:
+ l: fun_400054d0
+ fn_end: '?'
+ fn_ranges: [[0x400054d0,0x40005537], [0x4000553a,0x4000556f], [0x40005570,0x400055b4], [0x400055b5,0x4000561c], [0x4000561d,0x40005664]]
  x:
  - 0x40005678: o
+ - 0x4000569e: o
 0x4000550a:
  f: C 01
  l:
@@ -9393,7 +9417,15 @@ header:
  - 0x40001047: c
  - 0x4000114a: c
  - 0x40001152: c
+0x40005684:
+ f: C 01
+ args:
+  2: {'subtype': 'addr'}
 0x4000568b:
+ f: C 01
+ args:
+  2: {'subtype': 'addr'}
+0x4000569e:
  f: C 01
  args:
   2: {'subtype': 'addr'}
@@ -9709,6 +9741,8 @@ header:
 0x40005bbc:
  f: C 01
  l: sip_task_handler
+ fn_end: '?'
+ fn_ranges: [[0x40005bbc,0x40005bd2], [0x40005bd4,0x40005bff]]
  x:
  - 0x400056bc: o
  - 0x400056dc: o
@@ -10040,6 +10074,8 @@ header:
 0x40005f50:
  f: C 01
  l: slc_intr_handler
+ fn_end: '?'
+ fn_ranges: [[0x40005f50,0x4000600f]]
  x:
  - 0x40005d88: o
  - 0x40005d92: o
@@ -10998,7 +11034,6 @@ header:
  x:
  - 0x3fffcc20: o
  - 0x40006d62: j
- - 0x4000efa8: o
 0x40006d81:
  f: C 01
  l:
@@ -11090,7 +11125,6 @@ header:
  l:
  x:
  - 0x3fffcc24: o
- - 0x4000efac: o
 0x40006e0e:
  f: C 01
  l:
@@ -18017,12 +18051,8 @@ header:
   0: {'subtype': 'addr'}
 0x4000efa8:
  f: D 04
- args:
-  0: {'subtype': 'addr'}
 0x4000efac:
  f: D 04
- args:
-  0: {'subtype': 'addr'}
 0x4000efd0:
  f: D 04
  args:
