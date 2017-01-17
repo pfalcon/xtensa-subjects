@@ -7128,6 +7128,10 @@ header:
  f: C 01
  args:
   2: {'subtype': 'addr'}
+0x40244424:
+ f: C 01
+ args:
+  1: {'subtype': 'udec'}
 0x40244427:
  f: C 01
  args:
@@ -7214,6 +7218,10 @@ header:
  - 0x4024448f: j
  - 0x4024449e: j
  - 0x40244504: j
+0x402444c7:
+ f: C 01
+ args:
+  1: {'subtype': 'udec'}
 0x402444ca:
  f: C 01
  args:
@@ -158945,16 +158953,16 @@ header:
  - 0x40240b50: o
  - 0x40240fac: o
 0x402a2520:
- f: . 00
- l:
+ f: A 10
+ l: s_aes_internal_enc_c
  x:
  - 0x402413e0: o
  - 0x402413f6: o
  - 0x40241418: o
  - 0x40241464: o
 0x402a2540:
- f: . 00
- l:
+ f: A 10
+ l: s_crypto_internal_cipher_c
  x:
  - 0x40241860: o
  - 0x40241881: o
@@ -158964,15 +158972,15 @@ header:
  - 0x4024191b: o
  - 0x40241ac4: o
 0x402a2560:
- f: . 00
- l:
+ f: A 10
+ l: s_crypto_internal_c
  x:
  - 0x40241b80: o
  - 0x40241bb3: o
  - 0x40241e25: o
 0x402a2580:
- f: D 04
- l:
+ f: A 10
+ l: s_manatick_c
  cmnt: 'xtensa: Array, num bytes: 11'
  x:
  - 0x40243d48: o
@@ -158988,28 +158996,28 @@ header:
  - 0x40244482: o
  - 0x402446c3: o
 0x402a2590:
- f: D 04
- l:
+ f: A 10
+ l: s_DL__invalid_arguments_
  cmnt: 'xtensa: Array, num bytes: 23'
  x:
  - 0x40243e14: o
  - 0x40243e6e: o
 0x402a25b0:
- f: D 04
- l:
+ f: A 10
+ l: s_DL__unknown_opmode_
  cmnt: 'xtensa: Array, num bytes: 20'
  x:
  - 0x40243e10: o
  - 0x40243e62: o
 0x402a25d0:
- f: . 00
- l:
+ f: A 10
+ l: s_DL__unknown_role_
  x:
  - 0x40243e18: o
  - 0x40243e7c: o
 0x402a25f0:
- f: D 04
- l:
+ f: A 10
+ l: s_simple_pair_c
  cmnt: 'xtensa: Array, num bytes: 14'
  x:
  - 0x402447b0: o
@@ -159024,63 +159032,63 @@ header:
  - 0x402452d4: o
  - 0x402452ec: o
 0x402a2600:
- f: D 04
- l:
+ f: A 10
+ l: s_SP_IGNORE__wrong_peer_mac___2
  cmnt: 'xtensa: Array, num bytes: 27'
  x:
  - 0x40244908: o
  - 0x40244a23: o
 0x402a2620:
- f: D 04
- l:
+ f: A 10
+ l: s_SP_IGNORE__wrong_peer_mac___1
  cmnt: 'xtensa: Array, num bytes: 27'
  x:
  - 0x4024490c: o
  - 0x40244a3f: o
 0x402a2640:
- f: D 04
- l:
+ f: A 10
+ l: s_SP_IGNORE__wrong_peer_mac_
  cmnt: 'xtensa: Array, num bytes: 27'
  x:
  - 0x40244904: o
  - 0x402449d5: o
 0x402a2660:
- f: D 04
- l:
+ f: A 10
+ l: s_SP_IGNORE__wrong_peer_status_or_encrypt_
  cmnt: 'xtensa: Array, num bytes: 41'
  x:
  - 0x40244910: o
  - 0x40244a4b: o
 0x402a2690:
- f: . 00
- l:
+ f: A 10
+ l: s_SP__recv_unknown___d_
  x:
  - 0x40244900: o
  - 0x4024493b: o
 0x402a26b0:
- f: D 04
- l:
+ f: A 10
+ l: s_dhcp_c
  cmnt: 'xtensa: Array, num bytes: 7'
  x:
  - 0x40245a58: o
  - 0x40245a69: o
  - 0x40245ab7: o
 0x402a26c0:
- f: . 00
- l:
+ f: A 10
+ l: s_DHCP_timeout_
  x:
  - 0x402457d8: o
  - 0x4024582b: o
 0x402a26d0:
  f: D 04
- l:
+ l: s_c
  cmnt: 'xtensa: Array, num bytes: 4'
  x:
  - 0x40246e3c: o
  - 0x40246e4d: o
 0x402a26e0:
- f: D 04
- l:
+ f: A 10
+ l: s_dhcpserver_c
  cmnt: 'xtensa: Array, num bytes: 13'
  x:
  - 0x40246eb8: o
@@ -159100,21 +159108,21 @@ header:
  - 0x40247778: o
  - 0x40247787: o
 0x402a26f0:
- f: . 00
- l:
+ f: A 10
+ l: s_dhcps_start____could_not_obtain_pcb_
  x:
  - 0x402470cc: o
  - 0x402470fa: o
 0x402a2718:
- f: . 00
- l:
+ f: A 10
+ l: s_dns_c
  x:
  - 0x40247a74: o
  - 0x40247a7f: o
  - 0x40247b95: o
 0x402a2720:
- f: D 04
- l:
+ f: A 10
+ l: s_espconn_buf_c
  cmnt: 'xtensa: Array, num bytes: 14'
  x:
  - 0x40100090: o
@@ -159124,76 +159132,76 @@ header:
  - 0x40100109: o
  - 0x40100113: o
 0x402a2730:
- f: D 04
- l:
+ f: A 10
+ l: s__s__d_
  cmnt: 'xtensa: Array, num bytes: 7'
  x:
  - 0x401000f0: o
  - 0x4010012a: o
 0x402a2738:
- f: D 04
- l:
+ f: A 10
+ l: s__s__d___1
  cmnt: 'xtensa: Array, num bytes: 7'
  x:
  - 0x40100204: o
  - 0x40100249: o
 0x402a2740:
- f: D 04
- l:
+ f: A 10
+ l: s__s__d___2
  cmnt: 'xtensa: Array, num bytes: 7'
  x:
  - 0x40100258: o
  - 0x401002bf: o
 0x402a2748:
- f: D 04
- l:
+ f: A 10
+ l: s__s__d___3
  cmnt: 'xtensa: Array, num bytes: 7'
  x:
  - 0x401002fc: o
  - 0x401003b1: o
 0x402a2750:
- f: D 04
- l:
+ f: A 10
+ l: s__s__d___4
  cmnt: 'xtensa: Array, num bytes: 7'
  x:
  - 0x401002f8: o
  - 0x40100391: o
 0x402a2758:
- f: D 04
- l:
+ f: A 10
+ l: s__s__d___5
  cmnt: 'xtensa: Array, num bytes: 7'
  x:
  - 0x401003c8: o
  - 0x4010046d: o
 0x402a2760:
- f: D 04
- l:
+ f: A 10
+ l: s__s__d___6
  cmnt: 'xtensa: Array, num bytes: 7'
  x:
  - 0x401003c4: o
  - 0x4010044b: o
 0x402a2768:
- f: D 04
- l:
+ f: A 10
+ l: s__s__d___7
  cmnt: 'xtensa: Array, num bytes: 7'
  x:
  - 0x40100484: o
  - 0x4010051f: o
 0x402a2770:
- f: . 00
- l:
+ f: A 10
+ l: s__s__d___8
  x:
  - 0x40100480: o
  - 0x40100510: o
 0x402a2780:
- f: . 00
- l:
+ f: A 10
+ l: s_espconn_c
  x:
  - 0x40248130: o
  - 0x402481e2: o
 0x402a2790:
- f: D 04
- l:
+ f: A 10
+ l: s_espconn_tcp_c
  cmnt: 'xtensa: Array, num bytes: 14'
  x:
  - 0x40248938: o
@@ -159222,35 +159230,35 @@ header:
  - 0x402498e9: o
  - 0x402499d6: o
 0x402a27a0:
- f: D 04
- l:
+ f: A 10
+ l: s_RecvHold__By_pespconn_find_conn_msg_fail_
  cmnt: 'xtensa: Array, num bytes: 42'
  x:
  - 0x40248fa4: o
  - 0x40248fbe: o
 0x402a27d0:
- f: D 04
- l:
+ f: A 10
+ l: s_RecvHold__By_pespconn_find_conn_msg_fail___1
  cmnt: 'xtensa: Array, num bytes: 42'
  x:
  - 0x40248fe8: o
  - 0x40249006: o
 0x402a2800:
- f: D 04
- l:
+ f: A 10
+ l: s_err_in_host_connected___s__
  cmnt: 'xtensa: Array, num bytes: 28'
  x:
  - 0x40249314: o
  - 0x402493ae: o
 0x402a2820:
- f: . 00
- l:
+ f: A 10
+ l: s_espconn_tcp_delete__d___d_
  x:
  - 0x40249964: o
  - 0x402499b6: o
 0x402a2840:
- f: . 00
- l:
+ f: A 10
+ l: s_espconn_udp_c
  x:
  - 0x40249d38: o
  - 0x40249dcf: o
@@ -159258,8 +159266,8 @@ header:
  - 0x40249e42: o
  - 0x40249e73: o
 0x402a2850:
- f: . 00
- l:
+ f: A 10
+ l: s_etharp_c
  x:
  - 0x4010052c: o
  - 0x40100543: o
@@ -159267,8 +159275,8 @@ header:
  - 0x4024a115: o
  - 0x4024a5d6: o
 0x402a2860:
- f: . 00
- l:
+ f: A 10
+ l: s_igmp_c
  x:
  - 0x4024aaa4: o
  - 0x4024aae2: o

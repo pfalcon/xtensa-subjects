@@ -932,32 +932,32 @@ header:
  - 0x40240004: o
  - 0x4024005c: o
 0x3ffea61e:
- f: . 00
- l:
+ f: A 10
+ l: s___deviceInfo____deviceType______deviceId___
  x:
  - 0x40240020: o
  - 0x402407d2: o
 0x3ffea649:
- f: . 00
- l:
+ f: A 10
+ l: s____
  x:
  - 0x4024002c: o
  - 0x4024085d: o
 0x3ffea64d:
- f: . 00
- l:
+ f: A 10
+ l: s___deviceInfo____deviceType___
  x:
  - 0x40240024: o
  - 0x402407ee: o
 0x3ffea66b:
- f: . 00
- l:
+ f: A 10
+ l: s____deviceId___
  x:
  - 0x40240028: o
  - 0x40240824: o
 0x3ffea67c:
- f: . 00
- l:
+ f: A 10
+ l: s__s___d_
  x:
  - 0x40244258: o
  - 0x402443f8: o
@@ -973,8 +973,8 @@ header:
  - 0x40249318: o
  - 0x402493b1: o
 0x3ffea688:
- f: . 00
- l:
+ f: A 10
+ l: s__services__dns_sd__udp_local
  x:
  - 0x4024b9cc: o
  - 0x4024ba68: o

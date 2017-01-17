@@ -11,8 +11,8 @@ header:
  - 0x402529e7: o
  - 0x402547fc: o
 0x3ffeb628:
- f: . 00
- l:
+ f: D 04
+ l: manatick_struct
  x:
  - 0x40243d44: o
  - 0x40243d58: o
