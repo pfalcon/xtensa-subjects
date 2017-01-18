@@ -1167,7 +1167,7 @@ header:
   2: {'subtype': 'addr'}
 0x40000dfc:
  f: C 01
- l: fun_40000dfc
+ l: empty_func
  fn_end: '?'
  fn_ranges: [[0x40000dfc,0x40000dfe]]
  x:
@@ -1268,7 +1268,7 @@ header:
  - 0x40000f55: c
 0x40000ecc:
  f: C 01
- l: fun_40000ecc
+ l: ets_main_loop
  fn_end: '?'
  fn_ranges: [[0x40000ecc,0x40000f6e]]
  x:
@@ -1712,6 +1712,9 @@ header:
  fn_ranges: [[0x40000fec,0x40001043], [0x40001044,0x400010bd], [0x400010be,0x4000112d], [0x40001130,0x40001145], [0x40001148,0x40001158]]
  x:
  - 0x40000449: c
+0x40001007:
+ f: C 01
+ cmnt: 'GPIO->IN'
 0x40001044:
  f: C 01
  l:
@@ -1769,6 +1772,8 @@ header:
   2: {'subtype': 'addr'}
 0x400010b4:
  f: C 01
+ args:
+  1: {'subtype': 'udec'}
 0x400010ba:
  f: C 01
  l:
@@ -1820,7 +1825,7 @@ header:
   2: {'subtype': 'addr'}
 0x40001130:
  f: C 01
- l:
+ l: unknown_reset
  args:
   2: {'subtype': 'addr'}
  x:
@@ -2085,11 +2090,14 @@ header:
  - 0x40001783: r
 0x40001308:
  f: C 01
- l: fun_40001308
+ l: boot_from_flash
  fn_end: '?'
  fn_ranges: [[0x40001308,0x400015d2], [0x400015d4,0x40001663], [0x40001664,0x4000171e], [0x40001721,0x4000176b], [0x4000176c,0x4000179e], [0x400017a0,0x400017cc]]
  x:
  - 0x400010a8: c
+0x4000132e:
+ f: C 01
+ cmnt: 'Signature byte'
 0x40001334:
  f: C 01
  l:

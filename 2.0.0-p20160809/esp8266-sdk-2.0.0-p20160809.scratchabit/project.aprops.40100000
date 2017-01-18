@@ -2219,7 +2219,7 @@ header:
  - 0x401010d3: r
 0x40100e5c:
  f: C 01
- l: fun_40100e5c
+ l: main_sdk_init
  fn_end: '?'
  fn_ranges: [[0x40100e5c,0x4010101e], [0x40101020,0x401010c2], [0x401010c5,0x401010ea]]
  x:
