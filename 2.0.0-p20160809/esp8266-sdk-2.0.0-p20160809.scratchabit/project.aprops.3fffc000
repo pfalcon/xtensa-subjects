@@ -2708,6 +2708,9 @@ header:
 0x3fffdab4:
  f: D 04
  cmnt: 'idle_cb arg'
+0x3fffdab8:
+ f: D 04
+ cmnt: 'OR mask set by ets_post'
 0x3fffdac0:
  f: . 00
  l: ets_tasks_arr
