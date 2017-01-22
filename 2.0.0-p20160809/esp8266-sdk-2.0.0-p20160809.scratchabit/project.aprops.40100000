@@ -1961,7 +1961,9 @@ header:
  - 0x40100d51: r
 0x40100d38:
  f: C 01
- l:
+ l: fun_40100d38
+ fn_end: '?'
+ fn_ranges: [[0x40100d38,0x40100d5e]]
  x:
  - 0x40252420: o
  - 0x40252497: o
@@ -9697,6 +9699,10 @@ header:
  f: C 01
  args:
   2: {'subtype': 'addr'}
+0x4010418e:
+ f: C 01
+ args:
+  1: {'subtype': 'udec'}
 0x40104191:
  f: C 01
  args:
@@ -10090,6 +10096,10 @@ header:
  f: C 01
  args:
   2: {'subtype': 'addr'}
+0x40104421:
+ f: C 01
+ args:
+  1: {'subtype': 'udec'}
 0x40104424:
  f: C 01
  args:
@@ -10113,6 +10123,10 @@ header:
  f: C 01
  args:
   2: {'subtype': 'addr'}
+0x4010443a:
+ f: C 01
+ args:
+  1: {'subtype': 'udec'}
 0x4010443d:
  f: C 01
  args:
@@ -10136,6 +10150,10 @@ header:
  f: C 01
  args:
   2: {'subtype': 'addr'}
+0x40104454:
+ f: C 01
+ args:
+  1: {'subtype': 'udec'}
 0x40104457:
  f: C 01
  args:
@@ -11027,6 +11045,10 @@ header:
  f: C 01
  args:
   2: {'subtype': 'addr'}
+0x40104e0b:
+ f: C 01
+ args:
+  2: {'subtype': 'udec'}
 0x40104e0e:
  f: C 01
  args:
@@ -11227,7 +11249,7 @@ header:
  args:
   2: {'subtype': 'addr'}
 0x40104fb2:
- f: D 04
+ f: C 01
  l:
  cmnt: 'xtensa: Array, num bytes: 48'
  x:
@@ -11238,6 +11260,66 @@ header:
  l:
  x:
  - 0x40104fa4: j
+ - 0x40104fbb: j
+ - 0x40104fbe: j
+ - 0x40104fc7: j
+0x40104fe7:
+ f: C 01
+ l:
+ x:
+ - 0x40104fd6: j
+0x40104feb:
+ f: C 01
+ l:
+ x:
+ - 0x40104fdf: j
+0x40104fef:
+ f: C 01
+ l:
+ x:
+ - 0x40104fdc: j
+0x40104ff3:
+ f: C 01
+ l:
+ x:
+ - 0x40104fd9: j
+0x40104ff7:
+ f: C 01
+ l:
+ x:
+ - 0x40104fd3: j
+0x40104ffb:
+ f: C 01
+ l:
+ x:
+ - 0x40104fd0: j
+0x40104fff:
+ f: C 01
+ l:
+ x:
+ - 0x40104fcd: j
+0x40105003:
+ f: C 01
+ l:
+ x:
+ - 0x40104fca: j
+0x40105007:
+ f: C 01
+ l:
+ x:
+ - 0x40104fb8: j
+ - 0x40104fc4: j
+0x4010500b:
+ f: C 01
+ l:
+ x:
+ - 0x40104fb5: j
+ - 0x40104fc1: j
+0x4010500f:
+ f: C 01
+ l:
+ x:
+ - 0x40104fb2: j
 0x40105014:
  f: C 01
  l:

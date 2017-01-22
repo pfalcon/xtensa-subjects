@@ -1436,8 +1436,8 @@ header:
  - 0x40265c00: o
  - 0x40265d12: o
 0x3ffea874:
- f: . 00
- l:
+ f: A 10
+ l: s__s__u___2
  x:
  - 0x40102fc4: o
  - 0x40102fda: o
@@ -1477,8 +1477,8 @@ header:
  - 0x40104434: o
  - 0x4010444e: o
 0x3ffea87c:
- f: . 00
- l:
+ f: A 10
+ l: s_mac
  x:
  - 0x40102fc8: o
  - 0x40102fdd: o
@@ -1576,8 +1576,8 @@ header:
  - 0x4027362b: o
  - 0x40273661: o
 0x3ffea894:
- f: . 00
- l:
+ f: A 10
+ l: s_pm
  x:
  - 0x40271f28: o
  - 0x40271f46: o
@@ -1600,8 +1600,8 @@ header:
  - 0x4027362e: o
  - 0x40273664: o
 0x3ffea898:
- f: . 00
- l:
+ f: A 10
+ l: s__s__u___3
  x:
  - 0x401047a8: o
  - 0x401047bb: o
@@ -1610,8 +1610,8 @@ header:
  - 0x40273f67: o
  - 0x40274da8: o
 0x3ffea8a0:
- f: . 00
- l:
+ f: A 10
+ l: s_pp
  x:
  - 0x401047ac: o
  - 0x401047be: o
@@ -1626,8 +1626,8 @@ header:
  - 0x402744c4: o
  - 0x4027459f: o
 0x3ffea8a8:
- f: . 00
- l:
+ f: A 10
+ l: s__s__u___4
  x:
  - 0x40105aa4: o
  - 0x40105adf: o
@@ -1646,8 +1646,8 @@ header:
  - 0x40106578: o
  - 0x401066b9: o
 0x3ffea8b0:
- f: . 00
- l:
+ f: A 10
+ l: s_dev
  x:
  - 0x40105aa8: o
  - 0x40105ae2: o
@@ -1666,16 +1666,16 @@ header:
  - 0x4010657b: o
  - 0x401066bc: o
 0x3ffea8b4:
- f: . 00
- l:
+ f: A 10
+ l: s_sc_airkiss_c
  x:
  - 0x40276990: o
  - 0x402769ca: o
  - 0x40276a4a: o
  - 0x40276aa6: o
 0x3ffea8c4:
- f: . 00
- l:
+ f: A 10
+ l: s_sc_esptouch_c
  x:
  - 0x402784c8: o
  - 0x4027850a: o
@@ -1683,8 +1683,8 @@ header:
  - 0x402785f4: o
  - 0x40279112: o
 0x3ffea8d4:
- f: . 00
- l:
+ f: A 10
+ l: s_sc_sniffer_c
  x:
  - 0x4027a924: o
  - 0x4027a952: o
@@ -1692,50 +1692,50 @@ header:
  - 0x4027adf2: o
  - 0x4027ae09: o
 0x3ffea8e4:
- f: . 00
- l:
+ f: A 10
+ l: s_certificate
  x:
  - 0x4027b910: o
  - 0x4027ba28: o
 0x3ffea8f0:
- f: . 00
- l:
+ f: A 10
+ l: s_private_key
  x:
  - 0x4027b914: o
  - 0x4027ba3a: o
 0x3ffea8fc:
- f: . 00
- l:
+ f: A 10
+ l: s_Error__Feature_not_supported_
  x:
  - 0x3ffea070: o
 0x3ffea91c:
- f: . 00
- l:
+ f: A 10
+ l: s______BEGIN
  x:
  - 0x3ffea130: o
 0x3ffea928:
- f: . 00
- l:
+ f: A 10
+ l: s______BEGIN_RSA_PRIVATE_KEY_____
  x:
  - 0x3ffea110: o
 0x3ffea948:
- f: . 00
- l:
+ f: A 10
+ l: s______BEGIN_ENCRYPTED_PRIVATE_KEY_____
  x:
  - 0x3ffea114: o
 0x3ffea970:
- f: . 00
- l:
+ f: A 10
+ l: s______BEGIN_PRIVATE_KEY_____
  x:
  - 0x3ffea118: o
 0x3ffea98c:
- f: . 00
- l:
+ f: A 10
+ l: s______BEGIN_CERTIFICATE_____
  x:
  - 0x3ffea11c: o
 0x3ffea9a8:
- f: . 00
- l:
+ f: A 10
+ l: s______END_RSA_PRIVATE_KEY_____
  x:
  - 0x3ffea120: o
 0x3ffea9c8:

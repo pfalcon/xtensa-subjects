@@ -625,7 +625,7 @@ header:
  l: tcb
  cmnt: 'Array, num bytes: 4'
 0x3ffe81b0:
- f: . 00
+ f: D 04
  l:
  x:
  - 0x40104ed0: o

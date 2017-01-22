@@ -4330,6 +4330,7 @@ header:
 0x3ffee720:
  f: . 00
  l:
+ cmnt: 'struct size 36'
  x:
  - 0x40102fa8: o
  - 0x40102fae: o
@@ -4737,7 +4738,8 @@ header:
  - 0x40274b0d: o
 0x3ffeece0:
  f: . 00
- l:
+ l: rate_control_table
+ cmnt: 'entries of size 8'
  x:
  - 0x40104eb4: o
  - 0x40104eb8: o
@@ -4804,7 +4806,7 @@ header:
  - 0x402757d4: o
  - 0x402757fb: o
 0x3ffef290:
- f: . 00
+ f: D 04
  l:
  x:
  - 0x40105d80: o
