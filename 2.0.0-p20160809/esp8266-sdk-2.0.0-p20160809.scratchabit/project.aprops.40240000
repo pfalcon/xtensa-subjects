@@ -57853,7 +57853,9 @@ header:
  - 0x40271a1f: r
 0x4025eb34:
  f: C 01
- l:
+ l: fun_4025eb34
+ fn_end: '?'
+ fn_ranges: [[0x4025eb34,0x4025ed69], [0x4025ed6c,0x4025ee2a]]
  x:
  - 0x4025f160: o
  - 0x4025f1da: o
@@ -58095,7 +58097,7 @@ header:
  - 0x40274ad9: r
 0x4025ee38:
  f: C 01
- l: fun_4025ee38
+ l: ppTxCallback
  fn_end: '?'
  fn_ranges: [[0x4025ee38,0x4025ef1b], [0x4025ef1e,0x4025ef2c]]
  x:
@@ -161683,43 +161685,43 @@ header:
  x:
  - 0x3ffe8140: o
 0x402a5020:
- f: . 00
- l:
+ f: A 10
+ l: s_esf_buf_c
  x:
  - 0x4027093c: o
  - 0x4027095f: o
  - 0x40270b3e: o
 0x402a5030:
- f: D 04
- l:
+ f: A 10
+ l: s_del_if_d_
  cmnt: 'xtensa: Array, num bytes: 10'
  x:
  - 0x40270ec0: o
  - 0x40270ecf: o
 0x402a5040:
- f: D 04
- l:
+ f: A 10
+ l: s_chg_if_d_
  cmnt: 'xtensa: Array, num bytes: 10'
  x:
  - 0x40270efc: o
  - 0x40270f1e: o
 0x402a5050:
- f: D 04
- l:
+ f: A 10
+ l: s_add_if_d_
  cmnt: 'xtensa: Array, num bytes: 10'
  x:
  - 0x40270f00: o
  - 0x40270f3b: o
 0x402a5060:
- f: D 04
- l:
+ f: A 10
+ l: s_aid__d_
  cmnt: 'xtensa: Array, num bytes: 8'
  x:
  - 0x40270fc4: o
  - 0x40270fed: o
 0x402a5068:
- f: D 04
- l:
+ f: A 10
+ l: s_bcn__d_
  cmnt: 'xtensa: Array, num bytes: 8'
  x:
  - 0x402710c4: o
