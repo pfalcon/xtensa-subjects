@@ -1,0 +1,7 @@
+header:
+ version: 1.0
+0x3ff20a00:
+ f: . 00
+ l:
+ x:
+ - 0x40006fab: o
