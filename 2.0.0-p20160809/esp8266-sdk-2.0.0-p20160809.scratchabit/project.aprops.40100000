@@ -1961,7 +1961,7 @@ header:
  - 0x40100d51: r
 0x40100d38:
  f: C 01
- l: fun_40100d38
+ l: default_exc_handler
  fn_end: '?'
  fn_ranges: [[0x40100d38,0x40100d5e]]
  x:
