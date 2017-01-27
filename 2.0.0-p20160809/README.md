@@ -12,7 +12,7 @@ to continue researching it. For this:
 
 1. Install ScratchABit as described in its README.
 2. Install Xtensa CPU plugin as described in the same README.
-3. Make scratchabit.py available via PATH.
+3. Make ScratchABit.py available via PATH.
 4. Run `start.sh` from this repository to load the project.
 
 Some more info available at
