@@ -3251,7 +3251,7 @@ header:
  - 0x4025596d: o
 0x3ffed678:
  f: . 00
- l:
+ l: scan_timer
  x:
  - 0x402648e4: o
  - 0x40264918: o
@@ -4627,7 +4627,7 @@ header:
  - 0x40271fd5: o
 0x3ffee9d4:
  f: . 00
- l:
+ l: pp_idle_timer
  x:
  - 0x40273af0: o
  - 0x40273b07: o
