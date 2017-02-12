@@ -2046,7 +2046,7 @@ header:
  - 0x40006496: o
 0x3fffcbe0:
  f: D 04
- l:
+ l: rom_set_channel_freq_jtable1
  args:
   0: {'subtype': 'addr'}
  x:
@@ -2106,7 +2106,7 @@ header:
   0: {'subtype': 'addr'}
 0x3fffcc20:
  f: D 04
- l:
+ l: rom_set_channel_freq_jtable2
  args:
   0: {'subtype': 'addr'}
  x:
@@ -2166,7 +2166,7 @@ header:
   0: {'subtype': 'addr'}
 0x3fffcc60:
  f: D 04
- l:
+ l: rom_set_channel_freq_jtable3
  args:
   0: {'subtype': 'addr'}
  x:

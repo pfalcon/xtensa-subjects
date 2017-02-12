@@ -10942,7 +10942,7 @@ header:
  f: C 01
  l: rom_set_channel_freq
  fn_end: '?'
- fn_ranges: [[0x40006c50,0x40006d0b], [0x40006d0c,0x40006d81], [0x40006dcc,0x40006def], [0x40006df0,0x40006dff]]
+ fn_ranges: [[0x40006c50,0x40006d0b], [0x40006d0c,0x40006def], [0x40006df0,0x40006f61]]
  x:
  - 0x3fffc7b4: o
 0x40006c79:
