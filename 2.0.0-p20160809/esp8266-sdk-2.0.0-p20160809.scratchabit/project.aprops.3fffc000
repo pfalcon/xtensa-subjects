@@ -2226,7 +2226,7 @@ header:
   0: {'subtype': 'addr'}
 0x3fffcca0:
  f: D 04
- l: chanel_jtable
+ l: rom_chip_50_set_channel_jtable
  args:
   0: {'subtype': 'addr'}
  x:

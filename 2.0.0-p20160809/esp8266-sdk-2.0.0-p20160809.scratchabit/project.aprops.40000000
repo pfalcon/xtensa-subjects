@@ -11313,7 +11313,7 @@ header:
  f: C 01
  l: rom_chip_50_set_channel
  fn_end: '?'
- fn_ranges: [[0x40006f84,0x400070c7], [0x400070c8,0x400070cd]]
+ fn_ranges: [[0x40006f84,0x400070c7], [0x400070c8,0x4000711b]]
  x:
  - 0x3fffc7b8: o
 0x40006f93:
