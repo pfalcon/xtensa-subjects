@@ -13036,7 +13036,8 @@ header:
  - 0x40009198: r
 0x40008ecc:
  f: C 01
- l: fun_40008ecc
+ l: rijndaelDecrypt
+ cmnt: 'wpa_supplicant, aes-internal-dec.c'
  fn_end: '?'
  fn_ranges: [[0x40008ecc,0x4000917f], [0x40009180,0x400092d4]]
  x:
