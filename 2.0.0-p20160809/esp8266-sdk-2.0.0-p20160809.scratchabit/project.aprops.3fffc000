@@ -2742,8 +2742,9 @@ header:
  - 0x400017d0: o
  - 0x400017f2: o
 0x3fffdd30:
- f: . 00
- l:
+ f: D 04
+ l: mem_ptr_struct
+ cmnt: "Doesn't seem to be taken from lwip/mem.c"
  x:
  - 0x400018e4: o
  - 0x400018eb: o

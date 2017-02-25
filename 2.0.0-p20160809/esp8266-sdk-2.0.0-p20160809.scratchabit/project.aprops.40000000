@@ -3753,7 +3753,8 @@ header:
  - 0x40001c12: r
 0x400018e8:
  f: C 01
- l: fun_400018e8
+ l: plug_holes
+ cmnt: 'lwIP, mem.c'
  fn_end: '?'
  fn_ranges: [[0x400018e8,0x40001990]]
  x:
@@ -3808,6 +3809,7 @@ header:
 0x40001998:
  f: C 01
  l: mem_init
+ cmnt: 'lwIP, mem.c. Patched to take heap start addr in $a2.'
  fn_end: '?'
  fn_ranges: [[0x40001998,0x400019dd]]
 0x4000199c:
