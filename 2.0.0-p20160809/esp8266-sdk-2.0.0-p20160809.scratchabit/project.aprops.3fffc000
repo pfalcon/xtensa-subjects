@@ -2776,6 +2776,12 @@ header:
  - 0x40002578: o
  - 0x40002592: o
  - 0x400025b8: o
+0x3fffdd40:
+ f: D 04
+ cmnt: 'curptr'
+0x3fffdd44:
+ f: D 04
+ cmnt: 'remaing size'
 0x3fffdd48:
  f: D 04
  cmnt: '+0x0c putc1 handler'

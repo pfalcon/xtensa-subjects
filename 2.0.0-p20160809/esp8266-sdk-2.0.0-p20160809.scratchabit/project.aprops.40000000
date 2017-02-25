@@ -4048,7 +4048,7 @@ header:
  - 0x40001d00: r
 0x40001cdc:
  f: C 01
- l: fun_40001cdc
+ l: sprintf_putc
  fn_end: '?'
  fn_ranges: [[0x40001cdc,0x40001cfe], [0x40001d00,0x40001d0d]]
  x:
