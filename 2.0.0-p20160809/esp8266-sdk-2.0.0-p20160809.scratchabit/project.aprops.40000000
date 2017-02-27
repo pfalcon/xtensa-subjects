@@ -2356,7 +2356,7 @@ header:
  - 0x40001887: r
 0x400017e0:
  f: C 01
- l: fun_400017e0
+ l: window_spill_exc_handler
  fn_end: '?'
  fn_ranges: [[0x400017e0,0x40001871]]
  x:
@@ -2405,7 +2405,7 @@ header:
  - 0x4000187b: r
 0x40001878:
  f: C 01
- l: fun_40001878
+ l: print_fatal_exc_handler
  fn_end: '?'
  fn_ranges: [[0x40001878,0x400018a4]]
  x:

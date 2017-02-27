@@ -2737,7 +2737,8 @@ header:
  - 0x40001127: o
 0x3fffdce0:
  f: . 00
- l:
+ l: stack_spill_area
+ cmnt: '0x50 = 80 bytes'
  x:
  - 0x400017d0: o
  - 0x400017f2: o
