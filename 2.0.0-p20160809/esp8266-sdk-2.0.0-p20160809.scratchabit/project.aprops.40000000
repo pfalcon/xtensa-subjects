@@ -1895,7 +1895,7 @@ header:
  - 0x40007807: r
 0x40001160:
  f: C 01
- l: fun_40001160
+ l: sip_40001160
  fn_end: '?'
  fn_ranges: [[0x40001160,0x40001199]]
  x:
@@ -1939,7 +1939,7 @@ header:
  - 0x4000126a: r
 0x400011ac:
  f: C 01
- l: fun_400011ac
+ l: boot_from_something
  fn_end: '?'
  fn_ranges: [[0x400011ac,0x4000124c], [0x4000124d,0x40001278], [0x4000127a,0x400012af], [0x400012b0,0x400012e7]]
  x:
@@ -6694,7 +6694,7 @@ header:
  - 0x40005b1b: c
 0x400031d4:
  f: C 01
- l: fun_400031d4
+ l: calc_pkt_chksum
  fn_end: '?'
  fn_ranges: [[0x400031d4,0x4000321b], [0x4000321c,0x40003224]]
  x:
@@ -7760,7 +7760,7 @@ header:
  - 0x40004649: c
 0x40004080:
  f: C 01
- l: fun_40004080
+ l: SPIEraseChip_internal
  fn_end: '?'
  fn_ranges: [[0x40004080,0x400040bb]]
  x:
@@ -7785,7 +7785,8 @@ header:
  - 0x400072e4: r
 0x400040c0:
  f: C 01
- l: fun_400040c0
+ l: SPIEraseSector_internal
+ cmnt: ''
  fn_end: '?'
  fn_ranges: [[0x400040c0,0x400040db], [0x400040dc,0x4000411c]]
  x:
@@ -7814,7 +7815,7 @@ header:
  - 0x40005d24: r
 0x40004120:
  f: C 01
- l: fun_40004120
+ l: SPIEraseBlock_internal
  fn_end: '?'
  fn_ranges: [[0x40004120,0x4000416b]]
  x:
@@ -7847,7 +7848,8 @@ header:
  - 0x4000673d: r
 0x40004174:
  f: C 01
- l: fun_40004174
+ l: SPI_page_program
+ cmnt: 'esp-open-rtos'
  fn_end: '?'
  fn_ranges: [[0x40004174,0x4000419f], [0x400041a0,0x400041cb], [0x400041cc,0x400042aa]]
  x:
@@ -7925,7 +7927,7 @@ header:
  - 0x40004231: j
 0x400042ac:
  f: C 01
- l: fun_400042ac
+ l: SPIRead_internal
  fn_end: '?'
  fn_ranges: [[0x400042ac,0x400042cf], [0x400042d2,0x40004360], [0x40004361,0x400043c3]]
  x:
@@ -8168,7 +8170,7 @@ header:
  - 0x400044e2: j
 0x40004508:
  f: C 01
- l: fun_40004508
+ l: Disable_QMode
  fn_end: '?'
  fn_ranges: [[0x40004508,0x40004537], [0x40004539,0x4000455a]]
  x:
@@ -8201,7 +8203,7 @@ header:
  - 0x400060ac: r
 0x40004568:
  f: C 01
- l: fun_40004568
+ l: SPIFlashModeSetup
  fn_end: '?'
  fn_ranges: [[0x40004568,0x40004622], [0x40004624,0x4000462a], [0x4000462c,0x40004632], [0x40004634,0x4000463a], [0x4000463c,0x40004642]]
  x:
