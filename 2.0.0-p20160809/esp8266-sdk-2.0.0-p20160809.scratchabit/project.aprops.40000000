@@ -4133,7 +4133,7 @@ header:
  - 0x40001db9: j
 0x40001dcc:
  f: C 01
- l: fun_40001dcc
+ l: uart_putc
  fn_end: '?'
  fn_ranges: [[0x40001dcc,0x40001de3], [0x40001de4,0x40001df7]]
  x:
