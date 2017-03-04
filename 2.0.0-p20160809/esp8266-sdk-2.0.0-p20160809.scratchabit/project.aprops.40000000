@@ -4151,7 +4151,7 @@ header:
  - 0x40001dd1: j
 0x40001df8:
  f: C 01
- l: fun_40001df8
+ l: ets_vprintf_number
  fn_end: '?'
  fn_ranges: [[0x40001df8,0x40001e2f], [0x40001e30,0x40001ec3], [0x40001ec4,0x40001ee1]]
  x:
@@ -4825,6 +4825,14 @@ header:
  x:
  - 0x3fffcb70: o
  - 0x3fffcb90: o
+0x4000235a:
+ f: C 01
+ args:
+  1: {'subtype': 'udec'}
+0x4000235c:
+ f: C 01
+ args:
+  1: {'subtype': 'udec'}
 0x4000235e:
  f: C 01
  args:
@@ -4834,6 +4842,10 @@ header:
  l:
  x:
  - 0x3fffcb10: o
+0x40002374:
+ f: C 01
+ args:
+  1: {'subtype': 'udec'}
 0x40002376:
  f: C 01
  args:
@@ -4846,6 +4858,10 @@ header:
  - 0x3fffcb04: o
  - 0x3fffcb40: o
  - 0x3fffcb84: o
+0x4000238c:
+ f: C 01
+ args:
+  1: {'subtype': 'udec'}
 0x4000238e:
  f: C 01
  args:
@@ -9252,7 +9268,7 @@ header:
  - 0x40005b06: c
 0x400053c4:
  f: C 01
- l: fun_400053c4
+ l: sip_handler_1
  fn_end: '?'
  fn_ranges: [[0x400053c4,0x40005427], [0x40005429,0x4000544b]]
  x:
@@ -9291,7 +9307,7 @@ header:
  fn_ranges: [[0x4000545c,0x4000546a]]
 0x4000546c:
  f: C 01
- l: fun_4000546c
+ l: sip_handler_2
  fn_end: '?'
  fn_ranges: [[0x4000546c,0x400054c7]]
  x:
@@ -9327,7 +9343,7 @@ header:
  - 0x400055e9: r
 0x400054d0:
  f: C 01
- l: fun_400054d0
+ l: sip_400054d0
  fn_end: '?'
  fn_ranges: [[0x400054d0,0x40005537], [0x4000553a,0x4000556f], [0x40005570,0x400055b4], [0x400055b5,0x4000561c], [0x4000561d,0x40005664]]
  x:
@@ -9476,7 +9492,7 @@ header:
   2: {'subtype': 'addr'}
 0x400056ec:
  f: C 01
- l: fun_400056ec
+ l: sip_400056ec
  fn_end: '?'
  fn_ranges: [[0x400056ec,0x40005806]]
  x:
@@ -9674,7 +9690,7 @@ header:
  - 0x40005ba4: r
 0x40005a0c:
  f: C 01
- l: fun_40005a0c
+ l: sip_hilevel_40005a0c
  fn_end: '?'
  fn_ranges: [[0x40005a0c,0x40005a37], [0x40005a38,0x40005a52], [0x40005a54,0x40005af3], [0x40005af4,0x40005ba3], [0x40005ba4,0x40005bbc]]
  x:
@@ -9776,7 +9792,7 @@ header:
  - 0x40005bc6: j
 0x40005c00:
  f: C 01
- l: fun_40005c00
+ l: sip_40005c00
  fn_end: '?'
  fn_ranges: [[0x40005c00,0x40005c18]]
  x:
