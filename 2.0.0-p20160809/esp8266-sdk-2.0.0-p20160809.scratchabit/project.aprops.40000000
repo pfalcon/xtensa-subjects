@@ -1261,7 +1261,7 @@ header:
  - 0x40000e4a: j
 0x40000ebc:
  f: C 01
- l: fun_40000ebc
+ l: highest_1_bit
  fn_end: '?'
  fn_ranges: [[0x40000ebc,0x40000ec9]]
  x:
@@ -5302,6 +5302,8 @@ header:
 0x4000269c:
  f: C 01
  l: dtm_params_init
+ args:
+  1: {'subtype': 'udec'}
  fn_end: '?'
  fn_ranges: [[0x4000269c,0x400026c5]]
 0x400026ac:
@@ -5403,7 +5405,7 @@ header:
  - 0x400027f9: r
 0x400027d4:
  f: C 01
- l: fun_400027d4
+ l: dtm_intr_handler
  fn_end: '?'
  fn_ranges: [[0x400027d4,0x40002823], [0x40002824,0x4000285b]]
  x:
@@ -6476,7 +6478,7 @@ header:
  - 0x402545f9: c
 0x40002f14:
  f: C 01
- l: fun_40002f14
+ l: ets_wdt_get_divisor
  fn_end: '?'
  fn_ranges: [[0x40002f14,0x40002f2e]]
  x:
@@ -9168,7 +9170,7 @@ header:
  - 0x40005161: r
 0x40005138:
  f: C 01
- l: fun_40005138
+ l: sip_40005138
  args:
   2: {'subtype': 'addr'}
  fn_end: '?'
