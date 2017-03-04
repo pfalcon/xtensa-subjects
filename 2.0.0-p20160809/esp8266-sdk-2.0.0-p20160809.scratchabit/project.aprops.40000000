@@ -6022,7 +6022,7 @@ header:
  - 0x40002c3b: c
 0x40002c04:
  f: C 01
- l: fun_40002c04
+ l: ets_timer_set_hwtimer
  fn_end: '?'
  fn_ranges: [[0x40002c04,0x40002c2b], [0x40002c2d,0x40002c37], [0x40002c38,0x40002c45]]
  x:
@@ -6298,7 +6298,7 @@ header:
  - 0x40002e6e: o
 0x40002e3c:
  f: C 01
- l: fun_40002e3c
+ l: timer_task_handler
  fn_end: '?'
  fn_ranges: [[0x40002e3c,0x40002e58]]
  x:
