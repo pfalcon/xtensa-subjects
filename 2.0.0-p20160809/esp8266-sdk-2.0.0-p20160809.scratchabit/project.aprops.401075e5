@@ -1,6 +1,6 @@
 header:
  version: 1.0
 0x401075e5:
- f: . 00
+ f: - 40
  l: _text_end
  cmnt: 'Another label: _etext'

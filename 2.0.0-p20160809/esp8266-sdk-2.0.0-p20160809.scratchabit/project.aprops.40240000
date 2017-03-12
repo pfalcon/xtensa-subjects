@@ -160198,15 +160198,15 @@ header:
  - 0x4010133c: o
  - 0x40101463: o
 0x402a34f0:
- f: D 04
- l:
+ f: A 10
+ l: s_time0__08X_
  cmnt: 'xtensa: Array, num bytes: 12'
  x:
  - 0x40101340: o
  - 0x4010147a: o
 0x402a3500:
- f: D 04
- l:
+ f: A 10
+ l: s_err3_exceed_max_time_value_
  cmnt: 'xtensa: Array, num bytes: 28'
  x:
  - 0x4010131c: o
@@ -160219,76 +160219,76 @@ header:
  - 0x40101320: o
  - 0x401013b7: o
 0x402a3530:
- f: D 04
- l:
+ f: A 10
+ l: s_time2__08X_
  cmnt: 'xtensa: Array, num bytes: 12'
  x:
  - 0x4010132c: o
  - 0x401013fd: o
 0x402a3540:
- f: D 04
- l:
+ f: A 10
+ l: s_time3__08X_
  cmnt: 'xtensa: Array, num bytes: 12'
  x:
  - 0x40101330: o
  - 0x40101425: o
 0x402a3550:
- f: . 00
- l:
+ f: A 10
+ l: s_time4__08X_
  x:
  - 0x40101334: o
  - 0x40101438: o
 0x402a3560:
- f: . 00
- l:
+ f: A 10
+ l: s__s__u_malloc__u_
  x:
  - 0x401014dc: o
  - 0x40101520: o
 0x402a3580:
- f: D 04
- l:
+ f: A 10
+ l: s__ERR_Not_konw_GD25Q32C_status_idx__d____1
  cmnt: 'xtensa: Array, num bytes: 39'
  x:
  - 0x40101b70: o
  - 0x40101c3f: o
 0x402a35b0:
- f: D 04
- l:
+ f: A 10
+ l: s__ERR_Not_konw_GD25Q32C_status_idx__d__
  cmnt: 'xtensa: Array, num bytes: 39'
  x:
  - 0x40101d00: o
  - 0x40101dd2: o
 0x402a35e0:
- f: D 04
- l:
+ f: A 10
+ l: s_Flash_is_already_QIO__
  cmnt: 'xtensa: Array, num bytes: 23'
  x:
  - 0x4010203c: o
  - 0x4010206c: o
 0x402a3600:
- f: D 04
- l:
+ f: A 10
+ l: s_QIO_INIT_OK__
  cmnt: 'xtensa: Array, num bytes: 14'
  x:
  - 0x40102044: o
  - 0x401021b5: o
 0x402a3610:
- f: D 04
- l:
+ f: A 10
+ l: s_QIO_INIT_ERR___
  cmnt: 'xtensa: Array, num bytes: 16'
  x:
  - 0x4010204c: o
  - 0x401021ca: o
 0x402a3620:
- f: D 04
- l:
+ f: A 10
+ l: s_spi_flash_read_status_err_
  cmnt: 'xtensa: Array, num bytes: 27'
  x:
  - 0x40102048: o
  - 0x401021be: o
 0x402a3640:
- f: D 04
- l:
+ f: A 10
+ l: s_GD25Q32C_Alrady_Qio_Mode_
  cmnt: 'xtensa: Array, num bytes: 26'
  x:
  - 0x401021e0: o

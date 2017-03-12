@@ -9374,6 +9374,10 @@ header:
  f: C 01
  args:
   2: {'subtype': 'addr'}
+0x40103e42:
+ f: C 01
+ args:
+  1: {'subtype': 'udec'}
 0x40103e45:
  f: C 01
  args:
@@ -13118,6 +13122,10 @@ header:
  f: C 01
  args:
   2: {'subtype': 'addr'}
+0x40106073:
+ f: C 01
+ args:
+  1: {'subtype': 'udec'}
 0x40106076:
  f: C 01
  args:
@@ -13158,6 +13166,10 @@ header:
  f: C 01
  args:
   2: {'subtype': 'addr'}
+0x401060bc:
+ f: C 01
+ args:
+  1: {'subtype': 'udec'}
 0x401060bf:
  f: C 01
  args:

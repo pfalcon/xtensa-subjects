@@ -4145,7 +4145,7 @@ header:
  - 0x4026f570: o
  - 0x4026f59b: o
 0x3ffedbf4:
- f: . 00
+ f: D 04
  l:
  x:
  - 0x40102c9c: o
@@ -4275,8 +4275,8 @@ header:
  - 0x40270e64: o
  - 0x40270e74: o
 0x3ffee6f0:
- f: . 00
- l:
+ f: D 04
+ l: lmac_struct1
  x:
  - 0x40102f94: o
  - 0x40102f98: o
@@ -4329,7 +4329,7 @@ header:
  - 0x40105ebb: o
 0x3ffee720:
  f: . 00
- l:
+ l: lmac_arr_of_structs36
  cmnt: 'struct size 36'
  x:
  - 0x40102fa8: o
@@ -4892,7 +4892,7 @@ header:
  - 0x402765e0: o
  - 0x402765f0: o
 0x3fff21d0:
- f: . 00
+ f: D 04
  l:
  x:
  - 0x40105d54: o
