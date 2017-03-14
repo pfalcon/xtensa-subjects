@@ -2720,7 +2720,7 @@ header:
  - 0x40000e37: o
  - 0x40000ee5: o
 0x3fffdcc0:
- f: . 00
+ f: D 04
  l: save_int_level
  x:
  - 0x40000f70: o
@@ -2846,7 +2846,7 @@ header:
  - 0x40003130: o
 0x3fffde00:
  f: . 00
- l:
+ l: UartMsgStruct
  x:
  - 0x4000322c: o
  - 0x4000328e: o
