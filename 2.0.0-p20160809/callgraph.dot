@@ -1,0 +1,254 @@
+digraph G {
+_ResetHandler -> _start
+_start -> main
+_xtos_set_exception_handler -> _xtos_c_wrapper_handler [style=dashed]
+_xtos_set_exception_handler -> _xtos_p_none [style=dashed]
+_xtos_set_exception_handler -> _xtos_unhandled_exception [style=dashed]
+_xtos_l1int_handler -> _xtos_return_from_exc [style=dashed]
+_xtos_c_wrapper_handler -> _xtos_return_from_exc [style=dashed]
+loc_40000698 -> xthal_copy123
+cmd_parse -> convert_para_str
+cmd_parse -> get_first_seg
+cmd_parse -> strcpy
+get_first_seg -> remove_head_space
+convert_para_str -> conv_str_decimal
+convert_para_str -> conv_str_hex
+ets_run -> empty_func
+ets_run -> ets_main_loop
+ets_main_loop -> highest_1_bit
+ets_isr_attach -> _xtos_set_interrupt_handler_arg
+main -> Uart_Init
+main -> _xtos_set_exception_handler
+main -> boot_from_flash
+main -> boot_from_something
+main -> ets_install_uart_printf
+main -> ets_run
+main -> rtc_get_reset_reason
+main -> sip_init_attach
+main -> uartAttach
+main -> print_fatal_exc_handler [style=dashed]
+main -> window_spill_exc_handler [style=dashed]
+sip_40001160 -> sip_get_state
+boot_from_something -> UartConnCheck
+boot_from_something -> UartDwnLdProc
+boot_from_something -> Uart_Init
+boot_from_something -> sip_40001160
+boot_from_something -> sip_get_state
+boot_from_something -> spi_flash_attach
+boot_from_something -> uart_baudrate_detect
+boot_from_something -> uart_buff_switch
+boot_from_something -> uart_div_modify
+boot_from_flash -> SPIRead
+boot_from_flash -> SPIReadModeCnfig
+boot_from_flash -> ets_set_user_start
+window_spill_exc_handler -> xthal_window_spill
+ets_memmove -> memmove
+ets_memcmp -> memcmp__1
+mem_free -> plug_holes
+mem_calloc -> mem_malloc
+mem_zalloc -> mem_calloc
+mem_realloc -> mem_free
+mem_realloc -> mem_malloc
+eprintf_to_host -> sip_send
+uart_putc -> uart_tx_one_char
+ets_install_uart_printf -> ets_install_putc1
+ets_install_uart_printf -> uart_putc [style=dashed]
+ets_install_external_printf -> ets_install_putc2
+ets_install_external_printf -> eprintf_buf_putc [style=dashed]
+ets_uart_printf -> uart_putc [style=dashed]
+ets_external_printf -> eprintf_buf_putc [style=dashed]
+dtm_set_params -> rand
+ets_enter_sleep -> ets_set_idle_cb
+ets_enter_sleep -> rtc_enter_sleep [style=dashed]
+dtm_intr_handler -> ets_timer_arm
+dtm_intr_handler -> ets_timer_disarm__1
+dtm_intr_handler -> ets_timer_setfn__1
+dtm_intr_handler -> rand
+dtm_intr_handler -> ets_enter_sleep [style=dashed]
+rtc_enter_sleep -> gpio_input_get
+rtc_enter_sleep -> gpio_pin_wakeup_enable
+rtc_enter_sleep -> rand
+rtc_intr_handler -> dtm_intr_handler
+rtc_intr_handler -> ets_set_idle_cb
+ets_rtc_int_register -> ets_isr_attach
+ets_rtc_int_register -> rtc_intr_handler [style=dashed]
+ets_strcpy -> strcpy
+ets_strncpy -> strncpy
+ets_strcmp -> strcmp
+ets_strncmp -> strncmp
+ets_strlen -> strlen
+ets_strstr -> strstr
+ets_str2macaddr -> ets_char2xdigit
+ets_getc -> uart_rx_one_char_block
+ets_putc -> uart_tx_one_char
+ets_timer_set_hwtimer -> timer_frc2_set_alarm
+timer_insert -> ets_timer_set_hwtimer
+ets_timer_arm -> timer_insert
+ets_timer_done__1 -> ets_timer_setfn__1
+ets_timer_handler_isr__1 -> ets_timer_set_hwtimer
+ets_timer_handler_isr__1 -> timer_insert
+rom_timer_intr_handler -> ets_post
+timer_task_handler -> ets_timer_handler_isr__1
+ets_timer_init__1 -> ets_isr_attach
+ets_timer_init__1 -> ets_task
+ets_timer_init__1 -> rom_timer_intr_handler [style=dashed]
+ets_timer_init__1 -> timer_task_handler [style=dashed]
+wdt_irq_real_handler -> ets_wdt_get_mode
+wdt_intr_handler -> wdt_irq_real_handler
+ets_wdt_enable -> ets_timer_arm
+ets_wdt_enable -> ets_timer_setfn__1
+ets_wdt_enable -> ets_wdt_get_divisor
+ets_wdt_enable -> wdt_intr_handler [style=dashed]
+ets_wdt_disable -> ets_timer_disarm__1
+ets_wdt_restore -> ets_wdt_enable
+ets_wdt_init -> ets_isr_attach
+ets_wdt_init -> wdt_intr_handler [style=dashed]
+UartConnCheck -> RcvMsg
+UartConnCheck -> SendMsg
+UartConnCheck -> UartConnectProc
+UartConnCheck -> uart_baudrate_detect
+UartConnCheck -> uart_div_modify
+FlashDwnLdStartMsgProc -> Cache_Read_Disable
+FlashDwnLdStartMsgProc -> SPIEraseArea
+FilePacketSendReqMsgProc -> SPIRead
+FilePacketSendReqMsgProc -> SPIWrite
+FilePacketSendReqMsgProc -> calc_pkt_chksum
+FlashDwnLdStopReqMsgProc -> SPILock
+FlashDwnLdParamCfgMsgProc -> SPIParamCfg
+MemPacketSendReqMsgProc -> calc_pkt_chksum
+uartAttach -> ets_isr_attach
+uartAttach -> uart_rx_intr_handler [style=dashed]
+uart_buff_switch -> uart_rx_one_char
+uart_buff_switch -> uart_rx_readbuff
+Uart_Init -> uart_div_modify
+UartRxString -> uart_rx_one_char
+send_packet__1 -> uart_tx_one_char
+SendMsg -> send_packet__1
+recv_packet -> uart_rx_readbuff
+RcvMsg -> recv_packet
+UartGetCmdLn -> uart_rx_readbuff
+SPIEraseChip_internal -> Wait_SPI_Idle
+SPIEraseSector_internal -> Wait_SPI_Idle
+SPIEraseBlock_internal -> Wait_SPI_Idle
+SPI_page_program -> SPI_write_enable
+SPI_page_program -> Wait_SPI_Idle
+SPIRead_internal -> Wait_SPI_Idle
+SPI_write_status -> Wait_SPI_Idle
+SPI_write_enable -> SPI_read_status
+SPI_write_enable -> Wait_SPI_Idle
+Wait_SPI_Idle -> SPI_read_status
+Enable_QMode -> SPI_write_enable
+Enable_QMode -> SPI_write_status
+Disable_QMode -> SPI_read_status
+Disable_QMode -> SPI_write_enable
+Disable_QMode -> SPI_write_status
+spi_flash_attach -> SPIFlashModeSetup
+spi_flash_attach -> SPIReadModeCnfig
+spi_flash_attach -> SelectSpiFunction
+SPIUnlock -> SPI_write_enable
+SPIUnlock -> SPI_write_status
+SPILock -> SPI_write_enable
+SPILock -> SPI_write_status
+SPIReadModeCnfig -> Disable_QMode
+SPIReadModeCnfig -> Enable_QMode
+SPIEraseChip -> SPIEraseChip_internal
+SPIEraseChip -> SPI_write_enable
+SPIEraseBlock -> SPIEraseBlock_internal
+SPIEraseBlock -> SPI_write_enable
+SPIEraseSector -> SPIEraseSector_internal
+SPIEraseSector -> SPI_write_enable
+SPIWrite -> SPI_page_program
+SPIRead -> SPIRead_internal
+SPIEraseArea -> SPIEraseBlock
+SPIEraseArea -> SPIEraseSector
+SPIEraseArea -> SPIReadModeCnfig
+SPIEraseArea -> SPIUnlock
+gpio_init -> ets_isr_attach
+gpio_init -> gpio_intr_handler_register
+gpio_init -> gpio_output_set
+gpio_init -> gpio_register_set
+gpio_init -> gpio_irq_handler [style=dashed]
+gpio_intr_ack -> gpio_pin_intr_state_set
+gpio_irq_handler -> gpio_pin_intr_state_set
+gpio_intr_test -> gpio_input_get
+gpio_intr_test -> gpio_intr_ack
+gpio_intr_test -> gpio_output_set
+sip_post -> ets_post
+sip_40005138 -> lldesc_build_chain
+sip_reclaim_tx_data_pkt -> slc_from_host_chain_recycle
+sip_reclaim_from_host_cmd -> slc_from_host_chain_recycle
+sip_handler_1 -> ets_post
+sip_handler_1 -> slc_to_host_chain_recycle
+sip_handler_2 -> sip_post
+sip_handler_2 -> slc_from_host_chain_fetch
+sip_400054d0 -> ets_set_user_start
+sip_400054d0 -> sip_alloc_to_host_evt
+sip_400054d0 -> sip_reclaim_from_host_cmd
+sip_400054d0 -> sip_send
+sip_init_attach -> sip_40005138
+sip_init_attach -> slc_enable
+sip_init_attach -> slc_init_attach
+sip_init_attach -> sip_400054d0 [style=dashed]
+sip_init_attach -> sip_handler_1 [style=dashed]
+sip_init_attach -> sip_handler_2 [style=dashed]
+sip_post_init -> ets_task
+sip_post_init -> sip_task_handler [style=dashed]
+sip_400056ec -> slc_send_to_host_chain
+sip_send -> sip_400056ec
+sip_send -> sip_to_host_chain_append
+sip_400058b8 -> lldesc_num2link
+sip_400058b8 -> multofup
+sip_400058b8 -> sip_400056ec
+sip_400058b8 -> sip_to_host_evt_send_done
+sip_hilevel_40005a0c -> lldesc_num2link
+sip_hilevel_40005a0c -> multofup
+sip_hilevel_40005a0c -> sip_40005c00
+sip_hilevel_40005a0c -> sip_reclaim_from_host_cmd
+sip_task_handler -> sip_400058b8
+sip_task_handler -> sip_hilevel_40005a0c
+sip_40005c00 -> sip_alloc_to_host_evt
+sip_40005c00 -> sip_send
+slc_init_attach -> lldesc_build_chain
+slc_init_attach -> slc_set_host_io_max_window
+slc_enable -> ets_isr_attach
+slc_enable -> slc_intr_handler [style=dashed]
+slc_send_to_host_chain -> gpio_input_get
+slc_from_host_chain_recycle -> slc_add_credits
+slc_init_credit -> slc_add_credits
+rijndaelKeySetupDec -> rijndaelKeySetupEnc__1
+aes_decrypt_init__1 -> rijndaelKeySetupDec
+aes_decrypt__1 -> rijndaelDecrypt
+aes_unwrap -> aes_decrypt__1
+aes_unwrap -> aes_decrypt_deinit__1
+aes_unwrap -> aes_decrypt_init__1
+base64_encode -> mem_malloc
+base64_decode__1 -> mem_free
+base64_decode__1 -> mem_malloc
+md5_vector -> MD5Final
+md5_vector -> MD5Init
+md5_vector -> MD5Update
+MD5Update -> MD5Transform
+MD5Final -> MD5Transform
+hmac_md5_vector -> md5_vector
+hmac_md5 -> hmac_md5_vector
+sha1_vector -> SHA1Final
+sha1_vector -> SHA1Init
+sha1_vector -> SHA1Update
+SHA1Update -> SHA1Transform
+SHA1Final -> SHA1Update
+pbkdf2_sha1_f -> ets_strlen
+pbkdf2_sha1_f -> hmac_sha1
+pbkdf2_sha1_f -> hmac_sha1_vector
+pbkdf2_sha1 -> pbkdf2_sha1_f
+hmac_sha1_vector -> sha1_vector
+hmac_sha1 -> hmac_sha1_vector
+sha1_prf -> ets_strlen
+sha1_prf -> hmac_sha1_vector
+wepkey_64 -> ets_strlen
+wepkey_128 -> MD5Final
+wepkey_128 -> MD5Init
+wepkey_128 -> MD5Update
+wepkey_128 -> ets_strlen
+_xtos_set_interrupt_handler_arg -> _xtos_unhandled_interrupt [style=dashed]
+_xtos_set_interrupt_handler -> _xtos_set_interrupt_handler_arg
+}
