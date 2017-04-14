@@ -17670,7 +17670,7 @@ header:
  f: C 01
  l: __floatunsidf
  fn_end: '?'
- fn_ranges: [[0x4000e2e8,0x4000e2ef], [0x4000e2f8,0x4000e31e]]
+ fn_ranges: [[0x4000e2e8,0x4000e31e]]
  x:
  - 0x4000273e: c
  - 0x4000276a: c
@@ -17683,7 +17683,7 @@ header:
  f: C 01
  l: __floatsidf
  fn_end: '?'
- fn_ranges: [[0x4000e2f0,0x4000e2f8]]
+ fn_ranges: [[0x4000e2f0,0x4000e31e]]
  x:
  - 0x40002733: c
  - 0x4000275f: c
