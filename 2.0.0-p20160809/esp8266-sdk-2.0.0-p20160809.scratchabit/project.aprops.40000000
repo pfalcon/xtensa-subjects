@@ -17622,7 +17622,7 @@ header:
  f: C 01
  l: __floatunsisf
  fn_end: '?'
- fn_ranges: [[0x4000e2a4,0x4000e2ab]]
+ fn_ranges: [[0x4000e2a4,0x4000e2e8]]
  x:
  - 0x4025784c: o
  - 0x40257871: c
