@@ -16705,7 +16705,7 @@ header:
  f: C 01
  l: __divsi3
  fn_end: '?'
- fn_ranges: [[0x4000dc88,0x4000dcd6], [0x4000dcd8,0x4000dce4], [0x4000dcec,0x4000dcf0]]
+ fn_ranges: [[0x4000dc88,0x4000dcd6], [0x4000dcd8,0x4000dcf0]]
  x:
  - 0x40006186: c
  - 0x40006199: c
@@ -17336,7 +17336,7 @@ header:
  f: C 01
  l: __udivsi3
  fn_end: '?'
- fn_ranges: [[0x4000e21c,0x4000e24f], [0x4000e250,0x4000e25b], [0x4000e264,0x4000e268]]
+ fn_ranges: [[0x4000e21c,0x4000e24f], [0x4000e250,0x4000e268]]
  x:
  - 0x40002939: c
  - 0x40002d2e: c
