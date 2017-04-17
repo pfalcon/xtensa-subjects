@@ -4378,11 +4378,6 @@ header:
  - 0x3fffc960: o
  - 0x3fffc964: o
  - 0x40001fcb: j
- - 0x4000ec1c: o
- - 0x4000ec24: o
- - 0x4000ec28: o
- - 0x4000ec60: o
- - 0x4000eca8: o
 0x40001fde:
  f: C 01
  l:
@@ -4420,8 +4415,6 @@ header:
  - 0x3fffc918: o
  - 0x3fffc95c: o
  - 0x3fffc968: o
- - 0x4000ec18: o
- - 0x4000ec20: o
 0x4000202c:
  f: C 01
  l:
@@ -4502,9 +4495,6 @@ header:
  - 0x3fffcab4: o
  - 0x3fffcab8: o
  - 0x40001fe3: j
- - 0x4000ed04: o
- - 0x4000ed08: o
- - 0x4000ede0: o
 0x40002049:
  f: C 01
  l:
@@ -4583,7 +4573,6 @@ header:
  - 0x40002369: j
  - 0x40002381: j
  - 0x40002399: j
- - 0x4000eed4: o
 0x400020c7:
  f: C 01
  l:
@@ -6931,31 +6920,26 @@ header:
  l:
  x:
  - 0x3fffcbcc: o
- - 0x4000ef54: o
 0x40003468:
  f: C 01
  l:
  x:
  - 0x3fffcbc8: o
- - 0x4000ef50: o
 0x4000347d:
  f: C 01
  l:
  x:
  - 0x3fffcbc4: o
- - 0x4000ef4c: o
 0x4000348d:
  f: C 01
  l:
  x:
  - 0x3fffcbc0: o
- - 0x4000ef48: o
 0x400034a3:
  f: C 01
  l:
  x:
  - 0x3fffcbbc: o
- - 0x4000ef44: o
 0x400034b9:
  f: C 01
  l:
@@ -10209,7 +10193,6 @@ header:
  fn_ranges: [[0x400060c0,0x400060ca]]
  x:
  - 0x3fffc734: o
- - 0x4000eabc: o
 0x400060cc:
  f: D 04
  l:
@@ -10232,7 +10215,6 @@ header:
  x:
  - 0x3ffe8148: o
  - 0x3fffc738: o
- - 0x4000eac0: o
 0x400060e8:
  f: D 04
  l:
@@ -10246,7 +10228,6 @@ header:
  x:
  - 0x3ffe8144: o
  - 0x3fffc73c: o
- - 0x4000eac4: o
 0x40006104:
  f: D 04
  l:
@@ -10264,7 +10245,6 @@ header:
  fn_ranges: [[0x4000610c,0x40006156]]
  x:
  - 0x3fffc740: o
- - 0x4000eac8: o
 0x40006121:
  f: C 01
  l:
@@ -10384,7 +10364,6 @@ header:
  fn_ranges: [[0x4000615c,0x400061b3]]
  x:
  - 0x3fffc744: o
- - 0x4000eacc: o
 0x40006165:
  f: C 01
  args:
@@ -10405,7 +10384,6 @@ header:
  fn_ranges: [[0x400061b8,0x4000621b], [0x4000621c,0x40006236]]
  x:
  - 0x3fffc74c: o
- - 0x4000ead4: o
 0x400061bd:
  f: C 01
  args:
@@ -10427,7 +10405,6 @@ header:
  fn_ranges: [[0x40006238,0x4000625e]]
  x:
  - 0x3fffc750: o
- - 0x4000ead8: o
 0x40006259:
  f: C 01
  l:
@@ -10440,7 +10417,6 @@ header:
  fn_ranges: [[0x40006260,0x400062d9]]
  x:
  - 0x3fffc754: o
- - 0x4000eadc: o
 0x400062dc:
  f: C 01
  l: rom_get_fm_sar_dout
@@ -10448,7 +10424,6 @@ header:
  fn_ranges: [[0x400062dc,0x40006391]]
  x:
  - 0x3fffc758: o
- - 0x4000eae0: o
 0x4000631c:
  f: C 01
  l:
@@ -10461,7 +10436,6 @@ header:
  fn_ranges: [[0x40006394,0x400063ae]]
  x:
  - 0x3fffc75c: o
- - 0x4000eae4: o
 0x400063b0:
  f: C 01
  l: rom_get_power_db
@@ -10469,7 +10443,6 @@ header:
  fn_ranges: [[0x400063b0,0x400063fb]]
  x:
  - 0x3fffc760: o
- - 0x4000eae8: o
 0x400063b5:
  f: C 01
  args:
@@ -10495,7 +10468,6 @@ header:
  fn_ranges: [[0x40006400,0x4000642e]]
  x:
  - 0x3fffc764: o
- - 0x4000eaec: o
 0x40006430:
  f: C 01
  l: rom_iq_est_enable
@@ -10503,7 +10475,6 @@ header:
  fn_ranges: [[0x40006430,0x4000647f]]
  x:
  - 0x3fffc768: o
- - 0x4000eaf0: o
 0x40006474:
  f: C 01
  l:
@@ -10528,7 +10499,6 @@ header:
  fn_ranges: [[0x40006484,0x4000650b]]
  x:
  - 0x3fffc76c: o
- - 0x4000eaf4: o
 0x40006496:
  f: C 01
  args:
@@ -10606,7 +10576,6 @@ header:
  fn_ranges: [[0x400065a4,0x400065d2], [0x400065d4,0x400065e3], [0x400065e4,0x40006617], [0x40006618,0x40006621]]
  x:
  - 0x3fffc778: o
- - 0x4000eb00: o
 0x400065d4:
  f: C 01
  l:
@@ -11077,13 +11046,11 @@ header:
  l:
  x:
  - 0x3fffcc14: o
- - 0x4000ef9c: o
 0x40006d8a:
  f: C 01
  l:
  x:
  - 0x3fffcc10: o
- - 0x4000ef98: o
 0x40006d90:
  f: C 01
  l:
@@ -11119,19 +11086,16 @@ header:
  l:
  x:
  - 0x3fffcbf4: o
- - 0x4000ef7c: o
 0x40006dba:
  f: C 01
  l:
  x:
  - 0x3fffcbf0: o
- - 0x4000ef78: o
 0x40006dc0:
  f: C 01
  l:
  x:
  - 0x3fffcbec: o
- - 0x4000ef74: o
 0x40006dc6:
  f: C 01
  l:
@@ -11152,7 +11116,6 @@ header:
  x:
  - 0x3fffcc60: o
  - 0x40006de1: j
- - 0x4000efe8: o
 0x40006dff:
  f: C 01
  l:
@@ -11163,25 +11126,21 @@ header:
  l:
  x:
  - 0x3fffcc54: o
- - 0x4000efdc: o
 0x40006e1f:
  f: C 01
  l:
  x:
  - 0x3fffcc50: o
- - 0x4000efd8: o
 0x40006e2d:
  f: C 01
  l:
  x:
  - 0x3fffcc4c: o
- - 0x4000efd4: o
 0x40006e3e:
  f: C 01
  l:
  x:
  - 0x3fffcc48: o
- - 0x4000efd0: o
 0x40006e4c:
  f: C 01
  l:
@@ -11227,7 +11186,6 @@ header:
  l:
  x:
  - 0x3fffcc64: o
- - 0x4000efec: o
 0x40006ed1:
  f: C 01
  l:
@@ -11431,25 +11389,21 @@ header:
  l:
  x:
  - 0x3fffccd4: o
- - 0x4000f05c: o
 0x400070d9:
  f: C 01
  l:
  x:
  - 0x3fffccd0: o
- - 0x4000f058: o
 0x400070df:
  f: C 01
  l:
  x:
  - 0x3fffcccc: o
- - 0x4000f054: o
 0x400070e5:
  f: C 01
  l:
  x:
  - 0x3fffccc8: o
- - 0x4000f050: o
 0x400070eb:
  f: C 01
  l:
@@ -12400,7 +12354,6 @@ header:
  fn_ranges: [[0x40008388,0x4000846f], [0x40008470,0x4000848b], [0x4000848c,0x400085af], [0x400085b0,0x400085cb], [0x400085cc,0x400085e7], [0x400085e8,0x40008603]]
  x:
  - 0x3fffc830: o
- - 0x4000ebb8: o
 0x400083a1:
  f: C 01
  args:
@@ -12590,7 +12543,6 @@ header:
  fn_ranges: [[0x40008610,0x4000885b], [0x4000885c,0x4000889b], [0x4000889c,0x400088a4]]
  x:
  - 0x3fffc834: o
- - 0x4000ebbc: o
 0x40008640:
  f: C 01
  args:
@@ -12897,7 +12849,6 @@ header:
  fn_ranges: [[0x40008c6c,0x40008d2c]]
  x:
  - 0x3fffc844: o
- - 0x4000ebcc: o
 0x40008c86:
  f: C 01
  args:
@@ -12959,7 +12910,6 @@ header:
  fn_ranges: [[0x40008d34,0x40008dc6]]
  x:
  - 0x3fffc848: o
- - 0x4000ebd0: o
 0x40008d70:
  f: C 01
  l:
@@ -17910,92 +17860,50 @@ header:
  f: D 04
 0x4000eab8:
  f: D 04
- args:
-  0: {'subtype': 'addr'}
 0x4000eabc:
  f: D 04
- args:
-  0: {'subtype': 'addr'}
 0x4000eac0:
  f: D 04
- args:
-  0: {'subtype': 'addr'}
 0x4000eac4:
  f: D 04
- args:
-  0: {'subtype': 'addr'}
 0x4000eac8:
  f: D 04
- args:
-  0: {'subtype': 'addr'}
 0x4000eacc:
  f: D 04
- args:
-  0: {'subtype': 'addr'}
 0x4000ead4:
  f: D 04
- args:
-  0: {'subtype': 'addr'}
 0x4000ead8:
  f: D 04
- args:
-  0: {'subtype': 'addr'}
 0x4000eadc:
  f: D 04
- args:
-  0: {'subtype': 'addr'}
 0x4000eae0:
  f: D 04
- args:
-  0: {'subtype': 'addr'}
 0x4000eae4:
  f: D 04
- args:
-  0: {'subtype': 'addr'}
 0x4000eae8:
  f: D 04
- args:
-  0: {'subtype': 'addr'}
 0x4000eaec:
  f: D 04
- args:
-  0: {'subtype': 'addr'}
 0x4000eaf0:
  f: D 04
- args:
-  0: {'subtype': 'addr'}
 0x4000eaf4:
  f: D 04
- args:
-  0: {'subtype': 'addr'}
 0x4000eb00:
  f: D 04
- args:
-  0: {'subtype': 'addr'}
 0x4000ebb8:
  f: D 04
- args:
-  0: {'subtype': 'addr'}
 0x4000ebbc:
  f: D 04
- args:
-  0: {'subtype': 'addr'}
 0x4000ebcc:
  f: D 04
- args:
-  0: {'subtype': 'addr'}
 0x4000ebd0:
  f: D 04
- args:
-  0: {'subtype': 'addr'}
 0x4000ebdf:
  f: D 04
  cmnt: 'Last byte of rom_store seg #0'
 0x4000ebe8:
  f: D 04
  l: _rom_store_seg1
- args:
-  0: {'subtype': 'addr'}
  x:
  - 0x4000e33c: o
 0x4000ebf8:
@@ -18003,132 +17911,70 @@ header:
  l: s_ets_unpack_flash_code
 0x4000ec18:
  f: D 04
- args:
-  0: {'subtype': 'addr'}
 0x4000ec1c:
  f: D 04
- args:
-  0: {'subtype': 'addr'}
 0x4000ec20:
  f: D 04
- args:
-  0: {'subtype': 'addr'}
 0x4000ec24:
  f: D 04
- args:
-  0: {'subtype': 'addr'}
 0x4000ec28:
  f: D 04
- args:
-  0: {'subtype': 'addr'}
 0x4000ec60:
  f: D 04
- args:
-  0: {'subtype': 'addr'}
 0x4000eca8:
  f: D 04
- args:
-  0: {'subtype': 'addr'}
 0x4000ed04:
  f: D 04
- args:
-  0: {'subtype': 'addr'}
 0x4000ed08:
  f: D 04
- args:
-  0: {'subtype': 'addr'}
 0x4000ede0:
  f: D 04
- args:
-  0: {'subtype': 'addr'}
 0x4000eed4:
  f: D 04
- args:
-  0: {'subtype': 'addr'}
 0x4000ef44:
  f: D 04
- args:
-  0: {'subtype': 'addr'}
 0x4000ef48:
  f: D 04
- args:
-  0: {'subtype': 'addr'}
 0x4000ef4c:
  f: D 04
- args:
-  0: {'subtype': 'addr'}
 0x4000ef50:
  f: D 04
- args:
-  0: {'subtype': 'addr'}
 0x4000ef54:
  f: D 04
- args:
-  0: {'subtype': 'addr'}
 0x4000ef74:
  f: D 04
- args:
-  0: {'subtype': 'addr'}
 0x4000ef78:
  f: D 04
- args:
-  0: {'subtype': 'addr'}
 0x4000ef7c:
  f: D 04
- args:
-  0: {'subtype': 'addr'}
 0x4000ef98:
  f: D 04
- args:
-  0: {'subtype': 'addr'}
 0x4000ef9c:
  f: D 04
- args:
-  0: {'subtype': 'addr'}
 0x4000efa8:
  f: D 04
 0x4000efac:
  f: D 04
 0x4000efd0:
  f: D 04
- args:
-  0: {'subtype': 'addr'}
 0x4000efd4:
  f: D 04
- args:
-  0: {'subtype': 'addr'}
 0x4000efd8:
  f: D 04
- args:
-  0: {'subtype': 'addr'}
 0x4000efdc:
  f: D 04
- args:
-  0: {'subtype': 'addr'}
 0x4000efe8:
  f: D 04
- args:
-  0: {'subtype': 'addr'}
 0x4000efec:
  f: D 04
- args:
-  0: {'subtype': 'addr'}
 0x4000f050:
  f: D 04
- args:
-  0: {'subtype': 'addr'}
 0x4000f054:
  f: D 04
- args:
-  0: {'subtype': 'addr'}
 0x4000f058:
  f: D 04
- args:
-  0: {'subtype': 'addr'}
 0x4000f05c:
  f: D 04
- args:
-  0: {'subtype': 'addr'}
 0x4000f9fd:
  f: D 04
  l: s__ets__s_rst_cause__d__boot_mode___d__d___

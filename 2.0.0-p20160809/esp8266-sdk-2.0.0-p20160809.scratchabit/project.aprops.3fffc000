@@ -619,7 +619,6 @@ header:
  x:
  - 0x3fffc6f8: o
  - 0x3fffc860: o
- - 0x4000ebe8: o
 0x3fffc2fc:
  f: D 04
  args:
@@ -917,7 +916,6 @@ header:
   0: {'subtype': 'addr'}
  x:
  - 0x3fffc730: o
- - 0x4000eab8: o
 0x3fffc738:
  f: D 04
  args:
