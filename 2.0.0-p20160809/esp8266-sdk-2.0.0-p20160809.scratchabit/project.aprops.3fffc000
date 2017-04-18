@@ -670,7 +670,7 @@ header:
  - 0x40000606: o
 0x3fffc6fc:
  f: D 04
- l: ets_run_sets_to_0
+ l: ets_min_task_prio
  x:
  - 0x40000e00: o
  - 0x40000e07: o
