@@ -2717,6 +2717,11 @@ header:
  - 0x40000dd5: o
  - 0x40000e37: o
  - 0x40000ee5: o
+0x3fffdcb0:
+ f: . 00
+ l:
+ x:
+ - 0x3ffe81a8: o
 0x3fffdcc0:
  f: D 04
  l: save_int_level

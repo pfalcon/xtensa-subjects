@@ -6047,15 +6047,15 @@ header:
  - 0x402598fa: c
  - 0x40259909: c
  - 0x402599c0: c
- - 0x40259c6a: c
- - 0x40259cca: c
- - 0x40259cfb: c
- - 0x40259d28: c
- - 0x40259d53: c
- - 0x40259d62: c
- - 0x40259da3: c
- - 0x40259dd4: c
- - 0x40259de3: c
+ - 0x40259c6a: o
+ - 0x40259cca: o
+ - 0x40259cfb: o
+ - 0x40259d28: o
+ - 0x40259d53: o
+ - 0x40259d62: o
+ - 0x40259da3: o
+ - 0x40259dd4: o
+ - 0x40259de3: o
  - 0x4025a03a: c
  - 0x4025a0dd: c
  - 0x4025a57d: c
@@ -6937,7 +6937,7 @@ header:
  - 0x402585a7: c
  - 0x4025917c: c
  - 0x402599ac: c
- - 0x40259c82: c
+ - 0x40259c82: o
  - 0x40259f1e: c
  - 0x4025a05f: c
  - 0x4025a4f9: c
@@ -11102,7 +11102,7 @@ header:
  - 0x40104e54: j
 0x40104e98:
  f: C 01
- l: fun_40104e98
+ l: RC_related_to_block_size
  fn_end: '?'
  fn_ranges: [[0x40104e98,0x40104eb4]]
  x:
@@ -11200,7 +11200,7 @@ header:
  - 0x40104f34: j
 0x40104f5c:
  f: C 01
- l: fun_40104f5c
+ l: RC_40104f5c
  fn_end: '?'
  fn_ranges: [[0x40104f5c,0x40104f8d]]
  x:
@@ -11363,6 +11363,8 @@ header:
 0x40105044:
  f: C 01
  l: fun_40105044
+ args:
+  2: {'subtype': 'udec'}
  fn_end: '?'
  fn_ranges: [[0x40105044,0x40105063]]
  x:
@@ -12718,7 +12720,7 @@ header:
  - 0x40105d5d: r
 0x40105d58:
  f: C 01
- l: fun_40105d58
+ l: wdev_call_by_ptr
  fn_end: '?'
  fn_ranges: [[0x40105d58,0x40105d71]]
  x:
@@ -12850,6 +12852,10 @@ header:
  f: C 01
  args:
   2: {'subtype': 'addr'}
+0x40105e9a:
+ f: C 01
+ args:
+  1: {'subtype': 'udec'}
 0x40105e9d:
  f: C 01
  args:
@@ -12948,6 +12954,10 @@ header:
  f: C 01
  args:
   2: {'subtype': 'addr'}
+0x40105f65:
+ f: C 01
+ args:
+  1: {'subtype': 'udec'}
 0x40105f68:
  f: C 01
  args:
@@ -13521,6 +13531,10 @@ header:
  f: C 01
  args:
   2: {'subtype': 'addr'}
+0x4010655d:
+ f: C 01
+ args:
+  1: {'subtype': 'udec'}
 0x4010656d:
  f: C 01
  args:
@@ -13533,6 +13547,10 @@ header:
  f: C 01
  args:
   2: {'subtype': 'addr'}
+0x4010657e:
+ f: C 01
+ args:
+  1: {'subtype': 'udec'}
 0x40106581:
  f: C 01
  args:
@@ -13622,6 +13640,10 @@ header:
  x:
  - 0x4010666b: j
  - 0x4010666e: j
+0x40106696:
+ f: C 01
+ args:
+  1: {'subtype': 'udec'}
 0x4010669b:
  f: C 01
  args:
@@ -13638,6 +13660,10 @@ header:
  f: C 01
  args:
   2: {'subtype': 'addr'}
+0x401066bf:
+ f: C 01
+ args:
+  1: {'subtype': 'udec'}
 0x401066c2:
  f: C 01
  args:
@@ -13661,6 +13687,10 @@ header:
  f: C 01
  args:
   2: {'subtype': 'addr'}
+0x4010670c:
+ f: C 01
+ args:
+  1: {'subtype': 'udec'}
 0x40106715:
  f: C 01
  l:
@@ -13672,6 +13702,10 @@ header:
  f: C 01
  args:
   2: {'subtype': 'addr'}
+0x4010671a:
+ f: C 01
+ args:
+  1: {'subtype': 'udec'}
 0x40106724:
  f: D 04
  l:

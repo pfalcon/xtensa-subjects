@@ -4737,9 +4737,9 @@ header:
  - 0x40274af4: o
  - 0x40274b0d: o
 0x3ffeece0:
- f: . 00
+ f: D 04
  l: rate_control_table
- cmnt: 'entries of size 8'
+ cmnt: 'entries of size 8, total 32'
  x:
  - 0x40104eb4: o
  - 0x40104eb8: o
@@ -4750,6 +4750,12 @@ header:
  - 0x40274e08: o
  - 0x40274e80: o
  - 0x40275061: o
+0x3ffeece4:
+ f: D 04
+ cmnt: 'RTS rate'
+0x3ffeece5:
+ f: D 04
+ cmnt: 'ACK rate'
 0x3ffeede0:
  f: . 00
  l:

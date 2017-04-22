@@ -623,10 +623,13 @@ header:
 0x3ffe81a8:
  f: D 04
  l: tcb
+ args:
+  0: {'subtype': 'addr'}
  cmnt: 'Array, num bytes: 4'
 0x3ffe81b0:
  f: D 04
- l:
+ l: ack_time_table
+ cmnt: '32 entries'
  x:
  - 0x40104ed0: o
  - 0x40104eda: o
