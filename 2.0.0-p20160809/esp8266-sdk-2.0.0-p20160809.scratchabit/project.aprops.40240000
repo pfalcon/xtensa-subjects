@@ -212,7 +212,7 @@ header:
  f: C 01
  l: airkiss_recv
  fn_end: 0x402405d3
- fn_ranges: [[0x402400b8,0x402400f7], [0x402400f8,0x4024016b], [0x4024016d,0x4024018e], [0x40240190,0x402401b0], [0x402405b5,0x402405bb], [0x402405bc,0x402405d3]]
+ fn_ranges: [[0x402400b8,0x402400f7], [0x402400f8,0x4024016b], [0x4024016d,0x4024018e], [0x40240190,0x402401c0], [0x402401c1,0x402401fb], [0x402405b5,0x402405bb], [0x402405bc,0x402405d3]]
 0x402400e9:
  f: C 01
  l:
@@ -7693,9 +7693,11 @@ header:
  - 0x402454f0: r
 0x402447a0:
  f: C 01
- l:
+ l: fun_402447a0
  args:
   2: {'subtype': 'addr'}
+ fn_end: '?'
+ fn_ranges: [[0x402447a0,0x402447af]]
  x:
  - 0x40245184: o
  - 0x402452a1: o
@@ -8100,7 +8102,9 @@ header:
  - 0x4027b0b8: r
 0x40244918:
  f: C 01
- l:
+ l: fun_40244918
+ fn_end: '?'
+ fn_ranges: [[0x40244918,0x40244aad]]
  x:
  - 0x40245180: o
  - 0x4024528f: o
@@ -8404,7 +8408,9 @@ header:
  - 0x4027aad1: r
 0x40244ab4:
  f: C 01
- l:
+ l: fun_40244ab4
+ fn_end: '?'
+ fn_ranges: [[0x40244ab4,0x40244b3f]]
  x:
  - 0x40245168: o
  - 0x402451aa: o
@@ -8552,7 +8558,9 @@ header:
  - 0x40244bc7: j
 0x40244bf4:
  f: C 01
- l:
+ l: fun_40244bf4
+ fn_end: '?'
+ fn_ranges: [[0x40244bf4,0x40244cb0]]
  x:
  - 0x4024517c: o
  - 0x40245266: o
@@ -8641,7 +8649,9 @@ header:
  - 0x4024523d: o
 0x40244cc8:
  f: C 01
- l:
+ l: fun_40244cc8
+ fn_end: '?'
+ fn_ranges: [[0x40244cc8,0x40244cff]]
  x:
  - 0x40245178: o
  - 0x4024525d: o
@@ -8770,7 +8780,7 @@ header:
  f: C 01
  l: simple_pair_enter_state
  fn_end: 0x40245167
- fn_ranges: [[0x40244d18,0x40244d43], [0x40244d8c,0x40244d91], [0x40244daf,0x40244dba]]
+ fn_ranges: [[0x40244d18,0x40245167]]
  x:
  - 0x40244a0e: c
  - 0x40244a6b: c
@@ -8804,12 +8814,17 @@ header:
  args:
   2: {'subtype': 'addr'}
 0x40244d43:
- f: D 04
+ f: C 01
  l:
  cmnt: 'xtensa: Array, num bytes: 39'
  x:
  - 0x40244d00: o
  - 0x40244d38: o
+0x40244d6a:
+ f: C 01
+ l:
+ x:
+ - 0x40244d43: j
 0x40244d78:
  f: C 01
  args:
@@ -8835,6 +8850,11 @@ header:
  - 0x402450aa: j
  - 0x40245133: j
  - 0x4024514f: j
+0x40244d91:
+ f: C 01
+ l:
+ x:
+ - 0x40244d67: j
 0x40244da7:
  f: C 01
  args:
@@ -8864,46 +8884,101 @@ header:
  - 0x40244f96: j
  - 0x40244fc5: j
  - 0x40244ff7: j
+0x40244dba:
+ f: C 01
+ l:
+ x:
+ - 0x40244d64: j
 0x40244dd0:
  f: C 01
  args:
   2: {'subtype': 'addr'}
+0x40244dd9:
+ f: C 01
+ l:
+ x:
+ - 0x40244d61: j
 0x40244def:
  f: C 01
  args:
   2: {'subtype': 'addr'}
+0x40244df8:
+ f: C 01
+ l:
+ x:
+ - 0x40244d5e: j
 0x40244e0e:
  f: C 01
  args:
   2: {'subtype': 'addr'}
+0x40244e17:
+ f: C 01
+ l:
+ x:
+ - 0x40244d5b: j
 0x40244e2d:
  f: C 01
  args:
   2: {'subtype': 'addr'}
+0x40244e36:
+ f: C 01
+ l:
+ x:
+ - 0x40244d58: j
 0x40244e49:
  f: C 01
  args:
   2: {'subtype': 'addr'}
+0x40244e52:
+ f: C 01
+ l:
+ x:
+ - 0x40244d55: j
 0x40244e68:
  f: C 01
  args:
   2: {'subtype': 'addr'}
+0x40244e71:
+ f: C 01
+ l:
+ x:
+ - 0x40244d52: j
 0x40244e87:
  f: C 01
  args:
   2: {'subtype': 'addr'}
+0x40244e90:
+ f: C 01
+ l:
+ x:
+ - 0x40244d4f: j
 0x40244ea6:
  f: C 01
  args:
   2: {'subtype': 'addr'}
+0x40244eaf:
+ f: C 01
+ l:
+ x:
+ - 0x40244d4c: j
 0x40244ec5:
  f: C 01
  args:
   2: {'subtype': 'addr'}
+0x40244ece:
+ f: C 01
+ l:
+ x:
+ - 0x40244d49: j
 0x40244ee3:
  f: C 01
  args:
   2: {'subtype': 'addr'}
+0x40244eec:
+ f: C 01
+ l:
+ x:
+ - 0x40244d46: j
 0x40244efe:
  f: C 01
  args:
@@ -11232,7 +11307,9 @@ header:
  - 0x40246523: j
 0x40246664:
  f: C 01
- l:
+ l: fun_40246664
+ fn_end: '?'
+ fn_ranges: [[0x40246664,0x4024677b]]
  x:
  - 0x40245a84: o
  - 0x40245b09: o
@@ -11926,7 +12003,9 @@ header:
  - 0x40247787: r
 0x40246ebc:
  f: C 01
- l:
+ l: fun_40246ebc
+ fn_end: '?'
+ fn_ranges: [[0x40246ebc,0x40246f85]]
  x:
  - 0x402470d0: o
  - 0x40247120: o
@@ -13173,7 +13252,9 @@ header:
  - 0x40247bf5: r
 0x40247a7c:
  f: C 01
- l:
+ l: fun_40247a7c
+ fn_end: '?'
+ fn_ranges: [[0x40247a7c,0x40247c51]]
  x:
  - 0x402477a0: o
  - 0x402477c8: o
@@ -15583,7 +15664,9 @@ header:
  - 0x40248cd1: j
 0x40248dcc:
  f: C 01
- l:
+ l: fun_40248dcc
+ fn_end: '?'
+ fn_ranges: [[0x40248dcc,0x40248e35]]
  x:
  - 0x402499ec: o
  - 0x402499f8: o
@@ -15966,7 +16049,9 @@ header:
  - 0x40249605: r
 0x402490bc:
  f: C 01
- l:
+ l: fun_402490bc
+ fn_end: '?'
+ fn_ranges: [[0x402490bc,0x402491a4]]
  x:
  - 0x40248f20: o
  - 0x40248f64: o
@@ -16108,7 +16193,9 @@ header:
  - 0x40249223: j
 0x40249270:
  f: C 01
- l:
+ l: fun_40249270
+ fn_end: '?'
+ fn_ranges: [[0x40249270,0x40249290]]
  x:
  - 0x40249310: o
  - 0x4024936f: o
@@ -159574,14 +159661,14 @@ header:
  - 0x4024614f: o
  - 0x4024621b: o
 0x402a2b10:
- f: . 00
- l:
+ f: A 10
+ l: s_ip_router__d__p_
  x:
  - 0x4024b47c: o
  - 0x4024b4d5: o
 0x402a2b30:
- f: D 04
- l:
+ f: A 10
+ l: s_mdns_c
  cmnt: 'xtensa: Array, num bytes: 7'
  x:
  - 0x4024be94: o
@@ -159594,99 +159681,99 @@ header:
  - 0x4024c6d6: o
  - 0x4024c768: o
 0x402a2b40:
- f: D 04
- l:
+ f: A 10
+ l: s_mdns_answer_copying_to_new_pbuf_failed_
  cmnt: 'xtensa: Array, num bytes: 40'
  x:
  - 0x4024b9e8: o
  - 0x4024bca4: o
 0x402a2b70:
- f: D 04
- l:
+ f: A 10
+ l: s_mdns_send_service_copying_to_new_pbuf_failed_
  cmnt: 'xtensa: Array, num bytes: 46'
  x:
  - 0x4024bea4: o
  - 0x4024c2c4: o
 0x402a2ba0:
- f: D 04
- l:
+ f: A 10
+ l: s_ERR_MEM__
  cmnt: 'xtensa: Array, num bytes: 10'
  x:
  - 0x4024bea8: o
  - 0x4024c30f: o
 0x402a2bb0:
- f: D 04
- l:
+ f: A 10
+ l: s_sta_udp_leave_multigrup_failed__
  cmnt: 'xtensa: Array, num bytes: 33'
  x:
  - 0x4024c58c: o
  - 0x4024c5b2: o
 0x402a2be0:
- f: D 04
- l:
+ f: A 10
+ l: s_ap_udp_join_multigrup_failed__
  cmnt: 'xtensa: Array, num bytes: 31'
  x:
  - 0x4024c590: o
  - 0x4024c5f7: o
 0x402a2c00:
- f: D 04
- l:
+ f: A 10
+ l: s_mdns_server_is_already_registered___
  cmnt: 'xtensa: Array, num bytes: 37'
  x:
  - 0x4024c604: o
  - 0x4024c61a: o
 0x402a2c30:
- f: D 04
- l:
+ f: A 10
+ l: s_udp_join_multigrup_failed__
  cmnt: 'xtensa: Array, num bytes: 28'
  x:
  - 0x4024c608: o
  - 0x4024c633: o
 0x402a2c50:
- f: D 04
- l:
+ f: A 10
+ l: s_ms_info_alloc_failed_
  cmnt: 'xtensa: Array, num bytes: 22'
  x:
  - 0x4024c6b0: o
  - 0x4024c87d: o
 0x402a2c70:
- f: D 04
- l:
+ f: A 10
+ l: s_mdns_ip_error___
  cmnt: 'xtensa: Array, num bytes: 17'
  x:
  - 0x4024c694: o
  - 0x4024c7a4: o
 0x402a2c90:
- f: D 04
- l:
+ f: A 10
+ l: s_host_name____s_
  cmnt: 'xtensa: Array, num bytes: 16'
  x:
  - 0x4024c698: o
  - 0x4024c7c6: o
 0x402a2ca0:
- f: D 04
- l:
+ f: A 10
+ l: s_server_name____s_
  cmnt: 'xtensa: Array, num bytes: 18'
  x:
  - 0x4024c69c: o
  - 0x4024c7d2: o
 0x402a2cc0:
- f: D 04
- l:
+ f: A 10
+ l: s_sta_udp_join_multigrup_failed__
  cmnt: 'xtensa: Array, num bytes: 32'
  x:
  - 0x4024c6a4: o
  - 0x4024c80b: o
 0x402a2ce0:
- f: D 04
- l:
+ f: A 10
+ l: s_ap_udp_join_multigrup_failed____1
  cmnt: 'xtensa: Array, num bytes: 31'
  x:
  - 0x4024c6ac: o
  - 0x4024c871: o
 0x402a2d00:
- f: . 00
- l:
+ f: A 10
+ l: s_udp_bind_failed__
  x:
  - 0x4024c6a8: o
  - 0x4024c82d: o
@@ -159710,8 +159797,8 @@ header:
  - 0x4025166c: o
  - 0x40251d36: o
 0x402a2d48:
- f: . 00
- l:
+ f: A 10
+ l: s_netio_c
  x:
  - 0x4024cb4c: o
  - 0x4024cb7e: o
@@ -159720,8 +159807,8 @@ header:
  - 0x4024ce8d: o
  - 0x4024ceae: o
 0x402a2d50:
- f: . 00
- l:
+ f: A 10
+ l: s_pbuf_c
  x:
  - 0x4024cf78: o
  - 0x4024cfa6: o
@@ -159730,43 +159817,43 @@ header:
  - 0x4024d1d8: o
  - 0x4024d1f5: o
 0x402a2d60:
- f: D 04
- l:
+ f: A 10
+ l: s_ping_c
  cmnt: 'xtensa: Array, num bytes: 7'
  x:
  - 0x4024d860: o
  - 0x4024d8e3: o
  - 0x4024d99c: o
 0x402a2d70:
- f: D 04
- l:
+ f: A 10
+ l: s_ping_timeout_
  cmnt: 'xtensa: Array, num bytes: 14'
  x:
  - 0x4024d5b4: o
  - 0x4024d5cd: o
 0x402a2d80:
- f: D 04
- l:
+ f: A 10
+ l: s_recv__s__byte____d__time____d_ms__seq____d_
  cmnt: 'xtensa: Array, num bytes: 44'
  x:
  - 0x4024d688: o
  - 0x4024d76b: o
 0x402a2db0:
- f: . 00
- l:
+ f: A 10
+ l: s_ping__d__timeout__d__total_payload__d_bytes___d_ms_
  x:
  - 0x4024d864: o
  - 0x4024d923: o
 0x402a2de8:
- f: . 00
- l:
+ f: A 10
+ l: s_raw_c
  x:
  - 0x4024db74: o
  - 0x4024db9e: o
  - 0x4024dbb4: o
 0x402a2df0:
- f: . 00
- l:
+ f: A 10
+ l: s_please_start_sntp_first___
  x:
  - 0x40100574: o
  - 0x40100587: o
@@ -160796,239 +160883,239 @@ header:
  - 0x40259b6c: o
  - 0x40259da0: o
 0x402a3cb0:
- f: D 04
- l:
+ f: A 10
+ l: s_esp__p__esp__proto_tcp__p__connection__d___2
  cmnt: 'xtensa: Array, num bytes: 42'
  x:
  - 0x40259b70: o
  - 0x40259dd1: o
 0x402a3ce0:
- f: D 04
- l:
+ f: A 10
+ l: s_free_heap__u___2
  cmnt: 'xtensa: Array, num bytes: 14'
  x:
  - 0x40259b74: o
  - 0x40259de0: o
 0x402a3cf0:
- f: D 04
- l:
+ f: A 10
+ l: s_mismatch_any_connection__discard_pkt__s_
  cmnt: 'xtensa: Array, num bytes: 41'
  x:
  - 0x40259b44: o
  - 0x40259c65: o
 0x402a3d20:
- f: D 04
- l:
+ f: A 10
+ l: s__s_connect_fail_
  cmnt: 'xtensa: Array, num bytes: 17'
  x:
  - 0x40259f44: o
  - 0x4025a034: o
 0x402a3d40:
- f: D 04
- l:
+ f: A 10
+ l: s_sta_reconn_ERR__d__ip__d__d__d__d_rp__d__lp__d_
  cmnt: 'xtensa: Array, num bytes: 48'
  x:
  - 0x4025a0a8: o
  - 0x4025a0da: o
 0x402a3d70:
- f: D 04
- l:
+ f: A 10
+ l: s_con_cb_IP__d__d__d__d_rp____d__lp____d_
  cmnt: 'xtensa: Array, num bytes: 40'
  x:
  - 0x4025a540: o
  - 0x4025a576: o
 0x402a3da0:
- f: D 04
- l:
+ f: A 10
+ l: s__s_para_err__esp____p_
  cmnt: 'xtensa: Array, num bytes: 23'
  x:
  - 0x4025a6e8: o
  - 0x4025a805: o
 0x402a3dc0:
- f: D 04
- l:
+ f: A 10
+ l: s__s_push_fail_
  cmnt: 'xtensa: Array, num bytes: 14'
  x:
  - 0x4025a6dc: o
  - 0x4025a760: o
 0x402a3dd0:
- f: D 04
- l:
+ f: A 10
+ l: s__s__ip__d__d__d__d_rport__d__port__d_
  cmnt: 'xtensa: Array, num bytes: 38'
  x:
  - 0x4025a6f4: o
  - 0x4025a8b5: o
 0x402a3e00:
- f: D 04
- l:
+ f: A 10
+ l: s_register_sta_conn_cb_fail_
  cmnt: 'xtensa: Array, num bytes: 27'
  x:
  - 0x4025a6fc: o
  - 0x4025a8e4: o
 0x402a3e20:
- f: D 04
- l:
+ f: A 10
+ l: s_exist_conn__registered_sta_con_cb_
  cmnt: 'xtensa: Array, num bytes: 35'
  x:
  - 0x4025a6e0: o
  - 0x4025a7ba: o
 0x402a3e50:
- f: D 04
- l:
+ f: A 10
+ l: s_rip__d__d__d__drp__d__lp__d_
  cmnt: 'xtensa: Array, num bytes: 29'
  x:
  - 0x4025a6e4: o
  - 0x4025a7c5: o
 0x402a3e70:
- f: D 04
- l:
+ f: A 10
+ l: s__s_mismatch_err_
  cmnt: 'xtensa: Array, num bytes: 17'
  x:
  - 0x4025aab4: o
  - 0x4025ab1d: o
 0x402a3e90:
- f: D 04
- l:
+ f: A 10
+ l: s_sta_dis_cb_ip___d__d__d__d_rp__d__lp__d___d___p_
  cmnt: 'xtensa: Array, num bytes: 49'
  x:
  - 0x4025aab0: o
  - 0x4025aace: o
 0x402a3ed0:
- f: D 04
- l:
+ f: A 10
+ l: s_Got_IP__IP__d__d__d__dMask__d__d__d__dGW__d__d__d__d_
  cmnt: 'xtensa: Array, num bytes: 54'
  x:
  - 0x4025ad90: o
  - 0x4025adff: o
 0x402a3f10:
- f: D 04
- l:
+ f: A 10
+ l: s_no_ap_to_join_
  cmnt: 'xtensa: Array, num bytes: 15'
  x:
  - 0x4025b0e8: o
  - 0x4025b3a1: o
 0x402a3f20:
- f: D 04
- l:
+ f: A 10
+ l: s__s__RIP___d__d__d__dRP____d_
  cmnt: 'xtensa: Array, num bytes: 29'
  x:
  - 0x4025b778: o
  - 0x4025b78f: o
 0x402a3f40:
- f: D 04
- l:
+ f: A 10
+ l: s__s_ERR____d_
  cmnt: 'xtensa: Array, num bytes: 13'
  x:
  - 0x4025b7bc: o
  - 0x4025b7d0: o
 0x402a3f50:
- f: D 04
- l:
+ f: A 10
+ l: s_trigger_usr_alloc_esp_fail_
  cmnt: 'xtensa: Array, num bytes: 28'
  x:
  - 0x4025b890: o
  - 0x4025b910: o
 0x402a3f70:
- f: D 04
- l:
+ f: A 10
+ l: s_trigger_usr_alloc_tcp_fail_
  cmnt: 'xtensa: Array, num bytes: 28'
  x:
  - 0x4025b89c: o
  - 0x4025b974: o
 0x402a3f90:
- f: D 04
- l:
+ f: A 10
+ l: s_trigger_usr_alloc_push_fail_
  cmnt: 'xtensa: Array, num bytes: 29'
  x:
  - 0x4025b8ac: o
  - 0x4025b9e1: o
 0x402a3fb0:
- f: D 04
- l:
+ f: A 10
+ l: s_context____p__esp____p__recv_callback____p_
  cmnt: 'xtensa: Array, num bytes: 44'
  x:
  - 0x4025b894: o
  - 0x4025b94b: o
 0x402a3fe0:
- f: D 04
- l:
+ f: A 10
+ l: s_mcast_format_error__pkt__s_
  cmnt: 'xtensa: Array, num bytes: 28'
  x:
  - 0x4025ba5c: o
  - 0x4025bafe: o
 0x402a4000:
- f: D 04
- l:
+ f: A 10
+ l: s_glen_format_error__pkt__s_
  cmnt: 'xtensa: Array, num bytes: 27'
  x:
  - 0x4025ba64: o
  - 0x4025bb41: o
 0x402a4020:
- f: D 04
- l:
+ f: A 10
+ l: s__s_alloc_usr_ctx_fail_
  cmnt: 'xtensa: Array, num bytes: 23'
  x:
  - 0x4025bd78: o
  - 0x4025be2d: o
 0x402a4040:
- f: D 04
- l:
+ f: A 10
+ l: s__s_alloc_usr_tmp_ctx_fail_
  cmnt: 'xtensa: Array, num bytes: 27'
  x:
  - 0x4025bd84: o
  - 0x4025be54: o
 0x402a4060:
- f: D 04
- l:
+ f: A 10
+ l: s_mobile_pkt_err__s_s_
  cmnt: 'xtensa: Array, num bytes: 21'
  x:
  - 0x4025c09c: o
  - 0x4025c156: o
 0x402a4080:
- f: D 04
- l:
+ f: A 10
+ l: s__s_route_result_fail_
  cmnt: 'xtensa: Array, num bytes: 22'
  x:
  - 0x4025c0c8: o
  - 0x4025c346: o
 0x402a40a0:
- f: D 04
- l:
+ f: A 10
+ l: s_to_mobile__but_it_is_not_exist__discard__pkt__s_
  cmnt: 'xtensa: Array, num bytes: 49'
  x:
  - 0x4025c0a8: o
  - 0x4025c1f0: o
 0x402a40e0:
- f: D 04
- l:
+ f: A 10
+ l: s_remove_head_alloc_fail_
  cmnt: 'xtensa: Array, num bytes: 24'
  x:
  - 0x4025c0b4: o
  - 0x4025c277: o
 0x402a4100:
- f: D 04
- l:
+ f: A 10
+ l: s__cidx__d__count__d_mac_list__
  cmnt: 'xtensa: Array, num bytes: 30'
  x:
  - 0x4025c470: o
  - 0x4025c492: o
 0x402a4120:
- f: D 04
- l:
+ f: A 10
+ l: s_idx__d___02x__02x__02x__02x__02x__02x_
  cmnt: 'xtensa: Array, num bytes: 39'
  x:
  - 0x4025c474: o
  - 0x4025c4ce: o
 0x402a4150:
- f: D 04
- l:
+ f: A 10
+ l: s_the_length__u_in_topo_cmd_is_illegal_
  cmnt: 'xtensa: Array, num bytes: 38'
  x:
  - 0x4025c694: o
  - 0x4025c6f6: o
 0x402a4180:
- f: D 04
- l:
+ f: A 10
+ l: s_invalid_cmd_packet_
  cmnt: 'xtensa: Array, num bytes: 20'
  x:
  - 0x4025c970: o
@@ -161455,8 +161542,9 @@ header:
  f: D 04
  cmnt: 'xtensa: Array, num bytes: 12'
 0x402a48a4:
- f: . 00
+ f: D 04
  l:
+ cmnt: 'size: 0xd4'
  x:
  - 0x40264284: o
  - 0x402642ff: o
@@ -161657,19 +161745,24 @@ header:
  - 0x40268dfc: o
  - 0x40268e38: o
 0x402a4c70:
- f: D 04
+ f: A 10
+ l: s__d____2
  cmnt: 'xtensa: Array, num bytes: 5'
 0x402a4c78:
- f: D 04
+ f: A 10
+ l: s__d____3
  cmnt: 'xtensa: Array, num bytes: 5'
 0x402a4c80:
- f: D 04
+ f: A 10
+ l: s__d___d__
  cmnt: 'xtensa: Array, num bytes: 9'
 0x402a4c90:
- f: D 04
+ f: A 10
+ l: s__d___d____1
  cmnt: 'xtensa: Array, num bytes: 9'
 0x402a4ca0:
- f: D 04
+ f: A 10
+ l: s__d___d____2
  cmnt: 'xtensa: Array, num bytes: 9'
 0x402a4cb0:
  f: A 10
@@ -161847,182 +161940,182 @@ header:
  - 0x402710c4: o
  - 0x40271114: o
 0x402a5070:
- f: D 04
- l:
+ f: A 10
+ l: s_cnt__
  cmnt: 'xtensa: Array, num bytes: 6'
  x:
  - 0x402710bc: o
  - 0x402710f2: o
 0x402a5078:
- f: . 00
- l:
+ f: A 10
+ l: s_uncnt__
  x:
  - 0x402710c0: o
  - 0x40271101: o
 0x402a5080:
- f: D 04
- l:
+ f: A 10
+ l: s_tx_rts_error_0x_x_
  cmnt: 'xtensa: Array, num bytes: 19'
  x:
  - 0x401042cc: o
  - 0x40104329: o
 0x402a50a0:
- f: . 00
- l:
+ f: A 10
+ l: s_tx_error_0x_x_
  x:
  - 0x4010436c: o
  - 0x401043b0: o
 0x402a50b0:
- f: D 04
- l:
+ f: A 10
+ l: s_pm_for_bcn_only_mode_c
  cmnt: 'xtensa: Array, num bytes: 23'
  x:
  - 0x402713d4: o
  - 0x40271448: o
  - 0x4027148c: o
 0x402a50d0:
- f: D 04
- l:
+ f: A 10
+ l: s_force_slp_disable
  cmnt: 'xtensa: Array, num bytes: 18'
  x:
  - 0x402712bc: o
  - 0x402712ef: o
 0x402a50f0:
- f: D 04
- l:
+ f: A 10
+ l: s_force_slp_enable
  cmnt: 'xtensa: Array, num bytes: 17'
  x:
  - 0x402712c0: o
  - 0x40271303: o
 0x402a5110:
- f: D 04
- l:
+ f: A 10
+ l: s__type___d
  cmnt: 'xtensa: Array, num bytes: 10'
  x:
  - 0x402712c4: o
  - 0x4027136c: o
 0x402a5120:
- f: D 04
- l:
+ f: A 10
+ l: s____6
  cmnt: 'xtensa: Array, num bytes: 2'
  x:
  - 0x402712c8: o
  - 0x40271375: o
 0x402a5130:
- f: D 04
- l:
+ f: A 10
+ l: s_fpm_close__d__
  cmnt: 'xtensa: Array, num bytes: 15'
  x:
  - 0x402713d0: o
  - 0x40271414: o
 0x402a5140:
- f: D 04
- l:
+ f: A 10
+ l: s_fpm_err_flash_tmp_alloc_fail_
  cmnt: 'xtensa: Array, num bytes: 30'
  x:
  - 0x40271464: o
  - 0x4027149c: o
 0x402a5160:
- f: D 04
- l:
+ f: A 10
+ l: s_fpm_open_type__d__d_
  cmnt: 'xtensa: Array, num bytes: 21'
  x:
  - 0x40271468: o
  - 0x402714bc: o
 0x402a5180:
- f: D 04
- l:
+ f: A 10
+ l: s_list_null___1
  cmnt: 'xtensa: Array, num bytes: 11'
  x:
  - 0x40271adc: o
  - 0x40271d11: o
 0x402a5190:
- f: D 04
- l:
+ f: A 10
+ l: s_nul_mode__fpm_auto_sleep_set_
  cmnt: 'xtensa: Array, num bytes: 30'
  x:
  - 0x40271db8: o
  - 0x40271dcb: o
 0x402a51b0:
- f: D 04
- l:
+ f: A 10
+ l: s_disalbe_
  cmnt: 'xtensa: Array, num bytes: 9'
  x:
  - 0x40271dbc: o
  - 0x40271ddb: o
 0x402a51c0:
- f: . 00
- l:
+ f: A 10
+ l: s_enalbe_
  x:
  - 0x40271dc0: o
  - 0x40271dec: o
 0x402a51d0:
- f: D 04
- l:
+ f: A 10
+ l: s_pm_c
  cmnt: 'xtensa: Array, num bytes: 5'
  x:
  - 0x40272710: o
  - 0x402727d3: o
  - 0x4027286c: o
 0x402a51e0:
- f: D 04
- l:
+ f: A 10
+ l: s_flash_read_err1_
  cmnt: 'xtensa: Array, num bytes: 17'
  x:
  - 0x40271f2c: o
  - 0x40271f78: o
 0x402a5200:
- f: D 04
- l:
+ f: A 10
+ l: s_flash_read_err2_
  cmnt: 'xtensa: Array, num bytes: 17'
  x:
  - 0x4027209c: o
  - 0x40272175: o
 0x402a5220:
- f: D 04
- l:
+ f: A 10
+ l: s_sleep_disable
  cmnt: 'xtensa: Array, num bytes: 14'
  x:
  - 0x40272240: o
  - 0x40272287: o
 0x402a5230:
- f: D 04
- l:
+ f: A 10
+ l: s_sleep_enable
  cmnt: 'xtensa: Array, num bytes: 13'
  x:
  - 0x40272248: o
  - 0x4027229b: o
 0x402a5240:
- f: D 04
- l:
+ f: A 10
+ l: s__type___d__1
  cmnt: 'xtensa: Array, num bytes: 10'
  x:
  - 0x4027224c: o
  - 0x402722f0: o
 0x402a5250:
- f: D 04
- l:
+ f: A 10
+ l: s____7
  cmnt: 'xtensa: Array, num bytes: 2'
  x:
  - 0x40272250: o
  - 0x402722f9: o
 0x402a5260:
- f: D 04
- l:
+ f: A 10
+ l: s_pm_wakeup_st___d__cause___d_
  cmnt: 'xtensa: Array, num bytes: 29'
  x:
  - 0x4027241c: o
  - 0x40272499: o
 0x402a5280:
- f: D 04
- l:
+ f: A 10
+ l: s_rf_close_nulldata_ture
  cmnt: 'xtensa: Array, num bytes: 23'
  x:
  - 0x40272620: o
  - 0x40272649: o
 0x402a52a0:
- f: D 04
- l:
+ f: A 10
+ l: s_rf_close_nulldata_false
  cmnt: 'xtensa: Array, num bytes: 24'
  x:
  - 0x4027265c: o
@@ -162199,69 +162292,69 @@ header:
  - 0x4027632c: o
  - 0x4027643c: o
 0x402a5440:
- f: D 04
- l: flash_str$2519_3_4
+ f: A 10
+ l: s_htm2__u__
  cmnt: 'Array, num bytes: 10\nxtensa: Array, num bytes: 10'
  x:
  - 0x40276324: o
  - 0x4027640e: o
 0x402a5450:
- f: D 04
- l: flash_str$2527_3_9
+ f: A 10
+ l: s_init_
  cmnt: 'Array, num bytes: 6\nxtensa: Array, num bytes: 6'
  x:
  - 0x4027633c: o
  - 0x402764e5: o
 0x402a5460:
- f: D 04
- l: flash_str$2531_3_13
+ f: A 10
+ l: s_lsb__u____1
  cmnt: 'Array, num bytes: 9\nxtensa: Array, num bytes: 9'
  x:
  - 0x40276340: o
  - 0x402764f8: o
  - 0x40276552: o
 0x402a5470:
- f: D 04
- l: flash_str$2529_3_11
+ f: A 10
+ l: s_clr__x__
  cmnt: 'Array, num bytes: 9\nxtensa: Array, num bytes: 9'
  x:
  - 0x40276344: o
  - 0x4027651f: o
 0x402a5480:
- f: D 04
- l: flash_str$2532_3_14
+ f: A 10
+ l: s____8
  cmnt: 'Array, num bytes: 2\nxtensa: Array, num bytes: 2'
  x:
  - 0x4027634c: o
  - 0x40276565: o
 0x402a5490:
- f: D 04
- l: flash_str$2530_3_12
+ f: A 10
+ l: s_htm__u__
  cmnt: 'Array, num bytes: 9\nxtensa: Array, num bytes: 9'
  x:
  - 0x40276348: o
  - 0x40276536: o
 0x402a54a0:
- f: D 04
- l: flash_str$2528_3_10
+ f: A 10
+ l: s_set__x__
  cmnt: 'Array, num bytes: 9\nxtensa: Array, num bytes: 9'
 0x402a54b0:
- f: D 04
- l: flash_str$2933_7_2
+ f: A 10
+ l: s_period__u_
  cmnt: 'Array, num bytes: 11\nxtensa: Array, num bytes: 11'
  x:
  - 0x402767dc: o
  - 0x402767f1: o
 0x402a54c0:
- f: D 04
- l: flash_str$3413_13_6
+ f: A 10
+ l: s_test_pwm_channel_num___d___
  cmnt: 'Array, num bytes: 28'
  x:
  - 0x40276858: o
  - 0x4027694a: o
 0x402a54e0:
- f: D 04
- l:
+ f: A 10
+ l: s_sc_airkiss_c__1
  cmnt: 'xtensa: Array, num bytes: 13'
  x:
  - 0x40276984: o
@@ -162277,78 +162370,78 @@ header:
  - 0x4027837c: o
  - 0x402783f8: o
 0x402a54f0:
- f: D 04
- l:
+ f: A 10
+ l: s_sc_pAKGuideGlob_not_null__
  cmnt: 'xtensa: Array, num bytes: 27'
  x:
  - 0x40276988: o
  - 0x402769b5: o
 0x402a5510:
- f: D 04
- l:
+ f: A 10
+ l: s_sc_pAKGuideGlob_malloc_err__s__d__
  cmnt: 'xtensa: Array, num bytes: 35'
  x:
  - 0x4027698c: o
  - 0x402769c7: o
 0x402a5540:
- f: D 04
- l:
+ f: A 10
+ l: s_sc_pkiss_head_not_null__
  cmnt: 'xtensa: Array, num bytes: 25'
  x:
  - 0x40276a0c: o
  - 0x40276a37: o
 0x402a5560:
- f: D 04
- l:
+ f: A 10
+ l: s_sc_init_p_listen_malloc_err__s__s__
  cmnt: 'xtensa: Array, num bytes: 36'
  x:
  - 0x40276a10: o
  - 0x40276a47: o
 0x402a5590:
- f: D 04
- l:
+ f: A 10
+ l: s_sc_pkiss_head_not_null____1
  cmnt: 'xtensa: Array, num bytes: 25'
  x:
  - 0x40276a68: o
  - 0x40276a93: o
 0x402a55b0:
- f: D 04
- l:
+ f: A 10
+ l: s_sc_init_p_listen_malloc_err__s__s____1
  cmnt: 'xtensa: Array, num bytes: 36'
  x:
  - 0x40276a6c: o
  - 0x40276aa3: o
 0x402a55e0:
- f: D 04
- l:
+ f: A 10
+ l: s_rigtt_rssi__d_
  cmnt: 'xtensa: Array, num bytes: 15'
  x:
  - 0x40276b60: o
  - 0x40276be4: o
 0x402a55f0:
- f: D 04
- l:
+ f: A 10
+ l: s__02x_
  cmnt: 'xtensa: Array, num bytes: 6'
  x:
  - 0x40276b64: o
  - 0x40276bef: o
 0x402a55f8:
- f: D 04
- l:
+ f: A 10
+ l: s____9
  cmnt: 'xtensa: Array, num bytes: 2'
  x:
  - 0x40276b68: o
  - 0x40276c05: o
 0x402a5600:
- f: D 04
- l:
+ f: A 10
+ l: s_p_kiss_N_NULL_
  cmnt: 'xtensa: Array, num bytes: 15'
  x:
  - 0x40276b6c: o
  - 0x40276c15: o
 0x402a5610:
- f: D 04
- l:
+ f: A 10
+ l: s_T_Direct_recved_
  cmnt: 'xtensa: Array, num bytes: 17'
  x:
  - 0x40276b74: o
