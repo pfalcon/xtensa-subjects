@@ -7,21 +7,21 @@ def make_data_arr(aspace, start, end, sz):
 
 FUNCS_BLACKLIST = {
     # Parse issues
-    "__addsf3",
-    "__subdf3",
-    "__divsi3",
-    "__udivsi3",
-    "__floatunsisf",
-    "__floatsidf",
+    #"__addsf3",
+    #"__subdf3",
+    #"__divsi3",
+    #"__udivsi3",
+    #"__floatunsisf",
+    #"__floatsidf",
     # multiple entries issues
-    "conv_str_decimal",
-    "ets_vprintf",
-    "UartDwnLdProc",
-    "rom_set_channel_freq",
-    "rom_chip_50_set_channel",
+    #"conv_str_decimal",
+    #"ets_vprintf",
+    #"UartDwnLdProc",
+    #"rom_set_channel_freq",
+    #"rom_chip_50_set_channel",
     # too complex, trips propagator
-    "MD5Transform",
-    "SHA1Transform",
+    #"MD5Transform",
+    #"SHA1Transform",
 }
 
 
