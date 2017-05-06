@@ -10,7 +10,7 @@
 
 ${SABLOCK}make_callgraph.sh funcs/ --group _ignore_=callgraph_runtime.txt
 
-cp funcs/callgraph.dot ..
+cp funcs/callgraph.dot .
 
 # Rendering graphs requires Graphviz http://www.graphviz.org/
 dot -T svg callgraph.dot -o callgraph.svg
