@@ -6,7 +6,7 @@ _xtos_set_exception_handler -> _xtos_p_none [style=dashed]
 _xtos_set_exception_handler -> _xtos_unhandled_exception [style=dashed]
 _xtos_l1int_handler -> _xtos_return_from_exc [style=dashed]
 _xtos_c_wrapper_handler -> _xtos_return_from_exc [style=dashed]
-loc_40000698 -> xthal_copy123
+xthal_memcpy -> xthal_copy123
 cmd_parse -> convert_para_str
 cmd_parse -> get_first_seg
 cmd_parse -> strcpy
@@ -108,6 +108,8 @@ UartConnCheck -> SendMsg
 UartConnCheck -> UartConnectProc
 UartConnCheck -> uart_baudrate_detect
 UartConnCheck -> uart_div_modify
+UartDwnLdProc -> RcvMsg
+UartDwnLdProc -> SendMsg
 FlashDwnLdStartMsgProc -> Cache_Read_Disable
 FlashDwnLdStartMsgProc -> SPIEraseArea
 FilePacketSendReqMsgProc -> SPIRead
@@ -215,6 +217,7 @@ slc_enable -> slc_intr_handler [style=dashed]
 slc_send_to_host_chain -> gpio_input_get
 slc_from_host_chain_recycle -> slc_add_credits
 slc_init_credit -> slc_add_credits
+rom_chip_50_set_channel -> __fixdfsi
 rijndaelKeySetupDec -> rijndaelKeySetupEnc__1
 aes_decrypt_init__1 -> rijndaelKeySetupDec
 aes_decrypt__1 -> rijndaelDecrypt
