@@ -10956,9 +10956,15 @@ header:
  f: C 01
  args:
   2: {'subtype': 'addr'}
+0x40006c9f:
+ f: C 01
+ args:
+  2: {'subtype': 'udec'}
 0x40006ca5:
  f: C 01
  l:
+ args:
+  2: {'subtype': 'udec'}
  x:
  - 0x3fffcbe0: o
  - 0x40006c94: j
@@ -11044,61 +11050,85 @@ header:
 0x40006d84:
  f: C 01
  l:
+ args:
+  2: {'subtype': 'udec'}
  x:
  - 0x3fffcc14: o
 0x40006d8a:
  f: C 01
  l:
+ args:
+  2: {'subtype': 'udec'}
  x:
  - 0x3fffcc10: o
 0x40006d90:
  f: C 01
  l:
+ args:
+  2: {'subtype': 'udec'}
  x:
  - 0x3fffcc0c: o
 0x40006d96:
  f: C 01
  l:
+ args:
+  2: {'subtype': 'udec'}
  x:
  - 0x3fffcc08: o
 0x40006d9c:
  f: C 01
  l:
+ args:
+  2: {'subtype': 'udec'}
  x:
  - 0x3fffcc04: o
 0x40006da2:
  f: C 01
  l:
+ args:
+  2: {'subtype': 'udec'}
  x:
  - 0x3fffcc00: o
 0x40006da8:
  f: C 01
  l:
+ args:
+  2: {'subtype': 'udec'}
  x:
  - 0x3fffcbfc: o
 0x40006dae:
  f: C 01
  l:
+ args:
+  2: {'subtype': 'udec'}
  x:
  - 0x3fffcbf8: o
 0x40006db4:
  f: C 01
  l:
+ args:
+  2: {'subtype': 'udec'}
  x:
  - 0x3fffcbf4: o
 0x40006dba:
  f: C 01
  l:
+ args:
+  2: {'subtype': 'udec'}
  x:
  - 0x3fffcbf0: o
 0x40006dc0:
  f: C 01
  l:
+ args:
+  2: {'subtype': 'udec'}
  x:
  - 0x3fffcbec: o
 0x40006dc6:
  f: C 01
  l:
+ args:
+  2: {'subtype': 'udec'}
  x:
  - 0x3fffcbe8: o
 0x40006dcc:
