@@ -15300,7 +15300,7 @@ header:
  f: C 01
  l: __subdf3
  fn_end: '?'
- fn_ranges: [[0x4000c67c,0x4000c685], [0x4000c688,0x4000c691]]
+ fn_ranges: [[0x4000c518,0x4000c80e]]
 0x4000c691:
  f: C 01
  l:
