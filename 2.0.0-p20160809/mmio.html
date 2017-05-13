@@ -44,8 +44,8 @@
 <tr><td>40004c50</td><td>gpio_init</td><td>['0x60000324']</td></tr>
 <tr><td>40004cd0</td><td>gpio_output_set</td><td>['0x60000304', '0x60000308', '0x60000310', '0x60000314']</td></tr>
 <tr><td>40004cf0</td><td>gpio_input_get</td><td>['0x60000318']</td></tr>
-<tr><td>40004d04</td><td>gpio_register_set</td><td>['0x60000328 + ($a12 << 2)']</td></tr>
-<tr><td>40004d5c</td><td>gpio_register_get</td><td>['0x60000328 + ($a2 << 2)']</td></tr>
+<tr><td>40004d04</td><td>gpio_register_set</td><td>['0x60000328 + $a12 * 4']</td></tr>
+<tr><td>40004d5c</td><td>gpio_register_get</td><td>['0x60000328 + $a2 * 4']</td></tr>
 <tr><td>40004d90</td><td>gpio_pin_intr_state_set</td><td>['0x60000328 + *(u32*)$sp * 4']</td></tr>
 <tr><td>40004dcc</td><td>gpio_intr_ack</td><td>['0x60000320']</td></tr>
 <tr><td>40004e34</td><td>gpio_irq_handler</td><td>['0x6000031c', '0x60000324']</td></tr>
@@ -83,8 +83,8 @@
 <tr><td>40006a98</td><td>rom_tx_mac_disable</td><td>['0x3ff20c94', '0x3ff20de0']</td></tr>
 <tr><td>40006ad4</td><td>rom_tx_mac_enable</td><td>['0x3ff20c94', '0x3ff20de0']</td></tr>
 <tr><td>40006f84</td><td>rom_chip_50_set_channel</td><td>['0x600098a0', '0x60009b14']</td></tr>
-<tr><td>40007268</td><td>rom_i2c_readReg</td><td>['0x60000d00 + ($a3 << 2)']</td></tr>
-<tr><td>400072d8</td><td>rom_i2c_writeReg</td><td>['0x60000d00 + ($a3 << 2)']</td></tr>
+<tr><td>40007268</td><td>rom_i2c_readReg</td><td>['0x60000d00 + $a3 * 4']</td></tr>
+<tr><td>400072d8</td><td>rom_i2c_writeReg</td><td>['0x60000d00 + $a3 * 4']</td></tr>
 <tr><td>4000737c</td><td>rom_pbus_debugmode</td><td>['0x3ff20c70', '0x60000594', '0x60009b08']</td></tr>
 <tr><td>4000747c</td><td>rom_pbus_force_test</td><td>['0x60000594', '0x600005a0']</td></tr>
 <tr><td>40007648</td><td>rom_pbus_workmode</td><td>['0x60000594', '0x60009b08']</td></tr>
