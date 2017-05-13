@@ -1,0 +1,97 @@
+<html><body><table border='1' cellspacing='0'>
+<tr><td>40000fec</td><td>main</td><td>['0x60000318']</td></tr>
+<tr><td>40001160</td><td>sip_40001160</td><td>['0x60000824']</td></tr>
+<tr><td>400011ac</td><td>boot_from_something</td><td>['0x60000318']</td></tr>
+<tr><td>400025e0</td><td>rtc_get_reset_reason</td><td>['0x60000708', '0x60000714', '0x60000718']</td></tr>
+<tr><td>4000264c</td><td>software_reset</td><td>['0x60000700']</td></tr>
+<tr><td>40002668</td><td>rtc_set_sleep_mode</td><td>['0x60000704', '0x60000708', '0x60000718', '0x6000071c']</td></tr>
+<tr><td>40002870</td><td>rtc_enter_sleep</td><td>['0x6000036c', '0x60000370', '0x60000704', '0x60000708', '0x60000710', '0x60000718', '0x6000071c', '0x60000720', '0x60000724', '0x600007a8']</td></tr>
+<tr><td>400029ec</td><td>rtc_intr_handler</td><td>['0x60000718', '0x60000720', '0x60000724', '0x60000728']</td></tr>
+<tr><td>40002a40</td><td>ets_rtc_int_register</td><td>['0x60000720', '0x60000724']</td></tr>
+<tr><td>40002bf8</td><td>timer_frc2_set_alarm</td><td>['0x60000630']</td></tr>
+<tr><td>40002c04</td><td>ets_timer_set_hwtimer</td><td>['0x60000624']</td></tr>
+<tr><td>40002cc4</td><td>ets_timer_arm</td><td>['0x60000624']</td></tr>
+<tr><td>40002da8</td><td>ets_timer_handler_isr__1</td><td>['0x60000624']</td></tr>
+<tr><td>40002e68</td><td>ets_timer_init__1</td><td>['0x3ff00004', '0x60000620', '0x60000628', '0x60000630']</td></tr>
+<tr><td>40002f3c</td><td>wdt_irq_real_handler</td><td>['0x60000910', '0x60000914', '0x60000918']</td></tr>
+<tr><td>40002fa0</td><td>ets_wdt_enable</td><td>['0x60000900', '0x60000904', '0x60000908']</td></tr>
+<tr><td>400030f0</td><td>ets_wdt_disable</td><td>['0x60000900', '0x60000914']</td></tr>
+<tr><td>40003170</td><td>ets_wdt_init</td><td>['0x3ff00004', '0x60000900']</td></tr>
+<tr><td>40003230</td><td>UartConnCheck</td><td>['0x60000820', '0x60000824']</td></tr>
+<tr><td>40003924</td><td>uart_baudrate_detect</td><td>['0x60000018 + (i16)0xf00 * (i16)$a2', '0x60000028 + (i16)0xf00 * (i16)$a2', '0x6000002c + (i16)0xf00 * (i16)$a2', '0x60000030 + (i16)0xf00 * (i16)$a2']</td></tr>
+<tr><td>400039d8</td><td>uart_div_modify</td><td>['0x60000014 + (i16)0xf00 * (i16)$a2', '0x60000020 + (i16)0xf00 * (i16)$a2']</td></tr>
+<tr><td>40003a14</td><td>Uart_Init</td><td>['0x60000020 + (i16)0xf00 * (i16)$a12', '0x60000818', '0x60000824', '0x60000838']</td></tr>
+<tr><td>40003b30</td><td>uart_tx_one_char</td><td>['0x60000000 + (i16)0xf00 * (i16)*(u8*)(UartDev + 0x40)', '0x6000001c + (i16)0xf00 * (i16)*(u8*)(UartDev + 0x40)']</td></tr>
+<tr><td>40003b64</td><td>uart_rx_one_char_block</td><td>['0x60000000 + (i16)0xf00 * (i16)*(u8*)(UartDev + 0x40)', '0x6000001c + (i16)0xf00 * (i16)*(u8*)(UartDev + 0x40)']</td></tr>
+<tr><td>40003b8c</td><td>uart_rx_one_char</td><td>['0x60000000 + (i16)0xf00 * (i16)*(u8*)(UartDev + 0x40)', '0x6000001c + (i16)0xf00 * (i16)*(u8*)(UartDev + 0x40)']</td></tr>
+<tr><td>40003bbc</td><td>uart_rx_intr_handler</td><td>['0x60000000 + 0xf00 * (i16)(u8)*(u32*)(UartDev + 0x40)', '0x60000008 + (i16)(u8)*(u32*)(UartDev + 0x40) * 0xf00', '0x60000010 + (i16)(u8)*(u32*)(UartDev + 0x40) * 0xf00', '0x6000001c + 0xf00 * (i16)(u8)*(u32*)(UartDev + 0x40)']</td></tr>
+<tr><td>40003f58</td><td>SelectSpiFunction</td><td>['0x6000081c', '0x60000820', '0x60000824', '0x60000828', '0x6000082c', '0x60000830', '0x60000d48']</td></tr>
+<tr><td>40004080</td><td>SPIEraseChip_internal</td><td>['0x60000200']</td></tr>
+<tr><td>400040c0</td><td>SPIEraseSector_internal</td><td>['0x60000200', '0x60000204']</td></tr>
+<tr><td>40004120</td><td>SPIEraseBlock_internal</td><td>['0x60000200', '0x60000204']</td></tr>
+<tr><td>40004174</td><td>SPI_page_program</td><td>['0x60000200', '0x60000204', '0x60000240', '0x60000240 + $a4 * 4']</td></tr>
+<tr><td>400042ac</td><td>SPIRead_internal</td><td>['0x60000200', '0x60000204', '0x60000240']</td></tr>
+<tr><td>400043c8</td><td>SPI_read_status</td><td>['0x60000200', '0x60000210']</td></tr>
+<tr><td>40004400</td><td>SPI_write_status</td><td>['0x60000200', '0x60000210']</td></tr>
+<tr><td>4000443c</td><td>SPI_write_enable</td><td>['0x60000200']</td></tr>
+<tr><td>4000448c</td><td>Wait_SPI_Idle</td><td>['0x3ff0000c']</td></tr>
+<tr><td>400044c0</td><td>Enable_QMode</td><td>['0x60000208']</td></tr>
+<tr><td>40004508</td><td>Disable_QMode</td><td>['0x60000208']</td></tr>
+<tr><td>40004568</td><td>SPIFlashModeSetup</td><td>['0x60000200', '0x60000208', '0x6000021c', '0x60000800']</td></tr>
+<tr><td>40004678</td><td>Cache_Read_Enable</td><td>['0x3ff0000c', '0x3ff00024', '0x60000208']</td></tr>
+<tr><td>400047f0</td><td>Cache_Read_Disable</td><td>['0x3ff0000c', '0x60000208']</td></tr>
+<tr><td>400048ec</td><td>SPIReadModeCnfig</td><td>['0x60000208']</td></tr>
+<tr><td>40004c50</td><td>gpio_init</td><td>['0x60000324']</td></tr>
+<tr><td>40004cd0</td><td>gpio_output_set</td><td>['0x60000304', '0x60000308', '0x60000310', '0x60000314']</td></tr>
+<tr><td>40004cf0</td><td>gpio_input_get</td><td>['0x60000318']</td></tr>
+<tr><td>40004d04</td><td>gpio_register_set</td><td>['0x60000328 + ($a12 << 2)']</td></tr>
+<tr><td>40004d5c</td><td>gpio_register_get</td><td>['0x60000328 + ($a2 << 2)']</td></tr>
+<tr><td>40004d90</td><td>gpio_pin_intr_state_set</td><td>['0x60000328 + *(u32*)$sp * 4']</td></tr>
+<tr><td>40004dcc</td><td>gpio_intr_ack</td><td>['0x60000320']</td></tr>
+<tr><td>40004e34</td><td>gpio_irq_handler</td><td>['0x6000031c', '0x60000324']</td></tr>
+<tr><td>40004e90</td><td>gpio_pin_wakeup_enable</td><td>['0x60000328 + *(u32*)$sp * 4']</td></tr>
+<tr><td>40004ed4</td><td>gpio_pin_wakeup_disable</td><td>['0x60000328 + $a3 * 4']</td></tr>
+<tr><td>400056ec</td><td>sip_400056ec</td><td>['0x60000b94']</td></tr>
+<tr><td>40005c50</td><td>slc_init_attach</td><td>['0x60000a00', '0x60000a04', '0x60000b00', '0x60000b10', '0x60000b28', '0x60000b5c', '0x60000bb0', '0x60000bb4']</td></tr>
+<tr><td>40005d90</td><td>slc_enable</td><td>['0x60000b0c']</td></tr>
+<tr><td>40005de4</td><td>slc_send_to_host_chain</td><td>['0x60000304', '0x60000308', '0x60000b0c', '0x60000b24']</td></tr>
+<tr><td>40005e94</td><td>slc_from_host_chain_recycle</td><td>['0x60000b28']</td></tr>
+<tr><td>40005f10</td><td>slc_to_host_chain_recycle</td><td>['0x60000b48']</td></tr>
+<tr><td>40005f24</td><td>slc_from_host_chain_fetch</td><td>['0x60000b4c']</td></tr>
+<tr><td>40005f50</td><td>slc_intr_handler</td><td>['0x60000304', '0x60000308', '0x60000b08', '0x60000b0c', '0x60000b10']</td></tr>
+<tr><td>40006014</td><td>slc_pause_from_host</td><td>['0x60000b0c']</td></tr>
+<tr><td>4000603c</td><td>slc_resume_from_host</td><td>['0x60000b0c']</td></tr>
+<tr><td>40006068</td><td>slc_set_host_io_max_window</td><td>['0x60000b44']</td></tr>
+<tr><td>4000608c</td><td>slc_init_credit</td><td>['0x60000b34']</td></tr>
+<tr><td>400060ac</td><td>slc_add_credits</td><td>['0x60000b34']</td></tr>
+<tr><td>400060d0</td><td>rom_chip_v5_disable_cca</td><td>['0x60009b00']</td></tr>
+<tr><td>400060ec</td><td>rom_chip_v5_enable_cca</td><td>['0x60009b00']</td></tr>
+<tr><td>4000610c</td><td>rom_chip_v5_sense_backoff</td><td>['0x60009c28', '0x60009d24']</td></tr>
+<tr><td>4000615c</td><td>rom_dc_iq_est</td><td>['0x600005dc', '0x600005e0']</td></tr>
+<tr><td>400061b8</td><td>rom_en_pwdet</td><td>['0x60000d50', '0x60000d5c']</td></tr>
+<tr><td>40006260</td><td>rom_get_corr_power</td><td>['0x60000580', '0x60000584', '0x60000588', '0x6000058c', '0x600005dc', '0x600005e0', '0x600005e4']</td></tr>
+<tr><td>400062dc</td><td>rom_get_fm_sar_dout</td><td>['0x60000d50', '0x60000d80 + $a3 * 4']</td></tr>
+<tr><td>40006394</td><td>rom_get_noisefloor</td><td>['0x60009b64']</td></tr>
+<tr><td>40006400</td><td>rom_iq_est_disable</td><td>['0x6000057c']</td></tr>
+<tr><td>40006430</td><td>rom_iq_est_enable</td><td>['0x6000057c']</td></tr>
+<tr><td>40006628</td><td>rom_rxiq_get_mis</td><td>['0x60000580', '0x60000584', '0x60000588', '0x6000058c']</td></tr>
+<tr><td>40006738</td><td>rom_sar_init</td><td>['0x60000710']</td></tr>
+<tr><td>40006830</td><td>rom_set_noise_floor</td><td>['0x60009b60', '0x60009b64']</td></tr>
+<tr><td>40006874</td><td>rom_start_noisefloor</td><td>['0x60009b60', '0x60009b64']</td></tr>
+<tr><td>400068b4</td><td>rom_start_tx_tone</td><td>['0x600005b8', '0x600005bc', '0x600005c4']</td></tr>
+<tr><td>4000698c</td><td>rom_stop_tx_tone</td><td>['0x600005b8', '0x600005bc', '0x600005c4']</td></tr>
+<tr><td>40006a98</td><td>rom_tx_mac_disable</td><td>['0x3ff20c94', '0x3ff20de0']</td></tr>
+<tr><td>40006ad4</td><td>rom_tx_mac_enable</td><td>['0x3ff20c94', '0x3ff20de0']</td></tr>
+<tr><td>40006f84</td><td>rom_chip_50_set_channel</td><td>['0x600098a0', '0x60009b14']</td></tr>
+<tr><td>40007268</td><td>rom_i2c_readReg</td><td>['0x60000d00 + ($a3 << 2)']</td></tr>
+<tr><td>400072d8</td><td>rom_i2c_writeReg</td><td>['0x60000d00 + ($a3 << 2)']</td></tr>
+<tr><td>4000737c</td><td>rom_pbus_debugmode</td><td>['0x3ff20c70', '0x60000594', '0x60009b08']</td></tr>
+<tr><td>4000747c</td><td>rom_pbus_force_test</td><td>['0x60000594', '0x600005a0']</td></tr>
+<tr><td>40007648</td><td>rom_pbus_workmode</td><td>['0x60000594', '0x60009b08']</td></tr>
+<tr><td>40007804</td><td>rom_phy_reset_req</td><td>['0x60000710']</td></tr>
+<tr><td>40007a28</td><td>rom_cal_tos_v50</td><td>['0x60000d4c', '0x60009864']</td></tr>
+<tr><td>40008610</td><td>rom_rfcal_txiq</td><td>['0x6000983c', '0x60009860', '0x60009864', '0x60009a28']</td></tr>
+<tr><td>400088b8</td><td>rom_rfcal_txiq_cover</td><td>['0x600005b8']</td></tr>
+<tr><td>40008c6c</td><td>rom_set_txbb_atten</td><td>['0x60000504 + $a13 * 4']</td></tr>
+<tr><td>40008d34</td><td>rom_set_txiq_cal</td><td>['0x60009860']</td></tr>
+</table></body></html>
