@@ -1,3 +1,5 @@
+import sys
+
 def make_data_arr(aspace, start, end, sz):
     addr = start
     while addr < end:
@@ -44,6 +46,30 @@ def dump_funcs(APP):
     sys.exit(1)
 
 
+def dump_areas(APP):
+    for start, end, props, bytes, flags in APP.aspace.get_areas():
+        suffix = ""
+        if "access" in props:
+            suffix = "-" + props["access"].lower()
+        else:
+            # No access - null area
+            continue
+        fname = "%08x-%08x%s.bin" % (start, end + 1, suffix)
+        with open(fname, "wb") as f:
+            f.write(bytes)
+            print(fname, props)
+    sys.exit(1)
+
+
+def dump_symtab(APP):
+    with open("symtab.txt", "w") as f:
+        for label, addr in APP.aspace.labels_rev.items():
+            if isinstance(label, int):
+                label = APP.aspace.get_default_label(addr)
+            f.write("%08x %s\n" % (addr, label))
+    sys.exit(1)
+
+
 def main(APP):
     APP.aspace.memcpy(0x3fffc000, 0x4000e388, 0x857)
     APP.aspace.memcpy(0x3fffc860, 0x4000ebe8, 0x3fffdaac - 0x3fffc860)
@@ -57,3 +83,5 @@ def main(APP):
 
     # Uncomment to dump funcs on startup and exit
     #dump_funcs(APP)
+    #dump_areas(APP)
+    #dump_symtab(APP)
