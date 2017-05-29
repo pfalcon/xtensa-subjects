@@ -17,6 +17,12 @@ Things available in this directory:
   complete ESP8266 address space, with BootROM, iRAM, FlashROM-mapped code,
   dRAM, and even memory-mapped IO. You probably want to search e.g.
   `40000000` address to start looking at the BootROM disassembly.
+* [`out.html`](out.html) (~40MB) - like above, but in cross-linked HTML
+  format. You can follow jumps or calls by clicking links, and send links
+  to a particular address/label to other folks. E.g., ESP8266 starts
+  execution after reset at
+  [`_ResetVector`](https://pfalcon.github.io/xtensa-subjects/2.0.0-p20160809/out.html#_ResetVector),
+  so you can follow the boot process starting from there.
 
 While you can browse pre-generated files above, a better approach is however
 to use ScratchABit for browsing the code and to continue researching it. For
