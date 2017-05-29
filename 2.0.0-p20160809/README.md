@@ -23,6 +23,12 @@ Things available in this directory:
   execution after reset at
   [`_ResetVector`](https://pfalcon.github.io/xtensa-subjects/2.0.0-p20160809/out.html#_ResetVector),
   so you can follow the boot process starting from there.
+* [`callgraph.dot`](callgraph.dot) and [`callgraph.svg`](callgraph.svg) is
+  a call graph, in Graphviz .dot format and SVG respectively. Currently,
+  generated for BootROM functions only (not complete SDK libs). For online
+  browsing, use SVG or online .dot viewer:
+  [browse `callgraph.dot`](https://pfalcon.github.io/wdot/v.html?https://pfalcon.github.io/xtensa-subjects/2.0.0-p20160809/callgraph.dot)
+  (use browser page zoom in/zoom out).
 
 While you can browse pre-generated files above, a better approach is however
 to use ScratchABit for browsing the code and to continue researching it. For
@@ -39,8 +45,7 @@ and in
 [https://groups.google.com/forum/#!forum/esp8266-re](https://groups.google.com/forum/#!forum/esp8266-re)
 in general.
 
-There is now support for producing a call graph of BootROM functions.
-For this:
+To produce a call graph of BootROM functions:
 
 1. Install [ScratchABlock](https://github.com/pfalcon/ScratchABlock),
    a sister project to ScratchABit, a program transformation/decompilation
