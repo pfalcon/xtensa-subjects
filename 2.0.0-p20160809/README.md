@@ -1,4 +1,4 @@
-This is a test how well ScratchABit https://github.com/pfalcon/ScratchABit
+This is a test how well [ScratchABit](https://github.com/pfalcon/ScratchABit)
 works, taking the ESP8266 BootROM/SDK binary blobs as an example.
 
 As a quick start, you can browse `out.lst` which is a complete disassembly
@@ -17,14 +17,17 @@ to continue researching it. For this:
 4. Run `start.sh` from this repository to load the project.
 
 More info available at
-https://groups.google.com/forum/#!topic/esp8266-re/SJicbstg5TQ and in
-https://groups.google.com/forum/#!forum/esp8266-re in general.
+[https://groups.google.com/forum/#!topic/esp8266-re/SJicbstg5TQ](https://groups.google.com/forum/#!topic/esp8266-re/SJicbstg5TQ)
+and in
+[https://groups.google.com/forum/#!forum/esp8266-re](https://groups.google.com/forum/#!forum/esp8266-re)
+in general.
 
 There is now support for producing a call graph of BootROM functions.
 For this:
 
-1. Install ScratchABlock, a sister project to ScratchABit, a program
-   transformation/decompilation framework. Add it to PATH.
+1. Install [ScratchABlock](https://github.com/pfalcon/ScratchABlock),
+   a sister project to ScratchABit, a program transformation/decompilation
+   framework. Add it to PATH.
 2. Uncomment the corresponding line in `start.sh`, run it once, and
    comment the line again. This will produce function listings in
    `funcs/` directory.
