@@ -1,6 +1,17 @@
 This is a test how well [ScratchABit](https://github.com/pfalcon/ScratchABit)
 works, taking the ESP8266 BootROM/SDK binary blobs as an example.
 
+This directory can be browsed in 2 ways:
+
+* At [https://github.com/pfalcon/xtensa-subjects/tree/master/2.0.0-p20160809](https://github.com/pfalcon/xtensa-subjects/tree/master/2.0.0-p20160809) ,
+  using Github's repository viewer. This is convinient because you can see
+  repository structure and all files, but due to limitations of repository
+  viewer, you won't be able to browse some files as expected (e.g. HTML, SVG,
+  etc.) - they will be shown in plaintext.
+* At [https://pfalcon.github.io/xtensa-subjects/2.0.0-p20160809/](https://pfalcon.github.io/xtensa-subjects/2.0.0-p20160809/) ,
+  via "Github pages". There're no directory listings, but you will be able
+  to follow links to HTML, SVG, etc., with one click.
+
 Things available in this directory:
 
 * `esp8266-sdk-2.0.0-p20160809` - ESP8266 SDK libraries linked together into
