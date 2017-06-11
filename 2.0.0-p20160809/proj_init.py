@@ -43,8 +43,6 @@ def dump_funcs(APP):
             with open("funcs/%08x-%s.lst" % (addr, funcname), "w") as fobj:
                 actions.write_func_stream(APP, func, fobj, comments=False)
 
-    sys.exit(1)
-
 
 def dump_areas(APP):
     for start, end, props, bytes, flags in APP.aspace.get_areas():
@@ -58,7 +56,6 @@ def dump_areas(APP):
         with open(fname, "wb") as f:
             f.write(bytes)
             print(fname, props)
-    sys.exit(1)
 
 
 def dump_symtab(APP):
@@ -67,7 +64,6 @@ def dump_symtab(APP):
             if isinstance(label, int):
                 label = APP.aspace.get_default_label(addr)
             f.write("%08x %s\n" % (addr, label))
-    sys.exit(1)
 
 
 def main(APP):
@@ -85,3 +81,4 @@ def main(APP):
     #dump_funcs(APP)
     #dump_areas(APP)
     #dump_symtab(APP)
+    #sys.exit(1)
