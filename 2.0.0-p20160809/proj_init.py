@@ -52,14 +52,14 @@ def dump_areas(APP):
         else:
             # No access - null area
             continue
-        fname = "%08x-%08x%s.bin" % (start, end + 1, suffix)
+        fname = "funcs/%08x-%08x%s.bin" % (start, end + 1, suffix)
         with open(fname, "wb") as f:
             f.write(bytes)
             print(fname, props)
 
 
 def dump_symtab(APP):
-    with open("symtab.txt", "w") as f:
+    with open("funcs/symtab.txt", "w") as f:
         for label, addr in APP.aspace.labels_rev.items():
             if isinstance(label, int):
                 label = APP.aspace.get_default_label(addr)
