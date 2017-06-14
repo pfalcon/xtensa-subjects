@@ -60,7 +60,13 @@ def dump_areas(APP):
 
 def dump_symtab(APP):
     with open("funcs/symtab.txt", "w") as f:
-        for label, addr in APP.aspace.labels_rev.items():
+        items = [[x[0], x[1]] for x in APP.aspace.labels_rev.items()]
+
+        for i in items:
+            if isinstance(i[0], int):
+                i[0] = APP.aspace.get_default_label(i[0])
+
+        for label, addr in sorted(items, key=lambda x: x[1]):
             if isinstance(label, int):
                 label = APP.aspace.get_default_label(addr)
             f.write("%08x %s\n" % (addr, label))
